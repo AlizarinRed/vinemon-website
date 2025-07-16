@@ -1,0 +1,126 @@
+Quario's Curios 
+From: Quario
+In: Morel Village (left of the exit, wearing all brown)
+Item: Bootleg Shirt
+Trade to: Inkling
+
+Au Naturel
+From: Inkling
+In: Psilocin Town (near the right side of town, orange hair)
+Item: Inkling Ink
+Trade to: Mr. Wright
+
+Quality Quill
+From: Mr. Wright
+In: Reishi Town (house to the right of the 1-Up Center)
+Item: Rainbow Quill
+Trade to: AlteriaSong
+
+
+Cuddly Quacker
+From: AlteriaSong
+In: Podaxis Village (house above and to the left of 1-Up Center)
+Item: Scoot Plushie
+Trade to: Lucas
+
+For the Birds
+From: Lucas
+In: Montagnea Desert (right of the pyramid entrance)
+Item: Bird Call
+Trade to: Harland
+
+I Spy
+From:Harland
+In: Route 8 (top right of the route, birdwatching)
+Item: Binoculars
+Trade to: Sigma Jet
+
+Adults Only
+From: Sigma Jet
+In: Aquatica Bay (house with garbage bags outside)
+Item: Dirty Mag
+Trade to: Deku Scrub
+
+Nuttier than Deku Residue
+From: Deku Scrub
+In: Lost Woods (left tree stump, one screen left, one screen down, tree with brown leaves)
+Item: Deku Nuts
+Trade to: BEEG Yoshi
+
+Nothing Beats It
+From: BEEG Yoshi
+In: Route 15 (midway down the route, sitting on a bench)
+Item: Jelly-Filled Donuts
+Trade to: Cheeseburger Freedom Man
+
+Uh Oh...
+From: C.F. Man
+In: Regalis City (standing on platform with burger guards)
+Item: Stinkweed
+Trade to: Gruntilda
+
+A Leg Up
+From: Gruntilda
+In: Foot of Mount Prototaxite, Route 9 (Grunty's Cave)
+Item: Leggy Potion
+Trade to: Master Fung
+
+Fungal Funny
+From: Master Fung
+In: Route 3 (master fung's domain)
+Item: Weird Mushroom
+Trade to: Mario
+
+Take the Plunge
+From: Mario
+In: Port D'Bello (bottom left house with mushrooms)
+Item: Paisano's Plunger
+Trade to: Waluigi
+
+Sauce Get
+From: Waluigi
+In: Regalis City (buppo's emporium bathroom, right end of the building)
+Item: Jar of Vinesauce
+Trade to: Leonid Jukov
+
+(quest log broke so no name sorry :c)
+From: Leonid Jukov
+In: Route 15 (running laps on beach track)
+Item: Stamina Potion
+Trade to: Great Fairy
+
+One Fairy, One Jar
+From: Great Fairy
+In: Great Fairy Fountain (inside victory road, cave at the top of the screen)
+Item: Fairy Jar
+Trade to: CDI Link
+
+Bombs? Gottem!
+From: CDI Link
+In: Donko Village (left of village, outside cave)
+Item: Bombs
+Trade to: BLOW UP GRIMACE ROCK
+
+Stone Beak
+From: Grimace Rock
+In: Route 6
+Item: Stone Beak
+Trade to: Owl Statue
+
+Mystery Word
+From: Owl Statue
+In: Hoothoot Ruins
+Item: Magic Words
+Trade to: Chain Chomp Statue
+
+Mystery Key
+From: Chain Chomp Statue
+In: Route 3
+Item: Mystery Key
+Trade to: Keyhole
+
+Cave of Secrets
+From: Keyhole
+In: Route 5
+Item: ???
+Trade END

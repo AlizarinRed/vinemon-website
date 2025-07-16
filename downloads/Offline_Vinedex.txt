@@ -1,0 +1,13183 @@
+#001
+Apple
+Types: GRASS
+Stats:
+HP: 65
+Attack: 60
+Defense: 65
+Sp. Attack: 60
+Sp. Defense: 65
+Speed: 60
+
+Evolutions:
+Evolves to Eager Apple when at level 14
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Vine Whip
+L6 - Poison Sting
+L8 - Worry Seed
+L10 - Poison Tail
+L12 - Razor Leaf
+L12 - Scary Face
+L16 - Poison Fang
+L18 - Giga Drain
+L20 - Drain Fang
+L22 - Grav Apple
+L24 - Astral Infection
+L26 - Aromatherapy
+L28 - Cross Poison
+L30 - Apple Acid
+L32 - Gastro Acid
+L34 - Baneful Bunker
+L36 - Seed Bomb
+L38 - Poison Jab
+L40 - Sludge Wave
+L42 - Power Whip
+L44 - Gunk Shot
+L46 - Biohazard
+L48 - Petal Dance
+
+Egg Moves:
+Amnesia
+Apple Acid
+Belch
+Charm
+Curse
+Endure
+Grass Pledge
+Grass Whistle
+Horn Leech
+Ingrain
+Leaf Storm
+Magical Leaf
+Natural Gift
+Nature Power
+Petal Dance
+Power Whip
+Skull Bash
+Sludge
+Toxic Spikes
+
+
+Abilities:
+Ripen
+Cheek Pouch
+Hidden Ability:
+Harvest
+
+
+Item Drops:
+Item Common: Pecha Berry
+Item Uncommon: Grass Gem
+Item Rare: Poison Barb
+----
+
+#002
+Eager Apple
+Types: GRASS/POISON
+Stats:
+HP: 80
+Attack: 60
+Defense: 85
+Sp. Attack: 80
+Sp. Defense: 75
+Speed: 70
+
+Evolutions:
+Evolves to Sour Apple when at level 29
+
+Moves:
+Evo - Toxic Spikes
+L1 - Growl
+L1 - Tackle
+L4 - Vine Whip
+L6 - Poison Sting
+L8 - Worry Seed
+L10 - Poison Tail
+L12 - Razor Leaf
+L12 - Scary Face
+L14 - Toxic Spikes
+L16 - Poison Fang
+L18 - Giga Drain
+L20 - Drain Fang
+L22 - Grav Apple
+L24 - Astral Infection
+L26 - Aromatherapy
+L28 - Cross Poison
+L32 - Gastro Acid
+L34 - Baneful Bunker
+L36 - Seed Bomb
+L38 - Poison Jab
+L40 - Sludge Wave
+L42 - Power Whip
+L44 - Gunk Shot
+L46 - Biohazard
+L48 - Petal Dance
+
+Abilities:
+Ripen
+Cheek Pouch
+Hidden Ability:
+Harvest
+
+
+Item Drops:
+Item Common: Pecha Berry
+Item Uncommon: Grass Gem
+Item Rare: Poison Barb
+----
+
+#003
+Sour Apple
+Types: GRASS/POISON
+Stats:
+HP: 95
+Attack: 85
+Defense: 85
+Sp. Attack: 70
+Sp. Defense: 75
+Speed: 75
+
+Evolutions:
+
+Moves:
+Evo - Apple Acid
+L1 - Growl
+L1 - Tackle
+L4 - Vine Whip
+L6 - Poison Sting
+L8 - Worry Seed
+L10 - Poison Tail
+L12 - Razor Leaf
+L12 - Scary Face
+L14 - Toxic Spikes
+L16 - Poison Fang
+L18 - Giga Drain
+L20 - Drain Fang
+L22 - Grav Apple
+L24 - Astral Infection
+L26 - Aromatherapy
+L28 - Cross Poison
+L32 - Gastro Acid
+L34 - Baneful Bunker
+L36 - Seed Bomb
+L38 - Poison Jab
+L40 - Sludge Wave
+L42 - Power Whip
+L44 - Gunk Shot
+L46 - Biohazard
+L48 - Petal Dance
+
+Abilities:
+Ripen
+Cheek Pouch
+Hidden Ability:
+Harvest
+
+
+Item Drops:
+Item Common: Pecha Berry
+Item Uncommon: Grass Gem
+Item Rare: Poison Barb
+----
+
+#004
+Cherry
+Types: FIRE
+Stats:
+HP: 60
+Attack: 60
+Defense: 60
+Sp. Attack: 65
+Sp. Defense: 65
+Speed: 65
+
+Evolutions:
+Evolves to Wet Cherry when at level 14
+
+Moves:
+L1 - Growl
+L1 - Scratch
+L4 - Ember
+L6 - Quick Attack
+L8 - Bite
+L10 - Incinerate
+L12 - Solar Flare
+L13 - Scary Face
+L16 - Fire Fang
+L18 - Will-O-Wisp
+L20 - Brine
+L22 - Mystical Fire
+L24 - Soak
+L26 - Frozen Flames
+L28 - Scald
+L30 - Cold Snap
+L32 - Lava Plume
+L34 - Ice Beam
+L36 - Flamethrower
+L38 - Ice Burn
+L40 - Steam Eruption
+L42 - Dry Ice
+L44 - Blue Flare
+L46 - Blizzard
+L48 - Magma Storm
+L50 - Thaw Out
+
+Egg Moves:
+Calm Mind
+Fire Pledge
+Flame Wheel
+Freeze-Dry
+Frostbite
+Frozen Flames
+Glaciate
+Hailstrom
+Hex
+Howl
+Lucky Chant
+Magma Storm
+Mimic
+Morning Sun
+Natural Gift
+Sacred Fire
+Slush Fund
+Water Pulse
+
+
+Abilities:
+Flame Body
+Sheer Force
+Hidden Ability:
+Overcoat
+
+
+Item Drops:
+Item Common: Rawst Berry
+Item Uncommon: Fire Gem
+Item Rare: Charcoal
+----
+
+#005
+Wet Cherry
+Types: FIRE/WATER
+Stats:
+HP: 70
+Attack: 60
+Defense: 50
+Sp. Attack: 75
+Sp. Defense: 75
+Speed: 75
+
+Evolutions:
+Evolves to Numb Cherry when at level 29
+Evolves to Numb Cherry using EVOITEMVLINNY
+
+Moves:
+Evo - Water Pulse
+L1 - Growl
+L1 - Scratch
+L4 - Ember
+L6 - Quick Attack
+L8 - Bite
+L10 - Incinerate
+L12 - Solar Flare
+L13 - Scary Face
+L16 - Fire Fang
+L18 - Will-O-Wisp
+L20 - Brine
+L22 - Mystical Fire
+L24 - Soak
+L26 - Frozen Flames
+L28 - Scald
+L30 - Cold Snap
+L32 - Lava Plume
+L34 - Ice Beam
+L36 - Flamethrower
+L38 - Ice Burn
+L40 - Steam Eruption
+L42 - Dry Ice
+L44 - Blue Flare
+L46 - Blizzard
+L48 - Magma Storm
+L50 - Thaw Out
+
+Abilities:
+Flame Body
+Sheer Force
+Hidden Ability:
+Overcoat
+
+
+Item Drops:
+Item Common: Rawst Berry
+Item Uncommon: Fire Gem
+Item Rare: Charcoal
+----
+
+#006
+Numb Cherry
+Types: FIRE/ICE
+Stats:
+HP: 85
+Attack: 60
+Defense: 70
+Sp. Attack: 95
+Sp. Defense: 85
+Speed: 85
+
+Evolutions:
+
+Moves:
+Evo - Frozen Flames
+L1 - Growl
+L1 - Scratch
+L4 - Ember
+L6 - Quick Attack
+L8 - Bite
+L10 - Incinerate
+L12 - Solar Flare
+L13 - Scary Face
+L16 - Fire Fang
+L18 - Will-O-Wisp
+L20 - Brine
+L22 - Mystical Fire
+L24 - Soak
+L26 - Frozen Flames
+L28 - Scald
+L30 - Cold Snap
+L32 - Lava Plume
+L34 - Ice Beam
+L36 - Flamethrower
+L38 - Ice Burn
+L40 - Steam Eruption
+L42 - Dry Ice
+L44 - Blue Flare
+L46 - Blizzard
+L48 - Magma Storm
+L50 - Thaw Out
+
+Abilities:
+Flame Body
+Sheer Force
+Hidden Ability:
+Overcoat
+
+
+Item Drops:
+Item Common: Rawst Berry
+Item Uncommon: Fire Gem
+Item Rare: Charcoal
+----
+
+#007
+Scoot
+Types: WATER
+Stats:
+HP: 65
+Attack: 65
+Defense: 50
+Sp. Attack: 60
+Sp. Defense: 50
+Speed: 50
+
+Evolutions:
+Evolves to Liftin Scoot when at level 14
+
+Moves:
+L1 - Tackle
+L1 - Tail Whip
+L4 - Water Gun
+L6 - Aqua Jet
+L8 - Bulk Up
+L10 - Arm Thrust
+L12 - Focus Energy
+L16 - Wake-Up Slap
+L18 - Razor Shell
+L20 - Feather Hammer
+L22 - Revenge
+L24 - Killer Instinct
+L26 - Scald
+L28 - Suplex
+L30 - Liquidation
+L32 - Taunt
+L34 - Aqua Tail
+L36 - Swords Dance
+L38 - Close Combat
+L40 - Wave Crash
+L42 - Parting Shot
+L44 - Water Spout
+L46 - Oblivion Wing
+L48 - Flying Press
+
+Egg Moves:
+Body Slam
+Brine
+Circle Throw
+Detect
+Dynamic Punch
+Feather Dance
+Ice Hammer
+Ice Punch
+Mach Punch
+Natural Gift
+Present
+Seismic Toss
+Superpower
+Suplex
+Vital Throw
+Water Pledge
+
+
+Abilities:
+Inner Focus
+Rivalry
+Hidden Ability:
+Guts
+
+
+Item Drops:
+Item Common: Aspear Berry
+Item Uncommon: Water Gem
+Item Rare: Mystic Water
+----
+
+#008
+Liftin Scoot
+Types: WATER/FIGHTING
+Stats:
+HP: 85
+Attack: 85
+Defense: 70
+Sp. Attack: 65
+Sp. Defense: 70
+Speed: 70
+
+Evolutions:
+Evolves to Buff Scoot when at level 29
+
+Moves:
+Evo - Brine
+L1 - Tackle
+L1 - Tail Whip
+L4 - Water Gun
+L6 - Aqua Jet
+L8 - Bulk Up
+L10 - Arm Thrust
+L12 - Focus Energy
+L16 - Wake-Up Slap
+L18 - Razor Shell
+L20 - Feather Hammer
+L22 - Revenge
+L24 - Killer Instinct
+L26 - Scald
+L28 - Suplex
+L30 - Liquidation
+L32 - Taunt
+L34 - Aqua Tail
+L36 - Swords Dance
+L38 - Close Combat
+L40 - Wave Crash
+L42 - Parting Shot
+L44 - Water Spout
+L46 - Oblivion Wing
+L48 - Flying Press
+
+Abilities:
+Inner Focus
+Rivalry
+Hidden Ability:
+Guts
+
+
+Item Drops:
+Item Common: Aspear Berry
+Item Uncommon: Water Gem
+Item Rare: Mystic Water
+----
+
+#009
+Buff Scoot
+Types: WATER/FIGHTING
+Stats:
+HP: 95
+Attack: 95
+Defense: 80
+Sp. Attack: 75
+Sp. Defense: 75
+Speed: 80
+
+Evolutions:
+
+Moves:
+Evo - Circle Throw
+L1 - Tackle
+L1 - Tail Whip
+L4 - Water Gun
+L6 - Aqua Jet
+L8 - Bulk Up
+L10 - Arm Thrust
+L12 - Focus Energy
+L16 - Wake-Up Slap
+L18 - Razor Shell
+L20 - Feather Hammer
+L22 - Revenge
+L24 - Killer Instinct
+L26 - Scald
+L28 - Suplex
+L30 - Liquidation
+L32 - Taunt
+L34 - Aqua Tail
+L36 - Swords Dance
+L38 - Close Combat
+L40 - Wave Crash
+L42 - Parting Shot
+L44 - Water Spout
+L46 - Oblivion Wing
+L48 - Flying Press
+
+Abilities:
+Inner Focus
+Rivalry
+Hidden Ability:
+Guts
+
+
+Item Drops:
+Item Common: Aspear Berry
+Item Uncommon: Water Gem
+Item Rare: Mystic Water
+----
+
+#010
+Hollowmite
+Types: BUG
+Stats:
+HP: 65
+Attack: 75
+Defense: 65
+Sp. Attack: 40
+Sp. Defense: 65
+Speed: 65
+
+Evolutions:
+Evolves to Mourtis when at level 23
+
+Moves:
+L1 - Endure
+L1 - Fury Cutter
+L4 - Peck
+L6 - Sharpen
+L8 - Shadow Sneak
+L10 - Twineedle
+L12 - Fell Stinger
+L14 - Pin Missile
+L16 - Bug Bite
+L18 - Armor Pierce
+L18 - Scary Face
+L20 - Shell Smash
+L22 - Steamroller
+L26 - Lunge
+L28 - Leech Life
+L30 - Shadow Bone
+L32 - U-turn
+L34 - Phantom Force
+L36 - X-Scissor
+L38 - Shadow Terrain
+L40 - Poltergeist
+L42 - Megahorn
+L44 - Shadow Force
+L46 - Parting Shot
+L48 - Chrome Chitin
+
+Egg Moves:
+Channel
+Chrome Chitin
+Counter
+Feint
+Feint Attack
+Horn Attack
+Knock Off
+Megahorn
+Night Slash
+Purify
+Pursuit
+Screech
+Shadow Claw
+Smart Strike
+
+
+Abilities:
+Justified
+Compound Eyes
+Hidden Ability:
+Arena Trap
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Shed Shell
+Item Rare: Batter's Bat
+----
+
+#011
+Mourtis
+Types: BUG/GHOST
+Stats:
+HP: 85
+Attack: 125
+Defense: 100
+Sp. Attack: 55
+Sp. Defense: 80
+Speed: 85
+
+Evolutions:
+
+Moves:
+Evo - Shadow Claw
+L1 - Endure
+L1 - Fury Cutter
+L4 - Peck
+L6 - Sharpen
+L8 - Shadow Sneak
+L10 - Twineedle
+L12 - Fell Stinger
+L14 - Pin Missile
+L16 - Bug Bite
+L18 - Armor Pierce
+L18 - Scary Face
+L20 - Shell Smash
+L22 - Steamroller
+L26 - Lunge
+L28 - Leech Life
+L30 - Shadow Bone
+L32 - U-turn
+L34 - Phantom Force
+L36 - X-Scissor
+L38 - Shadow Terrain
+L40 - Poltergeist
+L42 - Megahorn
+L44 - Shadow Force
+L46 - Parting Shot
+L48 - Chrome Chitin
+
+Abilities:
+Justified
+Compound Eyes
+Hidden Ability:
+Arena Trap
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Shed Shell
+Item Rare: Batter's Bat
+----
+
+#012
+Larby
+Types: BUG
+Stats:
+HP: 45
+Attack: 40
+Defense: 35
+Sp. Attack: 25
+Sp. Defense: 35
+Speed: 45
+
+Evolutions:
+Evolves to Tumblebee when at level 8
+
+Moves:
+L1 - Fury Attack
+L1 - Tail Whip
+L4 - Poison Sting
+L6 - Fury Cutter
+L10 - Focus Energy
+L12 - Steamroller
+L14 - Sweet Kiss
+L16 - Twineedle
+L18 - Lovely Kiss
+L20 - Bug Bite
+L22 - Poison Tail
+L24 - Spike Cannon
+L26 - Toxic Thread
+L28 - Pin Missile
+L30 - Powder
+L32 - Silk Screen
+L34 - Poison Jab
+L36 - Megahorn
+L38 - Gunk Shot
+L40 - Dragon Dance
+L42 - Toxic Spikes
+L44 - Rage Powder
+L46 - Lethal Injection
+L48 - King's Shield
+
+Egg Moves:
+Charm
+Counter
+Cross Poison
+Drill Run
+Feint Attack
+Heart Stamp
+Heart Swap
+Hellswarm
+Honey Slather
+Horn Attack
+Iron Tail
+Knock Off
+Megahorn
+Pursuit
+Quash
+Screech
+String Shot
+Sweet Scent
+
+
+Abilities:
+Blight
+Swarm
+Hidden Ability:
+Run Away
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Bug Gem
+Item Rare: Royal Jelly
+----
+
+#013
+Tumblebee
+Types: BUG/POISON
+Stats:
+HP: 55
+Attack: 50
+Defense: 65
+Sp. Attack: 35
+Sp. Defense: 65
+Speed: 35
+
+Evolutions:
+Evolves to Apibae when at level 13
+
+Moves:
+Evo - String Shot
+L1 - Fury Attack
+L1 - Tail Whip
+L4 - Poison Sting
+L6 - Fury Cutter
+L10 - Focus Energy
+L12 - Steamroller
+L14 - Sweet Kiss
+L16 - Twineedle
+L18 - Lovely Kiss
+L20 - Bug Bite
+L22 - Poison Tail
+L24 - Spike Cannon
+L26 - Toxic Thread
+L28 - Pin Missile
+L30 - Powder
+L32 - Silk Screen
+L34 - Poison Jab
+L36 - Megahorn
+L38 - Gunk Shot
+L40 - Dragon Dance
+L42 - Toxic Spikes
+L44 - Rage Powder
+L46 - Lethal Injection
+L48 - King's Shield
+
+Abilities:
+Blight
+Swarm
+Hidden Ability:
+Run Away
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Bug Gem
+Item Rare: Royal Jelly
+----
+
+#014
+Apibae
+Types: BUG/POISON
+Stats:
+HP: 75
+Attack: 105
+Defense: 85
+Sp. Attack: 30
+Sp. Defense: 85
+Speed: 75
+
+Evolutions:
+
+Moves:
+Evo - Honey Slather
+L1 - Fury Attack
+L1 - Tail Whip
+L4 - Poison Sting
+L6 - Fury Cutter
+L10 - Focus Energy
+L12 - Steamroller
+L14 - Sweet Kiss
+L16 - Twineedle
+L18 - Lovely Kiss
+L20 - Bug Bite
+L22 - Poison Tail
+L24 - Spike Cannon
+L26 - Toxic Thread
+L28 - Pin Missile
+L30 - Powder
+L32 - Silk Screen
+L34 - Poison Jab
+L36 - Megahorn
+L38 - Gunk Shot
+L40 - Dragon Dance
+L42 - Toxic Spikes
+L44 - Rage Powder
+L46 - Lethal Injection
+L48 - King's Shield
+
+Abilities:
+Blight
+Swarm
+Hidden Ability:
+Sniper
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Bug Gem
+Item Rare: Royal Jelly
+----
+
+#015
+Squagel
+Types: NORMAL
+Stats:
+HP: 45
+Attack: 55
+Defense: 50
+Sp. Attack: 30
+Sp. Defense: 45
+Speed: 60
+
+Evolutions:
+Evolves to Toajin when at level 14
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Wing Attack
+L6 - Feather Dance
+L8 - Quick Attack
+L10 - Fury Attack
+L12 - Defog
+L16 - Bounce
+L18 - Double Hit
+L20 - Burbomb
+L22 - Roost
+L24 - Acrobatics
+L26 - Take Down
+L28 - Cyclone
+L30 - Body Slam
+L32 - Tailwind
+L36 - Extreme Speed
+L38 - Endeavor
+L40 - Brave Bird
+L42 - Double-Edge
+L44 - Oblivion Wing
+L46 - Curse
+L48 - Dragon Ascent
+
+Egg Moves:
+Astonish
+Bagel Bite
+Cotton Spore
+Detect
+Double-Edge
+Drill Peck
+Foresight
+Head Smash
+Pursuit
+Recycle
+Revenge
+Roost
+Sand Attack
+Steel Wing
+Uproar
+
+
+Abilities:
+Big Pecks
+Pickup
+Hidden Ability:
+Reckless
+
+
+Item Drops:
+Item Common: Pretty Wing
+Item Uncommon: Flying Gem
+Item Rare: Breadward
+----
+
+#016
+Toajin
+Types: NORMAL/FLYING
+Stats:
+HP: 60
+Attack: 75
+Defense: 70
+Sp. Attack: 40
+Sp. Defense: 65
+Speed: 70
+
+Evolutions:
+Evolves to Doaf when at level 34
+
+Moves:
+Evo - Bagel Bite
+L1 - Growl
+L1 - Tackle
+L4 - Wing Attack
+L6 - Feather Dance
+L8 - Quick Attack
+L10 - Fury Attack
+L12 - Defog
+L16 - Bounce
+L18 - Double Hit
+L20 - Burbomb
+L22 - Roost
+L24 - Acrobatics
+L26 - Take Down
+L28 - Cyclone
+L30 - Body Slam
+L32 - Tailwind
+L36 - Extreme Speed
+L38 - Endeavor
+L40 - Brave Bird
+L42 - Double-Edge
+L44 - Oblivion Wing
+L46 - Curse
+L48 - Dragon Ascent
+
+Abilities:
+Big Pecks
+Pickup
+Hidden Ability:
+Reckless
+
+
+Item Drops:
+Item Common: Pretty Wing
+Item Uncommon: Flying Gem
+Item Rare: Breadward
+----
+
+#017
+Doaf
+Types: NORMAL/FLYING
+Stats:
+HP: 85
+Attack: 95
+Defense: 115
+Sp. Attack: 50
+Sp. Defense: 80
+Speed: 60
+
+Evolutions:
+
+Moves:
+Evo - Drill Peck
+L1 - Growl
+L1 - Tackle
+L4 - Wing Attack
+L6 - Feather Dance
+L8 - Quick Attack
+L10 - Fury Attack
+L12 - Defog
+L14 - Bagel Bite
+L16 - Bounce
+L18 - Double Hit
+L20 - Burbomb
+L22 - Roost
+L24 - Acrobatics
+L26 - Take Down
+L28 - Cyclone
+L30 - Body Slam
+L32 - Tailwind
+L36 - Extreme Speed
+L38 - Endeavor
+L40 - Brave Bird
+L42 - Double-Edge
+L44 - Oblivion Wing
+L46 - Curse
+L48 - Dragon Ascent
+
+Abilities:
+Big Pecks
+Pickup
+Hidden Ability:
+Reckless
+
+
+Item Drops:
+Item Common: Pretty Wing
+Item Uncommon: Flying Gem
+Item Rare: Breadward
+----
+
+#018
+Chimpeese
+Types: GHOST
+Stats:
+HP: 55
+Attack: 70
+Defense: 65
+Sp. Attack: 40
+Sp. Defense: 65
+Speed: 90
+
+Evolutions:
+Evolves to Zombrie when at level 16
+
+Moves:
+L1 - Astonish
+L1 - Tickle
+L4 - Copycat
+L6 - Shadow Sneak
+L8 - Confuse Ray
+L10 - Rollout
+L12 - Shadow Punch
+L14 - Belly Drum
+L18 - Teeter Dance
+L20 - Thunder Punch
+L22 - Curse
+L24 - Shadow Claw
+L26 - Parabolic Arc
+L28 - Channel
+L30 - Parting Shot
+L32 - Shadow Bone
+L34 - Wild Charge
+L36 - Magnet Rise
+L38 - Grudge
+L40 - Phantom Force
+L42 - Zing Zap
+L44 - Poltergeist
+L46 - Bolt Strike
+L48 - Shadow Force
+L50 - Trick-or-Treat
+L52 - Destiny Bond
+L54 - Explosion
+
+Egg Moves:
+Agility
+Beat Up
+Bounce
+Counter
+Covet
+Double Slap
+Electro Ball
+Fake Out
+Ice Ball
+Moonlight
+Pursuit
+Revenge
+Screech
+Slam
+Switcheroo
+Volt Switch
+
+
+Abilities:
+Own Tempo
+Unburden
+Hidden Ability:
+Fall Out
+
+
+Item Drops:
+Item Common: Repeat Ball
+Item Uncommon: Quick Ball
+Item Rare: Smoke Ball
+----
+
+#019
+Zombrie
+Types: GHOST/ELECTRIC
+Stats:
+HP: 75
+Attack: 95
+Defense: 70
+Sp. Attack: 60
+Sp. Defense: 70
+Speed: 120
+
+Evolutions:
+
+Moves:
+Evo - Volt Switch
+L1 - Astonish
+L1 - Tickle
+L4 - Copycat
+L6 - Shadow Sneak
+L8 - Confuse Ray
+L10 - Rollout
+L12 - Shadow Punch
+L14 - Belly Drum
+L18 - Teeter Dance
+L20 - Thunder Punch
+L22 - Curse
+L24 - Shadow Claw
+L26 - Parabolic Arc
+L28 - Channel
+L30 - Parting Shot
+L32 - Shadow Bone
+L34 - Wild Charge
+L36 - Magnet Rise
+L38 - Grudge
+L40 - Phantom Force
+L42 - Zing Zap
+L44 - Poltergeist
+L46 - Bolt Strike
+L48 - Shadow Force
+L50 - Trick-or-Treat
+L52 - Destiny Bond
+L54 - Explosion
+
+Abilities:
+Own Tempo
+Unburden
+Hidden Ability:
+Fall Out
+
+
+Item Drops:
+Item Common: Repeat Ball
+Item Uncommon: Quick Ball
+Item Rare: Smoke Ball
+----
+
+#020
+Kohlriki
+Types: FLYING
+Stats:
+HP: 60
+Attack: 65
+Defense: 60
+Sp. Attack: 65
+Sp. Defense: 60
+Speed: 55
+
+Evolutions:
+Evolves to Kokeloris when at level 19
+
+Moves:
+L1 - Peck
+L1 - Sand Attack
+L4 - Voidwind
+L6 - Ember
+L8 - Fake Tears
+L10 - Flame Charge
+L12 - Cyclone
+L14 - Mirror Move
+L16 - Pluck
+L18 - Flame Burst
+L22 - Roost
+L24 - Flammenmantel
+L26 - Tailwind
+L28 - Drill Peck
+L30 - Blaze Kick
+L32 - Oblivion Wing
+L34 - Solar Flare
+L36 - Heat Crash
+L38 - Aeroblast
+L40 - Sacred Fire
+L42 - Brave Bird
+L44 - Magma Storm
+L46 - Flare Blitz
+L48 - Sky Attack
+L50 - Burn Out
+
+Egg Moves:
+Burbomb
+Fire Pledge
+Flame Wheel
+Heat Crash
+Hurricane
+Morning Sun
+Pass On
+Roost
+Steel Wing
+Uproar
+
+
+Abilities:
+Quick Feet
+Flame Body
+Hidden Ability:
+Sheer Force
+
+
+Item Drops:
+Item Common: Rawst Berry
+Item Uncommon: Charcoal
+Item Rare: Sacred Ash
+----
+
+#021
+Kokeloris
+Types: FIRE/FLYING
+Stats:
+HP: 90
+Attack: 105
+Defense: 80
+Sp. Attack: 105
+Sp. Defense: 80
+Speed: 90
+
+Evolutions:
+
+Moves:
+Evo - Burbomb
+L1 - Peck
+L1 - Sand Attack
+L4 - Voidwind
+L6 - Ember
+L8 - Fake Tears
+L10 - Flame Charge
+L12 - Cyclone
+L14 - Mirror Move
+L16 - Pluck
+L18 - Flame Burst
+L22 - Roost
+L24 - Flammenmantel
+L26 - Tailwind
+L28 - Drill Peck
+L30 - Blaze Kick
+L32 - Oblivion Wing
+L34 - Solar Flare
+L36 - Heat Crash
+L38 - Aeroblast
+L40 - Sacred Fire
+L42 - Brave Bird
+L44 - Magma Storm
+L46 - Flare Blitz
+L48 - Sky Attack
+L50 - Burn Out
+
+Abilities:
+Quick Feet
+Flame Body
+Hidden Ability:
+Sheer Force
+
+
+Item Drops:
+Item Common: Rawst Berry
+Item Uncommon: Charcoal
+Item Rare: Sacred Ash
+----
+
+#022
+Trappit
+Types: WATER/GROUND
+Stats:
+HP: 65
+Attack: 90
+Defense: 75
+Sp. Attack: 50
+Sp. Defense: 70
+Speed: 10
+
+Evolutions:
+Evolves to Snarepent when at level 28
+
+Moves:
+L1 - Sand Attack
+L1 - Vice Grip
+L4 - Sand Tomb
+L6 - Clamp
+L8 - Bullet Punch
+L10 - Aqua Jet
+L12 - Iron Defense
+L14 - Sonic Grasp
+L16 - Bulldoze
+L18 - Razor Shell
+L19 - Spikes
+L20 - Anchor Shot
+L22 - Gyro Ball
+L23 - Stealth Rock
+L24 - Watery Grave
+L26 - Stomp Tantrum
+L30 - Cascading Rush
+L32 - Iron Head
+L34 - Extreme Speed
+L36 - Drill Run
+L38 - Liquidation
+L40 - Thousand Waves
+L42 - Crabhammer
+L44 - Meteor Mash
+L46 - Raving Mad
+L48 - Metal Burst
+L50 - Earthquake
+
+Egg Moves:
+Astonish
+Camouflage
+Coil
+Crunch
+Curse
+Feint
+First Impression
+Ice Fang
+Iron Slag
+Leech Life
+Magnitude
+Poison Fang
+Pursuit
+Quick Guard
+Smart Strike
+Wrap
+
+
+Abilities:
+Tough Claws
+Iron Barbs
+Hidden Ability:
+Arena Trap
+
+
+Item Drops:
+Item Common: Rindo Berry
+Item Uncommon: Ground Gem
+Item Rare: Quick Claw
+----
+
+#023
+Snarepent
+Types: WATER/STEEL
+Stats:
+HP: 85
+Attack: 130
+Defense: 95
+Sp. Attack: 55
+Sp. Defense: 90
+Speed: 20
+
+Evolutions:
+
+Moves:
+Evo - Iron Slag
+L1 - Sand Attack
+L1 - Vice Grip
+L4 - Sand Tomb
+L6 - Clamp
+L8 - Bullet Punch
+L10 - Aqua Jet
+L12 - Iron Defense
+L14 - Sonic Grasp
+L16 - Bulldoze
+L18 - Razor Shell
+L19 - Spikes
+L20 - Anchor Shot
+L22 - Gyro Ball
+L23 - Stealth Rock
+L24 - Watery Grave
+L26 - Stomp Tantrum
+L30 - Cascading Rush
+L32 - Iron Head
+L34 - Extreme Speed
+L36 - Drill Run
+L38 - Liquidation
+L40 - Thousand Waves
+L42 - Crabhammer
+L44 - Meteor Mash
+L46 - Raving Mad
+L48 - Metal Burst
+L50 - Earthquake
+
+Abilities:
+Tough Claws
+Iron Barbs
+Hidden Ability:
+Arena Trap
+
+
+Item Drops:
+Item Common: Rindo Berry
+Item Uncommon: Ground Gem
+Item Rare: Quick Claw
+----
+
+#024
+Rabbuzz
+Types: ELECTRIC
+Stats:
+HP: 70
+Attack: 65
+Defense: 70
+Sp. Attack: 90
+Sp. Defense: 85
+Speed: 110
+
+Evolutions:
+
+Moves:
+L1 - Growl
+L1 - Thunder Shock
+L4 - Charge
+L6 - Quick Attack
+L8 - Spark
+L10 - Thunder Wave
+L12 - Agility
+L14 - Shock Wave
+L16 - Encore
+L18 - Acrobatics
+L20 - Rising Voltage
+L22 - Light Screen
+L24 - Volt Switch
+L26 - Electric Terrain
+L28 - Arc Bolt
+L30 - Discharge
+L32 - Bolt Rush
+L34 - Eerie Impulse
+L36 - Electro Ball
+L38 - Magnet Rise
+L40 - Parabolic Arc
+L42 - Electrify
+L44 - Bolt Strike
+L46 - Zap Cannon
+L48 - White Noise
+
+Egg Moves:
+Air Slash
+Astonish
+Baton Pass
+Charm
+Covet
+Iron Tail
+Moonlight
+Nuzzle
+Super Fang
+Tickle
+Volt Tackle
+
+
+Abilities:
+Static
+Dazzling
+Hidden Ability:
+Motor Drive
+
+
+Item Drops:
+Item Common: Cheri Berry
+Item Uncommon: Electric Gem
+Item Rare: Light Ball
+----
+
+#025
+Possumom
+Types: NORMAL
+Stats:
+HP: 55
+Attack: 75
+Defense: 60
+Sp. Attack: 40
+Sp. Defense: 55
+Speed: 75
+
+Evolutions:
+Evolves to Opossi when at level 18
+
+Moves:
+L1 - Growl
+L1 - Play Dead
+L1 - Scratch
+L4 - Rabid Bite
+L6 - Assist
+L8 - Purify
+L10 - Fury Swipes
+L12 - Scary Face
+L12 - Screech
+L14 - Maternity Ward
+L16 - Arm Thrust
+L20 - Baton Pass
+L22 - Hyper Fang
+L24 - Rock Blast
+L26 - Innervation
+L28 - Swords Dance
+L30 - Tail Slap
+L32 - Bone Rush
+L34 - Body Slam
+L36 - Extreme Speed
+L38 - Double-Edge
+L40 - Perish Song
+L42 - Thrash
+L44 - Super Fang
+L46 - Flail
+L48 - Endeavor
+
+Egg Moves:
+Aqua Tail
+Bullet Seed
+Endure
+Fake Tears
+Fire Fang
+Flail
+Ice Fang
+Iron Tail
+Knock Off
+Mud-Slap
+Pass On
+Sleep Talk
+Tail Whip
+Teeter Dance
+Thunder Fang
+
+
+Ability:
+Skill Link
+Hidden Abilities:
+Technician
+Immunity
+
+
+Item Drops:
+Item Common: Pecha Berry
+Item Uncommon: Liechi Berry
+Item Rare: Razor Fang
+----
+
+#026
+Opossi
+Types: NORMAL
+Stats:
+HP: 75
+Attack: 110
+Defense: 80
+Sp. Attack: 55
+Sp. Defense: 75
+Speed: 100
+
+Evolutions:
+
+Moves:
+Evo - Teeter Dance
+L1 - Growl
+L1 - Play Dead
+L1 - Scratch
+L4 - Rabid Bite
+L6 - Assist
+L8 - Purify
+L10 - Fury Swipes
+L12 - Scary Face
+L12 - Screech
+L14 - Maternity Ward
+L16 - Arm Thrust
+L20 - Baton Pass
+L22 - Hyper Fang
+L24 - Rock Blast
+L26 - Innervation
+L28 - Swords Dance
+L30 - Tail Slap
+L32 - Bone Rush
+L34 - Body Slam
+L36 - Extreme Speed
+L38 - Double-Edge
+L40 - Perish Song
+L42 - Thrash
+L44 - Super Fang
+L46 - Flail
+L48 - Endeavor
+
+Ability:
+Skill Link
+Hidden Abilities:
+Technician
+Immunity
+
+
+Item Drops:
+Item Common: Pecha Berry
+Item Uncommon: Liechi Berry
+Item Rare: Razor Fang
+----
+
+#027
+Belbonic
+Types: DARK
+Stats:
+HP: 40
+Attack: 45
+Defense: 45
+Sp. Attack: 60
+Sp. Defense: 50
+Speed: 75
+
+Evolutions:
+Evolves to Beleath when at level 18
+
+Moves:
+L1 - Tackle
+L1 - Tail Whip
+L4 - Fake Out
+L6 - Thief
+L8 - Screech
+L10 - Feint Attack
+L12 - Sonic Boom
+L14 - Poison Powder
+L14 - Sneer
+L16 - Swift
+L20 - Knock Off
+L22 - Sacked Sanity
+L24 - Drain Fang
+L26 - Plague of Doom
+L28 - Super Fang
+L30 - Delucidate
+L32 - Sucker Punch
+L34 - Heretical Dance
+L36 - Night Daze
+L38 - Toxic Spikes
+L40 - Punishment
+L42 - Biohazard
+L44 - Parting Shot
+L46 - Memento
+L48 - Blackhole
+
+Egg Moves:
+Aromatherapy
+Attack Order
+Bite
+Counter
+Defend Order
+Final Gambit
+Flame Wheel
+Fury Swipes
+Giga Drain
+Infestation
+Last Resort
+Me First
+Revenge
+Reversal
+Sacked Sanity
+Sweet Scent
+Trick-or-Treat
+Uproar
+
+
+Abilities:
+Rattled
+Poison Heal
+Hidden Ability:
+Wicked Brew
+
+
+Item Drops:
+Item Common: Lum Berry
+Item Uncommon: Dark Gem
+Item Rare: PP Up
+----
+
+#028
+Beleath
+Types: DARK
+Stats:
+HP: 75
+Attack: 70
+Defense: 75
+Sp. Attack: 90
+Sp. Defense: 75
+Speed: 95
+
+Evolutions:
+
+Moves:
+Evo - Sacked Sanity
+L1 - Tackle
+L1 - Tail Whip
+L4 - Fake Out
+L6 - Thief
+L8 - Screech
+L10 - Feint Attack
+L12 - Sonic Boom
+L14 - Poison Powder
+L14 - Sneer
+L16 - Swift
+L20 - Knock Off
+L22 - Tri Attack
+L24 - Drain Fang
+L26 - Plague of Doom
+L28 - Super Fang
+L30 - Delucidate
+L32 - Sucker Punch
+L34 - Heretical Dance
+L36 - Night Daze
+L38 - Toxic Spikes
+L40 - Punishment
+L42 - Biohazard
+L44 - Parting Shot
+L46 - Memento
+L48 - Blackhole
+
+Abilities:
+Rattled
+Poison Heal
+Hidden Ability:
+Wicked Brew
+
+
+Item Drops:
+Item Common: Lum Berry
+Item Uncommon: Dark Gem
+Item Rare: PP Up
+----
+
+#029
+Nidoodlan
+Types: POISON
+Stats:
+HP: 55
+Attack: 50
+Defense: 50
+Sp. Attack: 40
+Sp. Defense: 40
+Speed: 40
+
+Evolutions:
+Evolves to Nidoodlina when at level 16
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Poison Sting
+L6 - Sand Tomb
+L8 - Double Kick
+L10 - I Can Do That!
+L12 - Poison Fang
+L14 - Horn Attack
+L18 - Horn Leech
+L20 - Cross Poison
+L22 - Body Slam
+L24 - I Can Do That!
+L27 - Landslide
+L30 - Poison Jab
+L32 - Stomp Tantrum
+L34 - Toxic
+L36 - Thousand Waves
+L38 - Thrash
+L40 - Superpower
+L42 - Gunk Shot
+L44 - I Can Do That!
+L46 - Precipice Blades
+
+Egg Moves:
+Beat Up
+Bulldoze
+Charm
+Chip Away
+Counter
+Disable
+Doodle Beam
+Endure
+Extrasensory
+Focus Energy
+Iron Tail
+King's Shield
+Poison Tail
+Pursuit
+Quash
+Skull Bash
+Supersonic
+Take Down
+
+
+Abilities:
+Trace
+Simple
+Hidden Ability:
+Sheer Force
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Salac Berry
+Item Rare: Doodle Pen
+----
+
+#030
+Nidoodlina
+Types: POISON
+Stats:
+HP: 70
+Attack: 60
+Defense: 70
+Sp. Attack: 55
+Sp. Defense: 55
+Speed: 55
+
+Evolutions:
+Evolves to Nidoodlqueen using MOONSTONE
+
+Moves:
+Evo - Bulldoze
+L1 - Growl
+L1 - Tackle
+L4 - Poison Sting
+L6 - Sand Tomb
+L8 - Double Kick
+L10 - I Can Do That!
+L12 - Poison Fang
+L14 - Horn Attack
+L18 - Horn Leech
+L20 - Cross Poison
+L22 - Body Slam
+L24 - I Can Do That!
+L27 - Landslide
+L30 - Poison Jab
+L32 - Stomp Tantrum
+L34 - Toxic
+L36 - Thousand Waves
+L38 - Thrash
+L40 - Superpower
+L42 - Gunk Shot
+L44 - I Can Do That!
+L46 - Precipice Blades
+
+Abilities:
+Trace
+Simple
+Hidden Ability:
+Sheer Force
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Salac Berry
+Item Rare: Doodle Pen
+----
+
+#031
+Nidoodlqueen
+Types: POISON/GROUND
+Stats:
+HP: 90
+Attack: 80
+Defense: 90
+Sp. Attack: 75
+Sp. Defense: 85
+Speed: 75
+
+Evolutions:
+
+Moves:
+Evo - King's Shield
+L1 - Growl
+L1 - Tackle
+L4 - Poison Sting
+L6 - Sand Tomb
+L8 - Double Kick
+L10 - I Can Do That!
+L12 - Poison Fang
+L14 - Horn Attack
+L18 - Horn Leech
+L20 - Cross Poison
+L22 - Body Slam
+L24 - I Can Do That!
+L27 - Landslide
+L30 - Poison Jab
+L32 - Stomp Tantrum
+L34 - Toxic
+L36 - Thousand Waves
+L38 - Thrash
+L40 - Superpower
+L42 - Gunk Shot
+L44 - I Can Do That!
+L46 - Precipice Blades
+
+Abilities:
+Trace
+Simple
+Hidden Ability:
+Sheer Force
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Salac Berry
+Item Rare: Doodle Pen
+----
+
+#032
+Nidoodlan
+Types: POISON
+Stats:
+HP: 45
+Attack: 55
+Defense: 40
+Sp. Attack: 40
+Sp. Defense: 40
+Speed: 50
+
+Evolutions:
+Evolves to Nidoodlino when at level 16
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Poison Sting
+L6 - Sand Tomb
+L8 - Double Kick
+L10 - I Can Do That!
+L12 - Poison Fang
+L14 - Horn Attack
+L18 - Horn Leech
+L20 - Cross Poison
+L22 - Body Slam
+L24 - I Can Do That!
+L27 - Landslide
+L30 - Poison Jab
+L32 - Stomp Tantrum
+L34 - Toxic
+L36 - Thousand Waves
+L38 - Thrash
+L40 - Superpower
+L42 - Gunk Shot
+L44 - I Can Do That!
+L46 - Precipice Blades
+
+Egg Moves:
+Beat Up
+Bulldoze
+Charm
+Chip Away
+Counter
+Disable
+Doodle Beam
+Endure
+Extrasensory
+Focus Energy
+Iron Tail
+King's Shield
+Poison Tail
+Pursuit
+Quash
+Skull Bash
+Supersonic
+Take Down
+
+
+Abilities:
+Trace
+Simple
+Hidden Ability:
+Sheer Force
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Salac Berry
+Item Rare: Doodle Pen
+----
+
+#033
+Nidoodlino
+Types: POISON
+Stats:
+HP: 60
+Attack: 70
+Defense: 60
+Sp. Attack: 55
+Sp. Defense: 55
+Speed: 65
+
+Evolutions:
+Evolves to Nidoodlking using MOONSTONE
+
+Moves:
+Evo - Bulldoze
+L1 - Growl
+L1 - Tackle
+L4 - Poison Sting
+L6 - Sand Tomb
+L8 - Double Kick
+L10 - I Can Do That!
+L12 - Poison Fang
+L14 - Horn Attack
+L18 - Horn Leech
+L20 - Cross Poison
+L22 - Body Slam
+L24 - I Can Do That!
+L27 - Landslide
+L30 - Poison Jab
+L32 - Stomp Tantrum
+L34 - Toxic
+L36 - Thousand Waves
+L38 - Thrash
+L40 - Superpower
+L42 - Gunk Shot
+L44 - I Can Do That!
+L46 - Precipice Blades
+
+Abilities:
+Trace
+Simple
+Hidden Ability:
+Sheer Force
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Salac Berry
+Item Rare: Doodle Pen
+----
+
+#034
+Nidoodlking
+Types: POISON/GROUND
+Stats:
+HP: 80
+Attack: 90
+Defense: 80
+Sp. Attack: 85
+Sp. Defense: 75
+Speed: 85
+
+Evolutions:
+
+Moves:
+Evo - King's Shield
+L1 - Growl
+L1 - Tackle
+L4 - Poison Sting
+L6 - Sand Tomb
+L8 - Double Kick
+L10 - I Can Do That!
+L12 - Poison Fang
+L14 - Horn Attack
+L18 - Horn Leech
+L20 - Cross Poison
+L22 - Body Slam
+L24 - I Can Do That!
+L27 - Landslide
+L30 - Poison Jab
+L32 - Stomp Tantrum
+L34 - Toxic
+L36 - Thousand Waves
+L38 - Thrash
+L40 - Superpower
+L42 - Gunk Shot
+L44 - I Can Do That!
+L46 - Precipice Blades
+
+Abilities:
+Trace
+Simple
+Hidden Ability:
+Sheer Force
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Salac Berry
+Item Rare: Doodle Pen
+----
+
+#035
+Clusslepuss
+Types: NORMAL/QMARKS
+Stats:
+HP: 90
+Attack: 95
+Defense: 90
+Sp. Attack: 60
+Sp. Defense: 85
+Speed: 75
+
+Evolutions:
+
+Moves:
+L1 - Baby-Doll Eyes
+L1 - Mystery Fist
+L4 - Poison Sting
+L6 - Noise Crush
+L8 - Rollout
+L10 - Double Hit
+L12 - Vital Throw
+L14 - Lascivious Eye
+L16 - Smelling Salts
+L18 - Cross Poison
+L18 - Scary Face
+L20 - Draining Kiss
+L22 - Headbutt
+L24 - Mystic Wave
+L26 - Facade
+L28 - Body Slam
+L30 - Sweet Kiss
+L32 - Poison Jab
+L34 - Mystery Slam
+L36 - Misty Terrain
+L38 - Refuse
+L40 - Thrash
+L42 - Gunk Shot
+L44 - Giga Impact
+L46 - Freikugel
+L48 - Roar
+
+Egg Moves:
+Camouflage
+Circle Throw
+Double-Edge
+Drain Fang
+Drain Punch
+Embargo
+Encore
+Flame Wheel
+Follow Me
+Gastro Acid
+Heart Stamp
+Metronome
+Mind Blown
+Nightmare
+Present
+Realboot
+Self-Destruct
+Teeter Dance
+Trump Card
+Wring Out
+
+
+Abilities:
+Toxiquip
+Own Tempo
+Hidden Ability:
+Galaxy Brain
+
+
+Item Drops:
+Item Common: Chilan Berry
+Item Uncommon: Poison Gem
+Item Rare: Luxury Binky
+----
+
+#036
+Voxerd
+Types: FIRE/DARK
+Stats:
+HP: 90
+Attack: 110
+Defense: 95
+Sp. Attack: 50
+Sp. Defense: 85
+Speed: 90
+
+Evolutions:
+
+Moves:
+L1 - Howl
+L1 - Tackle
+L4 - Ember
+L6 - Quick Attack
+L8 - Bite
+L10 - Will-O-Wisp
+L12 - Flame Charge
+L14 - Snarl
+L16 - Embargo
+L18 - Flame Wheel
+L20 - Night Shade
+L22 - Knock Off
+L24 - Fire Fang
+L26 - Swagger
+L28 - Night Slash
+L30 - Fire Lash
+L32 - Snatch
+L34 - Crunch
+L36 - Dragon Dance
+L38 - Sacred Fire
+L40 - Foul Play
+L42 - Punishment
+L44 - Flare Blitz
+L46 - Parting Shot
+
+Egg Moves:
+Amnesia
+Boomburst
+Burn Out
+Curse
+Fire Pledge
+Gastro Acid
+Metronome
+Perish Song
+Psychic Fangs
+Pursuit
+Relic Song
+Rollout
+Shadow Terrain
+Sneer
+Synchronoise
+Tail Slap
+Tail Whip
+Thunder Fang
+
+
+Abilities:
+Shadow Realm
+Flash Fire
+Hidden Ability:
+Heart of Fire
+
+
+Item Drops:
+Item Common: Chople Berry
+Item Uncommon: Dark Gem
+Item Rare: Ability Capsule
+----
+
+#037
+Plagy
+Types: NORMAL
+Stats:
+HP: 35
+Attack: 25
+Defense: 25
+Sp. Attack: 45
+Sp. Defense: 35
+Speed: 40
+
+Evolutions:
+Evolves to Splagour when at level 20
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Peekaboo
+L6 - Confusion
+L8 - Heal Block
+L10 - Echoed Voice
+L12 - Mirror Coat
+L14 - Swift
+L16 - Psybeam
+L18 - Round
+L22 - Tri Attack
+L24 - Hypnosis
+L26 - Dream Eater
+L28 - Calm Mind
+L30 - Extrasensory
+L32 - Relic Song
+L34 - Psyshock
+L36 - Uproar
+L38 - Recover
+L40 - Psychic Terrain
+L42 - Psychic
+L44 - Shadow Ball
+L46 - Hyper Voice
+L48 - Psystrike
+L50 - Techno Blast
+
+Egg Moves:
+Confuse Ray
+Destiny Bond
+Disable
+Encore
+Follow Me
+Grudge
+Mean Look
+Memento
+Metronome
+Power Gem
+Psyshock
+Reflect Type
+Shadow Sneak
+Sippy Cup
+Skill Swap
+Synchronoise
+Wide Guard
+
+
+Abilities:
+Reflection
+Synchronize
+Hidden Ability:
+Telepathy
+
+
+Item Drops:
+Item Common: Enigma Berry
+Item Uncommon: Sponge Game
+Item Rare: Smoke Ball
+----
+
+#038
+Splagour
+Types: NORMAL
+Stats:
+HP: 45
+Attack: 35
+Defense: 35
+Sp. Attack: 65
+Sp. Defense: 55
+Speed: 55
+
+Evolutions:
+Evolves to Splission when at level 34
+Evolves to Spluzkel using SHINYSTONE
+
+Moves:
+Evo - Sippy Cup
+L1 - Growl
+L1 - Tackle
+L4 - Peekaboo
+L6 - Confusion
+L8 - Heal Block
+L10 - Echoed Voice
+L12 - Mirror Coat
+L14 - Swift
+L16 - Psybeam
+L18 - Round
+L22 - Tri Attack
+L24 - Hypnosis
+L26 - Dream Eater
+L28 - Calm Mind
+L30 - Extrasensory
+L32 - Relic Song
+L34 - Psyshock
+L36 - Uproar
+L38 - Recover
+L40 - Psychic Terrain
+L42 - Psychic
+L44 - Shadow Ball
+L46 - Hyper Voice
+L48 - Psystrike
+L50 - Techno Blast
+
+Abilities:
+Reflection
+Synchronize
+Hidden Ability:
+Telepathy
+
+
+Item Drops:
+Item Common: Enigma Berry
+Item Uncommon: Sponge Game
+Item Rare: Smoke Ball
+----
+
+#039
+Splission
+Types: NORMAL/PSYCHIC
+Stats:
+HP: 75
+Attack: 65
+Defense: 65
+Sp. Attack: 125
+Sp. Defense: 115
+Speed: 85
+
+Evolutions:
+
+Moves:
+Evo - Psyshock
+L1 - Growl
+L1 - Tackle
+L4 - Peekaboo
+L6 - Confusion
+L8 - Heal Block
+L10 - Echoed Voice
+L12 - Mirror Coat
+L14 - Swift
+L16 - Psybeam
+L18 - Round
+L22 - Tri Attack
+L24 - Hypnosis
+L26 - Dream Eater
+L28 - Calm Mind
+L30 - Extrasensory
+L32 - Relic Song
+L34 - Psyshock
+L36 - Uproar
+L38 - Recover
+L40 - Psychic Terrain
+L42 - Psychic
+L44 - Shadow Ball
+L46 - Hyper Voice
+L48 - Psystrike
+L50 - Techno Blast
+
+Abilities:
+Reflection
+Synchronize
+Hidden Ability:
+Telepathy
+
+
+Item Drops:
+Item Common: Enigma Berry
+Item Uncommon: Sponge Game
+Item Rare: Smoke Ball
+----
+
+#040
+Spluzkel
+Types: ROCK/PSYCHIC
+Stats:
+HP: 75
+Attack: 120
+Defense: 75
+Sp. Attack: 55
+Sp. Defense: 110
+Speed: 90
+
+Evolutions:
+
+Moves:
+Evo - Wide Guard
+L1 - Growl
+L1 - Tackle
+L4 - Fake Out
+L6 - Confusion
+L8 - Heal Block
+L10 - Smack Down
+L12 - Mirror Coat
+L14 - Swift
+L16 - Heart Stamp
+L18 - Haboob Blitz
+L20 - Sippy Cup
+L22 - Psycho Cut
+L24 - Hypnosis
+L26 - Dream Eater
+L28 - Bulk Up
+L30 - Dire Slam
+L32 - Rock Slide
+L36 - Psychic Fangs
+L38 - Recover
+L40 - Diamond Storm
+L42 - Psychic Terrain
+L44 - Psy-kick
+L46 - Stone Edge
+L48 - Psystrike
+L50 - Head Smash
+
+Abilities:
+Natural Cure
+Synchronize
+Hidden Ability:
+Justified
+
+
+Item Drops:
+Item Common: Enigma Berry
+Item Uncommon: Sponge Game
+Item Rare: Smoke Ball
+----
+
+#041
+Hoothoot
+Types: NORMAL/FLYING
+Stats:
+HP: 60
+Attack: 35
+Defense: 45
+Sp. Attack: 50
+Sp. Defense: 60
+Speed: 55
+
+Evolutions:
+Evolves to Hootoru when at level 20
+
+Moves:
+L1 - Confusion
+L1 - Growl
+L4 - Gust
+L6 - Hypnosis
+L8 - Voidwind
+L10 - Razor Wind
+L12 - Foresight
+L14 - Air Cutter
+L16 - Uproar
+L18 - Feather Dance
+L22 - Roost
+L24 - Defog
+L26 - Relic Song
+L28 - Air Slash
+L30 - Psychic
+L32 - Hyper Voice
+L34 - Dream Eater
+L36 - Cumulus Stream
+L38 - Psystrike
+L40 - Hurricane
+L42 - Empyrean Gale
+L44 - Hyper Beam
+L46 - Boomburst
+
+Egg Moves:
+Agility
+Defog
+Feint Attack
+Feather Dance
+Mirror Move
+Nightmare
+Night Shade
+Psyshock
+Recycle
+Sky Attack
+Supersonic
+Synchronoise
+Tailwind
+Whirlwind
+Wing Attack
+
+
+Abilities:
+Insomnia
+Adaptability
+Hidden Ability:
+Uplifting
+
+
+Item Drops:
+Item Common: Pretty Wing
+Item Uncommon: Sharp Beak
+Item Rare: Blunder Policy
+----
+
+#042
+Hootoru
+Types: NORMAL/FLYING
+Stats:
+HP: 100
+Attack: 50
+Defense: 65
+Sp. Attack: 100
+Sp. Defense: 105
+Speed: 80
+
+Evolutions:
+
+Moves:
+Evo - Psyshock
+L1 - Confusion
+L1 - Growl
+L4 - Gust
+L6 - Hypnosis
+L8 - Voidwind
+L10 - Razor Wind
+L12 - Foresight
+L14 - Air Cutter
+L16 - Uproar
+L18 - Feather Dance
+L22 - Roost
+L24 - Defog
+L26 - Relic Song
+L28 - Air Slash
+L30 - Psychic
+L32 - Hyper Voice
+L34 - Dream Eater
+L36 - Cumulus Stream
+L38 - Psystrike
+L40 - Hurricane
+L42 - Empyrean Gale
+L44 - Hyper Beam
+L46 - Boomburst
+
+Abilities:
+Insomnia
+Adaptability
+Hidden Ability:
+Uplifting
+
+
+Item Drops:
+Item Common: Pretty Wing
+Item Uncommon: Sharp Beak
+Item Rare: Blunder Policy
+----
+
+#043
+Glinko
+Types: STEEL/GRASS
+Stats:
+HP: 50
+Attack: 50
+Defense: 70
+Sp. Attack: 65
+Sp. Defense: 65
+Speed: 30
+
+Evolutions:
+Evolves to Geara when at level 18
+
+Moves:
+L1 - Golddust
+L1 - Ingrain
+L4 - Vice Grip
+L6 - Metal Claw
+L8 - Iron Defense
+L10 - Magical Leaf
+L12 - Bullet Punch
+L14 - Disable
+L16 - Vine Grind
+L20 - Mirror Shot
+L22 - Autotomize
+L24 - Giga Drain
+L26 - Flash Cannon
+L28 - Shift Gear
+L30 - Leaf Blade
+L32 - Metal Sound
+L34 - Solar Beam
+L38 - Zap Cannon
+L40 - Grass Knot
+L42 - Iron Slag
+L44 - Meteor Mash
+L46 - Seed Flare
+L48 - Holy Triumvirate
+
+Egg Moves:
+Bind
+Charge
+Discharge
+Gear Grind
+Grass Pledge
+Grassy Terrain
+Growth
+Horn Leech
+Hurricane
+Lock-On
+Mega Drain
+Rising Voltage
+Sleep Talk
+Screech
+Spikes
+Synthesis
+Weather Ball
+
+
+Abilities:
+Heatproof
+Iron Barbs
+Hidden Ability:
+Steelworks
+
+
+Item Drops:
+Item Common: Rowap Berry
+Item Uncommon: Max Elixir
+Item Rare: Assault Vest
+----
+
+#044
+Geara
+Types: STEEL/GRASS
+Stats:
+HP: 65
+Attack: 65
+Defense: 95
+Sp. Attack: 90
+Sp. Defense: 85
+Speed: 65
+
+Evolutions:
+Evolves to Glinkogeara when at level 36
+
+Moves:
+Evo - Yawn
+L1 - Golddust
+L1 - Ingrain
+L4 - Vice Grip
+L6 - Metal Claw
+L8 - Iron Defense
+L10 - Magical Leaf
+L12 - Bullet Punch
+L14 - Disable
+L16 - Vine Grind
+L20 - Mirror Shot
+L22 - Autotomize
+L24 - Giga Drain
+L26 - Flash Cannon
+L28 - Shift Gear
+L30 - Leaf Blade
+L32 - Metal Sound
+L34 - Solar Beam
+L38 - Zap Cannon
+L40 - Grass Knot
+L42 - Iron Slag
+L44 - Meteor Mash
+L46 - Seed Flare
+L48 - Holy Triumvirate
+
+Abilities:
+Heatproof
+Iron Barbs
+Hidden Ability:
+Steelworks
+
+
+Item Drops:
+Item Common: Rowap Berry
+Item Uncommon: Max Elixir
+Item Rare: Assault Vest
+----
+
+#045
+Glinkogeara
+Types: STEEL/GRASS
+Stats:
+HP: 80
+Attack: 75
+Defense: 135
+Sp. Attack: 115
+Sp. Defense: 95
+Speed: 85
+
+Evolutions:
+
+Moves:
+Evo - Horn Leech
+L1 - Golddust
+L1 - Ingrain
+L4 - Vice Grip
+L6 - Metal Claw
+L8 - Iron Defense
+L10 - Magical Leaf
+L12 - Bullet Punch
+L14 - Disable
+L16 - Vine Grind
+L20 - Mirror Shot
+L22 - Autotomize
+L24 - Giga Drain
+L26 - Flash Cannon
+L28 - Shift Gear
+L30 - Leaf Blade
+L32 - Metal Sound
+L34 - Solar Beam
+L38 - Zap Cannon
+L40 - Grass Knot
+L42 - Iron Slag
+L44 - Meteor Mash
+L46 - Seed Flare
+L48 - Holy Triumvirate
+
+Abilities:
+Heatproof
+Iron Barbs
+Hidden Ability:
+Steelworks
+
+
+Item Drops:
+Item Common: Rowap Berry
+Item Uncommon: Max Elixir
+Item Rare: Assault Vest
+----
+
+#046
+Raptine
+Types: GRASS/GROUND
+Stats:
+HP: 80
+Attack: 105
+Defense: 125
+Sp. Attack: 45
+Sp. Defense: 90
+Speed: 65
+
+Evolutions:
+
+Moves:
+L1 - Rage
+L1 - Screech
+L4 - Vine Whip
+L6 - Sand Tomb
+L8 - Spit Up
+L8 - Stockpile
+L8 - Swallow
+L10 - Stomp
+L12 - Bone Rush
+L14 - Razor Leaf
+L14 - Scary Face
+L16 - Spore
+L18 - Leech Seed
+L20 - Mushclamp
+L22 - Bone Club
+L24 - Spiky Shield
+L26 - Stomp Tantrum
+L28 - Horn Leech
+L30 - Roar
+L32 - Drill Run
+L34 - Dragon Dance
+L36 - Leaf Blade
+L38 - Land's Wrath
+L40 - Rend
+L42 - Power Whip
+L44 - Solar Blade
+L46 - Precipice Blades
+
+Egg Moves:
+Bolt Claw
+Bullet Seed
+Crunch
+Crush Claw
+Focus Energy
+Outrage
+Payback
+Poison Fang
+Poison Powder
+Powder
+Rage Powder
+Rock Blast
+Rock Crush
+Shadow Bone
+Thunder Fang
+
+
+Abilities:
+Tough Claws
+Effect Spore
+Hidden Ability:
+Chlorophyll
+
+
+Item Drops:
+Item Common: Tiny Mushroom
+Item Uncommon: Big Mushroom
+Item Rare: Balm Mushroom
+----
+
+#047
+Pyromid
+Types: GROUND/FIRE
+Stats:
+HP: 60
+Attack: 50
+Defense: 90
+Sp. Attack: 65
+Sp. Defense: 85
+Speed: 55
+
+Evolutions:
+Evolves to Searophron when at level 28
+
+Moves:
+L1 - Leer
+L1 - Mud-Slap
+L4 - Ember
+L6 - Sand Tomb
+L8 - Solar Flare
+L10 - Bone Rush
+L12 - Incinerate
+L14 - Cosmic Power
+L16 - Mud Shot
+L18 - Spikes
+L20 - Flame Burst
+L22 - Mud Bomb
+L24 - Mystical Fire
+L26 - Ancient Power
+L30 - Power Gem
+L32 - Solar Beam
+L34 - Mirage Veil
+L36 - Fiery Dance
+L38 - Diamond Storm
+L40 - Heatvision
+L42 - Heretical Dance
+L44 - Magma Storm
+L46 - Meteor Beam
+L48 - Burn Out
+
+Egg Moves:
+Air Slash
+Aura Sphere
+Channel
+Curse
+Defog
+Empyrean Gale
+Feather Dance
+Fire Pledge
+Gastro Acid
+Glare
+Haboob Blitz
+Heat Wave
+Hex
+Inferno
+Morning Sun
+Roost
+Shadow Bone
+Weather Ball
+Wide Guard
+
+
+Abilities:
+Solid Rock
+Sand Stream
+Hidden Ability:
+Ra Power
+
+
+Item Drops:
+Item Common: Yellow Shard
+Item Uncommon: Heat Rock
+Item Rare: Climate Policy
+----
+
+#048
+Searophron
+Types: ROCK/FIRE
+Stats:
+HP: 75
+Attack: 60
+Defense: 60
+Sp. Attack: 120
+Sp. Defense: 80
+Speed: 100
+
+Evolutions:
+
+Moves:
+Evo - Haboob Blitz
+L1 - Leer
+L1 - Mud-Slap
+L4 - Ember
+L6 - Sand Tomb
+L8 - Solar Flare
+L10 - Bone Rush
+L12 - Incinerate
+L14 - Cosmic Power
+L16 - Mud Shot
+L18 - Spikes
+L20 - Flame Burst
+L22 - Mud Bomb
+L24 - Mystical Fire
+L26 - Ancient Power
+L30 - Power Gem
+L32 - Solar Beam
+L34 - Mirage Veil
+L36 - Fiery Dance
+L38 - Diamond Storm
+L40 - Heatvision
+L42 - Heretical Dance
+L44 - Magma Storm
+L46 - Meteor Beam
+L48 - Burn Out
+
+Abilities:
+Levitate
+Sand Stream
+Hidden Ability:
+Ra Power
+
+
+Item Drops:
+Item Common: Yellow Shard
+Item Uncommon: Heat Rock
+Item Rare: Climate Policy
+----
+
+#049
+Meatlett
+Types: GROUND/ROCK
+Stats:
+HP: 50
+Attack: 65
+Defense: 50
+Sp. Attack: 35
+Sp. Defense: 50
+Speed: 80
+
+Evolutions:
+Evolves to Meatrio when at level 22
+
+Moves:
+L1 - Harden
+L1 - Tackle
+L4 - Sand Tomb
+L6 - Glare
+L8 - Rock Tomb
+L10 - Bone Club
+L12 - Accelerock
+L14 - Shore Up
+L16 - Rock Blast
+L18 - Rock Polish
+L20 - Bulldoze
+L24 - Wide Guard
+L26 - Stomp Tantrum
+L28 - Stealth Rock
+L30 - Rock Slide
+L32 - Spikes
+L34 - Land's Wrath
+L36 - Stone Edge
+L38 - Earthquake
+L40 - Head Smash
+L42 - Rock Wrecker
+L44 - Rest
+L46 - Precipice Blades
+
+Egg Moves:
+Ancient Power
+Astonish
+Beat Up
+Endure
+Feint Attack
+Final Gambit
+Headbutt
+Magnitude
+Memento
+Mud Bomb
+Mystery Slam
+Now That I'm Two
+Pursuit
+Reversal
+Screech
+Shadow Bone
+Uproar
+Wood Hammer
+
+
+Abilities:
+Early Bird
+Sturdy
+Hidden Ability:
+Sap Sipper
+
+
+Item Drops:
+Item Common: Tiny Mushroom
+Item Uncommon: Rock Gem
+Item Rare: Myachi
+----
+
+#050
+Meatrio
+Types: GROUND/ROCK
+Stats:
+HP: 75
+Attack: 85
+Defense: 70
+Sp. Attack: 50
+Sp. Defense: 75
+Speed: 110
+
+Evolutions:
+
+Moves:
+Evo - Now That I'm Two
+L1 - Harden
+L1 - Tackle
+L4 - Sand Tomb
+L6 - Glare
+L8 - Rock Tomb
+L10 - Bone Club
+L12 - Accelerock
+L14 - Shore Up
+L16 - Rock Blast
+L18 - Rock Polish
+L20 - Bulldoze
+L22 - Now That I'm Two
+L24 - Wide Guard
+L26 - Stomp Tantrum
+L28 - Stealth Rock
+L30 - Rock Slide
+L32 - Spikes
+L34 - Land's Wrath
+L36 - Stone Edge
+L38 - Earthquake
+L40 - Head Smash
+L42 - Rock Wrecker
+L44 - Rest
+L46 - Precipice Blades
+
+Abilities:
+Early Bird
+Sturdy
+Hidden Ability:
+Sap Sipper
+
+
+Item Drops:
+Item Common: Tiny Mushroom
+Item Uncommon: Rock Gem
+Item Rare: Myachi
+----
+
+#051
+Lolly
+Types: NORMAL
+Stats:
+HP: 65
+Attack: 65
+Defense: 75
+Sp. Attack: 55
+Sp. Defense: 75
+Speed: 85
+
+Evolutions:
+Evolves to Lolly-Derue when at level 30
+
+Moves:
+L1 - Charm
+L1 - Scratch
+L4 - Attract
+L6 - Quick Attack
+L8 - Switcheroo
+L10 - Fake Out
+L12 - Agility
+L14 - Entrainment
+L16 - Crush Claw
+L18 - Natural Gift
+L20 - Lolly Lick
+L22 - Dragon Dance
+L24 - Headbutt
+L26 - Encore
+L28 - Crunch
+L32 - Dizzy Punch
+L34 - Baton Pass
+L36 - Iron Head
+L38 - Slack Off
+L40 - Anchor Shot
+L42 - Wish
+L44 - Meteor Mash
+L46 - Parting Shot
+L48 - Reflect Type
+L50 - Giga Impact
+
+Egg Moves:
+Circle Throw
+Copycat
+Double Hit
+Encore
+Endure
+Fake Tears
+Fire Punch
+Flail
+Focus Punch
+Frenzied Rush
+Ice Punch
+Low Kick
+Magnet Bomb
+Night Slash
+Play Rough
+Sky Uppercut
+Sweet Kiss
+Thunder Punch
+
+
+Abilities:
+Klutz
+Dishearten
+Hidden Ability:
+Cute Charm
+
+
+Item Drops:
+Item Common: Chople Berry
+Item Uncommon: Steel Gem
+Item Rare: Malocchio Knife
+----
+
+#052
+Lolly-Derue
+Types: NORMAL/STEEL
+Stats:
+HP: 80
+Attack: 105
+Defense: 85
+Sp. Attack: 55
+Sp. Defense: 95
+Speed: 115
+
+Evolutions:
+
+Moves:
+Evo - Magnet Bomb
+L1 - Charm
+L1 - Scratch
+L4 - Attract
+L6 - Quick Attack
+L8 - Switcheroo
+L10 - Fake Out
+L12 - Agility
+L14 - Entrainment
+L16 - Crush Claw
+L18 - Natural Gift
+L20 - Lolly Lick
+L22 - Dragon Dance
+L24 - Headbutt
+L26 - Encore
+L28 - Crunch
+L32 - Dizzy Punch
+L34 - Baton Pass
+L36 - Iron Head
+L38 - Slack Off
+L40 - Anchor Shot
+L42 - Wish
+L44 - Meteor Mash
+L46 - Parting Shot
+L48 - Reflect Type
+L50 - Giga Impact
+
+Abilities:
+Klutz
+Dishearten
+Hidden Ability:
+Cute Charm
+
+
+Item Drops:
+Item Common: Chople Berry
+Item Uncommon: Steel Gem
+Item Rare: Malocchio Knife
+----
+
+#053
+Ghanoose
+Types: NORMAL/GROUND
+Stats:
+HP: 90
+Attack: 95
+Defense: 70
+Sp. Attack: 80
+Sp. Defense: 75
+Speed: 90
+
+Evolutions:
+
+Moves:
+L1 - Screech
+L1 - Tackle
+L4 - Sand Tomb
+L6 - Disarming Voice
+L8 - Wing Attack
+L10 - Loosy Goosy
+L12 - Double Hit
+L14 - Roost
+L16 - Bone Club
+L18 - Round
+L20 - Bulldoze
+L22 - Spikes
+L24 - Work It
+L26 - Body Slam
+L28 - Stomp Tantrum
+L30 - Uproar
+L32 - Roar
+L34 - Drill Run
+L36 - Hyper Voice
+L38 - Land's Wrath
+L40 - Thrash
+L42 - Earthquake
+L44 - Boomburst
+L46 - Final Gambit
+L48 - Precipice Blades
+
+Egg Moves:
+After You
+Brave Bird
+Destiny Bond
+Double-Edge
+Focus Energy
+Lick
+Lunge
+Memento
+Nightmare
+Outrage
+Pain Split
+Perish Song
+Punishment
+Rage
+Stomp Tantrum
+Synchronoise
+Void Call
+Watery Grave
+
+
+Abilities:
+Intimidate
+Vital Spirit
+Hidden Ability:
+Anger Point
+
+
+Item Drops:
+Item Common: Mental Herb
+Item Uncommon: Ground Gem
+Item Rare: Malocchio Knife
+----
+
+#054
+Pigkey
+Types: PSYCHIC
+Stats:
+HP: 55
+Attack: 75
+Defense: 60
+Sp. Attack: 50
+Sp. Defense: 70
+Speed: 70
+
+Evolutions:
+Evolves to Swineape when at level 28
+
+Moves:
+L1 - Mind Reader
+L1 - Vacuum Wave
+L4 - Confusion
+L6 - Karate Chop
+L8 - Heal Block
+L10 - Heart Stamp
+L12 - Power-Up Punch
+L14 - Psybeam
+L16 - Low Kick
+L18 - Psycho Cut
+L20 - Endure
+L22 - Dire Slam
+L24 - Swagger
+L26 - Circle Throw
+L30 - Psycho Shift
+L32 - Submission
+L34 - Zen Headbutt
+L36 - Drain Punch
+L38 - Psy-kick
+L40 - Close Combat
+L42 - Psystrike
+L44 - Magic Room
+L46 - Healing Wish
+L48 - Dynamic Punch
+
+Egg Moves:
+Body Slam
+Encore
+Fire Punch
+Head Charge
+Heal Pulse
+Ice Punch
+Iron Tail
+Mach Punch
+Outrage
+Psychic Fangs
+Psychic Terrain
+Psywave
+Shadow Punch
+Skill Swap
+Stomp Tantrum
+Telekinesis
+Thunder Punch
+
+
+Abilities:
+Defiant
+Trace
+Hidden Ability:
+Anger Point
+
+
+Item Drops:
+Item Common: Psychic Gem
+Item Uncommon: Twisted Spoon
+Item Rare: Nature Mint
+----
+
+#055
+Swineape
+Types: FIGHTING/PSYCHIC
+Stats:
+HP: 75
+Attack: 115
+Defense: 60
+Sp. Attack: 65
+Sp. Defense: 75
+Speed: 90
+
+Evolutions:
+
+Moves:
+Evo - Psychic Fangs
+L1 - Mind Reader
+L1 - Vacuum Wave
+L4 - Confusion
+L6 - Karate Chop
+L8 - Heal Block
+L10 - Heart Stamp
+L12 - Power-Up Punch
+L14 - Psybeam
+L16 - Low Kick
+L18 - Psycho Cut
+L20 - Endure
+L22 - Dire Slam
+L24 - Swagger
+L26 - Circle Throw
+L30 - Psycho Shift
+L32 - Submission
+L34 - Zen Headbutt
+L36 - Drain Punch
+L38 - Psy-kick
+L40 - Close Combat
+L42 - Psystrike
+L44 - Magic Room
+L46 - Healing Wish
+L48 - Dynamic Punch
+
+Abilities:
+Defiant
+Trace
+Hidden Ability:
+Anger Point
+
+
+Item Drops:
+Item Common: Psychic Gem
+Item Uncommon: Twisted Spoon
+Item Rare: Nature Mint
+----
+
+#056
+Banyanya
+Types: GRASS
+Stats:
+HP: 70
+Attack: 85
+Defense: 80
+Sp. Attack: 55
+Sp. Defense: 85
+Speed: 95
+
+Evolutions:
+
+Moves:
+L1 - Growl
+L1 - Scratch
+L4 - Poison Sting
+L6 - Vine Whip
+L8 - Growth
+L10 - Leech Seed
+L12 - Razor Leaf
+L14 - Banyanya Peel
+L16 - Crush Claw
+L18 - Sleep Powder
+L20 - Bullet Seed
+L22 - Spiky Shield
+L24 - Horn Leech
+L26 - Trop Kick
+L28 - Recycle
+L30 - Worry Seed
+L32 - Seed Bomb
+L34 - Grassy Terrain
+L36 - Petal Blizzard
+L38 - Power Whip
+L40 - Endeavor
+L42 - Solar Blade
+L44 - Extreme Speed
+L46 - Wood Hammer
+L48 - Teeter Dance
+
+Egg Moves:
+Amnesia
+Assist
+Charm
+Copycat
+Flail
+Foul Play
+Hypnosis
+Iron Tail
+Last Resort
+Natural Gift
+Odor Sleuth
+Punishment
+Snatch
+Tail Slap
+Tail Whip
+Strength Sap
+Sweet Scent
+
+
+Abilities:
+Cute Charm
+Ripen
+Hidden Ability:
+Technician
+
+
+Item Drops:
+Item Common: Grassy Seed
+Item Uncommon: Grass Gem
+Item Rare: Banoon
+----
+
+#057
+Blooper
+Types: WATER/POISON
+Stats:
+HP: 45
+Attack: 40
+Defense: 35
+Sp. Attack: 50
+Sp. Defense: 80
+Speed: 70
+
+Evolutions:
+Evolves to Bloopair'd when at level 18
+
+Moves:
+L1 - Smokescreen
+L1 - Water Gun
+L4 - Acid
+L6 - Whirlpool
+L8 - Aqua Ring
+L10 - Cloud Burst
+L12 - Clear Smog
+L14 - Acid Armor
+L16 - Brine
+L20 - Acid Spray
+L22 - Octazooka
+L24 - Sludge
+L26 - Toxic
+L28 - Water Pledge
+L30 - Sludge Bomb
+L32 - Sparkling Aria
+L34 - Haze
+L38 - Scald
+L40 - Hydro Pump
+L42 - Biohazard
+L44 - Water Spout
+L46 - Parting Shot
+L48 - Geyser Burst
+L50 - Wring Out
+
+Egg Moves:
+Acupressure
+Aurora Beam
+Bubble
+Confuse Ray
+Feint
+Haze
+Helping Hand
+Ink Volley
+Freeze-Dry
+Mirror Coat
+Mist
+Muddy Water
+Sludge Wave
+Turbo Spin
+Tickle
+Wide Guard
+
+
+Abilities:
+Water Absorb
+Frisk
+Hidden Ability:
+Return Volley
+
+
+Item Drops:
+Item Common: Pearl
+Item Uncommon: Big Pearl
+Item Rare: Pearl String
+----
+
+#058
+Bloopair'd
+Types: WATER/POISON
+Stats:
+HP: 75
+Attack: 45
+Defense: 50
+Sp. Attack: 80
+Sp. Defense: 100
+Speed: 80
+
+Evolutions:
+Evolves to Glooper'st'd when at level 36
+
+Moves:
+Evo - Ink Volley
+L1 - Smokescreen
+L1 - Water Gun
+L4 - Acid
+L6 - Whirlpool
+L8 - Aqua Ring
+L10 - Cloud Burst
+L12 - Clear Smog
+L14 - Acid Armor
+L16 - Brine
+L20 - Acid Spray
+L22 - Octazooka
+L24 - Sludge
+L26 - Toxic
+L28 - Water Pledge
+L30 - Sludge Bomb
+L32 - Sparkling Aria
+L34 - Haze
+L38 - Scald
+L40 - Hydro Pump
+L42 - Biohazard
+L44 - Water Spout
+L46 - Parting Shot
+L48 - Geyser Burst
+L50 - Wring Out
+
+Abilities:
+Water Absorb
+Frisk
+Hidden Ability:
+Return Volley
+
+
+Item Drops:
+Item Common: Pearl
+Item Uncommon: Big Pearl
+Item Rare: Pearl String
+----
+
+#059
+Glooper'st'd
+Types: WATER/POISON
+Stats:
+HP: 90
+Attack: 55
+Defense: 60
+Sp. Attack: 105
+Sp. Defense: 130
+Speed: 95
+
+Evolutions:
+
+Moves:
+Evo - Sludge Wave
+L1 - Smokescreen
+L1 - Water Gun
+L4 - Acid
+L6 - Whirlpool
+L8 - Aqua Ring
+L10 - Cloud Burst
+L12 - Clear Smog
+L14 - Acid Armor
+L16 - Brine
+L20 - Acid Spray
+L22 - Octazooka
+L24 - Sludge
+L26 - Toxic
+L28 - Water Pledge
+L30 - Sludge Bomb
+L32 - Sparkling Aria
+L34 - Haze
+L38 - Scald
+L40 - Hydro Pump
+L42 - Biohazard
+L44 - Water Spout
+L46 - Parting Shot
+L48 - Geyser Burst
+L50 - Wring Out
+
+Abilities:
+Water Absorb
+Frisk
+Hidden Ability:
+Return Volley
+
+
+Item Drops:
+Item Common: Pearl
+Item Uncommon: Big Pearl
+Item Rare: Pearl String
+----
+
+#060
+Starwie
+Types: PSYCHIC
+Stats:
+HP: 60
+Attack: 35
+Defense: 50
+Sp. Attack: 55
+Sp. Defense: 60
+Speed: 45
+
+Evolutions:
+Evolves to Ziggalaxy when at level 18
+
+Moves:
+L1 - Disarming Voice
+L1 - Tickle
+L4 - Astonish
+L6 - Confusion
+L8 - Swift
+L10 - Cosmic Power
+L12 - Stored Power
+L14 - Gravity
+L16 - Psybeam
+L20 - Mirror Coat
+L22 - Dazzling Gleam
+L24 - Spacial Rend
+L26 - Role Play
+L28 - Extrasensory
+L30 - Wish
+L34 - Heretical Dance
+L36 - Wraith Rend
+L38 - Psyshock
+L40 - Manic Shift
+L42 - Misty Terrain
+L44 - Awaiting Sky
+L46 - Destiny Bond
+L48 - Hyperspace Hole
+L50 - Lunar Dance
+
+Egg Moves:
+Dragon Breath
+Dream Eater
+Heal Block
+Heretical Dance
+Haze
+Lucky Chant
+Meteor Beam
+Mind Blown
+Mist
+Moonblast
+Moonlight
+
+
+Abilities:
+Moonage Dwam
+Victory Star
+Hidden Ability:
+Magic Bounce
+
+
+Item Drops:
+Item Common: Stardust
+Item Uncommon: Metronome
+Item Rare: Focus Sash
+----
+
+#061
+Ziggalaxy
+Types: PSYCHIC
+Stats:
+HP: 80
+Attack: 50
+Defense: 70
+Sp. Attack: 75
+Sp. Defense: 80
+Speed: 60
+
+Evolutions:
+Evolves to Starman when at level 32
+
+Moves:
+Evo - Relic Song
+L1 - Disarming Voice
+L1 - Tickle
+L4 - Astonish
+L6 - Confusion
+L8 - Swift
+L10 - Cosmic Power
+L12 - Stored Power
+L14 - Gravity
+L16 - Psybeam
+L20 - Mirror Coat
+L22 - Dazzling Gleam
+L24 - Spacial Rend
+L26 - Role Play
+L28 - Extrasensory
+L30 - Wish
+L34 - Heretical Dance
+L36 - Wraith Rend
+L38 - Psyshock
+L40 - Manic Shift
+L42 - Misty Terrain
+L44 - Awaiting Sky
+L46 - Destiny Bond
+L48 - Hyperspace Hole
+L50 - Lunar Dance
+
+Abilities:
+Moonage Dwam
+Victory Star
+Hidden Ability:
+Magic Bounce
+
+
+Item Drops:
+Item Common: Stardust
+Item Uncommon: Metronome
+Item Rare: Focus Sash
+----
+
+#062
+Starman
+Types: PSYCHIC/GHOST
+Stats:
+HP: 105
+Attack: 55
+Defense: 85
+Sp. Attack: 120
+Sp. Defense: 120
+Speed: 95
+
+Evolutions:
+
+Moves:
+Evo - Moonblast
+L1 - Disarming Voice
+L1 - Tickle
+L4 - Astonish
+L6 - Confusion
+L8 - Swift
+L10 - Cosmic Power
+L12 - Stored Power
+L14 - Gravity
+L16 - Psybeam
+L20 - Mirror Coat
+L22 - Dazzling Gleam
+L24 - Spacial Rend
+L26 - Role Play
+L28 - Extrasensory
+L30 - Wish
+L34 - Heretical Dance
+L36 - Wraith Rend
+L38 - Psyshock
+L40 - Manic Shift
+L42 - Misty Terrain
+L44 - Awaiting Sky
+L46 - Destiny Bond
+L48 - Hyperspace Hole
+L50 - Lunar Dance
+
+Abilities:
+Moonage Dwam
+Victory Star
+Hidden Ability:
+Magic Bounce
+
+
+Item Drops:
+Item Common: Stardust
+Item Uncommon: Metronome
+Item Rare: Focus Sash
+----
+
+#063
+Luigi
+Types: FIGHTING
+Stats:
+HP: 55
+Attack: 60
+Defense: 45
+Sp. Attack: 55
+Sp. Defense: 50
+Speed: 40
+
+Evolutions:
+Evolves to Speed Luigi when at level 18
+
+Moves:
+L1 - Comet Punch
+L1 - Leer
+L4 - Thunder Shock
+L6 - Power-Up Punch
+L8 - Bulk Up
+L10 - Mach Punch
+L12 - Shock Wave
+L14 - Karate Chop
+L16 - Heal Block
+L16 - Spark
+L20 - Thunder Punch
+L22 - Dragon Dance
+L24 - Drain Punch
+L26 - Arc Bolt
+L28 - Aura Sphere
+L30 - Discharge
+L32 - Northstar Fist
+L34 - THUNDERRRR!
+L36 - Psychic
+L38 - Plasma Fists
+L40 - Zen Headbutt
+L42 - Focus Blast
+L44 - Thunder
+L46 - Psycho Boost
+L48 - Psy-kick
+L50 - Mind Blown
+L52 - Heretical Dance
+
+Egg Moves:
+Agility
+Bite
+Blaze Kick
+Bullet Punch
+Circle Throw
+Cross Chop
+Crunch
+Detect
+Follow Me
+Force Palm
+High Jump Kick
+Iron Defense
+Lick
+Low Kick
+Mind Reader
+Psychic
+Sky Uppercut
+Vacuum Wave
+Wrap
+Zen Headbutt
+
+
+Abilities:
+Ball Fetch
+Limber
+Hidden Ability:
+Thunderhand
+
+
+Item Drops:
+Item Common: Quick Ball
+Item Uncommon: Electric Gem
+Item Rare: Volt Shroom
+----
+
+#064
+Speed Luigi
+Types: FIGHTING
+Stats:
+HP: 70
+Attack: 75
+Defense: 65
+Sp. Attack: 70
+Sp. Defense: 75
+Speed: 60
+
+Evolutions:
+Evolves to Terminaluigi when at level 36
+
+Moves:
+Evo - Force Palm
+L1 - Comet Punch
+L1 - Leer
+L4 - Thunder Shock
+L6 - Power-Up Punch
+L8 - Bulk Up
+L10 - Mach Punch
+L12 - Shock Wave
+L14 - Karate Chop
+L16 - Heal Block
+L16 - Spark
+L20 - Thunder Punch
+L22 - Dragon Dance
+L24 - Drain Punch
+L26 - Arc Bolt
+L28 - Aura Sphere
+L30 - Discharge
+L32 - Northstar Fist
+L34 - THUNDERRRR!
+L38 - Plasma Fists
+L40 - Zen Headbutt
+L42 - Focus Blast
+L44 - Thunder
+L46 - Psycho Boost
+L48 - Psy-kick
+L50 - Mind Blown
+L52 - Heretical Dance
+
+Abilities:
+Ball Fetch
+Limber
+Hidden Ability:
+Thunderhand
+
+
+Item Drops:
+Item Common: Quick Ball
+Item Uncommon: Electric Gem
+Item Rare: Volt Shroom
+----
+
+#065
+Terminaluigi
+Types: FIGHTING/PSYCHIC
+Stats:
+HP: 85
+Attack: 95
+Defense: 80
+Sp. Attack: 95
+Sp. Defense: 100
+Speed: 80
+
+Evolutions:
+
+Moves:
+Evo - Psychic
+L1 - Comet Punch
+L1 - Leer
+L4 - Thunder Shock
+L6 - Power-Up Punch
+L8 - Bulk Up
+L10 - Mach Punch
+L12 - Shock Wave
+L14 - Karate Chop
+L16 - Heal Block
+L16 - Spark
+L20 - Thunder Punch
+L22 - Dragon Dance
+L24 - Drain Punch
+L26 - Arc Bolt
+L28 - Aura Sphere
+L30 - Discharge
+L32 - Northstar Fist
+L34 - THUNDERRRR!
+L38 - Plasma Fists
+L40 - Zen Headbutt
+L42 - Focus Blast
+L44 - Thunder
+L46 - Psycho Boost
+L48 - Psy-kick
+L50 - Mind Blown
+L52 - Heretical Dance
+
+Abilities:
+Galaxy Brain
+Limber
+Hidden Ability:
+Thunderhand
+
+
+Item Drops:
+Item Common: Quick Ball
+Item Uncommon: Electric Gem
+Item Rare: Volt Shroom
+----
+
+#066
+Weenut
+Types: GRASS
+Stats:
+HP: 55
+Attack: 50
+Defense: 50
+Sp. Attack: 45
+Sp. Defense: 40
+Speed: 30
+
+Evolutions:
+Evolves to Hazynut when at level 12
+
+Moves:
+L1 - Defense Curl
+L1 - Tackle
+L4 - Vine Whip
+L6 - Absorb
+L8 - Growth
+L10 - Razor Leaf
+L14 - Bullet Seed
+L16 - Bite
+L18 - Nut Burst
+L20 - Ingrain
+L22 - Knock Off
+L24 - Horn Leech
+L26 - Sleep Powder
+L30 - Seed Bomb
+L32 - Crunch
+L34 - Power Trip
+L36 - Leaf Blade
+L38 - Shell Smash
+L40 - Foul Play
+L42 - Swagger
+L44 - Wood Hammer
+L46 - Snatch
+L48 - Explosion
+
+Egg Moves:
+Amnesia
+Beat Up
+Clamp
+Defog
+Foul Play
+Grass Pledge
+Leech Seed
+Nasty Plot
+Payback
+Present
+Punishment
+Quick Attack
+Razor Wind
+Shell Smash
+Sucker Punch
+Super Fang
+Take Down
+Worry Seed
+
+
+Abilities:
+Harvest
+Shell Armor
+Hidden Ability:
+Pickpocket
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Sitrus Berry
+Item Rare: Mirror Herb
+----
+
+#067
+Hazynut
+Types: GRASS/DARK
+Stats:
+HP: 70
+Attack: 75
+Defense: 70
+Sp. Attack: 60
+Sp. Defense: 60
+Speed: 60
+
+Evolutions:
+Evolves to Maulnut using LEAFSTONE
+
+Moves:
+Evo - Payback
+L1 - Defense Curl
+L1 - Tackle
+L4 - Vine Whip
+L6 - Absorb
+L8 - Growth
+L10 - Razor Leaf
+L14 - Bullet Seed
+L16 - Bite
+L18 - Nut Burst
+L20 - Ingrain
+L22 - Knock Off
+L24 - Horn Leech
+L26 - Sleep Powder
+L30 - Seed Bomb
+L32 - Crunch
+L34 - Power Trip
+L36 - Leaf Blade
+L38 - Shell Smash
+L40 - Foul Play
+L42 - Swagger
+L44 - Wood Hammer
+L46 - Snatch
+L48 - Explosion
+
+Abilities:
+Harvest
+Shell Armor
+Hidden Ability:
+Pickpocket
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Sitrus Berry
+Item Rare: Mirror Herb
+----
+
+#068
+Maulnut
+Types: GRASS/DARK
+Stats:
+HP: 90
+Attack: 105
+Defense: 85
+Sp. Attack: 90
+Sp. Defense: 80
+Speed: 80
+
+Evolutions:
+
+Moves:
+Evo - Sucker Punch
+L1 - Defense Curl
+L1 - Tackle
+L4 - Vine Whip
+L6 - Absorb
+L8 - Growth
+L10 - Razor Leaf
+L14 - Bullet Seed
+L16 - Bite
+L18 - Nut Burst
+L20 - Ingrain
+L22 - Knock Off
+L24 - Horn Leech
+L26 - Sleep Powder
+L30 - Seed Bomb
+L32 - Crunch
+L34 - Power Trip
+L36 - Leaf Blade
+L38 - Shell Smash
+L40 - Foul Play
+L42 - Swagger
+L44 - Wood Hammer
+L46 - Snatch
+L48 - Explosion
+
+Abilities:
+Harvest
+Shell Armor
+Hidden Ability:
+Pickpocket
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Sitrus Berry
+Item Rare: Mirror Herb
+----
+
+#069
+Peepeye
+Types: WATER
+Stats:
+HP: 25
+Attack: 15
+Defense: 60
+Sp. Attack: 20
+Sp. Defense: 25
+Speed: 80
+
+Evolutions:
+Evolves to Ernest when at level 20
+
+Moves:
+L1 - Splash
+L1 - Tackle
+L15 - Flail
+
+Egg Moves:
+Scald
+Ten Points
+
+
+Abilities:
+Swift Swim
+Gluttony
+Hidden Ability:
+Rattled
+
+
+Item Drops:
+Item Common: Pearl
+Item Uncommon: Fleeb
+Item Rare: Wide Lens
+----
+
+#070
+Ernest
+Types: WATER/GROUND
+Stats:
+HP: 95
+Attack: 125
+Defense: 80
+Sp. Attack: 65
+Sp. Defense: 95
+Speed: 80
+
+Evolutions:
+
+Moves:
+Evo - Ten Points
+L1 - Leer
+L1 - Splash
+L1 - Tackle
+L5 - Bite
+L10 - Ice Fang
+L15 - Flail
+L20 - Magnitude
+L22 - Aqua Jet
+L22 - Scary Face
+L24 - Bulldoze
+L26 - Dragon Dance
+L28 - Watery Grave
+L30 - Crunch
+L32 - Stomp Tantrum
+L34 - Cascading Rush
+L36 - Drill Run
+L38 - Thrash
+L40 - Liquidation
+L42 - Land's Wrath
+L44 - Raving Mad
+L46 - Giga Impact
+L48 - Precipice Blades
+L50 - Wave Crash
+
+Abilities:
+Intimidate
+Gluttony
+Hidden Ability:
+Moxie
+
+
+Item Drops:
+Item Common: Pearl
+Item Uncommon: Fleeb
+Item Rare: Wide Lens
+----
+
+#071
+Tomatomon
+Types: ROCK/GRASS
+Stats:
+HP: 70
+Attack: 135
+Defense: 80
+Sp. Attack: 45
+Sp. Defense: 90
+Speed: 90
+
+Evolutions:
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Leafage
+L6 - Rock Throw
+L8 - Rock Polish
+L10 - Bullet Seed
+L12 - Accelerock
+L14 - Needle Arm
+L16 - Rollout
+L18 - Haboob Blitz
+L20 - Horn Leech
+L22 - Rock Blast
+L24 - Tomato Toss
+L26 - Sleep Powder
+L28 - Stealth Rock
+L30 - Rock Slide
+L32 - Leaf Blade
+L34 - Wide Guard
+L36 - Diamond Storm
+L38 - Power Whip
+L40 - Stone Edge
+L42 - Spiky Shield
+L44 - Solar Blade
+L46 - Explosion
+
+Egg Moves:
+Acupressure
+Arm Thrust
+Autotomize
+Block
+Crush Grip
+Curse
+Defense Curl
+Drain Punch
+Endure
+Flail
+Focus Punch
+Hammer Arm
+Mega Punch
+Mirage Veil
+Rock Climb
+Rock Crush
+
+
+Ability:
+Catch Up
+
+
+Item Drops:
+Item Common: Oran Berry
+Item Uncommon: Sitrus Berry
+Item Rare: Plain Spaghetti
+----
+
+#072
+Frosukiri
+Types: ICE/GHOST
+Stats:
+HP: 75
+Attack: 50
+Defense: 75
+Sp. Attack: 90
+Sp. Defense: 95
+Speed: 90
+
+Evolutions:
+
+Moves:
+L1 - Growl
+L1 - Powder Snow
+L4 - Astonish
+L6 - Confuse Ray
+L8 - Hailstrom
+L10 - Hex
+L12 - Frigerate
+L14 - Ominous Wind
+L16 - Icy Wind
+L18 - Night Shade
+L20 - Channel
+L22 - Curse
+L24 - Glaciate
+L26 - Haze
+L28 - Aurora Veil
+L30 - Phantom Force
+L32 - Icicle Crash
+L34 - Shadow Ball
+L36 - Psycho Shift
+L38 - Ice Beam
+L40 - Shadow Force
+L42 - Blizzard
+L44 - Ice Burn
+L46 - Memento
+L48 - Thaw Out
+L50 - Destiny Bond
+L52 - Wraith Rend
+
+Egg Moves:
+Aurora Beam
+Disable
+Discharge
+Grudge
+Horn Leech
+Imprison
+Inverno
+Mean Look
+Mist
+Poltergeist
+Scary Face
+Slush Fund
+Spikes
+Switcheroo
+Trick-or-Treat
+Weather Ball
+
+
+Abilities:
+Pernio Frost
+Ice Body
+Hidden Ability:
+Snow Cloak
+
+
+Item Drops:
+Item Common: Kasib Berry
+Item Uncommon: Ice Gem
+Item Rare: PP Up
+----
+
+#073
+Cognitto
+Types: NORMAL
+Stats:
+HP: 64
+Attack: 64
+Defense: 64
+Sp. Attack: 64
+Sp. Defense: 64
+Speed: 64
+
+Evolutions:
+
+Moves:
+L1 - Transform
+
+Abilities:
+Wonder Skin
+Imposter
+Hidden Ability:
+Illusion
+
+
+Item Drops:
+Item Common: Quick Powder
+Item Uncommon: Metal Powder
+Item Rare: Nature Mint
+----
+
+#074
+Kooper
+Types: DRAGON
+Stats:
+HP: 55
+Attack: 60
+Defense: 70
+Sp. Attack: 60
+Sp. Defense: 60
+Speed: 45
+
+Evolutions:
+Evolves to Kooperling when at level 18
+
+Moves:
+L1 - Tackle
+L1 - Withdraw
+L4 - Twister
+L6 - Flame Charge
+L8 - Turbo Spin
+L10 - Solar Flare
+L12 - Dragon Breath
+L14 - Fire Fang
+L14 - Scary Face
+L16 - Breaking Swipe
+L20 - Shell Smash
+L22 - Fire Punch
+L24 - Dual Chop
+L26 - Dragon Tail
+L28 - Blaze Kick
+L30 - Dragon Pulse
+L34 - Dragon Dance
+L36 - Fire Lash
+L38 - Earthquake
+L40 - Dragon Hammer
+L42 - Sacred Fire
+L44 - Dragon Rush
+L46 - Magma Storm
+L48 - Outrage
+L50 - Draco Meteor
+L52 - Heat Crash
+
+Egg Moves:
+Amnesia
+Body Slam
+Bowser Blaster
+Double-Edge
+Earth Power
+Focus Punch
+Growth
+Kooper Shell
+Land's Wrath
+Poison Gas
+Sand Tomb
+Spit Up
+Seed Bomb
+Stockpile
+Superpower
+Swallow
+Thrash
+Tickle
+Wide Guard
+Worry Seed
+
+
+Abilities:
+Shell Armor
+Dragon's Maw
+Hidden Ability:
+Mold Breaker
+
+
+Item Drops:
+Item Common: Yache Berry
+Item Uncommon: Koopa Bathwater
+Item Rare: Rocky Helmet
+----
+
+#075
+Kooperling
+Types: DRAGON
+Stats:
+HP: 65
+Attack: 75
+Defense: 90
+Sp. Attack: 75
+Sp. Defense: 70
+Speed: 55
+
+Evolutions:
+Evolves to King Kooper when at level 32
+
+Moves:
+Evo - Kooper Shell
+L1 - Tackle
+L1 - Withdraw
+L4 - Twister
+L6 - Flame Charge
+L8 - Turbo Spin
+L10 - Solar Flare
+L12 - Dragon Breath
+L14 - Fire Fang
+L14 - Scary Face
+L16 - Breaking Swipe
+L20 - Shell Smash
+L22 - Fire Punch
+L24 - Dual Chop
+L26 - Dragon Tail
+L28 - Blaze Kick
+L30 - Dragon Pulse
+L34 - Dragon Dance
+L36 - Fire Lash
+L38 - Earthquake
+L40 - Dragon Hammer
+L42 - Sacred Fire
+L44 - Dragon Rush
+L46 - Magma Storm
+L48 - Outrage
+L50 - Draco Meteor
+L52 - Heat Crash
+
+Abilities:
+Shell Armor
+Dragon's Maw
+Hidden Ability:
+Mold Breaker
+
+
+Item Drops:
+Item Common: Yache Berry
+Item Uncommon: Koopa Bathwater
+Item Rare: Rocky Helmet
+----
+
+#076
+King Kooper
+Types: FIRE/DRAGON
+Stats:
+HP: 85
+Attack: 105
+Defense: 145
+Sp. Attack: 100
+Sp. Defense: 90
+Speed: 75
+
+Evolutions:
+
+Moves:
+Evo - Land's Wrath
+L1 - Tackle
+L1 - Withdraw
+L4 - Twister
+L6 - Flame Charge
+L8 - Turbo Spin
+L10 - Solar Flare
+L12 - Dragon Breath
+L14 - Fire Fang
+L14 - Scary Face
+L16 - Breaking Swipe
+L20 - Shell Smash
+L22 - Fire Punch
+L24 - Dual Chop
+L26 - Dragon Tail
+L28 - Blaze Kick
+L30 - Dragon Pulse
+L34 - Dragon Dance
+L36 - Fire Lash
+L38 - Earthquake
+L40 - Dragon Hammer
+L42 - Sacred Fire
+L44 - Dragon Rush
+L46 - Magma Storm
+L48 - Outrage
+L50 - Draco Meteor
+L52 - Heat Crash
+
+Abilities:
+Shell Armor
+Dragon's Maw
+Hidden Ability:
+Mold Breaker
+
+
+Item Drops:
+Item Common: Yache Berry
+Item Uncommon: Koopa Bathwater
+Item Rare: Rocky Helmet
+----
+
+#077
+Kappa
+Types: WATER/ROCK
+Stats:
+HP: 75
+Attack: 95
+Defense: 105
+Sp. Attack: 80
+Sp. Defense: 65
+Speed: 55
+
+Evolutions:
+
+Moves:
+L1 - Scratch
+L1 - Withdraw
+L4 - Rock Throw
+L6 - Aqua Jet
+L8 - Bite
+L10 - Rollout
+L12 - Water Pulse
+L14 - Rock Polish
+L16 - Razor Shell
+L18 - Curse
+L20 - Rock Blast
+L22 - Cloud Burst
+L24 - Shell Smash
+L26 - Watery Grave
+L28 - Rock Slide
+L30 - Flatter
+L32 - Liquidation
+L34 - Torment
+L36 - Stone Edge
+L38 - Wave Crash
+L40 - Foul Play
+L42 - Snatch
+L44 - Head Smash
+L46 - Raving Mad
+L48 - Diamond Storm
+
+Egg Moves:
+Accelerock
+After You
+Follow Me
+Imprison
+Me First
+Mud Sport
+Night Slash
+Parting Shot
+Power Trip
+Slack Off
+Smelling Salts
+Vital Throw
+Water Pledge
+Water Sport
+Zen Headbutt
+
+
+Abilities:
+Mud Bath
+Water Veil
+Hidden Ability:
+Swift Swim
+
+
+Item Drops:
+Item Common: Fresh Water
+Item Uncommon: Kappa Kaw'fee
+Item Rare: Focus Band
+----
+
+#078
+Re:TechCrash
+Types: GHOST
+Stats:
+HP: 65
+Attack: 65
+Defense: 90
+Sp. Attack: 55
+Sp. Defense: 90
+Speed: 45
+
+Evolutions:
+Evolves to Re:PolyCrash holding RTCEVO at day
+Evolves to Re:PolyCrash holding RTCEVO at night
+Evolves to Re:PolyCrash when at level 37
+
+Moves:
+L1 - Shadow Sneak
+L1 - Sharpen
+L4 - Thunder Shock
+L6 - Disable
+L8 - Night Shade
+L10 - Confuse Ray
+L12 - Curse
+L14 - Scary Face
+L14 - Thunder Wave
+L16 - Hex
+L18 - Spark
+L20 - Mean Look
+L22 - Shadow Punch
+L24 - Arc Bolt
+L26 - Channel
+L28 - Manual Blast
+L30 - Conversion
+L32 - Discharge
+L34 - Phantom Force
+L36 - Pain Split
+L40 - Poltergeist
+L42 - Bolt Strike
+L44 - Shadow Force
+L46 - Destiny Bond
+L48 - Grudge
+L50 - Wraith Rend
+
+Egg Moves:
+Bolt Rush
+Conversion 2
+Dark Pulse
+Destiny Bond
+Electrify
+Feint Attack
+Grudge
+Imprison
+Memento
+Metronome
+Ominous Wind
+Pain Split
+Shock Wave
+Skill Swap
+Techno Blast
+
+
+Ability:
+Corruptions
+
+
+Item Drops:
+Item Common: Chilan Berry
+Item Uncommon: Null Gem
+Item Rare: Realtime Corruptor
+----
+
+#079
+Re:PolyCrash
+Types: GHOST/ELECTRIC
+Stats:
+HP: 85
+Attack: 95
+Defense: 125
+Sp. Attack: 65
+Sp. Defense: 125
+Speed: 55
+
+Evolutions:
+
+Moves:
+Evo - Bolt Rush
+L1 - Shadow Sneak
+L1 - Sharpen
+L4 - Thunder Shock
+L6 - Disable
+L8 - Night Shade
+L10 - Confuse Ray
+L12 - Curse
+L14 - Scary Face
+L14 - Thunder Wave
+L16 - Hex
+L18 - Spark
+L20 - Mean Look
+L22 - Shadow Punch
+L24 - Arc Bolt
+L26 - Channel
+L28 - Manual Blast
+L30 - Conversion
+L32 - Discharge
+L34 - Phantom Force
+L36 - Pain Split
+L40 - Poltergeist
+L42 - Bolt Strike
+L44 - Shadow Force
+L46 - Destiny Bond
+L48 - Grudge
+L50 - Wraith Rend
+
+Ability:
+Corruptions
+
+
+Item Drops:
+Item Common: Chilan Berry
+Item Uncommon: Null Gem
+Item Rare: Realtime Corruptor
+----
+
+#080
+Farfetch'd
+Types: NORMAL/FLYING
+Stats:
+HP: 55
+Attack: 65
+Defense: 55
+Sp. Attack: 60
+Sp. Defense: 60
+Speed: 60
+
+Evolutions:
+Evolves to Fabricat'd upon landing 1 Critical hit in battle
+
+Moves:
+L1 - Meditate
+L1 - Peck
+L4 - Fury Attack
+L6 - Focus Energy
+L8 - Fury Cutter
+L10 - Roost
+L12 - Aerial Ace
+L14 - Concentration
+L16 - Slash
+L18 - Burbomb
+L20 - Circle Throw
+L22 - Acrobatics
+L24 - Swords Dance
+L26 - Submission
+L28 - Drill Peck
+L30 - Endure
+L32 - Sacred Sword
+L34 - Night Slash
+L36 - Flying Press
+L38 - Cross Chop
+L40 - Close Combat
+L42 - Brave Bird
+L44 - Reversal
+L46 - High Jump Kick
+L48 - Aeroblast
+
+Egg Moves:
+Covet
+Curse
+Feather Dance
+First Impression
+Flail
+Foresight
+Gust
+Karate Chop
+Leaf Blade
+Mirror Move
+Mud-Slap
+Night Slash
+Quick Attack
+Revenge
+Roost
+Steel Wing
+Trump Card
+Wide Guard
+
+
+Abilities:
+Quick Feet
+Windsurfer
+Hidden Ability:
+Unburden
+
+
+Item Drops:
+Item Common: Flying Gem
+Item Uncommon: Stick
+Item Rare: PP Up
+----
+
+#081
+Fabricat'd
+Types: FIGHTING/FLYING
+Stats:
+HP: 80
+Attack: 115
+Defense: 80
+Sp. Attack: 60
+Sp. Defense: 75
+Speed: 85
+
+Evolutions:
+
+Moves:
+Evo - Karate Chop
+L1 - Meditate
+L1 - Peck
+L4 - Fury Attack
+L6 - Focus Energy
+L8 - Fury Cutter
+L10 - Roost
+L12 - Aerial Ace
+L14 - Concentration
+L16 - Slash
+L18 - Burbomb
+L20 - Circle Throw
+L22 - Acrobatics
+L24 - Swords Dance
+L26 - Submission
+L28 - Drill Peck
+L30 - Endure
+L32 - Sacred Sword
+L34 - Night Slash
+L36 - Flying Press
+L38 - Cross Chop
+L40 - Close Combat
+L42 - Brave Bird
+L44 - Reversal
+L46 - High Jump Kick
+L48 - Aeroblast
+
+Abilities:
+Quick Feet
+Windsurfer
+Hidden Ability:
+Unburden
+
+
+Item Drops:
+Item Common: Flying Gem
+Item Uncommon: Stick
+Item Rare: PP Up
+----
+
+#082
+Emuno
+Types: NORMAL/FLYING
+Stats:
+HP: 40
+Attack: 65
+Defense: 45
+Sp. Attack: 30
+Sp. Defense: 30
+Speed: 55
+
+Evolutions:
+Evolves to Emuduo when at level 14
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Peck
+L6 - Feather Dance
+L8 - Quick Attack
+L10 - Double Hit
+L12 - Spikes
+L14 - Aerial Ace
+L16 - U-turn
+L18 - Acrobatics
+L20 - Burbomb
+L22 - Chip Away
+L24 - Cyclone
+L26 - Tri Fecta
+L28 - Slash
+L30 - Take Down
+L34 - Tailwind
+L36 - Body Slam
+L38 - Extreme Speed
+L40 - Brave Bird
+L42 - Thrash
+L44 - Sky Attack
+L46 - Endeavor
+L48 - Flail
+
+Egg Moves:
+Assurance
+Brave Bird
+Defog
+Doodle Beam
+Drill Peck
+Endeavor
+Feint Attack
+Flail
+Haze
+Metronome
+Mirror Move
+Natural Gift
+Sand Attack
+Simple Beam
+Supersonic
+
+
+Abilities:
+Scrappy
+Pocket Sand
+Hidden Ability:
+Tangled Feet
+
+
+Item Drops:
+Item Common: Elixir
+Item Uncommon: Normal Gem
+Item Rare: Sharp Beak
+----
+
+#083
+Emuduo
+Types: NORMAL/FLYING
+Stats:
+HP: 60
+Attack: 85
+Defense: 50
+Sp. Attack: 40
+Sp. Defense: 35
+Speed: 75
+
+Evolutions:
+Evolves to Emudrio when at level 31
+
+Moves:
+Evo - Defog
+L1 - Growl
+L1 - Tackle
+L4 - Peck
+L6 - Feather Dance
+L8 - Quick Attack
+L10 - Double Hit
+L12 - Spikes
+L14 - Aerial Ace
+L16 - U-turn
+L18 - Acrobatics
+L20 - Burbomb
+L22 - Chip Away
+L24 - Cyclone
+L26 - Tri Fecta
+L28 - Slash
+L30 - Take Down
+L34 - Tailwind
+L36 - Body Slam
+L38 - Extreme Speed
+L40 - Brave Bird
+L42 - Thrash
+L44 - Sky Attack
+L46 - Endeavor
+L48 - Flail
+
+Abilities:
+Scrappy
+Pocket Sand
+Hidden Ability:
+Tangled Feet
+
+
+Item Drops:
+Item Common: Elixir
+Item Uncommon: Normal Gem
+Item Rare: Sharp Beak
+----
+
+#084
+Emudrio
+Types: NORMAL/FLYING
+Stats:
+HP: 75
+Attack: 115
+Defense: 80
+Sp. Attack: 75
+Sp. Defense: 60
+Speed: 100
+
+Evolutions:
+
+Moves:
+Evo - Drill Peck
+L1 - Growl
+L1 - Tackle
+L4 - Peck
+L6 - Feather Dance
+L8 - Quick Attack
+L10 - Double Hit
+L12 - Spikes
+L14 - Aerial Ace
+L16 - U-turn
+L18 - Acrobatics
+L20 - Burbomb
+L22 - Chip Away
+L24 - Cyclone
+L26 - Tri Fecta
+L28 - Slash
+L30 - Take Down
+L34 - Tailwind
+L36 - Body Slam
+L38 - Extreme Speed
+L40 - Brave Bird
+L42 - Thrash
+L44 - Sky Attack
+L46 - Endeavor
+L48 - Flail
+
+Abilities:
+Scrappy
+Pocket Sand
+Hidden Ability:
+Tangled Feet
+
+
+Item Drops:
+Item Common: Elixir
+Item Uncommon: Normal Gem
+Item Rare: Sharp Beak
+----
+
+#085
+Seelime
+Types: ICE/WATER
+Stats:
+HP: 105
+Attack: 70
+Defense: 95
+Sp. Attack: 95
+Sp. Defense: 95
+Speed: 65
+
+Evolutions:
+
+Moves:
+L1 - Defense Curl
+L1 - Powder Snow
+L4 - Water Gun
+L6 - Horn Attack
+L8 - Hailstrom
+L10 - Cloud Burst
+L12 - Encore
+L14 - Water Pulse
+L16 - Icy Wind
+L18 - Aurora Veil
+L20 - Frostbite
+L22 - Brine
+L24 - Horn Leech
+L26 - Freeze-Dry
+L28 - Watery Grave
+L30 - Body Slam
+L32 - Avalanche
+L34 - Scald
+L36 - Icicle Crash
+L38 - Origin Pulse
+L40 - Frigerate
+L42 - Mist
+L44 - Hydro Pump
+L46 - Blizzard
+L48 - Thaw Out
+L50 - Geyser Burst
+
+Egg Moves:
+Aqua Ring
+Disable
+Fake Out
+Icicle Spear
+Innervation
+Iron Tail
+Lick
+Perish Song
+Signal Beam
+Slam
+Slush Fund
+Sleep Talk
+Spit Up
+Stockpile
+Swallow
+Water Pledge
+
+
+Abilities:
+Thick Fat
+Insulation
+Hidden Ability:
+Hydration
+
+
+Item Drops:
+Item Common: Jaboca Berry
+Item Uncommon: Water Gem
+Item Rare: Super HP Max
+----
+
+#086
+Wisimer
+Types: POISON
+Stats:
+HP: 80
+Attack: 80
+Defense: 50
+Sp. Attack: 40
+Sp. Defense: 50
+Speed: 25
+
+Evolutions:
+Evolves to Weisuk when at level 26
+
+Moves:
+L1 - Kinesis
+L1 - Pound
+L4 - Poison Sting
+L6 - Disable
+L8 - Minimize
+L10 - Poison Fang
+L12 - Coil
+L14 - Acid Armor
+L16 - Clear Smog
+L18 - Cross Poison
+L20 - Venom Drench
+L22 - Ball Toss
+L24 - Clear Smog
+L28 - Poison Jab
+L30 - Circle Throw
+L32 - Yawn
+L34 - Refuse
+L36 - Belly Drum
+L38 - Gunk Shot
+L40 - Assist
+L42 - Perish Song
+L44 - Self-Destruct
+L46 - Wish
+L48 - Memento
+
+Egg Moves:
+Acid Spray
+Captivate
+Curse
+Drain Fang
+Haze
+Heart Swap
+Imprison
+Lick
+Mean Look
+Parting Shot
+Pay Day
+Scary Face
+Shadow Punch
+Shadow Sneak
+Spit Up
+Stockpile
+Swallow
+Toxic Spikes
+
+
+Abilities:
+Poison Touch
+Sticky Hold
+Hidden Ability:
+Ball Pit
+
+
+Item Drops:
+Item Common: Waste
+Item Uncommon: Poison Gem
+Item Rare: Assault Vest
+----
+
+#087
+Weisuk
+Types: POISON
+Stats:
+HP: 105
+Attack: 105
+Defense: 75
+Sp. Attack: 65
+Sp. Defense: 100
+Speed: 50
+
+Evolutions:
+
+Moves:
+Evo - Toxic Spikes
+L1 - Kinesis
+L1 - Pound
+L4 - Poison Sting
+L6 - Disable
+L8 - Minimize
+L10 - Poison Fang
+L12 - Coil
+L14 - Acid Armor
+L16 - Clear Smog
+L18 - Cross Poison
+L20 - Venom Drench
+L22 - Ball Toss
+L24 - Clear Smog
+L28 - Poison Jab
+L30 - Circle Throw
+L32 - Yawn
+L34 - Refuse
+L36 - Belly Drum
+L38 - Gunk Shot
+L40 - Assist
+L42 - Perish Song
+L44 - Self-Destruct
+L46 - Wish
+L48 - Memento
+
+Abilities:
+Poison Touch
+Sticky Hold
+Hidden Ability:
+Ball Pit
+
+
+Item Drops:
+Item Common: Waste
+Item Uncommon: Poison Gem
+Item Rare: Assault Vest
+----
+
+#088
+Scumpi
+Types: WATER/POISON
+Stats:
+HP: 85
+Attack: 70
+Defense: 70
+Sp. Attack: 90
+Sp. Defense: 100
+Speed: 65
+
+Evolutions:
+
+Moves:
+L1 - Poison Gas
+L1 - Water Gun
+L4 - Poison Sting
+L6 - Iron Defense
+L8 - Aqua Ring
+L10 - Cloud Burst
+L12 - Clear Smog
+L14 - Water Shuriken
+L16 - Sludge
+L18 - Quickcycle
+L20 - Bubble Beam
+L22 - Refuse
+L24 - Brine
+L26 - Sludge Bomb
+L28 - Gastro Acid
+L30 - Sparkling Aria
+L32 - Sludge Wave
+L34 - Scald
+L36 - Toxic Spikes
+L38 - Belch
+L40 - Geyser Burst
+L42 - Recover
+L44 - Mist
+L46 - Biohazard
+L48 - Water Spout
+L50 - Origin Pulse
+
+Egg Moves:
+Acid Spray
+Aqua Jet
+Astonish
+Brine
+Bubble Beam
+Crabhammer
+Flail
+Haze
+Nature Power
+Recycle
+Shell Smash
+Signal Beam
+Supersonic
+Twineedle
+Water Pulse
+
+
+Abilities:
+Salvage
+Water Density
+Hidden Ability:
+Corrosion
+
+
+Item Drops:
+Item Common: Trash
+Item Uncommon: Waste
+Item Rare: Climate Policy
+----
+
+#089
+Swish
+Types: NORMAL
+Stats:
+HP: 40
+Attack: 55
+Defense: 80
+Sp. Attack: 35
+Sp. Defense: 60
+Speed: 30
+
+Evolutions:
+Evolves to Swoosh when at level 20
+
+Moves:
+L1 - Defense Curl
+L1 - Feint
+L4 - Fake Out
+L6 - Pursuit
+L8 - Pay Day
+L10 - Turbo Spin
+L12 - Confuse Ray
+L14 - Double Hit
+L16 - Headbutt
+L18 - Hex
+L22 - Shadow Punch
+L24 - Curse
+L26 - Trick-or-Treat
+L28 - Frontrunner
+L30 - Court Change
+L32 - Steel Wing
+L36 - Phantom Force
+L38 - Iron Head
+L40 - Shadow Force
+L42 - Meteor Mash
+L44 - Poltergeist
+L46 - Take a Shot
+L48 - Destiny Bond
+L50 - Wraith Rend
+
+Egg Moves:
+Block
+Curse
+Destiny Bond
+Disable
+Electro Ball
+Helping Hand
+Ice Ball
+Layuppercut
+Quash
+Quick Guard
+Rollout
+Self-Destruct
+Shadow Sneak
+Shift Gear
+Steamroller
+Wide Guard
+
+
+Abilities:
+Levitate
+Receiver
+Hidden Ability:
+Bulletproof
+
+
+Item Drops:
+Item Common: Full Ball
+Item Uncommon: Ghost Gem
+Item Rare: Air Balloon
+----
+
+#090
+Swoosh
+Types: NORMAL/GHOST
+Stats:
+HP: 60
+Attack: 65
+Defense: 100
+Sp. Attack: 55
+Sp. Defense: 70
+Speed: 45
+
+Evolutions:
+Evolves to Rightin when at level 34
+
+Moves:
+Evo - Layuppercut
+L1 - Defense Curl
+L1 - Feint
+L4 - Fake Out
+L6 - Pursuit
+L8 - Pay Day
+L10 - Turbo Spin
+L12 - Confuse Ray
+L14 - Double Hit
+L16 - Headbutt
+L18 - Hex
+L22 - Shadow Punch
+L24 - Curse
+L26 - Trick-or-Treat
+L28 - Frontrunner
+L30 - Court Change
+L32 - Steel Wing
+L36 - Phantom Force
+L38 - Iron Head
+L40 - Shadow Force
+L42 - Meteor Mash
+L44 - Poltergeist
+L46 - Take a Shot
+L48 - Destiny Bond
+L50 - Wraith Rend
+
+Abilities:
+Levitate
+Receiver
+Hidden Ability:
+Bulletproof
+
+
+Item Drops:
+Item Common: Full Ball
+Item Uncommon: Ghost Gem
+Item Rare: Air Balloon
+----
+
+#091
+Rightin
+Types: STEEL/GHOST
+Stats:
+HP: 80
+Attack: 125
+Defense: 125
+Sp. Attack: 95
+Sp. Defense: 90
+Speed: 70
+
+Evolutions:
+
+Moves:
+Evo - Shift Gear
+L1 - Defense Curl
+L1 - Feint
+L4 - Fake Out
+L6 - Pursuit
+L8 - Pay Day
+L10 - Turbo Spin
+L12 - Confuse Ray
+L14 - Double Hit
+L16 - Headbutt
+L18 - Hex
+L22 - Shadow Punch
+L24 - Curse
+L26 - Trick-or-Treat
+L28 - Frontrunner
+L30 - Court Change
+L32 - Steel Wing
+L36 - Phantom Force
+L38 - Iron Head
+L40 - Shadow Force
+L42 - Meteor Mash
+L44 - Poltergeist
+L46 - Take a Shot
+L48 - Destiny Bond
+L50 - Wraith Rend
+
+Abilities:
+Levitate
+Receiver
+Hidden Ability:
+Bulletproof
+
+
+Item Drops:
+Item Common: Full Ball
+Item Uncommon: Ghost Gem
+Item Rare: Air Balloon
+----
+
+#092
+Crystonix
+Types: ICE/GROUND
+Stats:
+HP: 50
+Attack: 40
+Defense: 100
+Sp. Attack: 80
+Sp. Defense: 75
+Speed: 75
+
+Evolutions:
+Evolves to Crysteelix upon level up at Map ID 285
+
+Moves:
+L1 - Harden
+L1 - Powder Snow
+L4 - Mud-Slap
+L6 - Ice Shard
+L8 - Scary Face
+L10 - Mud Shot
+L12 - Hailstrom
+L14 - Icy Wind
+L16 - Mud Bomb
+L18 - Chromaticize
+L20 - Glaciate
+L22 - Mirror Shot
+L24 - Aurora Veil
+L26 - Icicle Crash
+L28 - Iron Head
+L30 - Freeze-Dry
+L32 - Flash Cannon
+L34 - Metal Sound
+L36 - Thaw Out
+L38 - Gyro Ball
+L40 - Blizzard
+L42 - Holy Triumvirate
+L44 - Earth Power
+L46 - Mirror Coat
+L48 - Inverno
+L50 - Iron Slag
+
+Egg Moves:
+Aurora Beam
+Autotomize
+Block
+Coil
+Defense Curl
+Flail
+Frostbite
+Heavy Slam
+Iron Tail
+Meteor Beam
+Recover
+Reflect Type
+Rock Blast
+Rock Climb
+Rollout
+Stealth Rock
+
+
+Abilities:
+Storm Drain
+Ice Body
+Hidden Ability:
+Water Absorb
+
+
+Item Drops:
+Item Common: Occa Berry
+Item Uncommon: Ice Gem
+Item Rare: Super Max Iron
+----
+
+#093
+Crysteelix
+Types: ICE/STEEL
+Stats:
+HP: 75
+Attack: 50
+Defense: 180
+Sp. Attack: 110
+Sp. Defense: 95
+Speed: 60
+
+Evolutions:
+
+Moves:
+Evo - Autotomize
+L1 - Harden
+L1 - Powder Snow
+L4 - Mud-Slap
+L6 - Ice Shard
+L8 - Scary Face
+L10 - Mud Shot
+L12 - Hailstrom
+L14 - Icy Wind
+L16 - Mud Bomb
+L18 - Chromaticize
+L20 - Glaciate
+L22 - Mirror Shot
+L24 - Aurora Veil
+L26 - Icicle Crash
+L28 - Iron Head
+L30 - Freeze-Dry
+L32 - Flash Cannon
+L34 - Metal Sound
+L36 - Thaw Out
+L38 - Gyro Ball
+L40 - Blizzard
+L42 - Holy Triumvirate
+L44 - Earth Power
+L46 - Mirror Coat
+L48 - Inverno
+L50 - Iron Slag
+
+Abilities:
+Storm Drain
+Ice Body
+Hidden Ability:
+Water Absorb
+
+
+Item Drops:
+Item Common: Occa Berry
+Item Uncommon: Ice Gem
+Item Rare: Super Max Iron
+----
+
+#094
+Magibun
+Types: PSYCHIC/GHOST
+Stats:
+HP: 85
+Attack: 40
+Defense: 90
+Sp. Attack: 110
+Sp. Defense: 95
+Speed: 85
+
+Evolutions:
+
+Moves:
+L1 - Bestow
+L1 - Charm
+L1 - Present
+L4 - Peekaboo
+L6 - Confusion
+L8 - Ominous Wind
+L10 - Copycat
+L12 - Psybeam
+L14 - Heal Block
+L14 - Magic Coat
+L16 - Hex
+L18 - Luster Purge
+L20 - Light Screen
+L20 - Reflect
+L22 - Slight of Hand
+L24 - Extrasensory
+L26 - Poltergeist
+L28 - Role Play
+L30 - Fling
+L32 - Psyshock
+L34 - Flatter
+L36 - Psychic
+L38 - Shadow Ball
+L40 - Snatch
+L42 - Psystrike
+L44 - Wraith Rend
+L46 - Wish
+L48 - Psycho Boost
+
+Egg Moves:
+Ancient Power
+Egg Bomb
+Fake Out
+Gust
+Lucky Chant
+Magical Leaf
+Magic Room
+Manic Shift
+Mystical Fire
+Pin Missile
+Self-Destruct
+Signal Beam
+Skill Swap
+Stored Power
+Trump Card
+
+
+Abilities:
+Magician
+Frisk
+Hidden Ability:
+Delivery
+
+
+Item Drops:
+Item Common: Max Ether
+Item Uncommon: Silk Scarf
+Item Rare: Nature Mint
+----
+
+#095
+Shramp
+Types: WATER/ELECTRIC
+Stats:
+HP: 75
+Attack: 50
+Defense: 50
+Sp. Attack: 60
+Sp. Defense: 60
+Speed: 65
+
+Evolutions:
+Evolves to Shockster when at level 30
+
+Moves:
+L1 - Bubble
+L1 - Charge
+L4 - Thunder Shock
+L6 - Cloud Burst
+L8 - Nuzzle
+L10 - Mud-Slap
+L12 - Noise Crush
+L14 - Water Pulse
+L16 - Rising Voltage
+L18 - Zap Punch
+L20 - Brine
+L22 - Arc Bolt
+L24 - Yawn
+L26 - Bolt Claw
+L28 - Soak
+L32 - Scald
+L34 - Shell Smash
+L36 - Parabolic Arc
+L38 - Muddy Water
+L42 - Hydro Pump
+L44 - Thunder
+L46 - Water Spout
+L48 - Electric Terrain
+
+Egg Moves:
+Acid Spray
+Agility
+Bullet Punch
+Discharge
+Eerie Impulse
+Electrify
+Flail
+Geyser Burst
+Mach Punch
+Mist
+Power-Up Punch
+Psybeam
+Screech
+Shock Wave
+Silver Wind
+Vacuum Wave
+Whirlpool
+
+
+Abilities:
+Volt Absorb
+Water Absorb
+Hidden Ability:
+Silverhanded
+
+
+Item Drops:
+Item Common: Shrimp
+Item Uncommon: Shed Shell
+Item Rare: Climate Policy
+----
+
+#096
+Shockster
+Types: WATER/ELECTRIC
+Stats:
+HP: 115
+Attack: 60
+Defense: 60
+Sp. Attack: 75
+Sp. Defense: 75
+Speed: 65
+
+Evolutions:
+Evolves to Palisurge using THUNDERSTONE
+Evolves to Stomasurge using LIMESTONE
+
+Moves:
+Evo - Discharge
+L1 - Bubble
+L1 - Charge
+L4 - Thunder Shock
+L6 - Cloud Burst
+L8 - Nuzzle
+L10 - Mud-Slap
+L12 - Noise Crush
+L14 - Water Pulse
+L16 - Rising Voltage
+L18 - Zap Punch
+L20 - Brine
+L22 - Arc Bolt
+L24 - Yawn
+L26 - Bolt Claw
+L28 - Soak
+L32 - Scald
+L34 - Shell Smash
+L36 - Parabolic Arc
+L38 - Muddy Water
+L42 - Hydro Pump
+L44 - Thunder
+L46 - Water Spout
+L48 - Electric Terrain
+
+Abilities:
+Volt Absorb
+Water Absorb
+Hidden Ability:
+Silverhanded
+
+
+Item Drops:
+Item Common: Shrimp
+Item Uncommon: Shed Shell
+Item Rare: Climate Policy
+----
+
+#097
+Palisurge
+Types: WATER/ELECTRIC
+Stats:
+HP: 130
+Attack: 65
+Defense: 65
+Sp. Attack: 105
+Sp. Defense: 110
+Speed: 80
+
+Evolutions:
+
+Moves:
+Evo - Geyser Burst
+L1 - Bubble
+L1 - Charge
+L4 - Thunder Shock
+L6 - Cloud Burst
+L8 - Nuzzle
+L10 - Mud-Slap
+L12 - Noise Crush
+L14 - Water Pulse
+L16 - Rising Voltage
+L18 - Zap Punch
+L20 - Brine
+L22 - Arc Bolt
+L24 - Yawn
+L26 - Bolt Claw
+L28 - Soak
+L32 - Scald
+L34 - Shell Smash
+L36 - Parabolic Arc
+L38 - Muddy Water
+L42 - Hydro Pump
+L44 - Thunder
+L46 - Water Spout
+L48 - Electric Terrain
+L50 - Zap Cannon
+
+Abilities:
+Volt Absorb
+Water Absorb
+Hidden Ability:
+Silverhanded
+
+
+Item Drops:
+Item Common: Shrimp
+Item Uncommon: Shed Shell
+Item Rare: Climate Policy
+----
+
+#098
+Stomasurge
+Types: FIGHTING/ELECTRIC
+Stats:
+HP: 130
+Attack: 105
+Defense: 110
+Sp. Attack: 65
+Sp. Defense: 65
+Speed: 80
+
+Evolutions:
+
+Moves:
+Evo - Power-Up Punch
+L1 - Bubble
+L1 - Charge
+L4 - Thunder Shock
+L6 - Cloud Burst
+L8 - Nuzzle
+L10 - Storm Throw
+L12 - Twineedle
+L14 - Clamp
+L16 - Dual Chop
+L16 - Rising Voltage
+L18 - Zap Punch
+L20 - Razor Shell
+L22 - Arc Bolt
+L24 - Yawn
+L26 - Bolt Claw
+L28 - Soak
+L32 - Liquidation
+L34 - Shell Smash
+L36 - Drain Punch
+L38 - Bolt Rush
+L42 - Cross Chop
+L44 - Plasma Fists
+L46 - Close Combat
+L48 - Electric Terrain
+L50 - Crabhammer
+
+Abilities:
+Volt Absorb
+Water Absorb
+Hidden Ability:
+Silverhanded
+
+
+Item Drops:
+Item Common: Shrimp
+Item Uncommon: Shed Shell
+Item Rare: Climate Policy
+----
+
+#099
+Eskeype
+Types: ELECTRIC
+Stats:
+HP: 45
+Attack: 60
+Defense: 65
+Sp. Attack: 60
+Sp. Defense: 65
+Speed: 45
+
+Evolutions:
+Evolves to Stikkey when at level 15
+
+Moves:
+L1 - Charge
+L1 - Tackle
+L4 - Thunder Shock
+L6 - Skill Swap
+L8 - Mud-Slap
+L10 - Magnet Rise
+L12 - Spark
+L14 - Mud Shot
+L18 - Electric Terrain
+L20 - Minimize
+L22 - Stomp Tantrum
+L24 - Acupressure
+L26 - System Restore
+L28 - Wild Charge
+L32 - Rising Voltage
+L34 - Knock Off
+L36 - Thousand Waves
+L38 - Self-Destruct
+L40 - Earth Power
+L42 - Bolt Strike
+L44 - Earthquake
+L46 - Thunder
+L48 - Parting Shot
+L50 - Heat Crash
+
+Egg Moves:
+Barrier
+Bulldoze
+Double Kick
+Eerie Impulse
+Electroweb
+Foresight
+Heat Wave
+Helping Hand
+High Horsepower
+Howl
+Icy Wind
+Metronome
+Night Slash
+Quick Attack
+Recycle
+Shock Wave
+Signal Beam
+Sticky Web
+Swift
+Take Down
+Volt Sting
+
+
+Abilities:
+Sticky Keys
+Stall
+Hidden Ability:
+Download
+
+
+Item Drops:
+Item Common: Junk
+Item Uncommon: Cell Battery
+Item Rare: Reversal Band
+----
+
+#100
+Stikkey
+Types: ELECTRIC
+Stats:
+HP: 60
+Attack: 80
+Defense: 75
+Sp. Attack: 80
+Sp. Defense: 75
+Speed: 60
+
+Evolutions:
+Evolves to Doscompii when at level 30
+
+Moves:
+Evo - Electroweb
+L1 - Charge
+L1 - Tackle
+L4 - Thunder Shock
+L6 - Skill Swap
+L8 - Mud-Slap
+L10 - Magnet Rise
+L12 - Spark
+L14 - Mud Shot
+L18 - Electric Terrain
+L20 - Minimize
+L22 - Stomp Tantrum
+L24 - Acupressure
+L26 - System Restore
+L28 - Wild Charge
+L32 - Rising Voltage
+L34 - Knock Off
+L36 - Thousand Waves
+L38 - Self-Destruct
+L40 - Earth Power
+L42 - Bolt Strike
+L44 - Earthquake
+L46 - Thunder
+L48 - Parting Shot
+L50 - Heat Crash
+
+Abilities:
+Sticky Keys
+Stall
+Hidden Ability:
+Download
+
+
+Item Drops:
+Item Common: Junk
+Item Uncommon: Cell Battery
+Item Rare: Reversal Band
+----
+
+#101
+Doscompii
+Types: ELECTRIC/GROUND
+Stats:
+HP: 85
+Attack: 100
+Defense: 120
+Sp. Attack: 105
+Sp. Defense: 105
+Speed: 70
+
+Evolutions:
+
+Moves:
+Evo - High Horsepower
+L1 - Charge
+L1 - Tackle
+L4 - Thunder Shock
+L6 - Skill Swap
+L8 - Mud-Slap
+L10 - Magnet Rise
+L12 - Spark
+L14 - Mud Shot
+L18 - Electric Terrain
+L20 - Minimize
+L22 - Stomp Tantrum
+L24 - Acupressure
+L26 - System Restore
+L28 - Wild Charge
+L32 - Rising Voltage
+L34 - Knock Off
+L36 - Thousand Waves
+L38 - Self-Destruct
+L40 - Earth Power
+L42 - Bolt Strike
+L44 - Earthquake
+L46 - Thunder
+L48 - Parting Shot
+L50 - Heat Crash
+
+Abilities:
+Sticky Keys
+Stall
+Hidden Ability:
+Download
+
+
+Item Drops:
+Item Common: Junk
+Item Uncommon: Cell Battery
+Item Rare: Reversal Band
+----
+
+#102
+Dizzy
+Types: GROUND
+Stats:
+HP: 50
+Attack: 60
+Defense: 40
+Sp. Attack: 40
+Sp. Defense: 40
+Speed: 60
+
+Evolutions:
+Evolves to Dizzart when at level 18
+
+Moves:
+L1 - Leer
+L1 - Scratch
+L4 - Sand Attack
+L6 - Haboob Blitz
+L8 - Bite
+L10 - Scary Face
+L12 - Assurance
+L14 - Bulldoze
+L16 - Crunch
+L18 - Shadow Terrain
+L20 - Henlo, Goodbye
+L22 - Dragon Dance
+L24 - Stomp Tantrum
+L26 - Drain Fang
+L28 - Swagger
+L30 - Drill Run
+L32 - Knock Off
+L34 - Roar
+L38 - Topsy-Turvy
+L40 - Thousand Waves
+L42 - Foul Play
+L44 - Power Trip
+L46 - Precipice Blades
+
+Egg Moves:
+Breaking Swipe
+Bug Bite
+Camouflage
+Charm
+Darkest Lariat
+Fire Fang
+Gastro Acid
+Lick
+Moonlight
+Punishment
+Pursuit
+Poison Fang
+Shadow Sneak
+Shadow Terrain
+Thunder Fang
+
+
+Abilities:
+Moxie
+Desert Cloak
+Hidden Ability:
+Intimidate
+
+
+Item Drops:
+Item Common: Liechi Berry
+Item Uncommon: Ground Gem
+Item Rare: Star Piece
+----
+
+#103
+Dizzart
+Types: GROUND
+Stats:
+HP: 65
+Attack: 80
+Defense: 65
+Sp. Attack: 55
+Sp. Defense: 60
+Speed: 75
+
+Evolutions:
+Evolves to Frizzula when at level 36
+
+Moves:
+Evo - Shadow Terrain
+L1 - Leer
+L1 - Scratch
+L4 - Sand Attack
+L6 - Haboob Blitz
+L8 - Bite
+L10 - Scary Face
+L12 - Assurance
+L14 - Bulldoze
+L16 - Crunch
+L18 - Shadow Terrain
+L20 - Henlo, Goodbye
+L22 - Dragon Dance
+L24 - Stomp Tantrum
+L26 - Drain Fang
+L28 - Swagger
+L30 - Drill Run
+L32 - Knock Off
+L34 - Roar
+L38 - Topsy-Turvy
+L40 - Thousand Waves
+L42 - Foul Play
+L44 - Power Trip
+L46 - Precipice Blades
+
+Abilities:
+Moxie
+Desert Cloak
+Hidden Ability:
+Intimidate
+
+
+Item Drops:
+Item Common: Liechi Berry
+Item Uncommon: Ground Gem
+Item Rare: Star Piece
+----
+
+#104
+Frizzula
+Types: GROUND/DARK
+Stats:
+HP: 80
+Attack: 110
+Defense: 80
+Sp. Attack: 65
+Sp. Defense: 80
+Speed: 95
+
+Evolutions:
+
+Moves:
+Evo - Darkest Lariat
+L1 - Leer
+L1 - Scratch
+L4 - Sand Attack
+L6 - Haboob Blitz
+L8 - Bite
+L10 - Scary Face
+L12 - Assurance
+L14 - Bulldoze
+L16 - Crunch
+L18 - Shadow Terrain
+L20 - Henlo, Goodbye
+L22 - Dragon Dance
+L24 - Stomp Tantrum
+L26 - Drain Fang
+L28 - Swagger
+L30 - Drill Run
+L32 - Knock Off
+L34 - Roar
+L38 - Topsy-Turvy
+L40 - Thousand Waves
+L42 - Foul Play
+L44 - Power Trip
+L46 - Precipice Blades
+
+Abilities:
+Moxie
+Desert Cloak
+Hidden Ability:
+Intimidate
+
+
+Item Drops:
+Item Common: Liechi Berry
+Item Uncommon: Ground Gem
+Item Rare: Star Piece
+----
+
+#105
+Sorbébé
+Types: WATER/ICE
+Stats:
+HP: 70
+Attack: 50
+Defense: 85
+Sp. Attack: 105
+Sp. Defense: 90
+Speed: 80
+
+Evolutions:
+
+Moves:
+L1 - Refresh
+L1 - Water Gun
+L4 - Powder Snow
+L6 - Brine
+L8 - Acid Armor
+L10 - Hailstrom
+L12 - Icy Wind
+L14 - Bubble Beam
+L16 - Aqua Ring
+L16 - Mist
+L18 - Confuse Ray
+L20 - Cloud Burst
+L22 - Bes'na Boardwalk
+L24 - Aurora Veil
+L26 - Weather Ball
+L28 - Freeze-Dry
+L30 - Sparkling Aria
+L32 - Recover
+L34 - Haze
+L36 - Muddy Water
+L38 - Inverno
+L40 - Hydro Pump
+L42 - Cold Snap
+L44 - Thaw Out
+
+Egg Moves:
+Charm
+Covet
+Curse
+Detect
+Endure
+Fake Tears
+Flail
+Natural Gift
+Slush Fund
+Stored Power
+Sweet Scent
+Synchronoise
+Tickle
+Wish
+Yawn
+
+
+Abilities:
+Slush Rush
+Pressure
+Hidden Ability:
+Rain Dish
+
+
+Item Drops:
+Item Common: Lemonade
+Item Uncommon: Water Gem
+Item Rare: Nature Mint
+----
+
+#106
+Dumpleng
+Types: NORMAL/FIRE
+Stats:
+HP: 85
+Attack: 85
+Defense: 115
+Sp. Attack: 85
+Sp. Defense: 105
+Speed: 65
+
+Evolutions:
+
+Moves:
+L1 - Defense Curl
+L1 - Tackle
+L4 - Ember
+L6 - Glare
+L8 - Present
+L10 - Flame Wheel
+L12 - Smelling Salts
+L14 - Flame Charge
+L16 - Turbo Spin
+L18 - Incinerate
+L20 - Solar Flare
+L22 - Take Down
+L24 - Fire Fang
+L26 - Body Slam
+L28 - Acupressure
+L30 - Fiery Dance
+L32 - Hyper Voice
+L34 - Iron Defense
+L36 - Searing Shot
+L38 - Double-Edge
+L40 - Heat Wave
+L42 - Boomburst
+L44 - Flare Blitz
+L46 - Eruption
+L48 - Explosion
+L50 - Blast Burn
+
+Egg Moves:
+Accelerock
+Belch
+Burn Out
+Clear Smog
+Covet
+Dragon Breath
+Entrainment
+Fire Pledge
+Natural Gift
+Sweet Scent
+
+
+Abilities:
+Technician
+Adaptability
+Hidden Ability:
+Teal Zeal
+
+
+Item Drops:
+Item Common: Starf Berry
+Item Uncommon: Warm Burrito
+Item Rare: Leftovers
+----
+
+#107
+Feesh
+Types: WATER
+Stats:
+HP: 75
+Attack: 60
+Defense: 95
+Sp. Attack: 115
+Sp. Defense: 70
+Speed: 85
+
+Evolutions:
+
+Moves:
+L1 - Minimize
+L1 - Tackle
+L4 - Water Gun
+L6 - Mega Drain
+L8 - Cloud Burst
+L10 - Aqua Ring
+L12 - Spikes
+L14 - Bubble Beam
+L16 - Soak
+L18 - Leaf Tornado
+L20 - Acupressure
+L22 - Brine
+L24 - Conversion 2
+L26 - Iron Defense
+L28 - Scald
+L30 - Slack Off
+L32 - Agility
+L34 - Energy Ball
+L36 - Sparkling Aria
+L38 - Leaf Storm
+L40 - Origin Pulse
+L42 - Hydro Pump
+L44 - Steam Eruption
+L46 - Hydro Cannon
+
+Egg Moves:
+Block
+Camouflage
+Conversion
+Embargo
+Giga Drain
+Mud Sport
+Nature Power
+Sharpen
+Shock Wave
+Smart Strike
+Tri Attack
+Water Pledge
+Water Sport
+Wonder Room
+Zap Cannon
+
+
+Abilities:
+Mud Bath
+Swift Swim
+Hidden Ability:
+Homebrew'd
+
+
+Item Drops:
+Item Common: Pearl
+Item Uncommon: Big Pearl
+Item Rare: Super Max Calcium
+----
+
+#108
+Ecstasea
+Types: WATER/POISON
+Stats:
+HP: 75
+Attack: 35
+Defense: 95
+Sp. Attack: 55
+Sp. Defense: 85
+Speed: 15
+
+Evolutions:
+Evolves to Overghost when at level 23
+
+Moves:
+L1 - Bubble
+L1 - Tickle
+L4 - Acid Spray
+L6 - Mega Drain
+L8 - Coil
+L10 - Water Pulse
+L12 - Confuse Ray
+L14 - Hex
+L16 - Baneful Bunker
+L18 - Brine
+L20 - Clear Smog
+L22 - Aqua Ring
+L26 - Mind Trick
+L28 - Giga Drain
+L30 - Poltergeist
+L32 - Geyser Burst
+L34 - Acid Armor
+L36 - Shadow Ball
+L38 - Steam Eruption
+L40 - Biohazard
+L42 - Water Spout
+L44 - Trick Room
+L46 - Night Shade
+L48 - Destiny Bond
+L50 - Imprison
+
+Egg Moves:
+Acid
+Amnesia
+Camouflage
+Channel
+Curse
+Extrasensory
+Gastro Acid
+Magic Coat
+Ominous Wind
+Powder Snow
+Power Gem
+Purify
+Rage Powder
+Recycle
+Shadow Sneak
+Toxic Spikes
+Trick
+Trick-or-Treat
+Venom Drench
+Watery Grave
+
+
+Abilities:
+Suction Cups
+Liquid Ooze
+Hidden Ability:
+Anesthetize
+
+
+Item Drops:
+Item Common: X Speed 3
+Item Uncommon: Berserk Gene
+Item Rare: Pearl String
+----
+
+#109
+Overghost
+Types: WATER/GHOST
+Stats:
+HP: 100
+Attack: 45
+Defense: 135
+Sp. Attack: 65
+Sp. Defense: 120
+Speed: 20
+
+Evolutions:
+
+Moves:
+Evo - Ominous Wind
+L1 - Bubble
+L1 - Tickle
+L4 - Acid Spray
+L6 - Mega Drain
+L8 - Coil
+L10 - Water Pulse
+L12 - Confuse Ray
+L14 - Hex
+L16 - Baneful Bunker
+L18 - Brine
+L20 - Clear Smog
+L22 - Aqua Ring
+L26 - Mind Trick
+L28 - Giga Drain
+L30 - Poltergeist
+L32 - Geyser Burst
+L34 - Acid Armor
+L36 - Shadow Ball
+L38 - Steam Eruption
+L40 - Biohazard
+L42 - Water Spout
+L44 - Trick Room
+L46 - Night Shade
+L48 - Destiny Bond
+L50 - Imprison
+
+Abilities:
+Suction Cups
+Liquid Ooze
+Hidden Ability:
+Anesthetize
+
+
+Item Drops:
+Item Common: X Speed 2
+Item Uncommon: Berserk Gene
+Item Rare: Pearl String
+----
+
+#110
+Vilopod
+Types: BUG/ROCK
+Stats:
+HP: 80
+Attack: 110
+Defense: 90
+Sp. Attack: 55
+Sp. Defense: 75
+Speed: 90
+
+Evolutions:
+
+Moves:
+L1 - Hone Claws
+L1 - Vice Grip
+L4 - Accelerock
+L6 - Pursuit
+L6 - Scary Face
+L8 - Rollout
+L10 - Coil
+L12 - Steamroller
+L14 - Barrel Roll
+L16 - Fell Stinger
+L18 - Rock Polish
+L20 - Crunch
+L22 - Leech Life
+L24 - Rock Blast
+L26 - Dragon Dance
+L28 - X-Scissor
+L30 - Rock Slide
+L32 - Baton Pass
+L34 - Attack Order
+L36 - Stone Edge
+L38 - Earthquake
+L40 - Shore Up
+L42 - Diamond Storm
+L44 - Megahorn
+L46 - Rock Wrecker
+L48 - Power Whip
+L50 - First Impression
+
+Egg Moves:
+Breaking Swipe
+Chrome Chitin
+Defense Curl
+Drill Run
+Embargo
+Fire Lash
+First Impression
+Gastro Acid
+Iron Tail
+Outrage
+Poison Fang
+Poison Tail
+Purify
+Stealth Rock
+Rock Climb
+Thunder Fang
+Twister
+Wrap
+
+
+Abilities:
+Intimidate
+Unnerve
+Hidden Ability:
+Infiltrator
+
+
+Item Drops:
+Item Common: Charti Berry
+Item Uncommon: Special Bone
+Item Rare: Protective Pads
+----
+
+#111
+Kirby
+Types: NORMAL
+Stats:
+HP: 130
+Attack: 85
+Defense: 80
+Sp. Attack: 90
+Sp. Defense: 80
+Speed: 65
+
+Evolutions:
+
+Moves:
+L1 - Double Slap
+L1 - Play Nice
+L4 - Peekaboo
+L6 - Sing
+L8 - Double Hit
+L10 - Disable
+L10 - Scary Face
+L12 - Minimize
+L14 - Swift
+L16 - Inhale
+L18 - Copy Ability
+L20 - Mimic
+L22 - Uproar
+L24 - Slack Off
+L26 - Dizzy Punch
+L28 - Relic Song
+L30 - Wish
+L32 - Hyper Voice
+L34 - Simple Beam
+L36 - Meteor Mash
+L38 - Perish Song
+L40 - Me First
+L42 - Hyper Beam
+L44 - Explosion
+L46 - Heal Bell
+L48 - Boomburst
+L50 - Secret Sword
+
+Egg Moves:
+Accelerock
+Blackhole
+Burbomb
+Close Combat
+Dragon Hammer
+Drill Run
+Flare Blitz
+Grav Apple
+Heart Swap
+Hurricane
+Icy Wind
+Leaf Storm
+Megahorn
+Meteor Beam
+Metronome
+Mirror Coat
+Natural Gift
+Night Slash
+Pin Missile
+Rollout
+Safeguard
+Spark
+Sticky Web
+Synchronoise
+Telekinesis
+Teleport
+Water Shuriken
+Wave Crash
+Weather Ball
+Whirlwind
+
+
+Ability:
+Copy Ability
+
+
+Item Drops:
+Item Common: Star Piece
+Item Uncommon: Big Nugget
+Item Rare: Ability Shield
+----
+
+#112
+Spirignon
+Types: GHOST/GRASS
+Stats:
+HP: 75
+Attack: 90
+Defense: 120
+Sp. Attack: 60
+Sp. Defense: 75
+Speed: 85
+
+Evolutions:
+
+Moves:
+L1 - Growl
+L1 - Vine Whip
+L4 - Confuse Ray
+L6 - Backscatter
+L8 - Bullet Seed
+L10 - Powder
+L12 - Leech Seed
+L14 - Shadow Punch
+L16 - Spore
+L18 - Mushclamp
+L20 - Curse
+L22 - Rage Powder
+L24 - Shadow Claw
+L26 - Horn Leech
+L28 - Trick-or-Treat
+L30 - Seed Bomb
+L32 - Spirit Shackle
+L34 - Dichotomize
+L36 - Leaf Blade
+L38 - Phantom Force
+L40 - Channel
+L42 - Destiny Bond
+L44 - Wood Hammer
+L46 - Poltergeist
+L48 - Shadow Force
+
+Egg Moves:
+Curse
+Destiny Bond
+Disable
+Gust
+Hex
+Metronome
+Mimic
+Present
+Shadow Sneak
+Stored Power
+Telekinesis
+Wake-Up Slap
+Worry Seed
+
+
+Abilities:
+Infiltrator
+Opportunist
+Hidden Ability:
+Illusion
+
+
+Item Drops:
+Item Common: Kasib Berry
+Item Uncommon: Ghost Gem
+Item Rare: Funny Spores
+----
+
+#113
+Effaraffe
+Types: NORMAL/PSYCHIC
+Stats:
+HP: 110
+Attack: 90
+Defense: 70
+Sp. Attack: 110
+Sp. Defense: 70
+Speed: 70
+
+Evolutions:
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Confusion
+L6 - Dominate
+L8 - Heal Block
+L8 - Odor Sleuth
+L10 - Stomp
+L12 - Psybeam
+L14 - Yawn
+L16 - Swift
+L18 - Pass On
+L20 - Crunch
+L22 - Mist Ball
+L24 - Heretical Dance
+L26 - Extrasensory
+L28 - Baton Pass
+L30 - Uproar
+L32 - Psychic Fangs
+L34 - Hyper Voice
+L36 - Hyperspace Hole
+L38 - High Horsepower
+L40 - Psystrike
+L42 - Heart Swap
+L44 - Psycho Boost
+L46 - Boomburst
+
+Egg Moves:
+Amnesia
+Beat Up
+Bite
+Double Hit
+Double Kick
+Foresight
+Future Sight
+Magic Coat
+Mean Look
+Mirror Coat
+Psychic Terrain
+Razor Wind
+Simple Beam
+Skill Swap
+Take Down
+Wish
+
+
+Abilities:
+Intimidate
+Sap Sipper
+Hidden Ability:
+Deified
+
+
+Item Drops:
+Item Common: Persim Berry
+Item Uncommon: Psychic Gem
+Item Rare: Wise Glasses
+----
+
+#114
+Luciflipper
+Types: WATER/FIRE
+Stats:
+HP: 80
+Attack: 105
+Defense: 85
+Sp. Attack: 85
+Sp. Defense: 70
+Speed: 75
+
+Evolutions:
+
+Moves:
+L1 - Bite
+L1 - Growl
+L4 - Ember
+L6 - Aqua Jet
+L8 - Focus Energy
+L10 - Flame Charge
+L12 - Scary Face
+L14 - Clamp
+L16 - Sweet Kiss
+L18 - Fire Fang
+L20 - Morning Sun
+L22 - Solar Flare
+L24 - Watery Grave
+L26 - Mark o'da Beast
+L28 - Lovely Kiss
+L30 - Fire Lash
+L32 - Liquidation
+L34 - Geyser Burst
+L36 - Aqua Tail
+L38 - Topsy-Turvy
+L40 - Sacred Fire
+L42 - Steam Eruption
+L44 - Magma Storm
+L46 - Origin Pulse
+L48 - Inferno
+
+Egg Moves:
+Coil
+Doom Desire
+Drain Fang
+Dragon Breath
+Fire Pledge
+Follow Me
+Grav Apple
+Lunar Dance
+Natural Gift
+Roar of Time
+Shadow Force
+Safeguard
+Spacial Rend
+Submission
+Synchronoise
+Water Pledge
+Wish
+
+
+Abilities:
+Drought
+Drizzle
+Hidden Ability:
+Justified
+
+
+Item Drops:
+Item Common: Starf Berry
+Item Uncommon: Dark Gem
+Item Rare: Life Orb
+----
+
+#115
+Doldrunge
+Types: WATER
+Stats:
+HP: 23
+Attack: 1
+Defense: 210
+Sp. Attack: 1
+Sp. Defense: 210
+Speed: 5
+
+Evolutions:
+
+Moves:
+L1 - Aqua Jet
+L1 - Defense Curl
+L4 - Horn Leech
+L6 - Wrap
+L8 - Whirlpool
+L10 - Encore
+L12 - Power Split
+L14 - Doldredge
+L16 - Leech Seed
+L18 - Rollout
+L20 - Bide
+L22 - Topsy-Turvy
+L24 - Manic Shift
+L26 - Geyser Burst
+L28 - Silk Screen
+L30 - Flail
+L32 - Gyro Ball
+L34 - Power Trick
+L36 - Healing Wish
+L38 - Heal Pulse
+L40 - Guard Split
+L42 - Yawn
+L44 - Heal Bell
+L46 - Entrainment
+L48 - Strength Sap
+L50 - Pain Split
+
+Egg Moves:
+Ancient Power
+Confuse Ray
+Dazzling Gleam
+Eerie Impulse
+Gravity
+Magic Coat
+Memento
+Metronome
+Perish Song
+Signal Beam
+Sing
+Soak
+Sparkling Aria
+Spikes
+Synchronoise
+Tail Glow
+Toxic Spikes
+Trick
+Watery Grave
+Wide Guard
+
+
+Abilities:
+Filter
+Water Bubble
+Hidden Ability:
+Elegiac Eddy
+
+
+Item Drops:
+Item Common: Water Gem
+Item Uncommon: Mystic Water
+Item Rare: Sponge
+----
+
+#116
+Turtant
+Types: WATER
+Stats:
+HP: 45
+Attack: 55
+Defense: 65
+Sp. Attack: 55
+Sp. Defense: 65
+Speed: 50
+
+Evolutions:
+Evolves to Fidgantle when at level 16
+
+Moves:
+L1 - Tackle
+L1 - Withdraw
+L4 - Aqua Jet
+L6 - Iron Defense
+L8 - Cloud Burst
+L10 - Flatter
+L12 - Bite
+L14 - Water Pulse
+L18 - Razor Shell
+L20 - Bubble Beam
+L22 - Knock Off
+L24 - Water Pledge
+L26 - Skull Bash
+L28 - Night Daze
+L30 - Liquidation
+L32 - Crunch
+L34 - Sparkling Aria
+L38 - Foul Play
+L40 - Hydro Pump
+L42 - Foul Play
+L44 - Hydro Cannon
+L46 - Punishment
+L48 - Parting Shot
+
+Egg Moves:
+Aqua Ring
+Brine
+Fake Out
+Flail
+Foresight
+Haze
+Mirror Coat
+Mist
+Mud Sport
+Muddy Water
+Refresh
+Scald
+Water Shuriken
+Water Spout
+Yawn
+
+
+Abilities:
+Dry Skin
+Rain Dish
+Hidden Ability:
+Vigilante
+
+
+Item Drops:
+Item Common: Water Gem
+Item Uncommon: Black Glasses
+Item Rare: Boomerang
+----
+
+#117
+Fidgantle
+Types: WATER/DARK
+Stats:
+HP: 60
+Attack: 70
+Defense: 85
+Sp. Attack: 75
+Sp. Defense: 85
+Speed: 65
+
+Evolutions:
+Evolves to Fidgetelo when at level 36
+
+Moves:
+Evo - Shell Smash
+L1 - Tackle
+L1 - Withdraw
+L4 - Aqua Jet
+L6 - Iron Defense
+L8 - Cloud Burst
+L10 - Flatter
+L12 - Bite
+L14 - Water Pulse
+L18 - Razor Shell
+L20 - Bubble Beam
+L22 - Knock Off
+L24 - Water Pledge
+L26 - Skull Bash
+L28 - Night Daze
+L30 - Liquidation
+L32 - Crunch
+L34 - Sparkling Aria
+L38 - Foul Play
+L40 - Hydro Pump
+L42 - Foul Play
+L44 - Hydro Cannon
+L46 - Punishment
+L48 - Parting Shot
+
+Abilities:
+Dry Skin
+Rain Dish
+Hidden Ability:
+Vigilante
+
+
+Item Drops:
+Item Common: Water Gem
+Item Uncommon: Black Glasses
+Item Rare: Boomerang
+----
+
+#118
+Fidgetelo
+Types: WATER/DARK
+Stats:
+HP: 85
+Attack: 80
+Defense: 115
+Sp. Attack: 95
+Sp. Defense: 110
+Speed: 85
+
+Evolutions:
+
+Moves:
+Evo - Water Shuriken
+L1 - Tackle
+L1 - Withdraw
+L4 - Aqua Jet
+L6 - Iron Defense
+L8 - Cloud Burst
+L10 - Flatter
+L12 - Bite
+L14 - Water Pulse
+L18 - Razor Shell
+L20 - Bubble Beam
+L22 - Knock Off
+L24 - Water Pledge
+L26 - Skull Bash
+L28 - Night Daze
+L30 - Liquidation
+L32 - Crunch
+L34 - Sparkling Aria
+L38 - Foul Play
+L40 - Hydro Pump
+L42 - Foul Play
+L44 - Hydro Cannon
+L46 - Punishment
+L48 - Parting Shot
+
+Abilities:
+Dry Skin
+Rain Dish
+Hidden Ability:
+Vigilante
+
+
+Item Drops:
+Item Common: Water Gem
+Item Uncommon: Black Glasses
+Item Rare: Boomerang
+----
+
+#119
+Phantre
+Types: PSYCHIC
+Stats:
+HP: 60
+Attack: 45
+Defense: 70
+Sp. Attack: 85
+Sp. Defense: 95
+Speed: 85
+
+Evolutions:
+Evolves to Mr. Jester when at level 26
+
+Moves:
+L1 - Disarming Voice
+L1 - Fake Tears
+L4 - Dominate
+L6 - Confusion
+L8 - Cosmic Power
+L10 - Heal Block
+L10 - Scary Face
+L12 - Psybeam
+L14 - Peekaboo
+L16 - Barrier
+L18 - Kil'Jestah
+L20 - Quick Guard
+L22 - Wide Guard
+L24 - Extrasensory
+L28 - Soundproof Room
+L30 - Psychic
+L32 - Trick
+L34 - Calm Mind
+L36 - Hyperspace Hole
+L38 - Role Play
+L40 - Parting Shot
+L42 - Psystrike
+L44 - Safeguard
+L46 - Healing Wish
+L48 - Psycho Boost
+
+Egg Moves:
+Confuse Ray
+Fake Out
+Feedback
+Future Sight
+Hypnosis
+Icy Wind
+Imprison
+Magic Room
+Mimic
+Miracle Eye
+Nasty Plot
+Power Split
+Teeter Dance
+Trick
+Wake-Up Slap
+
+
+Abilities:
+Screen Cleaner
+Forewarn
+Hidden Ability:
+Soundproof
+
+
+Item Drops:
+Item Common: Custap Berry
+Item Uncommon: Psychic Gem
+Item Rare: Super Max Calcium
+----
+
+#120
+Mr. Jester
+Types: PSYCHIC
+Stats:
+HP: 75
+Attack: 50
+Defense: 80
+Sp. Attack: 105
+Sp. Defense: 115
+Speed: 90
+
+Evolutions:
+
+Moves:
+Evo - Feedback
+L1 - Disarming Voice
+L1 - Fake Tears
+L4 - Dominate
+L6 - Confusion
+L8 - Cosmic Power
+L10 - Heal Block
+L10 - Scary Face
+L12 - Psybeam
+L14 - Peekaboo
+L16 - Barrier
+L18 - Kil'Jestah
+L20 - Quick Guard
+L22 - Wide Guard
+L24 - Extrasensory
+L28 - Soundproof Room
+L30 - Psychic
+L32 - Trick
+L34 - Calm Mind
+L36 - Hyperspace Hole
+L38 - Role Play
+L40 - Parting Shot
+L42 - Psystrike
+L44 - Safeguard
+L46 - Healing Wish
+L48 - Psycho Boost
+
+Abilities:
+Screen Cleaner
+Forewarn
+Hidden Ability:
+Soundproof
+
+
+Item Drops:
+Item Common: Custap Berry
+Item Uncommon: Psychic Gem
+Item Rare: Super Max Calcium
+----
+
+#121
+Kutzmin
+Types: STEEL
+Stats:
+HP: 75
+Attack: 125
+Defense: 100
+Sp. Attack: 55
+Sp. Defense: 70
+Speed: 85
+
+Evolutions:
+
+Moves:
+L1 - Leer
+L1 - Scratch
+L4 - Golddust
+L6 - Block
+L8 - Metal Claw
+L10 - Fury Cutter
+L12 - Bullet Punch
+L12 - Scary Face
+L14 - Psycho Cut
+L16 - Spikes
+L18 - X-Scissor
+L20 - Stealth Rock
+L22 - Razor Edge
+L24 - Smart Strike
+L26 - Swords Dance
+L28 - Sacred Sword
+L30 - Spiky Shield
+L32 - Iron Head
+L34 - Autotomize
+L36 - Fell Stinger
+L38 - Meteor Mash
+L40 - Superpower
+L42 - Precipice Blades
+L44 - Rend
+L46 - Stone Edge
+L48 - Heavy Slam
+
+Egg Moves:
+Bug Bite
+Close Combat
+Feint Attack
+Feint
+Flail
+Fury Attack
+Gear Grind
+Karate Chop
+Me First
+Quick Attack
+Razor Wind
+Spike Cannon
+Superpower
+Teleport
+Zing Zap
+
+
+Abilities:
+Hyper Cutter
+Blademaster
+Hidden Ability:
+R.P.S. Mode
+
+
+Item Drops:
+Item Common: Rowap Berry
+Item Uncommon: Steel Gem
+Item Rare: Super Max Protein
+----
+
+#122
+Yotty
+Types: ICE
+Stats:
+HP: 80
+Attack: 95
+Defense: 85
+Sp. Attack: 75
+Sp. Defense: 95
+Speed: 75
+
+Evolutions:
+
+Moves:
+L1 - Defense Curl
+L1 - Tackle
+L4 - Ice Shard
+L6 - Mist
+L8 - Slush Fund
+L10 - Hailstrom
+L12 - Haze
+L14 - Glaciate
+L16 - Ice Ball
+L18 - Body Slam
+L20 - Recycle
+L22 - Ice Punch
+L24 - Disable
+L26 - Aurora Veil
+L28 - Entrainment
+L30 - Icicle Crash
+L32 - Freeze-Dry
+L34 - Coil
+L36 - Slack Off
+L38 - Ice Hammer
+L40 - Thrash
+L42 - Blizzard
+L44 - Freeze Shock
+L46 - Inverno
+
+Egg Moves:
+Avalanche
+Body Slam
+Counter
+Drain Punch
+Mach Punch
+Mud Bomb
+Odor Sleuth
+Present
+Rollout
+Soundproof Room
+Stomp
+Stomp Tantrum
+Sweet Kiss
+Tickle
+
+
+Abilities:
+Snow Warning
+Fur Coat
+Hidden Ability:
+Snow Cloak
+
+
+Item Drops:
+Item Common: Occa Berry
+Item Uncommon: Ice Gem
+Item Rare: Never-Melt Ice
+----
+
+#123
+Mimikyu
+Types: GHOST/QMARKS
+Stats:
+HP: 55
+Attack: 90
+Defense: 80
+Sp. Attack: 105
+Sp. Defense: 95
+Speed: 50
+
+Evolutions:
+
+Moves:
+L1 - Astonish
+L1 - Charm
+L4 - Shadow Sneak
+L6 - Curse
+L8 - Double Team
+L10 - Hex
+L12 - Scary Face
+L12 - Will-O-Wisp
+L14 - Disarming Voice
+L16 - Mimic
+L18 - Encore
+L20 - Shadow Punch
+L22 - Confuse Ray
+L24 - Mystic Wave
+L26 - Shadow Bone
+L28 - Channel
+L30 - Phantom Force
+L32 - Dazzling Gleam
+L34 - Shadow Ball
+L36 - Play Rough
+L38 - Nasty Plot
+L40 - Trick-or-Treat
+L42 - Spectral Thief
+L44 - Shadow Force
+L46 - Moonblast
+L48 - Wraith Rend
+
+Egg Moves:
+Air Slash
+Baby-Doll Eyes
+Copycat
+Destiny Bond
+Disable
+Drain Punch
+Follow Me
+Giga Drain
+Metronome
+Misty Terrain
+Mystical Fire
+Peekaboo
+Poison Tail
+Splash
+Trick-or-Treat
+Volt Tackle
+Wood Hammer
+
+
+Abilities:
+Disguise
+Friend Guard
+Hidden Ability:
+Ethereal
+
+
+Item Drops:
+Item Common: Colbur Berry
+Item Uncommon: Ghost Gem
+Item Rare: Voodoo Doll
+----
+
+#124
+Cabuggle
+Types: BUG/GRASS
+Stats:
+HP: 90
+Attack: 105
+Defense: 125
+Sp. Attack: 35
+Sp. Defense: 80
+Speed: 30
+
+Evolutions:
+
+Moves:
+L1 - Tackle
+L1 - Withdraw
+L4 - Vine Whip
+L6 - Fury Cutter
+L8 - Stun Spore
+L10 - Razor Leaf
+L12 - Steamroller
+L14 - Curse
+L15 - Poison Powder
+L16 - Bullet Seed
+L18 - Bug Bite
+L20 - Aromatherapy
+L22 - Trop Kick
+L24 - U-turn
+L26 - Spider Web
+L28 - Fell Stinger
+L30 - Horn Leech
+L32 - Lunge
+L34 - Sleep Powder
+L36 - Leaf Blade
+L38 - Attack Order
+L40 - Wood Hammer
+L42 - Teeter Dance
+L44 - Megahorn
+L46 - Rage Powder
+L48 - Grassy Terrain
+
+Egg Moves:
+Camouflage
+Chrome Chitin
+Defend Order
+Electroweb
+Forest's Curse
+Ingrain
+Pay Day
+Pollen Puff
+Powder
+Present
+Rototiller
+Sticky Web
+String Shot
+Trick-or-Treat
+
+
+Abilities:
+Fire Policy
+Tornado Policy
+Hidden Abilities:
+Quake Policy
+Flood Policy
+
+
+Item Drops:
+Item Common: Coba Berry
+Item Uncommon: Bug Gem
+Item Rare: Shed Shell
+----
+
+#125
+Mudclab
+Types: WATER/GROUND
+Stats:
+HP: 75
+Attack: 115
+Defense: 110
+Sp. Attack: 40
+Sp. Defense: 75
+Speed: 75
+
+Evolutions:
+
+Moves:
+L1 - Harden
+L1 - Mud-Slap
+L4 - Vice Grip
+L6 - After You
+L8 - Fury Cutter
+L10 - Supersonic
+L12 - Flail
+L14 - Razor Shell
+L16 - Bone Club
+L18 - Clamp
+L20 - Aqua Jet
+L22 - Bulldoze
+L24 - Muddy Water
+L26 - Endure
+L28 - Bonemerang
+L30 - Liquidation
+L32 - Stomp Tantrum
+L34 - Spikes
+L36 - Aqua Tail
+L38 - Drill Run
+L40 - Crabhammer
+L42 - Swords Dance
+L44 - Earthquake
+L46 - Raving Mad
+
+Egg Moves:
+Chip Away
+Cross Poison
+Entrainment
+Feint
+Haze
+Helping Hand
+Iron Defense
+Me First
+Mud Sport
+Pay Day
+Play Nice
+Play Rough
+Present
+Punishment
+Shell Smash
+Wide Guard
+
+
+Abilities:
+Tough Claws
+Shell Armor
+Hidden Ability:
+It Just Works
+
+
+Item Drops:
+Item Common: Rindo Berry
+Item Uncommon: Bucket
+Item Rare: Rocky Helmet
+----
+
+#126
+Miltrix
+Types: NORMAL/DARK
+Stats:
+HP: 90
+Attack: 90
+Defense: 105
+Sp. Attack: 45
+Sp. Defense: 80
+Speed: 95
+
+Evolutions:
+
+Moves:
+L1 - Baby-Doll Eyes
+L1 - Bind
+L4 - Defense Curl
+L6 - Rollout
+L8 - Pursuit
+L10 - Milk Drink
+L10 - Role Play
+L12 - Stomp
+L14 - Yawn
+L16 - Captivate
+L18 - Knock Off
+L20 - Dominate
+L22 - High Horsepower
+L24 - Work It
+L26 - Take Down
+L28 - Man Slave
+L30 - Darkest Lariat
+L32 - Swagger
+L34 - Body Slam
+L36 - Belly Drum
+L38 - Punishment
+L40 - Extreme Speed
+L42 - Thrash
+L44 - Foul Play
+L46 - Power Trip
+L48 - Holy Triumvirate
+L50 - Power Whip
+
+Egg Moves:
+Curse
+Dizzy Punch
+Double-Edge
+Endure
+Fire Lash
+Hammer Arm
+Heart Stamp
+Helping Hand
+Lick
+Moonlight
+Natural Gift
+Present
+Punishment
+Reversal
+Seismic Toss
+Sleep Talk
+Sticky Mess
+Stockpile
+Submission
+Swallow
+Water Sport
+
+
+Abilities:
+Lactation
+Cursed Body
+Hidden Ability:
+Damp
+
+
+Item Drops:
+Item Common: Moomoo Milk
+Item Uncommon: Peach Milk
+Item Rare: Peach Cheese
+----
+
+#127
+Babullet
+Types: STEEL
+Stats:
+HP: 55
+Attack: 55
+Defense: 50
+Sp. Attack: 45
+Sp. Defense: 65
+Speed: 55
+
+Evolutions:
+Evolves to Kidstol when at level 19
+
+Moves:
+L1 - Barrage
+L1 - Charm
+L4 - Bullet Punch
+L6 - Lock-On
+L8 - Covet
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Bullet Seed
+L18 - Octazooka
+L24 - Magnet Bomb
+L26 - Stealth Rock
+L28 - Mirror Shot
+L31 - Detect
+L33 - Fake Out
+L35 - Flash Cannon
+L37 - Freikugel
+L40 - Self-Destruct
+L43 - V-create
+
+Egg Moves:
+Bulldoze
+Camouflage
+Cloud Burst
+Curse
+Defend Order
+Detect
+Drain Punch
+Endure
+Fake Tears
+Flail
+Haboob Blitz
+Horn Leech
+Impart Dart
+Iron Defense
+Luster Purge
+Mystery Fist
+Natural Gift
+Nature Power
+Parabolic Arc
+Solar Flare
+Stored Power
+Synchronoise
+Thousand Arrows
+Tickle
+Wish
+Yawn
+
+
+Abilities:
+Sniper
+Aftermath
+Hidden Ability:
+White Smoke
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#128
+Kidstol
+Types: STEEL
+Stats:
+HP: 65
+Attack: 75
+Defense: 60
+Sp. Attack: 50
+Sp. Defense: 75
+Speed: 65
+
+Evolutions:
+Evolves to M2019-PKD when at level 49
+Evolves to Grasterblast using LEAFSTONE
+Evolves to Ignitio using FIRESTONE
+Evolves to Splashot using WATERSTONE
+Evolves to Tayzap using THUNDERSTONE
+Evolves to Ballapulta using MOONSTONE
+Evolves to Ventabow using DUSKSTONE
+Evolves to Schutiepai using HEARTSCALE
+Evolves to BeeBeeHun using SUNSTONE
+Evolves to Whackjab using LIMESTONE
+Evolves to Sporcher using SHINYSTONE
+Evolves to Axiadrupt using DAWNSTONE
+
+Moves:
+Evo - Iron Defense
+L1 - Barrage
+L1 - Charm
+L4 - Bullet Punch
+L6 - Lock-On
+L8 - Covet
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Bullet Seed
+L18 - Octazooka
+L24 - Magnet Bomb
+L26 - Stealth Rock
+L28 - Mirror Shot
+L31 - Detect
+L33 - Fake Out
+L35 - Flash Cannon
+L37 - Freikugel
+L40 - Self-Destruct
+L43 - V-create
+L46 - Metal Burst
+
+Abilities:
+Sniper
+Aftermath
+Hidden Ability:
+White Smoke
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#129
+M2019-PKD
+Types: STEEL
+Stats:
+HP: 75
+Attack: 100
+Defense: 85
+Sp. Attack: 105
+Sp. Defense: 75
+Speed: 115
+
+Evolutions:
+
+Moves:
+Evo - Impart Dart
+L1 - Barrage
+L1 - Charm
+L4 - Bullet Punch
+L6 - Lock-On
+L8 - Covet
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Bullet Seed
+L18 - Octazooka
+L20 - Iron Defense
+L24 - Magnet Bomb
+L26 - Stealth Rock
+L28 - Mirror Shot
+L31 - Detect
+L33 - Fake Out
+L35 - Flash Cannon
+L37 - Freikugel
+L40 - Self-Destruct
+L43 - V-create
+L46 - Metal Burst
+
+Ability:
+Inner Focus
+Hidden Ability:
+Sheer Force
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#130
+Grasterblast
+Types: GRASS
+Stats:
+HP: 65
+Attack: 110
+Defense: 130
+Sp. Attack: 60
+Sp. Defense: 65
+Speed: 95
+
+Evolutions:
+
+Moves:
+Evo - Horn Leech
+L1 - Barrage
+L1 - Charm
+L4 - Bullet Seed
+L6 - Lock-On
+L8 - Covet
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Razor Leaf
+L18 - Giga Drain
+L20 - Cotton Guard
+L24 - Grass Pledge
+L26 - Stealth Rock
+L28 - Seed Bomb
+L31 - Detect
+L33 - Leaf Blade
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Wood Hammer
+L46 - Metal Burst
+
+Ability:
+Chlorophyll
+Hidden Ability:
+Forest Field
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#131
+Ignitio
+Types: FIRE
+Stats:
+HP: 65
+Attack: 95
+Defense: 60
+Sp. Attack: 115
+Sp. Defense: 125
+Speed: 65
+
+Evolutions:
+
+Moves:
+Evo - Solar Flare
+L1 - Barrage
+L1 - Charm
+L4 - Incinerate
+L6 - Lock-On
+L8 - Covet
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Flame Wheel
+L18 - Flame Burst
+L20 - Heretical Dance
+L24 - Fire Pledge
+L26 - Stealth Rock
+L28 - Fiery Dance
+L31 - Detect
+L33 - Searing Shot
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Eruption
+L46 - Metal Burst
+
+Ability:
+Flame Body
+Hidden Ability:
+Flash Fire
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#132
+Splashot
+Types: WATER
+Stats:
+HP: 130
+Attack: 65
+Defense: 60
+Sp. Attack: 110
+Sp. Defense: 95
+Speed: 65
+
+Evolutions:
+
+Moves:
+Evo - Cloud Burst
+L1 - Barrage
+L1 - Charm
+L4 - Aqua Jet
+L6 - Lock-On
+L8 - Covet
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Water Pulse
+L18 - Octazooka
+L20 - Heretical Dance
+L24 - Water Pledge
+L26 - Stealth Rock
+L28 - Scald
+L31 - Detect
+L33 - Sparkling Aria
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Water Spout
+L46 - Metal Burst
+
+Ability:
+Spurts
+Hidden Ability:
+Storm Drain
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#133
+Tayzap
+Types: ELECTRIC
+Stats:
+HP: 65
+Attack: 65
+Defense: 60
+Sp. Attack: 110
+Sp. Defense: 95
+Speed: 130
+
+Evolutions:
+
+Moves:
+Evo - Parabolic Arc
+L1 - Barrage
+L1 - Charm
+L4 - Thunder Shock
+L6 - Lock-On
+L8 - Covet
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Electroweb
+L18 - Shock Wave
+L20 - Heretical Dance
+L24 - Rising Voltage
+L26 - Stealth Rock
+L28 - Arc Bolt
+L31 - Detect
+L33 - Discharge
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Thunder
+L46 - Metal Burst
+
+Ability:
+Sheer Force
+Hidden Ability:
+Static Field
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#134
+Ballapulta
+Types: ROCK
+Stats:
+HP: 65
+Attack: 130
+Defense: 60
+Sp. Attack: 95
+Sp. Defense: 110
+Speed: 65
+
+Evolutions:
+
+Moves:
+Evo - Haboob Blitz
+L1 - Barrage
+L1 - Charm
+L4 - Rock Throw
+L6 - Lock-On
+L8 - Covet
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Rock Blast
+L18 - Shock Wave
+L20 - Wide Guard
+L24 - Drill Run
+L26 - Stealth Rock
+L28 - Rock Slide
+L31 - Detect
+L33 - Stone Edge
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Diamond Storm
+L46 - Metal Burst
+
+Ability:
+Sand Rush
+Hidden Ability:
+Rock Lobber
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#135
+Ventabow
+Types: POISON
+Stats:
+HP: 65
+Attack: 65
+Defense: 60
+Sp. Attack: 110
+Sp. Defense: 95
+Speed: 130
+
+Evolutions:
+
+Moves:
+Evo - Thousand Arrows
+L1 - Barrage
+L1 - Charm
+L4 - Acid Spray
+L6 - Lock-On
+L8 - Toxic
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Clear Smog
+L18 - Venoshock
+L20 - Sludge
+L24 - Cross Poison
+L26 - Stealth Rock
+L28 - Toxic Spikes
+L31 - Detect
+L33 - Sludge Bomb
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Biohazard
+L46 - Metal Burst
+
+Ability:
+Poison Point
+Hidden Ability:
+Merciless
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#136
+BeeBeeHun
+Types: BUG
+Stats:
+HP: 65
+Attack: 110
+Defense: 130
+Sp. Attack: 60
+Sp. Defense: 65
+Speed: 95
+
+Evolutions:
+
+Moves:
+Evo - Defend Order
+L1 - Barrage
+L1 - Charm
+L4 - Fury Cutter
+L6 - Lock-On
+L8 - Rage Powder
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Pin Missile
+L18 - Leech Life
+L20 - Steamroller
+L24 - Twineedle
+L26 - Stealth Rock
+L28 - U-turn
+L31 - Detect
+L33 - Attack Order
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Hellswarm
+L46 - Metal Burst
+
+Ability:
+Prankster
+Hidden Ability:
+Sap Sipper
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#137
+Schutiepai
+Types: PSYCHIC
+Stats:
+HP: 75
+Attack: 55
+Defense: 80
+Sp. Attack: 95
+Sp. Defense: 125
+Speed: 105
+
+Evolutions:
+
+Moves:
+Evo - Luster Purge
+L1 - Barrage
+L1 - Charm
+L4 - Confusion
+L6 - Lock-On
+L8 - Covet
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Heart Stamp
+L18 - Psybeam
+L20 - Cosmic Power
+L24 - Mist Ball
+L26 - Stealth Rock
+L28 - Stored Power
+L31 - Detect
+L33 - Psychic
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Psycho Boost
+L46 - Metal Burst
+
+Ability:
+Magic Guard
+Hidden Ability:
+Love Field
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#138
+Whackjab
+Types: FIGHTING
+Stats:
+HP: 75
+Attack: 110
+Defense: 95
+Sp. Attack: 65
+Sp. Defense: 60
+Speed: 130
+
+Evolutions:
+
+Moves:
+Evo - Drain Punch
+L1 - Barrage
+L1 - Charm
+L4 - Mach Punch
+L6 - Lock-On
+L8 - Power-Up Punch
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Revenge
+L18 - Bulk Up
+L20 - Force Palm
+L24 - Submission
+L26 - Stealth Rock
+L28 - Sky Uppercut
+L31 - Detect
+L33 - Hammer Arm
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Close Combat
+L46 - Metal Burst
+
+Ability:
+Stamina
+Hidden Ability:
+Guts
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#139
+Sporcher
+Types: GROUND
+Stats:
+HP: 95
+Attack: 65
+Defense: 105
+Sp. Attack: 70
+Sp. Defense: 125
+Speed: 65
+
+Evolutions:
+
+Moves:
+Evo - Bulldoze
+L1 - Barrage
+L1 - Charm
+L4 - Mud-Slap
+L6 - Lock-On
+L8 - Mud Shot
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Haboob Blitz
+L18 - Dig
+L20 - Bulk Up
+L24 - Bonemerang
+L26 - Stealth Rock
+L28 - Drill Run
+L31 - Detect
+L33 - Land's Wrath
+L35 - Wish
+L37 - Freikugel
+L40 - Baton Pass
+L43 - Precipice Blades
+L46 - Metal Burst
+
+Abilities:
+Sand Force
+Sand Veil
+Hidden Ability:
+Sand Stream
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#140
+Axiadrupt
+Types: QMARKS
+Stats:
+HP: 95
+Attack: 65
+Defense: 110
+Sp. Attack: 60
+Sp. Defense: 130
+Speed: 65
+
+Evolutions:
+
+Moves:
+Evo - Mystery Fist
+L1 - Barrage
+L1 - Charm
+L4 - Swift
+L6 - Lock-On
+L8 - Noise Crush
+L10 - Bullet Time
+L12 - Take a Shot
+L15 - Bone Club
+L18 - Draining Kiss
+L20 - Mystic Wave
+L24 - Spectral Thief
+L26 - Stealth Rock
+L28 - Mystery Slam
+L31 - Detect
+L33 - Play Rough
+L35 - Wish
+L37 - Moonblast
+L40 - Baton Pass
+L43 - Awaiting Sky
+L46 - Metal Burst
+L48 - Freikugel
+
+Abilities:
+Frisk
+Sniper
+Hidden Ability:
+Corrupt Zone
+
+
+Item Drops:
+Item Common: Relic Copper
+Item Uncommon: Relic Silver
+Item Rare: Quick Claw
+----
+
+#141
+Bleaver
+Types: NORMAL/WATER
+Stats:
+HP: 85
+Attack: 95
+Defense: 110
+Sp. Attack: 95
+Sp. Defense: 85
+Speed: 60
+
+Evolutions:
+
+Moves:
+L1 - Tackle
+L1 - Withdraw
+L4 - Clamp
+L6 - Amnesia
+L8 - Water Pulse
+L10 - Thunder Fang
+L12 - Stomp
+L14 - Brine
+L16 - Soak
+L18 - Volt Sting
+L20 - Super Fang
+L22 - Sparkling Aria
+L24 - Body Slam
+L26 - Acid Armor
+L28 - Baton Pass
+L30 - Rising Voltage
+L32 - Parabolic Arc
+L34 - Liquidation
+L36 - Muddy Water
+L38 - Hyper Voice
+L40 - Geyser Burst
+L42 - Crush Grip
+L44 - Power Whip
+L46 - Double-Edge
+L48 - Volt Tackle
+L50 - Wave Crash
+
+Egg Moves:
+Aqua Ring
+Double-Edge
+Electric Terrain
+Electrify
+Gastro Acid
+Gear Grind
+Hyper Fang
+Ice Fang
+Metal Sound
+Self-Destruct
+Shift Gear
+Stored Power
+
+
+Abilities:
+Static
+Volt Absorb
+Hidden Ability:
+Static Field
+
+
+Item Drops:
+Item Common: Sitrus Berry
+Item Uncommon: Enigma Berry
+Item Rare: Spinning Top
+----
+
+#142
+Vixine
+Types: GRASS
+Stats:
+HP: 85
+Attack: 105
+Defense: 105
+Sp. Attack: 55
+Sp. Defense: 85
+Speed: 85
+
+Evolutions:
+
+Moves:
+L1 - Growth
+L1 - Tackle
+L4 - Vine Whip
+L6 - Bullet Seed
+L8 - Stun Spore
+L10 - Razor Leaf
+L12 - Clear Smog
+L14 - Aromatherapy
+L16 - Stomp
+L18 - Needle Arm
+L20 - Grassy Terrain
+L22 - Pin Missile
+L24 - Forest's Curse
+L26 - Horn Leech
+L28 - Poison Fang
+L30 - Triple Kick
+L32 - Seed Bomb
+L34 - Poison Jab
+L36 - Strength Sap
+L38 - Leaf Blade
+L40 - Toxic Spikes
+L42 - Solar Blade
+L44 - Gunk Shot
+L46 - Power Whip
+
+Egg Moves:
+Baby-Doll Eyes
+Cross Poison
+Defog
+Horn Attack
+Howl
+Embargo
+Grass Pledge
+Leech Seed
+Lunge
+Mind Reader
+Nature Power
+Rage Powder
+Rock Blast
+Smart Strike
+Tail Slap
+Ten Points
+Water Sport
+
+
+Abilities:
+Tangling Hair
+Grass Pelt
+Hidden Ability:
+Skill Link
+
+
+Item Drops:
+Item Common: Sitrus Berry
+Item Uncommon: Big Root
+Item Rare: Ability Capsule
+----
+
+#143
+M'preagle
+Types: FIGHTING
+Stats:
+HP: 75
+Attack: 125
+Defense: 75
+Sp. Attack: 30
+Sp. Defense: 75
+Speed: 85
+
+Evolutions:
+
+Moves:
+L1 - Leer
+L1 - Rock Crush
+L4 - Bulk Up
+L6 - Power-Up Punch
+L8 - Mach Punch
+L10 - Soft-Boiled
+L12 - Flame Charge
+L14 - Rolling Kick
+L16 - Fire Punch
+L18 - Storm Throw
+L20 - Counter
+L22 - Falcon Punch
+L24 - Yawn
+L26 - Brick Break
+L28 - Blaze Kick
+L30 - Drain Punch
+L32 - Detect
+L34 - Suplex
+L36 - Sky Uppercut
+L38 - Jump Kick
+L40 - Cross Chop
+L42 - Quick Guard
+L44 - Superpower
+L46 - Reversal
+L48 - High Jump Kick
+
+Egg Moves:
+Brave Bird
+Bullet Punch
+Dynamic Punch
+Egg Bomb
+Feather Dance
+Flying Press
+Killer Instinct
+Odor Sleuth
+Quick Guard
+Sonic Boom
+Stomp
+Tickle
+Triple Kick
+Thunder Punch
+Wing Attack
+
+
+Abilities:
+Guts
+Scrappy
+Hidden Ability:
+Bum Rush
+
+
+Item Drops:
+Item Common: Black Belt
+Item Uncommon: Muscle Band
+Item Rare: Lucky Egg
+----
+
+#144
+Patchyderm
+Types: NORMAL
+Stats:
+HP: 55
+Attack: 55
+Defense: 50
+Sp. Attack: 35
+Sp. Defense: 35
+Speed: 50
+
+Evolutions:
+Evolves to Taxiderm when at level 23
+
+Moves:
+L1 - Baby-Doll Eyes
+L1 - Tackle
+L4 - Fake Out
+L6 - Pursuit
+L8 - Assist
+L10 - Stomp
+L10 - String Shot
+L12 - Yawn
+L14 - Feint Attack
+L16 - Pass On
+L18 - Headbutt
+L20 - Cotton Guard
+L22 - Knock Off
+L26 - Skull Bash
+L28 - Slack Off
+L30 - Body Slam
+L32 - Crunch
+L34 - Swagger
+L36 - Sucker Punch
+L38 - Head Charge
+L40 - Beat Up
+L42 - Thrash
+L44 - Foul Play
+L46 - Play Dead
+L48 - Last Resort
+L50 - Sticky Web
+
+Egg Moves:
+Baton Pass
+Captivate
+Depolydermy
+Fake Tears
+Helping Hand
+Last Resort
+Misty Terrain
+Mud Bomb
+Power Trip
+Simple Beam
+Sucker Punch
+Tickle
+Uproar
+Wish
+Zen Headbutt
+
+
+Abilities:
+Scrappy
+Fluffy
+Hidden Ability:
+Stuffed
+
+
+Item Drops:
+Item Common: Cell Battery
+Item Uncommon: Normal Gem
+Item Rare: Destiny Knot
+----
+
+#145
+Taxiderm
+Types: NORMAL/DARK
+Stats:
+HP: 85
+Attack: 100
+Defense: 85
+Sp. Attack: 55
+Sp. Defense: 70
+Speed: 75
+
+Evolutions:
+
+Moves:
+Evo - Depolydermy
+L1 - Growl
+L1 - Tackle
+L4 - Fake Out
+L6 - Pursuit
+L8 - Assist
+L10 - Stomp
+L10 - String Shot
+L12 - Yawn
+L14 - Feint Attack
+L16 - Pass On
+L18 - Headbutt
+L20 - Cotton Guard
+L22 - Knock Off
+L26 - Skull Bash
+L28 - Slack Off
+L30 - Body Slam
+L32 - Crunch
+L34 - Swagger
+L36 - Sucker Punch
+L38 - Head Charge
+L40 - Beat Up
+L42 - Thrash
+L44 - Foul Play
+L46 - Play Dead
+L48 - Last Resort
+
+Abilities:
+Scrappy
+Fluffy
+Hidden Ability:
+Stuffed
+
+
+Item Drops:
+Item Common: Cell Battery
+Item Uncommon: Normal Gem
+Item Rare: Destiny Knot
+----
+
+#146
+Kailow Ren
+Types: NORMAL/ICE
+Stats:
+HP: 75
+Attack: 125
+Defense: 60
+Sp. Attack: 60
+Sp. Defense: 75
+Speed: 95
+
+Evolutions:
+
+Moves:
+L1 - Double Slap
+L1 - Growl
+L4 - Fake Out
+L6 - Ice Shard
+L8 - Mimic
+L10 - Slush Fund
+L12 - Reflect
+L12 - Scary Face
+L14 - Icicle Spear
+L16 - Endure
+L18 - Ice Fang
+L20 - Tail Slap
+L22 - Ice Punch
+L24 - Block
+L26 - Icicle Crash
+L28 - Knock Off
+L30 - Rock Climb
+L32 - Ice Hammer
+L34 - Work It
+L36 - The Button
+L38 - Extreme Speed
+L40 - Copycat
+L42 - Superpower
+L44 - Giga Impact
+L46 - Freeze Shock
+
+Egg Moves:
+After You
+Captivate
+Dizzy Punch
+Dragon Dance
+Gastro Acid
+Helping Hand
+Ice Punch
+Meditate
+Me First
+Miracle Eye
+Parting Shot
+Poison Gas
+Rage
+Wake-Up Slap
+Wish
+
+
+Abilities:
+Slush Rush
+Aftermath
+Hidden Ability:
+Overcoat
+
+
+Item Drops:
+Item Common: Kailow Tail
+Item Uncommon: Ice Gem
+Item Rare: Comfy Blanket
+----
+
+#147
+Pizzaster
+Types: GRASS/FIRE
+Stats:
+HP: 70
+Attack: 65
+Defense: 85
+Sp. Attack: 120
+Sp. Defense: 80
+Speed: 80
+
+Evolutions:
+
+Moves:
+L1 - Constrict
+L1 - Growth
+L4 - Vine Whip
+L6 - Ember
+L8 - Wrap
+L10 - Mega Drain
+L12 - Solar Flare
+L14 - Grass Pledge
+L14 - String Shot
+L16 - Incinerate
+L18 - Leaf Tornado
+L20 - Safeguard
+L22 - Fire Spin
+L24 - Mystical Fire
+L26 - Grass Pledge
+L28 - Molten Cheese
+L30 - Giga Drain
+L32 - Fiery Dance
+L34 - Grass Knot
+L36 - Heat Wave
+L38 - Energy Ball
+L40 - Searing Shot
+L42 - Seed Flare
+L44 - Magma Storm
+L46 - Heatvision
+L48 - Frenzy Plant
+L50 - Eruption
+
+Egg Moves:
+Belch
+Burn Out
+Dragon Breath
+Fire Pledge
+Ingrain
+Lava Plume
+Nasty Plot
+Natural Gift
+V-create
+Wring Out
+
+
+Abilities:
+Flame Body
+Gooey
+Hidden Ability:
+Pasta Power
+
+
+Item Drops:
+Item Common: Floor Pizza
+Item Uncommon: Big Mushroom
+Item Rare: Balm Mushroom
+----
+
+#148
+Chatyot
+Types: NORMAL/FLYING
+Stats:
+HP: 75
+Attack: 65
+Defense: 70
+Sp. Attack: 110
+Sp. Defense: 65
+Speed: 90
+
+Evolutions:
+
+Moves:
+L1 - Gust
+L1 - Snore
+L1 - Supersonic
+L4 - Echoed Voice
+L6 - Feather Dance
+L8 - Round
+L10 - Mirror Move
+L12 - Sing
+L14 - Air Cutter
+L16 - Mimic
+L18 - Something Funny
+L20 - Synchronoise
+L22 - Roost
+L24 - Uproar
+L26 - Air Slash
+L28 - Tailwind
+L30 - Relic Song
+L32 - Defog
+L34 - Hyper Voice
+L36 - Aeroblast
+L38 - Perish Song
+L40 - Cumulus Stream
+L42 - Assist
+L44 - Hurricane
+L46 - Boomburst
+L48 - Endeavor
+L50 - Follow Me
+
+Egg Moves:
+Agility
+Air Cutter
+Copycat
+Defog
+Encore
+Flatter
+Me First
+Metronome
+Nasty Plot
+Night Shade
+Parting Shot
+Pay Day
+Rage
+Sleep Talk
+Steel Wing
+
+
+Abilities:
+Punk Rock
+Liquid Voice
+Hidden Ability:
+Gale Wings
+
+
+Item Drops:
+Item Common: Pretty Wing
+Item Uncommon: Metronome
+Item Rare: Throat Spray
+----
+
+#149
+Gambelie
+Types: NORMAL
+Stats:
+HP: 95
+Attack: 95
+Defense: 90
+Sp. Attack: 50
+Sp. Defense: 95
+Speed: 80
+
+Evolutions:
+
+Moves:
+L1 - Charm
+L1 - Pound
+L4 - Fake Out
+L6 - Glare
+L8 - Assist
+L10 - Storm Throw
+L12 - Metronome
+L12 - Scary Face
+L14 - Focus Energy
+L16 - Night Slash
+L18 - Concentration
+L20 - Slash
+L22 - Crazy Slots
+L24 - Recycle
+L26 - Double Hit
+L28 - Channel
+L30 - Mystic Wave
+L32 - Bolt Claw
+L34 - Sucker Punch
+L36 - Northstar Fist
+L38 - Cross Chop
+L40 - Corrupt Terrain
+L42 - Trump Card
+L44 - Thrash
+L46 - Explosion
+L48 - Final Gambit
+L50 - Last Resort
+
+Egg Moves:
+Chip Away
+Circle Throw
+Covet
+Curse
+Detect
+Double-Edge
+Endure
+Fake Tears
+Flail
+Lucky Chant
+Magnitude
+Natural Gift
+Pay Day
+Stored Power
+Synchronoise
+Tickle
+Wish
+Yawn
+
+
+Abilities:
+Super Luck
+Sniper
+Hidden Ability:
+Jackpot
+
+
+Item Drops:
+Item Common: Blue Coin
+Item Uncommon: Relic Gold
+Item Rare: Loaded Dice
+----
+
+#150
+Ramblin Mush
+Types: GRASS
+Stats:
+HP: 100
+Attack: 40
+Defense: 100
+Sp. Attack: 95
+Sp. Defense: 90
+Speed: 55
+
+Evolutions:
+
+Moves:
+L1 - Growth
+L1 - Tackle
+L4 - Vine Whip
+L6 - Stun Spore
+L8 - Vine Whip
+L10 - Leech Seed
+L12 - Bullet Seed
+L14 - Mega Drain
+L16 - Magical Leaf
+L18 - Ingrain
+L20 - Cotton Spore
+L22 - Giga Drain
+L24 - Cotton Guard
+L26 - Spore Burst
+L28 - Spore
+L30 - Synthesis
+L32 - Aromatherapy
+L34 - Energy Ball
+L36 - Worry Seed
+L38 - Grassy Terrain
+L40 - Seed Flare
+L42 - Rage Powder
+L44 - Strength Sap
+L46 - Leaf Storm
+
+Egg Moves:
+Agility
+Charm
+Entrainment
+Fake Tears
+Grass Pledge
+Helping Hand
+Hex
+Natural Gift
+Nature Power
+Poison Powder
+Seed Bomb
+Topsy-Turvy
+Worry Seed
+
+
+Abilities:
+Effect Spore
+Aroma Veil
+Hidden Ability:
+Regenerator
+
+
+Item Drops:
+Item Common: Tiny Mushroom
+Item Uncommon: Big Mushroom
+Item Rare: Funny Spores
+----
+
+#151
+Moldyman
+Types: POISON/STEEL
+Stats:
+HP: 80
+Attack: 110
+Defense: 100
+Sp. Attack: 70
+Sp. Defense: 85
+Speed: 60
+
+Evolutions:
+
+Moves:
+L1 - Recycle
+L1 - Smog
+L4 - Poison Sting
+L6 - Metal Claw
+L8 - Haze
+L10 - Garbage Day
+L12 - Clear Smog
+L12 - Scary Face
+L14 - Sludge
+L16 - Magnet Bomb
+L18 - Toxic Spikes
+L20 - Iron Defense
+L22 - Cross Poison
+L24 - Bullet Punch
+L26 - Venom Drench
+L28 - Sludge Bomb
+L30 - Anchor Shot
+L32 - Roar
+L34 - Refuse
+L36 - Iron Head
+L38 - Belch
+L40 - Meteor Mash
+L42 - Gunk Shot
+L44 - Explosion
+L46 - Biohazard
+L48 - Heavy Slam
+
+Egg Moves:
+Autotomize
+Bonemerang
+Clamp
+Leech Seed
+Metal Sound
+Poison Gas
+Poison Powder
+Rage Powder
+Shadow Bone
+Sleep Powder
+Strength Sap
+Stun Spore
+Worry Seed
+
+
+Abilities:
+Full Metal Body
+Poison Touch
+Hidden Ability:
+Duloc Schlock
+
+
+Item Drops:
+Item Common: Trash
+Item Uncommon: Junk
+Item Rare: Leftovers
+----
+
+#152
+Sentret
+Types: NORMAL/STEEL
+Stats:
+HP: 45
+Attack: 55
+Defense: 60
+Sp. Attack: 40
+Sp. Defense: 55
+Speed: 50
+
+Evolutions:
+Evolves to Furret when at level 15
+
+Moves:
+L1 - Iron Defense
+L1 - Scratch
+L4 - Bullet Punch
+L6 - Yawn
+L8 - Metal Claw
+L10 - Covet
+L12 - Magnet Bomb
+L14 - Endure
+L18 - Crush Claw
+L20 - Gear Grind
+L22 - Recycle
+L24 - Iron Slag
+L26 - Shift Gear
+L28 - Body Slam
+L30 - Iron Head
+L32 - Baton Pass
+L34 - Innervation
+L36 - Extreme Speed
+L38 - Wish
+L40 - Egg Bomb
+L42 - Iron Tail
+L44 - Thrash
+L46 - Meteor Mash
+L48 - Endeavor
+L50 - Head Charge
+L52 - Simple Beam
+
+Egg Moves:
+Assist
+Charm
+Curse
+Double-Edge
+Double Hit
+Focus Energy
+Iron Tail
+Last Resort
+Metronome
+Natural Gift
+Pursuit
+Reversal
+Revenge
+Slash
+Strength Sap
+Supersonic
+Trick
+Zap Cannon
+
+
+Abilities:
+Scrappy
+Nimble
+Hidden Ability:
+Motion Sensor
+
+
+Item Drops:
+Item Common: Sitrus Berry
+Item Uncommon: Steel Gem
+Item Rare: Rocky Helmet
+----
+
+#153
+Furret
+Types: NORMAL/STEEL
+Stats:
+HP: 85
+Attack: 80
+Defense: 105
+Sp. Attack: 45
+Sp. Defense: 75
+Speed: 85
+
+Evolutions:
+
+Moves:
+Evo - Revenge
+L1 - Iron Defense
+L1 - Scratch
+L4 - Bullet Punch
+L6 - Yawn
+L8 - Metal Claw
+L10 - Covet
+L12 - Magnet Bomb
+L14 - Supersonic
+L18 - Crush Claw
+L20 - Gear Grind
+L22 - Endure
+L24 - Iron Slag
+L26 - Shift Gear
+L28 - Body Slam
+L30 - Iron Head
+L32 - Baton Pass
+L34 - Innervation
+L36 - Extreme Speed
+L38 - Wish
+L40 - Egg Bomb
+L42 - Recycle
+L44 - Thrash
+L46 - Meteor Mash
+L48 - Endeavor
+L50 - Head Charge
+L52 - Simple Beam
+
+Abilities:
+Scrappy
+Nimble
+Hidden Ability:
+Motion Sensor
+
+
+Item Drops:
+Item Common: Sitrus Berry
+Item Uncommon: Steel Gem
+Item Rare: Rocky Helmet
+----
+
+#154
+Picartchew
+Types: GHOST/DARK
+Stats:
+HP: 90
+Attack: 75
+Defense: 70
+Sp. Attack: 90
+Sp. Defense: 80
+Speed: 85
+
+Evolutions:
+
+Moves:
+L1 - Charm
+L1 - Scratch
+L4 - Shadow Sneak
+L6 - Confuse Ray
+L8 - Bite
+L10 - Yawn
+L12 - Snarl
+L14 - Scary Face
+L14 - Will-O-Wisp
+L16 - Hex
+L18 - Encore
+L20 - Ominous Wind
+L22 - Disable
+L24 - Shadow Claw
+L26 - Night Slash
+L28 - Sticky Web
+L30 - Doodle Beam
+L32 - Cutting Edge
+L34 - Dark Pulse
+L36 - Shadow Ball
+L38 - Channel
+L40 - Void Call
+L42 - Destiny Bond
+L44 - Parting Shot
+L46 - Shadow Force
+L48 - Foul Play
+L50 - Wraith Rend
+
+Egg Moves:
+Air Slash
+Baton Pass
+Electro Ball
+Foresight
+Helping Hand
+Iron Tail
+Karate Chop
+Me First
+Nuzzle
+Psycho Cut
+Razor Wind
+Shadow Terrain
+Volt Tackle
+Wish
+Wring Out
+
+
+Abilities:
+Prankster
+Cursed Body
+Hidden Ability:
+Papercut
+
+
+Item Drops:
+Item Common: White Herb
+Item Uncommon: Ring Target
+Item Rare: Doodle Pen
+----
+
+#155
+Baboshi
+Types: DRAGON
+Stats:
+HP: 55
+Attack: 55
+Defense: 50
+Sp. Attack: 50
+Sp. Defense: 50
+Speed: 60
+
+Evolutions:
+Evolves to Yoskid when at level 21
+
+Moves:
+L1 - Lick
+L1 - Lucky Chant
+L4 - Twister
+L6 - Barrage
+L8 - Tax Evasion
+L10 - Flame Charge
+L12 - Dual Chop
+L14 - Flame Burst
+L16 - Soft-Boiled
+L18 - Breaking Swipe
+L20 - Bounce
+L24 - Headbutt
+L26 - Dragon Tail
+L28 - Blaze Kick
+L30 - Dragon Dance
+L32 - Hammer Arm
+L34 - Dragon Claw
+L36 - Sky Uppercut
+L38 - Dragon Hammer
+L40 - Sacred Fire
+L42 - Draco Meteor
+L44 - Head Charge
+L46 - Outrage
+L48 - V-create
+
+Egg Moves:
+Aromatherapy
+Bomb Volley
+Counter
+Egg Bomb
+Endure
+Gravity
+Heal Bell
+Helping Hand
+High Horsepower
+Metronome
+Mud Bomb
+Natural Gift
+Play Nice
+Present
+Topsy-Turvy
+
+
+Abilities:
+Long Reach
+Color Change
+Hidden Ability:
+Contrary
+
+
+Item Drops:
+Item Common: Yoshi's Cookies
+Item Uncommon: Yoshi Coin
+Item Rare: Heavy-Duty Boots
+----
+
+#156
+Yoskid
+Types: DRAGON
+Stats:
+HP: 70
+Attack: 80
+Defense: 70
+Sp. Attack: 70
+Sp. Defense: 65
+Speed: 75
+
+Evolutions:
+Evolves to Joshi when at level 36
+
+Moves:
+Evo - Bomb Volley
+L1 - Lick
+L1 - Lucky Chant
+L4 - Twister
+L6 - Barrage
+L8 - Tax Evasion
+L10 - Flame Charge
+L12 - Dual Chop
+L14 - Flame Burst
+L16 - Soft-Boiled
+L18 - Breaking Swipe
+L20 - Bounce
+L24 - Headbutt
+L26 - Dragon Tail
+L28 - Blaze Kick
+L30 - Dragon Dance
+L32 - Hammer Arm
+L34 - Dragon Claw
+L36 - Sky Uppercut
+L38 - Dragon Hammer
+L40 - Sacred Fire
+L42 - Draco Meteor
+L44 - Head Charge
+L46 - Outrage
+L48 - V-create
+
+Abilities:
+Long Reach
+Color Change
+Hidden Ability:
+Contrary
+
+
+Item Drops:
+Item Common: Yoshi's Cookies
+Item Uncommon: Yoshi Coin
+Item Rare: Heavy-Duty Boots
+----
+
+#157
+Joshi
+Types: DRAGON
+Stats:
+HP: 90
+Attack: 125
+Defense: 90
+Sp. Attack: 85
+Sp. Defense: 80
+Speed: 80
+
+Evolutions:
+
+Moves:
+Evo - Egg Bomb
+L1 - Lick
+L1 - Lucky Chant
+L4 - Twister
+L6 - Barrage
+L8 - Tax Evasion
+L10 - Flame Charge
+L12 - Dual Chop
+L14 - Flame Burst
+L16 - Soft-Boiled
+L18 - Breaking Swipe
+L20 - Bounce
+L24 - Headbutt
+L26 - Dragon Tail
+L28 - Blaze Kick
+L30 - Dragon Dance
+L32 - Hammer Arm
+L34 - Dragon Claw
+L36 - Sky Uppercut
+L38 - Dragon Hammer
+L40 - Sacred Fire
+L42 - Draco Meteor
+L44 - Head Charge
+L46 - Outrage
+L48 - V-create
+
+Abilities:
+Long Reach
+Color Change
+Hidden Ability:
+Contrary
+
+
+Item Drops:
+Item Common: Yoshi's Cookies
+Item Uncommon: Yoshi Coin
+Item Rare: Heavy-Duty Boots
+----
+
+#158
+Burg
+Types: FIRE
+Stats:
+HP: 60
+Attack: 85
+Defense: 65
+Sp. Attack: 65
+Sp. Defense: 65
+Speed: 70
+
+Evolutions:
+Evolves to Boburgars when at level 28
+
+Moves:
+L1 - Tackle
+L1 - Work Up
+L4 - Ember
+L6 - Vice Grip
+L8 - Flame Charge
+L10 - Razor Leaf
+L12 - Scary Face
+L12 - Stomp
+L14 - Solar Flare
+L16 - Chip Away
+L18 - Charbroil
+L20 - Aromatherapy
+L22 - Headbutt
+L24 - Mystical Fire
+L26 - Leaf Blade
+L30 - Fire Pledge
+L32 - Lava Plume
+L34 - Dragon Dance
+L36 - Blaze Kick
+L38 - Icicle Crash
+L40 - Sacred Fire
+L42 - Reversal
+L44 - Wood Hammer
+L46 - Flare Blitz
+L48 - Fire Lash
+
+Egg Moves:
+Acid Spray
+Belch
+Body Slam
+Captivate
+Charm
+Double Kick
+Double-Edge
+Fire Fang
+Flame Wheel
+Hypnosis
+Incinerate
+Leaf Storm
+Low Kick
+Morning Sun
+Power-Up Punch
+Stomp
+Superpower
+Thrash
+
+
+Abilities:
+Leaf Guard
+Flash Fire
+Hidden Ability:
+Borglar Split
+
+
+Item Drops:
+Item Common: Soda Pop
+Item Uncommon: Revival Herb
+Item Rare: Fruity Juice
+----
+
+#159
+Boburgars
+Types: FIRE
+Stats:
+HP: 75
+Attack: 115
+Defense: 75
+Sp. Attack: 80
+Sp. Defense: 80
+Speed: 95
+
+Evolutions:
+
+Moves:
+Evo - Fire Fang
+L1 - Tackle
+L1 - Work Up
+L4 - Ember
+L6 - Vice Grip
+L8 - Flame Charge
+L10 - Razor Leaf
+L12 - Scary Face
+L12 - Stomp
+L14 - Solar Flare
+L16 - Chip Away
+L18 - Charbroil
+L20 - Aromatherapy
+L22 - Headbutt
+L24 - Mystical Fire
+L26 - Leaf Blade
+L30 - Fire Pledge
+L32 - Lava Plume
+L34 - Dragon Dance
+L36 - Blaze Kick
+L38 - Icicle Crash
+L40 - Sacred Fire
+L42 - Reversal
+L44 - Wood Hammer
+L46 - Flare Blitz
+L48 - Fire Lash
+
+Abilities:
+Leaf Guard
+Flash Fire
+Hidden Ability:
+Borglar Split
+
+
+Item Drops:
+Item Common: Soda Pop
+Item Uncommon: Revival Herb
+Item Rare: Fruity Juice
+----
+
+#160
+Boomish
+Types: ROCK/GRASS
+Stats:
+HP: 60
+Attack: 40
+Defense: 65
+Sp. Attack: 40
+Sp. Defense: 65
+Speed: 40
+
+Evolutions:
+Evolves to Droloom when at level 23
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Leafage
+L6 - Stun Spore
+L8 - Rock Throw
+L10 - Leech Seed
+L12 - Razor Leaf
+L14 - Rollout
+L16 - Spore
+L18 - Rock Blast
+L20 - Powder
+L22 - Haboob Blitz
+L24 - Trop Kick
+L26 - Dragon Dance
+L28 - Rock Blast
+L30 - Breaking Swipe
+L32 - Rock Slide
+L34 - Dragon Claw
+L36 - Dragon Tail
+L38 - Focus Punch
+L40 - Stone Edge
+L42 - Dragon Rush
+L44 - Outrage
+L46 - Rock Wrecker
+L48 - Power Whip
+L50 - Rage Powder
+L52 - Diamond Storm
+
+Egg Moves:
+Bone Club
+Bonemerang
+Bone Rush
+Bullet Seed
+Charm
+Drain Punch
+Dual Chop
+Fake Tears
+Focus Punch
+Head Smash
+Helping Hand
+Mirage Veil
+Natural Gift
+Rock Crush
+Seed Bomb
+Shadow Bone
+Wake-Up Slap
+Worry Seed
+
+
+Abilities:
+Mold Breaker
+Curl Up
+Hidden Ability:
+Sand Rush
+
+
+Item Drops:
+Item Common: Tiny Mushroom
+Item Uncommon: Big Mushroom
+Item Rare: Thick Club
+----
+
+#161
+Droloom
+Types: ROCK/DRAGON
+Stats:
+HP: 75
+Attack: 115
+Defense: 100
+Sp. Attack: 50
+Sp. Defense: 80
+Speed: 70
+
+Evolutions:
+
+Moves:
+Evo - Dual Chop
+L1 - Growl
+L1 - Tackle
+L4 - Leafage
+L6 - Stun Spore
+L8 - Rock Throw
+L10 - Leech Seed
+L12 - Razor Leaf
+L14 - Rollout
+L16 - Spore
+L18 - Rock Blast
+L20 - Powder
+L22 - Haboob Blitz
+L24 - Trop Kick
+L26 - Dragon Dance
+L28 - Rock Blast
+L30 - Breaking Swipe
+L32 - Rock Slide
+L34 - Dragon Claw
+L36 - Dragon Tail
+L38 - Focus Punch
+L40 - Stone Edge
+L42 - Dragon Rush
+L44 - Outrage
+L46 - Rock Wrecker
+L48 - Power Whip
+L50 - Rage Powder
+L52 - Diamond Storm
+
+Abilities:
+Mold Breaker
+Curl Up
+Hidden Ability:
+Sand Rush
+
+
+Item Drops:
+Item Common: Tiny Mushroom
+Item Uncommon: Big Mushroom
+Item Rare: Thick Club
+----
+
+#162
+Myzotay
+Types: BUG/GROUND
+Stats:
+HP: 90
+Attack: 90
+Defense: 105
+Sp. Attack: 65
+Sp. Defense: 105
+Speed: 70
+
+Evolutions:
+
+Moves:
+L1 - Harden
+L1 - Scratch
+L4 - Sand Tomb
+L6 - Twineedle
+L8 - Defend Order
+L10 - Fell Stinger
+L12 - Bulldoze
+L14 - String Shot
+L16 - Steamroller
+L18 - Dig
+L20 - Spud Spout
+L22 - Bug Bite
+L24 - Stomp Tantrum
+L26 - Ingrain
+L28 - Leech Life
+L30 - Drill Run
+L32 - Rototiller
+L34 - Lunge
+L36 - Land's Wrath
+L38 - Megahorn
+L40 - First Impression
+L42 - Hellswarm
+L44 - Earthquake
+L46 - Rage Powder
+L48 - Power Whip
+
+Egg Moves:
+Bug Bite
+Bug Buzz
+Chrome Chitin
+Embargo
+Endure
+Feint Attack
+Final Gambit
+Horn Leech
+Infestation
+Lucky Chant
+Natural Gift
+Night Shade
+Night Slash
+Perish Song
+Silver Wind
+Trick-or-Treat
+
+
+Abilities:
+Dry Skin
+Ripen
+Hidden Ability:
+Bug-nado
+
+
+Item Drops:
+Item Common: Yache Berry
+Item Uncommon: Big Root
+Item Rare: Ability Capsule
+----
+
+#163
+Faesoph
+Types: PSYCHIC
+Stats:
+HP: 96
+Attack: 69
+Defense: 96
+Sp. Attack: 69
+Sp. Defense: 96
+Speed: 96
+
+Evolutions:
+
+Moves:
+L1 - Confusion
+L1 - Double Team
+L1 - Teleport
+L4 - Charm
+L6 - Miracle Eye
+L8 - Hypnosis
+L10 - Confuse Ray
+L12 - Heart Stamp
+L14 - Heal Block
+L16 - Psybeam
+L18 - Magic Coat
+L20 - Recover
+L22 - Magic Room
+L24 - Mist Ball
+L26 - Fullscreen
+L28 - Calm Mind
+L30 - Baton Pass
+L32 - Luster Purge
+L34 - Cosmic Power
+L36 - Psychic Fangs
+L38 - Stored Power
+L40 - Psyshock
+L42 - Amnesia
+L44 - Psystrike
+L46 - Parting Shot
+L48 - Psycho Boost
+L50 - Channel
+L52 - Future Sight
+
+Egg Moves:
+Assist
+Aura Sphere
+Baby-Doll Eyes
+Circle Throw
+Copycat
+Dream Eater
+Follow Me
+Heatvision
+Me First
+Mystic Wave
+Natural Gift
+Play Rough
+Sleep Talk
+Soundproof Room
+Steamroller
+Telekinesis
+Wish
+Zen Headbutt
+
+
+Abilities:
+Compound Eyes
+Filter
+Hidden Ability:
+Silencing Surge
+
+
+Item Drops:
+Item Common: Twisted Spoon
+Item Uncommon: Psychic Gem
+Item Rare: Light Clay
+----
+
+#164
+Bunjamin
+Types: DARK/WATER
+Stats:
+HP: 80
+Attack: 60
+Defense: 60
+Sp. Attack: 90
+Sp. Defense: 105
+Speed: 95
+
+Evolutions:
+
+Moves:
+L1 - Telekinesis
+L1 - Water Gun
+L4 - Swagger
+L6 - Whirlpool
+L8 - Aqua Ring
+L10 - Snarl
+L12 - Cloud Burst
+L14 - Bite
+L16 - Purge
+L16 - Stockpile
+L18 - Brine
+L20 - Hone Claws
+L22 - Fake Tears
+L24 - Night Daze
+L26 - Dark Void
+L28 - Geyser Burst
+L30 - Nightmare
+L32 - Sparkling Aria
+L34 - Crunch
+L36 - Shadow Terrain
+L38 - Origin Pulse
+L40 - Blackhole
+L42 - Foul Play
+L44 - Water Spout
+L46 - Psych Up
+
+Egg Moves:
+Destiny Bond
+Dream Eater
+Embargo
+Hypnosis
+Me First
+Mud Shot
+Perish Song
+Quash
+Synchronoise
+Void Call
+
+
+Abilities:
+Hydration
+Gluttony
+Hidden Ability:
+Dreamweaver
+
+
+Item Drops:
+Item Common: Water Gem
+Item Uncommon: Frog Coin
+Item Rare: Leftovers
+----
+
+#165
+Hermine
+Types: ICE
+Stats:
+HP: 80
+Attack: 90
+Defense: 70
+Sp. Attack: 90
+Sp. Defense: 105
+Speed: 75
+
+Evolutions:
+
+Moves:
+L1 - Tackle
+L1 - Withdraw
+L4 - Powder Snow
+L6 - Camouflage
+L8 - Mist
+L10 - Ice Shard
+L12 - Haze
+L14 - Avalanche
+L16 - Hailstrom
+L18 - Coil
+L20 - Icy Wind
+L22 - Sweet Kiss
+L24 - Aurora Beam
+L26 - Sonic Shell
+L28 - Shell Smash
+L30 - Freeze-Dry
+L32 - Mirror Coat
+L34 - Aurora Veil
+L36 - Ice Beam
+L38 - Extreme Speed
+L40 - Cold Snap
+L42 - Blizzard
+L44 - Parting Shot
+L46 - Inverno
+L48 - Ice Burn
+L50 - Thaw Out
+
+Egg Moves:
+Assist
+Baby-Doll Eyes
+Baton Pass
+Counter
+Covet
+Frostbite
+Heal Bell
+Helping Hand
+Metronome
+Nature Power
+Present
+Razor Wind
+Slush Fund
+Trump Card
+Weather Ball
+
+
+Abilities:
+Slush Rush
+Nimble
+Hidden Ability:
+Shell Armor
+
+
+Item Drops:
+Item Common: Hermine Shell
+Item Uncommon: Shed Shell
+Item Rare: Shell Bell
+----
+
+#166
+Doodle Dip
+Types: PSYCHIC/ICE
+Stats:
+HP: 70
+Attack: 50
+Defense: 70
+Sp. Attack: 115
+Sp. Defense: 90
+Speed: 85
+
+Evolutions:
+
+Moves:
+L1 - Double Slap
+L1 - Play Nice
+L4 - Powder Snow
+L6 - Confusion
+L8 - Endure
+L10 - Peekaboo
+L12 - Icy Wind
+L14 - Gravity
+L14 - Heal Block
+L16 - Psybeam
+L18 - Moonlight
+L20 - Quiver Dance
+L22 - Glaciate
+L24 - Mist Ball
+L26 - Helping Hand
+L28 - Hailstrom
+L30 - Stored Power
+L32 - Freeze-Dry
+L34 - Extrasensory
+L36 - Ice Beam
+L38 - Psychic
+L40 - Lunar Dance
+L42 - Baton Pass
+L44 - Psycho Boost
+L46 - Blizzard
+L48 - Psystrike
+L50 - Thaw Out
+
+Egg Moves:
+Doodle Beam
+Eerie Impulse
+Follow Me
+Force Palm
+Frigerate
+Lucky Chant
+Meteor Beam
+Metronome
+Moonblast
+Signal Beam
+Simple Beam
+Sleep Talk
+Snore
+Synchronoise
+Wake-Up Slap
+Wonder Room
+Wring Out
+
+
+Abilities:
+Unaware
+Magic Bounce
+Hidden Ability:
+Happy Day
+
+
+Item Drops:
+Item Common: Mental Herb
+Item Uncommon: Max Elixir
+Item Rare: Doodle Pen
+----
+
+#167
+Bislime
+Types: WATER
+Stats:
+HP: 95
+Attack: 50
+Defense: 80
+Sp. Attack: 90
+Sp. Defense: 115
+Speed: 70
+
+Evolutions:
+
+Moves:
+L1 - Harden
+L1 - Water Gun
+L4 - Double Team
+L6 - Soak
+L8 - Bubble Beam
+L8 - Incinerate
+L8 - Shock Wave
+L10 - Acid Armor
+L12 - Aqua Ring
+L14 - Fire Punch
+L14 - Ice Punch
+L14 - Thunder Punch
+L16 - Charge
+L18 - Light Screen
+L18 - Reflect
+L20 - Fire Pledge
+L20 - Grass Pledge
+L20 - Water Pledge
+L22 - Haze
+L24 - Mist
+L26 - Recover
+L28 - Discharge
+L28 - Lava Plume
+L28 - Scald
+L30 - Yawn
+L32 - Nasty Plot
+L34 - Flatter
+L36 - Flamethrower
+L36 - Ice Beam
+L36 - Thunderbolt
+L38 - Muddy Water
+L40 - Grass Knot
+L42 - Heretical Dance
+L44 - Blizzard
+L44 - Fire Blast
+L44 - Thunder
+L46 - Hydro Pump
+L48 - Hydro Cannon
+L50 - Blast Burn
+L52 - Frenzy Plant
+
+Egg Moves:
+Final Gambit
+Focus Energy
+Heal Pulse
+Inferno
+Lucky Chant
+Magic Coat
+Magic Room
+Metronome
+Mystical Fire
+Parabolic Arc
+Purify
+Recover
+Self-Destruct
+Weather Ball
+Whirlwind
+
+
+Ability:
+Slime Stack
+
+
+Item Drops:
+Item Common: Lemonade
+Item Uncommon: Fruity Juice
+Item Rare: Sponge Game
+----
+
+#168
+Skarmium
+Types: STEEL/FLYING
+Stats:
+HP: 65
+Attack: 80
+Defense: 140
+Sp. Attack: 40
+Sp. Defense: 70
+Speed: 70
+
+Evolutions:
+
+Moves:
+L1 - Leer
+L1 - Peck
+L4 - Golddust
+L6 - Sand Attack
+L8 - Metal Claw
+L10 - Swift
+L12 - Agility
+L14 - Scary Face
+L14 - Wing Attack
+L16 - Stealth Rock
+L18 - Cyclone
+L20 - Roost
+L22 - Magnet Bomb
+L24 - Burbomb
+L26 - Spikes
+L28 - Steel Wing
+L30 - Whirlwind
+L32 - Iron Defense
+L34 - Iron Slag
+L36 - Drill Peck
+L38 - Meteor Mash
+L40 - Sky Attack
+L42 - Brave Bird
+L44 - Parting Shot
+L46 - Empyrean Gale
+
+Egg Moves:
+Air Slash
+Assurance
+Brave Bird
+Counter
+Curse
+Drill Peck
+Embargo
+Endure
+Icy Wind
+Pursuit
+Razor Wind
+Sky Attack
+Whirlwind
+
+
+Abilities:
+Danger Zone
+Heatproof
+Hidden Ability:
+Iron Barbs
+
+
+Item Drops:
+Item Common: Steel Gem
+Item Uncommon: PP Up
+Item Rare: Reversal Band
+----
+
+#169
+Twerkey
+Types: NORMAL/FLYING
+Stats:
+HP: 70
+Attack: 110
+Defense: 75
+Sp. Attack: 60
+Sp. Defense: 60
+Speed: 100
+
+Evolutions:
+
+Moves:
+L1 - Charm
+L1 - Pound
+L4 - Peck
+L6 - Lovely Kiss
+L8 - Wing Attack
+L10 - Quick Attack
+L12 - Sweet Kiss
+L14 - Scary Face
+L14 - Stomp
+L16 - Work It
+L18 - Acrobatics
+L20 - Role Play
+L22 - Assist
+L24 - Pluck
+L26 - Yawn
+L28 - Slam
+L30 - Bounce
+L32 - Tailwind
+L34 - Body Slam
+L36 - Drill Peck
+L38 - Me First
+L40 - Thrash
+L42 - Brave Bird
+L44 - Crush Grip
+L46 - Sky Attack
+L48 - Double-Edge
+L50 - Quash
+
+Egg Moves:
+Assurance
+Brave Bird
+Endeavor
+Feint Attack
+Flail
+Haze
+Heavy Slam
+Iron Defense
+Lick
+Mirror Move
+Mud Sport
+Natural Gift
+Poison Gas
+Supersonic
+Sweet Scent
+
+
+Abilities:
+Infiltrator
+Sturdy
+Hidden Ability:
+Prankster
+
+
+Item Drops:
+Item Common: Pretty Wing
+Item Uncommon: Max Protein
+Item Rare: Eject Pack
+----
+
+#170
+Jape Egg
+Types: QMARKS
+Stats:
+HP: 250
+Attack: 55
+Defense: 105
+Sp. Attack: 5
+Sp. Defense: 5
+Speed: 50
+
+Evolutions:
+
+Moves:
+L1 - Growl
+L1 - Mystery Fist
+L4 - Defense Curl
+L6 - Purify
+L8 - Vice Grip
+L10 - Covet
+L14 - Soft-Boiled
+L16 - Crush Claw
+L18 - Trick
+L20 - Seismic Toss
+L22 - Take Down
+L24 - Sing
+L26 - Body Slam
+L28 - Rotten Eggs
+L30 - Wish
+L32 - Mystery Slam
+L34 - Power Split
+L36 - Shell Smash
+L38 - Play Rough
+L40 - Thrash
+L42 - Parting Shot
+L44 - Double-Edge
+L46 - Explosion
+L48 - Recycle
+
+Egg Moves:
+Aromatherapy
+Bonemerang
+Chip Away
+Counter
+Egg Bomb
+Endure
+Focus Energy
+Gravity
+Heal Bell
+Helping Hand
+Metronome
+Mist
+Mud Bomb
+Natural Gift
+Present
+Sky Attack
+Submission
+Topsy-Turvy
+Water Gun
+
+
+Abilities:
+Weak Armor
+Regenerator
+Hidden Ability:
+Mysterious
+
+
+Item Drops:
+Item Common: Enigma Berry
+Item Uncommon: Null Gem
+Item Rare: Lucky Egg
+----
+
+#171
+Yupacari
+Types: NORMAL
+Stats:
+HP: 85
+Attack: 105
+Defense: 70
+Sp. Attack: 50
+Sp. Defense: 95
+Speed: 80
+
+Evolutions:
+
+Moves:
+L1 - Tackle
+L1 - Tickle
+L4 - Sing
+L6 - Wrap
+L8 - Safeguard
+L10 - Steal Wool
+L12 - Cotton Guard
+L14 - Double Hit
+L14 - String Shot
+L16 - Encore
+L18 - Headbutt
+L20 - Assist
+L22 - Stomp
+L24 - Belly Drum
+L26 - Skull Bash
+L28 - Sweet Kiss
+L30 - Take Down
+L32 - Baton Pass
+L34 - Extreme Speed
+L36 - Iron Slag
+L38 - Mega Kick
+L40 - Acupressure
+L42 - Thrash
+L44 - Heal Bell
+L46 - Head Charge
+L48 - Roar
+
+Egg Moves:
+Agility
+Captivate
+Cotton Spore
+Dragon Rush
+Haze
+Heart Stamp
+High Horsepower
+Hyper Voice
+Meditate
+Milk Drink
+Powder
+Pursuit
+Rage
+
+
+Abilities:
+Fluffy
+Friend Guard
+Hidden Ability:
+Normalize
+
+
+Item Drops:
+Item Common: Enigma Berry
+Item Uncommon: Max Iron
+Item Rare: Protective Pads
+----
+
+#172
+Spo.INK
+Types: PSYCHIC
+Stats:
+HP: 60
+Attack: 35
+Defense: 45
+Sp. Attack: 70
+Sp. Defense: 75
+Speed: 60
+
+Evolutions:
+Evolves to Grum.PNG when at level 28
+
+Moves:
+L1 - Confusion
+L1 - Tickle
+L4 - Echoed Voice
+L6 - Minimize
+L8 - Nuzzle
+L10 - Magic Coat
+L12 - Heart Stamp
+L14 - Confuse Ray
+L16 - Heal Block
+L16 - Shock Wave
+L18 - Rising Voltage
+L20 - Psybeam
+L22 - Parabolic Arc
+L24 - Luster Purge
+L26 - Electric Terrain
+L30 - Discharge
+L32 - Psyshock
+L34 - Volt Switch
+L36 - Psychic
+L38 - Hyperspace Hole
+L40 - Rest
+L40 - Sleep Talk
+L42 - Thunder
+L44 - Psycho Boost
+L46 - Prismatic Laser
+L48 - White Noise
+
+Egg Moves:
+Amnesia
+Barrier
+Bounce
+Endure
+Extrasensory
+Future Sight
+Lucky Chant
+Mirror Coat
+Power Gem
+Psywave
+Recycle
+Skill Swap
+Trick
+Whirlwind
+Zen Headbutt
+
+
+Abilities:
+Focus
+Symbiosis
+Hidden Ability:
+Magic Guard
+
+
+Item Drops:
+Item Common: Tanga Berry
+Item Uncommon: Big Mushroom
+Item Rare: Blunder Policy
+----
+
+#173
+Grum.PNG
+Types: PSYCHIC/ELECTRIC
+Stats:
+HP: 80
+Attack: 55
+Defense: 75
+Sp. Attack: 90
+Sp. Defense: 105
+Speed: 80
+
+Evolutions:
+
+Moves:
+Evo - Bounce
+L1 - Confusion
+L1 - Tickle
+L4 - Echoed Voice
+L6 - Minimize
+L8 - Nuzzle
+L10 - Magic Coat
+L12 - Heart Stamp
+L14 - Confuse Ray
+L16 - Heal Block
+L16 - Shock Wave
+L18 - Rising Voltage
+L20 - Psybeam
+L22 - Parabolic Arc
+L24 - Luster Purge
+L26 - Electric Terrain
+L30 - Discharge
+L32 - Psyshock
+L34 - Volt Switch
+L36 - Psychic
+L38 - Hyperspace Hole
+L40 - Rest
+L40 - Sleep Talk
+L42 - Thunder
+L44 - Psycho Boost
+L46 - Prismatic Laser
+L48 - White Noise
+
+Abilities:
+Focus
+Symbiosis
+Hidden Ability:
+Magic Guard
+
+
+Item Drops:
+Item Common: Tanga Berry
+Item Uncommon: Big Mushroom
+Item Rare: Blunder Policy
+----
+
+#174
+Mafula
+Types: DARK/FLYING
+Stats:
+HP: 75
+Attack: 95
+Defense: 70
+Sp. Attack: 80
+Sp. Defense: 85
+Speed: 110
+
+Evolutions:
+
+Moves:
+L1 - Gust
+L1 - Supersonic
+L4 - Pursuit
+L6 - Defog
+L8 - Air Cutter
+L10 - Twineedle
+L12 - Bite
+L12 - Scary Face
+L14 - Incision
+L16 - Tailwind
+L18 - Leech Life
+L20 - Snarl
+L22 - Taunt
+L24 - Cross Poison
+L26 - Air Slash
+L28 - Nasty Plot
+L30 - Night Slash
+L32 - Swagger
+L34 - Roost
+L36 - Night Daze
+L38 - Burbomb
+L40 - Crunch
+L42 - Beat Up
+L44 - Empyrean Gale
+L46 - Foul Play
+L48 - Delucidate
+L50 - Aeroblast
+
+Egg Moves:
+Destiny Bond
+Drain Fang
+Fire Fang
+Fury Cutter
+Gastro Acid
+Giga Drain
+Lick
+Mean Look
+Oblivion Wing
+Parting Shot
+Pin Missile
+Poison Fang
+Psychic Fangs
+Psycho Cut
+Razor Wind
+Sacked Sanity
+Slash
+Super Fang
+Topsy-Turvy
+Water Shuriken
+
+
+Abilities:
+Vigilante
+Pickpocket
+Hidden Ability:
+Knife Talk
+
+
+Item Drops:
+Item Common: Charti Berry
+Item Uncommon: Black Glasses
+Item Rare: Malocchio Knife
+----
+
+#175
+Televil
+Types: GHOST
+Stats:
+HP: 50
+Attack: 35
+Defense: 50
+Sp. Attack: 50
+Sp. Defense: 45
+Speed: 45
+
+Evolutions:
+Evolves to Telzebubby when at level 25
+
+Moves:
+L1 - Eerie Impulse
+L1 - Lick
+L4 - Shadow Sneak
+L6 - Thunder Shock
+L8 - Hypnosis
+L10 - Static Shock
+L12 - Curse
+L12 - Scary Face
+L14 - Night Shade
+L16 - Charge Beam
+L18 - Confuse Ray
+L20 - Hex
+L22 - Channel
+L24 - Dark Pulse
+L28 - Volt Sting
+L30 - Parabolic Arc
+L32 - Dragon Tail
+L34 - Volt Switch
+L36 - Shadow Ball
+L38 - Thunderbolt
+L40 - Dragon Pulse
+L42 - Thunder
+L44 - Magnet Rise
+L48 - White Noise
+L50 - Draco Meteor
+L52 - Wraith Rend
+L54 - Roar of Time
+
+Egg Moves:
+Astonish
+Clear Smog
+Disable
+Dragon Breath
+Fire Punch
+Grudge
+Haze
+Ice Punch
+Perish Song
+Poltergeist
+Psywave
+Smog
+Spacial Rend
+Thunder Punch
+Tri Attack
+
+
+Abilities:
+Lightning Rod
+Air Lock
+Hidden Ability:
+Ungrounded
+
+
+Item Drops:
+Item Common: Electric Gem
+Item Uncommon: Tubby Custard
+Item Rare: Devolution Gun
+----
+
+#176
+Telzebubby
+Types: GHOST/DRAGON
+Stats:
+HP: 70
+Attack: 45
+Defense: 60
+Sp. Attack: 70
+Sp. Defense: 60
+Speed: 85
+
+Evolutions:
+Evolves to Tiezracomp when at level 45
+
+Moves:
+Evo - Dragon Breath
+L1 - Eerie Impulse
+L1 - Lick
+L4 - Shadow Sneak
+L6 - Thunder Shock
+L8 - Hypnosis
+L10 - Static Shock
+L12 - Curse
+L12 - Scary Face
+L14 - Night Shade
+L16 - Charge Beam
+L18 - Confuse Ray
+L20 - Hex
+L22 - Channel
+L24 - Dark Pulse
+L28 - Volt Sting
+L30 - Parabolic Arc
+L32 - Dragon Tail
+L34 - Volt Switch
+L36 - Shadow Ball
+L38 - Thunderbolt
+L40 - Dragon Pulse
+L42 - Thunder
+L44 - Magnet Rise
+L48 - White Noise
+L50 - Draco Meteor
+L52 - Wraith Rend
+L54 - Roar of Time
+
+Abilities:
+Lightning Rod
+Air Lock
+Hidden Ability:
+Ungrounded
+
+
+Item Drops:
+Item Common: Electric Gem
+Item Uncommon: Tubby Custard
+Item Rare: Devolution Gun
+----
+
+#177
+Tiezracomp
+Types: ELECTRIC/DRAGON
+Stats:
+HP: 100
+Attack: 70
+Defense: 90
+Sp. Attack: 105
+Sp. Defense: 90
+Speed: 100
+
+Evolutions:
+
+Moves:
+Evo - Tri Attack
+L1 - Eerie Impulse
+L1 - Lick
+L4 - Shadow Sneak
+L6 - Thunder Shock
+L8 - Hypnosis
+L10 - Static Shock
+L12 - Curse
+L12 - Scary Face
+L14 - Night Shade
+L16 - Charge Beam
+L18 - Confuse Ray
+L20 - Hex
+L22 - Channel
+L24 - Dark Pulse
+L28 - Volt Sting
+L30 - Parabolic Arc
+L32 - Dragon Tail
+L34 - Volt Switch
+L36 - Shadow Ball
+L38 - Thunderbolt
+L40 - Dragon Pulse
+L42 - Thunder
+L44 - Magnet Rise
+L48 - White Noise
+L50 - Draco Meteor
+L52 - Wraith Rend
+L54 - Roar of Time
+
+Abilities:
+Lightning Rod
+Air Lock
+Hidden Ability:
+Ungrounded
+
+
+Item Drops:
+Item Common: Electric Gem
+Item Uncommon: Tubby Custard
+Item Rare: Devolution Gun
+----
+
+#178
+Ocerylph
+Types: PSYCHIC/BUG
+Stats:
+HP: 80
+Attack: 45
+Defense: 85
+Sp. Attack: 105
+Sp. Defense: 110
+Speed: 95
+
+Evolutions:
+
+Moves:
+L1 - Charm
+L1 - Peekaboo
+L1 - Tackle
+L4 - Infestation
+L6 - Confusion
+L8 - Powder
+L10 - Struggle Bug
+L12 - Psybeam
+L14 - Barrier
+L16 - Heal Block
+L16 - Silver Wind
+L18 - Quiver Dance
+L20 - Mist Ball
+L22 - Mirror Coat
+L24 - Signal Beam
+L26 - Psyshock
+L28 - Rest
+L30 - Bug Buzz
+L32 - Luster Purge
+L34 - Pollen Puff
+L36 - Tail Glow
+L38 - Psystrike
+L40 - Recover
+L42 - Wonder Room
+L44 - Stored Power
+L46 - Hellswarm
+L48 - Prismatic Laser
+
+Egg Moves:
+Aura Sphere
+Baton Pass
+Electro Ball
+Focus Energy
+Meteor Beam
+Morning Sun
+Power Gem
+Reflect Type
+Synchronoise
+Weather Ball
+
+
+Abilities:
+Ricochet
+Marbled Gleam
+Hidden Ability:
+Solar Power
+
+
+Item Drops:
+Item Common: Pearl
+Item Uncommon: Psychic Gem
+Item Rare: Cat's Eye Marble
+----
+
+#179
+Druzinatos
+Types: GHOST/FIRE
+Stats:
+HP: 80
+Attack: 90
+Defense: 80
+Sp. Attack: 100
+Sp. Defense: 85
+Speed: 90
+
+Evolutions:
+
+Moves:
+L1 - Astonish
+L1 - Leer
+L4 - Ember
+L6 - Shadow Sneak
+L8 - Flame Charge
+L10 - Confuse Ray
+L12 - Flame Wheel
+L14 - Curse
+L14 - Scary Face
+L16 - Fire Fang
+L18 - Shadow Claw
+L20 - Tailwind
+L22 - Flame Burst
+L24 - Ominous Wind
+L26 - Phantom Force
+L28 - Fiery Dance
+L30 - Hex
+L32 - Heretical Dance
+L34 - Shadow Bone
+L36 - Fire Lash
+L38 - Dark Void
+L40 - Sacred Fire
+L42 - Dream Eater
+L44 - Shadow Terrain
+L46 - Shadow Force
+L48 - V-create
+L50 - Wraith Rend
+
+Egg Moves:
+After You
+Blue Flare
+Breaking Swipe
+Dragon Breath
+Dragon Dance
+Fire Pledge
+Flare Blitz
+Inferno
+Imprison
+Mean Look
+Mystical Fire
+Nightmare
+Outrage
+Play Nice
+Sacred Fire
+Telekinesis
+
+
+Ability:
+Soul Steal
+
+
+Item Drops:
+Item Common: Lansat Berry
+Item Uncommon: Fire Gem
+Item Rare: Soul Lantern
+----
+
+#180
+Mochare
+Types: NORMAL/FIGHTING
+Stats:
+HP: 100
+Attack: 65
+Defense: 85
+Sp. Attack: 50
+Sp. Defense: 85
+Speed: 60
+
+Evolutions:
+
+Moves:
+L1 - Pound
+L1 - Tail Whip
+L4 - Rock Crush
+L6 - Bulk Up
+L8 - Power-Up Punch
+L10 - Stomp
+L12 - Killer Instinct
+L14 - Double Hit
+L16 - Belly Drum
+L18 - Brick Break
+L20 - Sing
+L22 - Chip Away
+L24 - Drain Punch
+L26 - Mega Punch
+L28 - Slack Off
+L30 - Body Slam
+L32 - Sky Uppercut
+L34 - Extreme Speed
+L36 - Northstar Fist
+L38 - Take Down
+L40 - Hammer Arm
+L42 - Thrash
+L44 - Superpower
+L46 - Giga Impact
+L48 - Final Gambit
+L50 - Flying Press
+
+Egg Moves:
+Bullet Punch
+Camouflage
+Comet Punch
+Cosmic Power
+Dizzy Punch
+Fire Punch
+Ice Punch
+Lucky Chant
+Lunar Dance
+Mach Punch
+Meteor Mash
+Metronome
+Moonlight
+Smelling Salts
+Thunder Punch
+
+
+Ability:
+Huge Power
+
+
+Item Drops:
+Item Common: Sitrus Berry
+Item Uncommon: Fighting Gem
+Item Rare: Emochi
+----
+
+#181
+Puddidrop
+Types: PSYCHIC
+Stats:
+HP: 95
+Attack: 125
+Defense: 80
+Sp. Attack: 50
+Sp. Defense: 80
+Speed: 85
+
+Evolutions:
+
+Moves:
+L1 - Fake Tears
+L1 - Lick
+L4 - Pursuit
+L6 - Flatter
+L8 - Confusion
+L10 - Shadow Sneak
+L12 - Will-O-Wisp
+L14 - Heart Stamp
+L16 - Heal Block
+L16 - Knock Off
+L18 - Swagger
+L20 - Psycho Cut
+L22 - Teeter Dance
+L24 - Lolly Lick
+L26 - Dire Slam
+L28 - Punishment
+L30 - Zen Headbutt
+L32 - Strength Sap
+L34 - Meteor Mash
+L36 - Psychic Fangs
+L38 - Stone Edge
+L40 - Flare Blitz
+L42 - Freeze Shock
+L44 - Psy-kick
+L46 - Self-Destruct
+L48 - Mirror Coat
+L50 - Acid Reflux
+L52 - Diamond Storm
+
+Egg Moves:
+Acid
+Acid Spray
+Acid Armor
+Gastro Acid
+Imprison
+Mystery Slam
+Simple Beam
+Skill Swap
+Thrash
+Topsy-Turvy
+
+
+Ability:
+Acid Trip
+
+
+Item Drops:
+Item Common: Enigma Berry
+Item Uncommon: Psychic Gem
+Item Rare: Nature Mint
+----
+
+#182
+Harlefin
+Types: STEEL/GHOST
+Stats:
+HP: 80
+Attack: 90
+Defense: 110
+Sp. Attack: 115
+Sp. Defense: 75
+Speed: 55
+
+Evolutions:
+
+Moves:
+L1 - Golddust
+L1 - Water Sport
+L4 - Astonish
+L6 - Brine
+L8 - Metal Claw
+L10 - Autotomize
+L12 - Smart Strike
+L14 - Ominous Wind
+L16 - Cloud Burst
+L18 - Shadow Claw
+L20 - Mirror Shot
+L22 - Anchor Shot
+L24 - Muddy Water
+L26 - Hex
+L28 - Magnetic Shock
+L30 - Tailwind
+L32 - Shadow Ball
+L34 - Origin Pulse
+L36 - Phantom Force
+L38 - Memento
+L40 - Steam Eruption
+L42 - Shadow Force
+L44 - Meteor Mash
+L46 - Holy Triumvirate
+L48 - Metal Burst
+L50 - Wraith Rend
+
+Egg Moves:
+Aura Sphere
+Curse
+Freikugel
+Iron Tail
+Night Shade
+Psychic Fangs
+Spirit Shackle
+Super Fang
+Water Pledge
+Wave Crash
+
+
+Abilities:
+Magnet Pull
+Swift Swim
+Hidden Ability:
+Storm Drain
+
+
+Item Drops:
+Item Common: Petaya Berry
+Item Uncommon: Steel Gem
+Item Rare: Pearl String
+----
+
+#183
+Waddeedoo
+Types: NORMAL
+Stats:
+HP: 135
+Attack: 50
+Defense: 60
+Sp. Attack: 80
+Sp. Defense: 105
+Speed: 50
+
+Evolutions:
+
+Moves:
+L1 - Baby-Doll Eyes
+L1 - Double Slap
+L4 - Thunder Shock
+L6 - Glare
+L8 - Charge Beam
+L10 - Charge
+L12 - Shock Wave
+L14 - Arc Bolt
+L14 - Scary Face
+L16 - Wish
+L18 - Parabolic Arc
+L20 - Round
+L22 - Yawn
+L24 - Doodle Beam
+L26 - Switcheroo
+L28 - Volt Switch
+L30 - Simple Beam
+L32 - Hyper Voice
+L34 - Heal Bell
+L36 - Discharge
+L38 - Zap Cannon
+L40 - Heatvision
+L42 - Thunder
+L44 - Hyper Beam
+L46 - Boomburst
+L48 - Photon
+L50 - Meteor Beam
+
+Egg Moves:
+Amnesia
+Aurora Beam
+Bubble Beam
+Dazzling Gleam
+Encore
+Heal Pulse
+Healing Wish
+Lucky Chant
+Psybeam
+Signal Beam
+Sleep Talk
+Sweet Kiss
+Switcheroo
+Wish
+Yawn
+
+
+Ability:
+Beam Aura
+Catalyst
+Hidden Ability:
+Keen Eye
+
+
+Item Drops:
+Item Common: Apicot Berry
+Item Uncommon: Electric Gem
+Item Rare: Super HP Max
+----
+
+#184
+Rowlet
+Types: GRASS/FLYING
+Stats:
+HP: 70
+Attack: 55
+Defense: 55
+Sp. Attack: 50
+Sp. Defense: 50
+Speed: 45
+
+Evolutions:
+Evolves to Dartrix when at level 16
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Vine Whip
+L6 - Voidwind
+L8 - Astonish
+L10 - Razor Leaf
+L12 - Wing Attack
+L14 - Ominous Wind
+L14 - Scary Face
+L18 - Burbomb
+L20 - Horn Leech
+L22 - Shadow Claw
+L24 - Acrobatics
+L26 - Synthesis
+L28 - Thousand Arrows
+L30 - Drill Peck
+L32 - Trop Kick
+L36 - Leaf Blade
+L38 - Hurricane
+L40 - Brave Bird
+L42 - Power Whip
+L44 - Parting Shot
+L46 - Shadow Force
+L48 - Sucker Punch
+L50 - Wraith Rend
+
+Egg Moves:
+Amnesia
+Charm
+Curse
+Endure
+Feather Dance
+Forest's Curse
+Giga Drain
+Grass Pledge
+Grass Whistle
+Ingrain
+Leaf Storm
+Magical Leaf
+Nature Power
+Petal Dance
+Power Whip
+Skull Bash
+Sludge
+Spirit Shackle
+
+
+Ability:
+Unburden
+Hidden Ability:
+Chlorophyll
+
+
+Item Drops:
+Item Common: Starf Berry
+Item Uncommon: Grass Gem
+Item Rare: 10 Bluparrows
+----
+
+#185
+Dartrix
+Types: GRASS/FLYING
+Stats:
+HP: 80
+Attack: 75
+Defense: 75
+Sp. Attack: 70
+Sp. Defense: 70
+Speed: 55
+
+Evolutions:
+Evolves to Decidueye when at level 34
+
+Moves:
+Evo - Forest's Curse
+L1 - Growl
+L1 - Tackle
+L4 - Vine Whip
+L6 - Voidwind
+L8 - Astonish
+L10 - Razor Leaf
+L12 - Wing Attack
+L14 - Ominous Wind
+L14 - Scary Face
+L18 - Burbomb
+L20 - Horn Leech
+L22 - Shadow Claw
+L24 - Acrobatics
+L26 - Synthesis
+L28 - Thousand Arrows
+L30 - Drill Peck
+L32 - Trop Kick
+L36 - Leaf Blade
+L38 - Hurricane
+L40 - Brave Bird
+L42 - Power Whip
+L44 - Parting Shot
+L46 - Shadow Force
+L48 - Sucker Punch
+L50 - Wraith Rend
+
+Ability:
+Unburden
+Hidden Ability:
+Chlorophyll
+
+
+Item Drops:
+Item Common: Starf Berry
+Item Uncommon: Grass Gem
+Item Rare: 10 Bluparrows
+----
+
+#186
+Decidueye
+Types: GRASS/GHOST
+Stats:
+HP: 80
+Attack: 105
+Defense: 75
+Sp. Attack: 100
+Sp. Defense: 100
+Speed: 75
+
+Evolutions:
+
+Moves:
+Evo - Spirit Shackle
+L1 - Growl
+L1 - Tackle
+L4 - Vine Whip
+L6 - Voidwind
+L8 - Astonish
+L10 - Razor Leaf
+L12 - Wing Attack
+L14 - Ominous Wind
+L14 - Scary Face
+L18 - Burbomb
+L20 - Horn Leech
+L22 - Shadow Claw
+L24 - Acrobatics
+L26 - Synthesis
+L28 - Thousand Arrows
+L30 - Drill Peck
+L32 - Trop Kick
+L36 - Leaf Blade
+L38 - Hurricane
+L40 - Brave Bird
+L42 - Power Whip
+L44 - Parting Shot
+L46 - Shadow Force
+L48 - Sucker Punch
+L50 - Wraith Rend
+
+Ability:
+Unburden
+Hidden Ability:
+Chlorophyll
+
+
+Item Drops:
+Item Common: Starf Berry
+Item Uncommon: Grass Gem
+Item Rare: 10 Bluparrows
+----
+
+#187
+Metroid
+Types: POISON
+Stats:
+HP: 60
+Attack: 60
+Defense: 50
+Sp. Attack: 40
+Sp. Defense: 55
+Speed: 60
+
+Evolutions:
+Evolves to Gammatroid when at level 18
+
+Moves:
+L1 - Growl
+L1 - Poison Sting
+L4 - Bite
+L6 - Supersonic
+L8 - Acid
+L10 - Gastro Acid
+L10 - Scary Face
+L12 - Poison Fang
+L14 - Acid Armor
+L14 - String Shot
+L16 - Screech
+L20 - Crunch
+L22 - Cross Poison
+L24 - Venom Drench
+L26 - Darkest Lariat
+L28 - Poison Jab
+L30 - Belly Drum
+L34 - Roar
+L36 - Toxic Spikes
+L38 - Gunk Shot
+L40 - Super Fang
+L42 - Toxic Harpoon
+L44 - Extreme Speed
+L46 - Biohazard
+L48 - Strength Sap
+L50 - Hyperspace Fury
+
+Egg Moves:
+Baby-Doll Eyes
+Crush Claw
+Curse
+Defog
+Drain Fang
+Feint Attack
+Fire Fang
+Giga Drain
+Leech Life
+Lethal Injection
+Metronome
+Parabolic Arc
+Purify
+Pursuit
+Toxic Thread
+Quick Attack
+Zen Headbutt
+
+
+Abilities:
+Terrorize
+Levitate
+Hidden Ability:
+Corrosion
+
+
+Item Drops:
+Item Common: Poison Gem
+Item Uncommon: Big Root
+Item Rare: Poison Hat-Crab
+----
+
+#188
+Gammatroid
+Types: POISON
+Stats:
+HP: 70
+Attack: 100
+Defense: 65
+Sp. Attack: 60
+Sp. Defense: 70
+Speed: 95
+
+Evolutions:
+Evolves to Omegatroid when at level 32
+
+Moves:
+Evo - Drain Fang
+L1 - Growl
+L1 - Poison Sting
+L4 - Bite
+L6 - Supersonic
+L8 - Acid
+L10 - Gastro Acid
+L10 - Scary Face
+L12 - Poison Fang
+L14 - Acid Armor
+L14 - String Shot
+L16 - Screech
+L20 - Crunch
+L22 - Cross Poison
+L24 - Venom Drench
+L26 - Darkest Lariat
+L28 - Poison Jab
+L30 - Belly Drum
+L34 - Roar
+L36 - Toxic Spikes
+L38 - Gunk Shot
+L40 - Super Fang
+L42 - Toxic Harpoon
+L44 - Extreme Speed
+L46 - Biohazard
+L48 - Strength Sap
+L50 - Hyperspace Fury
+
+Abilities:
+Terrorize
+Levitate
+Hidden Ability:
+Corrosion
+
+
+Item Drops:
+Item Common: Poison Gem
+Item Uncommon: Big Root
+Item Rare: Poison Hat-Crab
+----
+
+#189
+Omegatroid
+Types: POISON
+Stats:
+HP: 85
+Attack: 145
+Defense: 95
+Sp. Attack: 65
+Sp. Defense: 90
+Speed: 120
+
+Evolutions:
+
+Moves:
+Evo - Lethal Injection
+L1 - Growl
+L1 - Poison Sting
+L4 - Bite
+L6 - Supersonic
+L8 - Acid
+L10 - Gastro Acid
+L10 - Scary Face
+L12 - Poison Fang
+L14 - Acid Armor
+L14 - String Shot
+L16 - Screech
+L20 - Crunch
+L22 - Cross Poison
+L24 - Venom Drench
+L26 - Darkest Lariat
+L28 - Poison Jab
+L30 - Belly Drum
+L34 - Roar
+L36 - Toxic Spikes
+L38 - Gunk Shot
+L40 - Super Fang
+L42 - Toxic Harpoon
+L44 - Extreme Speed
+L46 - Biohazard
+L48 - Strength Sap
+L50 - Hyperspace Fury
+
+Abilities:
+Terrorize
+Levitate
+Hidden Ability:
+Corrosion
+
+
+Item Drops:
+Item Common: Poison Gem
+Item Uncommon: Big Root
+Item Rare: Poison Hat-Crab
+----
+
+#190
+Poopergeist
+Types: GHOST/POISON
+Stats:
+HP: 65
+Attack: 75
+Defense: 120
+Sp. Attack: 75
+Sp. Defense: 120
+Speed: 55
+
+Evolutions:
+
+Moves:
+L1 - Mud-Slap
+L1 - Poison Gas
+L4 - Smog
+L6 - Shadow Sneak
+L8 - Confuse Ray
+L10 - Haze
+L12 - Shadow Punch
+L14 - Dark Void
+L16 - Sludge
+L18 - Stool Sample
+L20 - Poison Tail
+L22 - Hex
+L24 - Dream Eater
+L26 - Muddy Water
+L28 - Channel
+L30 - Cross Poison
+L32 - Ominous Wind
+L34 - Curse
+L36 - Sludge Bomb
+L38 - Shadow Ball
+L40 - Nightmare
+L42 - Magma Storm
+L44 - Shadow Force
+L46 - Grudge
+L48 - Destiny Bond
+L50 - Biohazard
+L52 - Wraith Rend
+
+Egg Moves:
+Belch
+Bullet Seed
+Defend Order
+Infestation
+Mud Bomb
+Mud Shot
+Mud Sport
+Natural Gift
+Poltergeist
+Sing
+Trick-or-Treat
+Water Sport
+Whirlpool
+
+
+Abilities:
+Stinky
+Aroma Veil
+Hidden Ability:
+Haunted
+
+
+Item Drops:
+Item Common: Waste
+Item Uncommon: Black Sludge
+Item Rare: Reversal Band
+----
+
+#191
+Blastropod
+Types: POISON/STEEL
+Stats:
+HP: 70
+Attack: 65
+Defense: 135
+Sp. Attack: 115
+Sp. Defense: 90
+Speed: 10
+
+Evolutions:
+
+Moves:
+L1 - Acid
+L1 - Withdraw
+L4 - Acid Spray
+L6 - Curse
+L8 - Clear Smog
+L10 - Iron Defense
+L12 - Sludge
+L14 - Trick Room
+L16 - Lethal Injection
+L18 - Gastro Acid
+L20 - Mirror Shot
+L22 - Venom Drench
+L24 - Water Pulse
+L26 - Venoshock
+L28 - Aura Sphere
+L30 - Iron Slag
+L32 - Baneful Bunker
+L34 - Flash Cannon
+L36 - Toxic Harpoon
+L38 - Magnetic Shock
+L40 - Toxic Spikes
+L42 - Dragon Pulse
+L44 - Gunk Shot
+L46 - Gyro Ball
+L48 - Rage Powder
+L50 - Destiny Bond
+L52 - Doom Desire
+L54 - Biohazard
+
+Egg Moves:
+Camouflage
+Mirror Coat
+Mud Bomb
+Octazooka
+Pin Missile
+Rock Blast
+Shell Smash
+Sludge Bomb
+Smart Strike
+Spike Cannon
+Water Sport
+Weather Ball
+Zap Cannon
+
+
+Abilities:
+Analytic
+Mega Launcher
+Hidden Ability:
+Storm Drain
+
+
+Item Drops:
+Item Common: Poison Gem
+Item Uncommon: Super Max Iron
+Item Rare: Assault Vest
+----
+
+#192
+Pugcakes
+Types: NORMAL
+Stats:
+HP: 95
+Attack: 95
+Defense: 100
+Sp. Attack: 65
+Sp. Defense: 90
+Speed: 60
+
+Evolutions:
+
+Moves:
+L1 - Growl
+L1 - Tackle
+L4 - Mud-Slap
+L6 - Odor Sleuth
+L8 - Quick Attack
+L10 - Sweet Scent
+L12 - Covet
+L14 - Glare
+L16 - Crush Claw
+L18 - Sticky Mess
+L20 - Belly Drum
+L22 - Mud Shot
+L24 - Slam
+L26 - Facade
+L28 - Take Down
+L30 - Yawn
+L32 - Body Slam
+L34 - Honey Slather
+L36 - Strength Sap
+L38 - Hyper Voice
+L40 - Thrash
+L42 - Psych Up
+L44 - Double-Edge
+L46 - Endeavor
+L48 - Play Rough
+
+Egg Moves:
+Assist
+Baton Pass
+Disable
+Encore
+Fake Out
+Fake Tears
+Howl
+Icy Wind
+Psycho Cut
+Turbo Spin
+Role Play
+Smelling Salts
+Trick
+Water Pulse
+Wish
+
+
+Abilities:
+Gooey
+Sap Sipper
+Hidden Ability:
+Arena Trap
+
+
+Item Drops:
+Item Common: Berry Juice
+Item Uncommon: Syrup Spoon
+Item Rare: Leftovers
+----
+
+#193
+Scrobius
+Types: POISON/DARK
+Stats:
+HP: 100
+Attack: 100
+Defense: 70
+Sp. Attack: 50
+Sp. Defense: 80
+Speed: 80
+
+Evolutions:
+
+Moves:
+L1 - Agility
+L1 - Poison Sting
+L4 - Rollout
+L6 - Pursuit
+L8 - Turbo Spin
+L10 - Taunt
+L12 - Supersonic
+L14 - Sonic Boom
+L16 - Poison Fang
+L18 - Backscatter
+L20 - Encore
+L22 - Caltrops
+L24 - Cross Poison
+L26 - Power Trip
+L28 - Crunch
+L30 - Knock Off
+L32 - Sonic Rush
+L34 - Spiky Shield
+L36 - Poison Jab
+L38 - Extreme Speed
+L40 - Gunk Shot
+L42 - Foul Play
+L44 - Swords Dance
+L46 - Zing Zap
+L48 - Snatch
+L50 - Darkest Lariat
+
+Egg Moves:
+Accelerock
+Barrel Roll
+Cyclone
+Defense Curl
+Dominate
+Feint Attack
+Flame Wheel
+Follow Me
+Helping Hand
+Howl
+Hypnosis
+Ice Ball
+Lick
+Milk Drink
+Mud Sport
+Pass On
+Pin Missile
+Power Trip
+Quick Guard
+Rolling Kick
+Submission
+Sweet Scent
+Teleport
+Twineedle
+
+
+Abilities:
+Quick Feet
+Curl Up
+Hidden Ability:
+Speed Boost
+
+
+Item Drops:
+Item Common: Dark Gem
+Item Uncommon: Punching Glove
+Item Rare: Tails' Tails
+----
+
+#194
+Skullshroom
+Types: DARK/POISON
+Stats:
+HP: 40
+Attack: 45
+Defense: 50
+Sp. Attack: 50
+Sp. Defense: 55
+Speed: 60
+
+Evolutions:
+Evolves to Shroombeast when at level 18
+
+Moves:
+L1 - Leer
+L1 - Tackle
+L4 - Smog
+L6 - Pursuit
+L8 - Acid Spray
+L10 - Switcheroo
+L12 - Scary Face
+L12 - Sludge
+L14 - Sneer
+L16 - Poison Fang
+L20 - Nature Power
+L22 - Heretical Dance
+L24 - Sacked Sanity
+L26 - Baton Pass
+L28 - Void Call
+L32 - Sludge Bomb
+L34 - Delucidate
+L36 - Spore
+L38 - Stored Power
+L40 - Rend
+L42 - Biohazard
+L44 - Gunk Shot
+L46 - Blackhole
+L48 - Parting Shot
+
+Egg Moves:
+Forest's Curse
+Horn Leech
+Knock Off
+Magic Coat
+Mystical Fire
+Pin Missile
+Rage Powder
+Rock Climb
+Shadow Bone
+Skull Bash
+Spikes
+Take Down
+Toxic Spikes
+Trick-or-Treat
+Twineedle
+
+
+Abilities:
+Soul Heart
+Obstinate
+Hidden Ability:
+Prankster
+
+
+Item Drops:
+Item Common: Pecha Berry
+Item Uncommon: Poison Gem
+Item Rare: Funny Spores
+----
+
+#195
+Shroombeast
+Types: DARK/POISON
+Stats:
+HP: 55
+Attack: 65
+Defense: 75
+Sp. Attack: 75
+Sp. Defense: 85
+Speed: 50
+
+Evolutions:
+Evolves to Scyshroom when at level 30
+
+Moves:
+Evo - Knock Off
+L1 - Leer
+L1 - Tackle
+L4 - Smog
+L6 - Pursuit
+L8 - Acid Spray
+L10 - Switcheroo
+L12 - Scary Face
+L12 - Sludge
+L14 - Sneer
+L16 - Poison Fang
+L20 - Nature Power
+L22 - Heretical Dance
+L24 - Sacked Sanity
+L26 - Baton Pass
+L28 - Void Call
+L32 - Sludge Bomb
+L34 - Delucidate
+L36 - Spore
+L38 - Stored Power
+L40 - Rend
+L42 - Biohazard
+L44 - Gunk Shot
+L46 - Blackhole
+L48 - Parting Shot
+
+Abilities:
+Soul Heart
+Obstinate
+Hidden Ability:
+Prankster
+
+
+Item Drops:
+Item Common: Pecha Berry
+Item Uncommon: Poison Gem
+Item Rare: Funny Spores
+----
+
+#196
+Scyshroom
+Types: DARK/POISON
+Stats:
+HP: 75
+Attack: 75
+Defense: 85
+Sp. Attack: 105
+Sp. Defense: 85
+Speed: 90
+
+Evolutions:
+
+Moves:
+Evo - Toxic Spikes
+L1 - Leer
+L1 - Tackle
+L4 - Smog
+L6 - Pursuit
+L8 - Acid Spray
+L10 - Switcheroo
+L12 - Scary Face
+L12 - Sludge
+L14 - Sneer
+L16 - Poison Fang
+L20 - Nature Power
+L22 - Heretical Dance
+L24 - Sacked Sanity
+L26 - Baton Pass
+L28 - Void Call
+L32 - Sludge Bomb
+L34 - Delucidate
+L36 - Spore
+L38 - Stored Power
+L40 - Rend
+L42 - Biohazard
+L44 - Gunk Shot
+L46 - Blackhole
+L48 - Parting Shot
+
+Abilities:
+Soul Heart
+Obstinate
+Hidden Ability:
+Prankster
+
+
+Item Drops:
+Item Common: Pecha Berry
+Item Uncommon: Poison Gem
+Item Rare: Funny Spores
+----
+
+#197
+Rexphile
+Types: STEEL/FLYING
+Stats:
+HP: 70
+Attack: 80
+Defense: 110
+Sp. Attack: 90
+Sp. Defense: 95
+Speed: 40
+
+Evolutions:
+
+Moves:
+L1 - Golddust
+L1 - Smokescreen
+L4 - Gust
+L6 - Confusion
+L8 - Iron Defense
+L10 - Metal Claw
+L12 - Manic Shift
+L14 - Magnitude
+L16 - Magnet Bomb
+L18 - Grass Whistle
+L20 - Simple Beam
+L22 - Beam Up
+L24 - Calm Mind
+L26 - Mirror Shot
+L28 - Air Slash
+L30 - Magnetic Shock
+L32 - Cosmic Power
+L34 - Oblivion Wing
+L36 - Flash Cannon
+L38 - Power Split
+L40 - Empyrean Gale
+L42 - Earth Power
+L44 - Wonder Room
+L46 - Blackhole
+L48 - Meteor Beam
+
+Egg Moves:
+Aromatherapy
+Eerie Impulse
+Gravity
+Magical Leaf
+Meditate
+Mind Reader
+Moonblast
+Seismic Toss
+Signal Beam
+Skill Swap
+Stored Power
+Roost
+Zen Headbutt
+
+
+Abilities:
+Gravity Field
+Stasis
+Hidden Ability:
+Analytic
+
+
+Item Drops:
+Item Common: Shuca Berry
+Item Uncommon: Steel Gem
+Item Rare: Fleeb
+----
+
+#198
+Draffoli
+Types: DRAGON/BUG
+Stats:
+HP: 85
+Attack: 50
+Defense: 95
+Sp. Attack: 100
+Sp. Defense: 110
+Speed: 100
+
+Evolutions:
+
+Moves:
+L1 - Infestation
+L1 - Mud Sport
+L4 - Struggle Bug
+L6 - Twister
+L8 - Defend Order
+L10 - Steamroller
+L12 - Fire Spin
+L12 - String Shot
+L14 - Silver Wind
+L16 - Incinerate
+L18 - Dragon Breath
+L20 - Beelzebite
+L22 - Sticky Web
+L24 - Toxic
+L26 - Dragon Rage
+L28 - Attack Order
+L30 - Quiver Dance
+L32 - Dragon Pulse
+L34 - Bug Buzz
+L36 - Heatvision
+L38 - Heal Order
+L40 - Hellswarm
+L42 - Magma Storm
+L44 - Draco Meteor
+L46 - Soft-Boiled
+
+Egg Moves:
+Ancient Power
+Body Slam
+Double-Edge
+Gastro Acid
+Inferno
+Iron Head
+Iron Tail
+Metal Claw
+Mud Shot
+Outrage
+Rock Climb
+Sand Tomb
+Scary Face
+Thrash
+Toxic Thread
+
+
+Abilities:
+Tinted Lens
+Compound Eyes
+Hidden Ability:
+Poison Heal
+
+
+Item Drops:
+Item Common: Apicot Berry
+Item Uncommon: Bug Gem
+Item Rare: Big Root
+----
+
+#199
+Vinion
+Types: GRASS
+Stats:
+HP: 45
+Attack: 50
+Defense: 35
+Sp. Attack: 40
+Sp. Defense: 60
+Speed: 55
+
+Evolutions:
+Evolves to Viner when at level 24
+
+Moves:
+L1 - Absorb
+L1 - Growth
+L4 - Twister
+L6 - Mega Drain
+L8 - Mud-Slap
+L10 - Magical Leaf
+L12 - Sweet Scent
+L14 - Leech Seed
+L16 - Dragon Breath
+L18 - Worry Seed
+L20 - Bulldoze
+L22 - Leaf Tornado
+L24 - Powder
+L26 - Strength Sap
+L28 - Mud Bomb
+L30 - Giga Drain
+L32 - Dual Chop
+L34 - Horn Leech
+L38 - Breaking Swipe
+L40 - Energy Ball
+L42 - Earthquake
+L44 - Spacial Rend
+L46 - Seed Flare
+L48 - Spore
+L50 - Draco Meteor
+L52 - Power Whip
+
+Egg Moves:
+Delucidate
+Embargo
+Giga Drain
+Grass Pledge
+Grass Whistle
+Life From Loam
+Metronome
+Rage Powder
+Razor Leaf
+Roar of Time
+Slam
+Sleep Powder
+Sleep Talk
+Stun Spore
+Synthesis
+
+
+Ability:
+Dark Theme
+
+
+Item Drops:
+Item Common: Yache Berry
+Item Uncommon: Big Root
+Item Rare: Super Max Zinc
+----
+
+#200
+Viner
+Types: GRASS/GROUND
+Stats:
+HP: 70
+Attack: 65
+Defense: 50
+Sp. Attack: 70
+Sp. Defense: 100
+Speed: 80
+
+Evolutions:
+Evolves to Levineathan when at level 36
+
+Moves:
+Evo - Life From Loam
+L1 - Absorb
+L1 - Growth
+L4 - Twister
+L6 - Absorb
+L8 - Mud-Slap
+L10 - Magical Leaf
+L12 - Sweet Scent
+L14 - Leech Seed
+L16 - Dragon Breath
+L18 - Worry Seed
+L20 - Bulldoze
+L22 - Leaf Tornado
+L24 - Powder
+L26 - Strength Sap
+L28 - Mud Bomb
+L30 - Mega Drain
+L32 - Dual Chop
+L34 - Horn Leech
+L38 - Breaking Swipe
+L40 - Energy Ball
+L42 - Earthquake
+L44 - Spacial Rend
+L46 - Seed Flare
+L48 - Spore
+L50 - Draco Meteor
+L52 - Power Whip
+
+Ability:
+Dark Theme
+
+
+Item Drops:
+Item Common: Yache Berry
+Item Uncommon: Big Root
+Item Rare: Super Max Zinc
+----
+
+#201
+Levineathan
+Types: GRASS/DRAGON
+Stats:
+HP: 90
+Attack: 80
+Defense: 80
+Sp. Attack: 100
+Sp. Defense: 120
+Speed: 90
+
+Evolutions:
+
+Moves:
+Evo - Delucidate
+L1 - Absorb
+L1 - Growth
+L4 - Twister
+L6 - Absorb
+L8 - Mud-Slap
+L10 - Magical Leaf
+L12 - Sweet Scent
+L14 - Leech Seed
+L16 - Dragon Breath
+L18 - Worry Seed
+L20 - Bulldoze
+L22 - Leaf Tornado
+L24 - Powder
+L26 - Strength Sap
+L28 - Mud Bomb
+L30 - Mega Drain
+L32 - Dual Chop
+L34 - Horn Leech
+L38 - Breaking Swipe
+L40 - Energy Ball
+L42 - Earthquake
+L44 - Spacial Rend
+L46 - Seed Flare
+L48 - Spore
+L50 - Draco Meteor
+L52 - Power Whip
+
+Ability:
+Dark Theme
+
+
+Item Drops:
+Item Common: Yache Berry
+Item Uncommon: Big Root
+Item Rare: Super Max Zinc
+----
+
+#202
+Mustoji
+Types: PSYCHIC/FLYING
+Stats:
+HP: 95
+Attack: 60
+Defense: 100
+Sp. Attack: 160
+Sp. Defense: 130
+Speed: 115
+
+Evolutions:
+
+Moves:
+L1 - Confusion
+L1 - Growl
+L12 - Heal Block
+L14 - Turbo Spin
+L16 - Psybeam
+L18 - Cyclone
+L20 - Wish
+L22 - Fire Spin
+L24 - Extrasensory
+L26 - Hypnosis
+L28 - Cumulus Stream
+L30 - Psych Up
+L32 - Psychic
+L34 - Air Slash
+L36 - Psyshock
+L38 - Oblivion Wing
+L40 - Psystrike
+L42 - Aeroblast
+L44 - Me First
+L46 - Hurricane
+L48 - Lunar Dance
+L50 - Empyrean Gale
+L52 - Psycho Boost
+
+Ability:
+Speen
+
+
+Item Drops:
+Item Common: Nature Mint
+Item Uncommon: Nature Mint
+Item Rare: Nature Mint
+----
+
+#203
+Vitiswoll
+Types: GRASS/FIGHTING
+Stats:
+HP: 105
+Attack: 160
+Defense: 130
+Sp. Attack: 60
+Sp. Defense: 110
+Speed: 95
+
+Evolutions:
+
+Moves:
+L1 - King's Shield
+L1 - Leafage
+L20 - Scary Face
+L22 - Vine Whip
+L24 - Karate Chop
+L26 - Mach Punch
+L28 - Needle Arm
+L30 - Bulk Up
+L32 - Flying Press
+L34 - Seed Bomb
+L36 - Sky Uppercut
+L38 - Horn Leech
+L40 - Body Slam
+L42 - Swords Dance
+L44 - Leaf Blade
+L46 - Cross Chop
+L48 - Laser Focus
+L50 - Hammer Arm
+L52 - Wood Hammer
+L54 - Superpower
+L56 - Power Whip
+L58 - Reversal
+
+Ability:
+Sap Sipper
+Hidden Ability:
+Guts
+
+
+Item Drops:
+Item Common: Ability Capsule
+Item Uncommon: Ability Capsule
+Item Rare: Ability Capsule
+----
+
+#204
+Innyume
+Types: GHOST/PSYCHIC
+Stats:
+HP: 105
+Attack: 60
+Defense: 110
+Sp. Attack: 160
+Sp. Defense: 130
+Speed: 95
+
+Evolutions:
+
+Moves:
+L1 - Astonish
+L1 - Leer
+L10 - Heal Block
+L12 - Scary Face
+L14 - Shadow Sneak
+L16 - Confusion
+L18 - Flatter
+L20 - Confuse Ray
+L22 - Will-O-Wisp
+L24 - Pursuit
+L26 - Pain Split
+L28 - Hex
+L30 - Stalk
+L32 - Psybeam
+L34 - Snarl
+L36 - Barrier
+L38 - Psychic
+L40 - Shadow Ball
+L42 - Dark Void
+L44 - Channel
+L46 - Psystrike
+L48 - Perish Song
+L50 - Psycho Boost
+L52 - Poltergeist
+L54 - Wraith Rend
+
+Egg Moves:
+Confuse Ray
+Fake Out
+Future Sight
+Hypnosis
+Icy Wind
+Magic Room
+Mimic
+Nasty Plot
+Power Split
+Teeter Dance
+Trick
+Wake-Up Slap
+Pursuit
+
+
+Ability:
+Stakeout
+
+
+Item Drops:
+Item Common: Nature Mint
+Item Uncommon: Nature Mint
+Item Rare: Nature Mint
+----
+
+#205
+Reaper
+Types: WATER/DRAGON
+Stats:
+HP: 95
+Attack: 95
+Defense: 130
+Sp. Attack: 105
+Sp. Defense: 145
+Speed: 90
+
+Evolutions:
+
+Moves:
+L1 - Feint
+L1 - Leer
+L24 - Aqua Jet
+L26 - Dual Chop
+L28 - Scary Face
+L30 - Crunch
+L32 - Sonic Grasp
+L34 - Frostbite
+L36 - Breaking Swipe
+L38 - Aqua Tail
+L40 - Dragon Claw
+L42 - Liquidation
+L44 - Dragon Dance
+L46 - Dragon Rush
+L48 - Raving Mad
+L50 - Geyser Burst
+L52 - Outrage
+L54 - Hydro Pump
+L56 - Draco Meteor
+L58 - Water Spout
+
+Egg Moves:
+Amnesia
+Haze
+Hydro Pump
+Mirror Coat
+Mud Sport
+Slam
+Splash
+Twister
+Water Sport
+Wide Guard
+
+
+Abilities:
+Sap Sipper
+Water Veil
+Hidden Ability:
+Multiscale
+
+
+Item Drops:
+Item Common: Nature Mint
+Item Uncommon: Nature Mint
+Item Rare: Nature Mint
+----
+
+#206
+Arachnoscope
+Types: BUG/STEEL
+Stats:
+HP: 95
+Attack: 165
+Defense: 90
+Sp. Attack: 100
+Sp. Defense: 140
+Speed: 60
+
+Evolutions:
+
+Moves:
+L1 - Screech
+L1 - Twineedle
+L22 - Golddust
+L24 - Spider Web
+L26 - String Shot
+L28 - Milk Drink
+L30 - Metal Claw
+L32 - Pursuit
+L34 - Snatch
+L36 - Lunge
+L38 - Stealth Rock
+L40 - Metal Burst
+L42 - Leech Life
+L44 - Iron Head
+L46 - Sucker Punch
+L48 - 420 No Scope
+L50 - Megahorn
+L52 - Meteor Mash
+L54 - Dynamic Punch
+L56 - Automic Gift
+L58 - Zap Cannon
+L60 - Inferno
+L62 - Blind Shot
+
+Ability:
+1337Hax
+
+
+Item Drops:
+Item Common: Ability Capsule
+Item Uncommon: Ability Capsule
+Item Rare: Ability Capsule
+----
+
+#207
+Cronenetics
+Types: GHOST/QMARKS
+Stats:
+HP: 111
+Attack: 111
+Defense: 111
+Sp. Attack: 111
+Sp. Defense: 111
+Speed: 111
+
+Evolutions:
+
+Moves:
+L1 - Beelzebite
+L1 - Chromaticize
+L1 - Heatvision
+L1 - Lascivious Eye
+L32 - Fusion Bolt
+L34 - Maternity Ward
+L36 - Fullscreen
+L38 - Sippy Cup
+L40 - Quickcycle
+L42 - Awaiting Sky
+L44 - Armor Pierce
+L46 - System Restore
+L48 - Rend
+L50 - Blackhole
+L100 - Freikugel
+
+Ability:
+Neuroforce
+
+
+Item Drops:
+Item Common: Nature Mint
+Item Uncommon: Nature Mint
+Item Rare: Nature Mint
+----
+
+#208
+Amalgameme
+Types: GHOST/QMARKS
+Stats:
+HP: 111
+Attack: 111
+Defense: 111
+Sp. Attack: 111
+Sp. Defense: 111
+Speed: 111
+
+Evolutions:
+
+Moves:
+L1 - Beelzebite
+L1 - Chromaticize
+L1 - Heatvision
+L1 - Lascivious Eye
+L32 - Fusion Flare
+L34 - Maternity Ward
+L36 - Fullscreen
+L38 - Sippy Cup
+L40 - Quickcycle
+L42 - Awaiting Sky
+L44 - Armor Pierce
+L46 - System Restore
+L48 - Rend
+L50 - Blackhole
+L100 - Freikugel
+
+Ability:
+Prism Armor
+
+
+Item Drops:
+Item Common: Ability Capsule
+Item Uncommon: Ability Capsule
+Item Rare: Ability Capsule
+----
+
+#209
+Rock
+Types: ROCK
+Stats:
+HP: 1
+Attack: 0
+Defense: 0
+Sp. Attack: 0
+Sp. Defense: 0
+Speed: 0
+
+Evolutions:
+
+Moves:
+L1 - Nothing
+
+Ability:
+ 
+
+
+Item Drops:
+Drops no items
+----
+
+#210
+Nuboa
+Types: QMARKS
+Stats:
+HP: 111
+Attack: 111
+Defense: 111
+Sp. Attack: 111
+Sp. Defense: 111
+Speed: 111
+
+Evolutions:
+
+Moves:
+L1 - Chromaticize
+L1 - Heatvision
+L1 - Lascivious Eye
+L1 - Awaiting Sky
+L32 - Maternity Ward
+L34 - Fullscreen
+L36 - Sippy Cup
+L38 - Quickcycle
+L40 - Beelzebite
+L42 - Armor Pierce
+L44 - System Restore
+L46 - Rend
+L48 - Blackhole
+L100 - Freikugel
+
+Ability:
+Magic Bounce
+
+
+Item Drops:
+Item Common: Devolution Gun
+Item Uncommon: Devolution Gun
+Item Rare: Devolution Gun

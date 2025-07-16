@@ -1,0 +1,67 @@
+Fling Array:
+BP	Item
+190 	Screw Attack
+130	Iron Ball, Football
+110	Water Bucket, Lava Bucket, Filled Shadow Box
+100	Fern Fossil, Buried Hallows, Effigy of Emptiness, Hard Stone, Seizer Fossil, Cursed Pot, Rare Bone
+90	All Plates, Thick Club, Batter Bat, Biggoron's Sword, Great Fairy Sword, Grip Claw, Pocket Moai
+80	Assault Vest, Dawn Stone, Dusk Stone, Exhorder Skull, Oval Stone, Quick Claw, Razor Claw, Shiny Stone, Sticky Barb, Weakness Policy, Heavy Duty Boots, Boomerang, Poison Hat Crab, Bombed Boy, Spinning Top, Lamp Oil, Dinner, Yoshi Coin, Blue Coin, Frog Coin, Elemental Orb
+70	Dragon Fang, Poison Barb, Voodoo Doll, Plain Spaghetti
+60	Damp Rock, Heat Rock, Macho Brace, Rocky Helmet, Stick, Bucket, Snowglobe, Koopa Bathwater, Frooty Juice, Warm Burrito, Toilet Paper Roll, Drifting Con, Myachi, Loaded Dice, Shadow Box, Meat Steak, The Hunk, Blustering Fan
+50	Sharp Beak, Luminous Moss, Peach Cheese, Floor Pizza, Ability Shield, Royal Jelly, Punch Glove
+40	Eviolite, Icy Rock, Tails' Tails, Love Loupe, Cryberry, All-Night Mask, Soul Lantern, Gas Mask
+30	Ability Capsule, Absorb Bulb, Amulet Coin, Antidote, Awakenng, Balm Mushroom, Big Mushroom, Big Nugget, Big Pearl, Binding Band, Black Belt, Black Flute, Black Glasses, Black Sludge, Blue Flute, Blue Shard, Burn Heal, Casteliacone, Cell Battery, Charcoal, Comet Shard, Chrono Trigger, Cracked Orb, Damp Mulch, Dire Hits, Eject Button, Elixir, Energy Powder, Energy Root, Ether, Everstone, Exp Share, Fire Stone, Flame Orb, Float Stone, Fresh Water, Full Heal, Full Restore, Green Shard, Guard Spec., Heal Powder, Heart Stone, Hyper Potion, Ice Heal, King's Rock, Yoshi's Cookies, Leaf Stone, Lemonade, Life Orb, Light Ball, Light Clay, Lucky Egg, Luminous Moss, Magnet, Max Eliir, Max Ether, Max Potion, Max Repel, Max Revive, Metal Coat, Metronome, Miracle Seed, Moomoo Milk, Moon Stone, Mystic Water, Nevermeltice, Pearl, Pearl String, Vinedoll, Potion, Pepsi, Peach Milk, PP Max, PP Up, Rare Candy, Razor Fang, Red Flute, Red Shard, Relic Copper, Relic Silver, Relic Gold, Repel, Revival Herb, Revice, Sacred Ash, Scope Lens, Shell Bell, Hermine Shell, Soda Pop, Spell Tag, Stardust, Star Piece, Sun Stone, Super Potion, Super Repel, Thunder Stone, Tiny Mushroom, Toxic Orb, Twisted Spoon, Water Stone, White Flute, X-Items, Yellow Flute, Yellow Shard, Throat Spray, Weakness Policy, Blunder Policy, Climate Policy
+20	Health Wing, Pretty Wing, Covert Cloak
+10	Air Balloon, Big Root, Bright Powder, Choice Band, Choice Scarf, Choice Specs, Destiny Knot, Expert Belt, Focus Band, Focus Sash, Lax Incense, Leftovers, Mental Herb, Metal Powder, Muscle Band, Power Herb, Quick Powder, Red Card, Ring Target, Shed Shell, Silk Scarf, Silver Powder, Smooth Rock, Soft Sand, White Herb, Wide Lens, Wise Glasses, Zoom Lens, Mirror Herb, Ability Shield
+
+Bonus Interactions
+Flame Orb		Opponent is burned
+Lava Bucket		Opponent is burned
+Water Bucket		Opponent is frozen
+Boomerang		30% chance to flinch, Boomerang returns at end of this turn instead of end of next turn
+Football		Opponent flinches
+King's Rock		Opponent flinches
+Razor Fang		Opponent flinches
+Light Ball		Opponent is paralyzed
+Screw Attack		Opponent flinches
+Lamp Oil		Opponent is covered in a flammable substance. Causes self-harm if a fire attack is attempted (fire attack doesn't go off)
+Snowglobe		Hail weather is set up
+Frooty Juice		Sunny weather is set up
+Koopa Bathwater		Rain weather is set up
+Warm Burrito		Opponents accuracy is lowered by 3 stages
+Drifting Con		Opponents accuracy is lowered by 2 stages
+Mental Herb		Cures mental health issues
+Yoshi Coin		Causes money to drop after battle (twice as much as Pay Day)
+Blue Coin		Causes money to drop after battle (twice as much as Pay Day)
+Frog Coin		Causes money to drop after battle (twice as much as Pay Day)
+Poison Barb		Opponent is poisoned
+Toxic Orb		Opponent is poisoned
+Spinning Top		Traps opponent in a damage over time wrapping effect
+Plain Spaghetti		Traps opponent in a damage over time wrapping effect
+Toilet Paper Roll	Opponents stat changes set to 0
+Throat Spray		Silences opponent for 2 turns (sound-based moves can't be used)
+Snowball		Opponent is now the Ice type
+Tubby Custard		Opponents speed is lowered by 2 stages
+Exhorder Skull		Opponent is affected by a curse
+Royal Jelly		Opponents speed and evasion reduced by 1 stage
+Voodoo Doll		Opponent can't receive healing from moves/abilities/held items for 5 turns
+All-Night Mask		Opponent's ability is forcibly changed to Insomnia
+Dinner			Lays down a layer of spikes on the opponents side
+Air Balloon		Opponent is lifted into the air for 3 turns (Telekinesis)
+Poison Hat Crab		Opponent is poisoned
+Soul Lantern		Opponent is burned
+Floor Pizza		Opponents accuracy is lowered by 1 stage, and also has a 50% chance to burn
+White Herb		Opponents stat debuffs reset
+Biggoron's Sword	Fling damage is always critical
+Batter's Bat		Purifies the target, also heal self for 50% of Max HP
+Myachi			Sandstorm weather is set up
+Quick Claw		Fling damage goes first in its own priority bracket.
+Loaded Dice		Attacker sharply increases a random stat
+Ability Shield		Target is protected from attacks this turn (+6 priority)
+Mirror Herb		Attacker copies opponents stat stages
+Punch Glove		Removes barriers and resets defensive stats of the opponent
+Element Orb		Randomly inflicts Burn, Poison, Paralysis, Sleep, or Freeze to the opponent.
+Blustering Fan		Sets up Tailwind on your side of the field
+Gas Mask		Does nothing
+Covert Cloak		Sharply lowers opponents accuracy
+Pocket Moai		Grounds opponent if they're flying type or are levitating 

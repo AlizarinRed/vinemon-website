@@ -1,0 +1,191 @@
+In game TM's used
+~Route 1
+TM18
+TM54
+
+~Morel Village
+TM76
+
+~Route 2
+TM01 ~Quest~
+TM39 ~Need Pickaxe~
+TM49
+
+~Route 3
+TM72 ~Need Master Sword~
+TM73
+
+~Tiliifolia River
+TM20
+
+~Master Fung's Domain
+TM46
+
+~Vivianite Cave
+TM12
+TM23
+TM92 ~Need Lime's Seel~
+
+~Psilocin Town
+TM08 ~Beat Dire~
+TM41
+TM56 ~Factory~
+
+~Route 4
+TM42
+TM67 ~Need Lime's Seel~
+TM78 ~Need Lime's Seel~
+
+~Cissus River
+TM44
+
+~Ghost House
+TM65
+TM94
+
+~Route 5
+TM09 ~Need Pickaxe~
+TM43
+TM69 ~Need Lime's Seel~
+
+~Lake Entropy
+TM62
+
+~Reishi Town
+TM19
+TM40 ~Beat Hootey~
+TM75 ~Ruins~
+TM101 ~Eggspress Tunnel~
+
+~Donko Village
+TM60
+
+~Cold Storage
+TM61
+TM79
+
+~Route 7
+TM07
+
+~Negantropy Lake
+TM47
+
+~Route 8
+TM89 ~Need Master Sword~
+
+~Safari Zone
+TM32
+TM33
+
+~Podaxis Village
+TM28 ~Beat Darren~
+TM87
+
+~Route 9
+TM06 
+
+~Mt. Prototaxite
+TM02 ~Need Master Sword, Top of Mountain~
+TM11 ~Top of Mountain~
+TM22 ~Need Master Sword, Top of Mountain~
+TM57 ~Inside Mountain~
+TM59 ~Inside Mountain~
+
+~Lost Woods
+TM21 ~Need Master Sword~
+TM81
+TM84
+TM86
+
+~Route 11
+TM63
+
+~Pyramid
+TM53
+TM70
+
+~Aquatica Bay
+TM91 ~Need Master Sword~
+
+~Siliceous Cave
+TM05
+TM10
+
+~Route 12
+TM31
+TM58
+TM95
+
+~Port D'Bello
+TM14
+TM25
+TM27
+TM38
+TM45
+TM64
+
+~Route 13
+TM88
+
+~S.S. Twitchat
+TM98 (Sunken or Afloat)
+
+~Route 14
+TM17
+TM93
+
+~Jahn Village
+TM16
+
+~Lichen Island
+TM66
+
+~Lichen Grotto (Tide In)
+TM34 ~Either Tide~
+TM48 ~Either Tide~
+
+~Lichen Grotto (Tide Out)
+TM13
+TM34 ~Either Tide~
+TM37
+TM48 ~Either Tide~
+TM55
+
+~Route 15
+TM50
+TM51
+TM71
+
+~Regalis City
+TM03 ~RLM~
+TM04 ~Apartment~
+TM24 ~Dump~
+TM29 ~Gym~
+TM30 ~RLM~
+TM52 ~Sewers~
+
+~Route 16
+TM36
+TM80
+
+~Route 17
+TM68
+TM74 ~Underwater~
+
+~Route 18
+TM26 ~Underwater~
+
+~Victory Road
+TM15 ~Outside Entrance, Need Master Sword~
+TM35 ~Minecart~
+TM83 ~Swamp~
+TM90 ~Swamp (2nd half)~
+TM96 ~Summit~
+TM97 ~Outside Entrance, Need Master Sword~
+TM99 ~Swamp (2nd half)~
+TM100 ~Dude before Ice Section~
+
+~Cave of Secrets
+TM77 ~Chest~
+TM82 ~Chest~
+TM85 ~Chest~
