@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="preload" as="image" href="./vinemon/images/logo.png">
+  <link rel='shortcut icon' href='./vinemon/images/favicon.ico' type='image/x-icon'>
+  <meta charset="utf-8">
+  <title>Vinemon: Sauce Edition - VineDex</title>
+
+    <link rel="stylesheet" href="vinedex.css"> 
+    <script src="vinedex.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet" />
+    <script src="https://vinemon.link/index.min.js"></script>
+
+      <meta name="description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter."><!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Vinemon: Sauce Edition - VineDex">
+  <meta itemprop="description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+  <meta itemprop="image" content="https://vinemon.link/vinedex.png"><!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://vinemon.link">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vinemon: Sauce Edition - VineDex">
+  <meta property="og:description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+  <meta property="og:image" content="https://vinemon.link/vinedex.png"><!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vinemon: Sauce Edition - VineDex">
+  <meta name="twitter:description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+  <meta name="twitter:image" content="https://vinemon.link/vinedex.png"><!-- Meta Tags Generated via http://heymeta.com -->
+  <!-- Discord -->
+  <meta name="theme-color" content="#a6e27f">
+  <meta name="twitter:card" content="">
+</head>
+<style>body {background-color: #230101;display: flex;
+  flex-direction: column;-webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;}
+.body1 {  animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+         @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;pointer-events:none;
+            }
+            50% {
+                opacity: 0;pointer-events:none;
+            }
+            100% {
+                opacity: 1;pointer-events: auto;
+            }
+        }
+    .loader2 {  animation: fadeOutAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeOutAnimation {
+            0% {
+                opacity: 1;pointer-events: auto;
+            }
+            50% {
+                opacity: 1;pointer-events: auto;
+            }
+            100% {
+                opacity: 0;pointer-events:none;
+            }
+        }    
+     .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(55, 3, 0, 0.7);
+        transition: opacity;
+        visibility: hidden;
+        opacity: 0;
+        display: inline-flex;
+ z-index:9999999;
+        }
+
+        .overlay:target {
+        visibility: visible;
+        opacity: 1;  z-index:9999999
+        }
+.loader {
+width: 90px;
+  height: 90px;
+  margin: 0 auto;
+border-top: 5px solid #A90024;
+  border-bottom: 5px solid #140101;
+  border-left: 5px solid #140101;
+  border-radius: 100px;
+  background: url(https://vinemon.link/vinemon/vineball.png) #000 no-repeat 0 0;
+  background-size: auto;
+  animation: spin 1s infinite linear;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -45px;
+  position: fixed;
+  background-size: 90px 90px;
+  border-right: 5px solid #140101;
+}
+</style>
+<body class="top">
+   <div class="loader2" style="background: radial-gradient(circle at center, #1841205F , #0000005F); width: 100%; height: 100%;position: absolute;position: fixed;pointer-events: none;z-index: 99999999999999!important;">
+    <div class='loader'></div>
+</div> 
+
+ <div class="body1" style=" flex: 1 0 auto; z-index: 99999999;display: flex;">
+ <div class="container">
+        <div id="prevnext">
+            <button id="prevBtn" class="nav-btn">
+                Prev
+                <div id="prevIcon" class="icon-sprite" style="
+              border: 2px solid var(--button-border);
+              margin: 3px 0px;
+              -webkit-text-stroke: 5px #000000;
+              border-radius: 10px;
+              background-color: #00000075;
+            "></div>
+            </button>
+            <div class="header">
+                <div class="title" id="monName">CHATYOT</div>
+                <div class="kind"><span id="kind">Jape Me Vinemon</span></div>
+                <div id="monNumber">#148</div>
+            </div>
+            <button id="nextBtn" class="nav-btn">
+                <div id="nextIcon" class="icon-sprite" style="
+              border: 2px solid var(--button-border);
+              margin: 3px 0px;
+              -webkit-text-stroke: 5px #000000;
+              border-radius: 10px;
+              background-color: #00000075;
+            "></div>
+                Next
+            </button>
+        </div>
+        <div class="navigation-buttons">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-grow: 1">
+                <div>
+                    <select id="vinemonSelect" style="display: none"></select><button id="randomBtn" style="
+                padding: 8px 8px;
+                font-size: 1rem;
+                background: var(--button-bg);
+                color: white;
+                border: 2px solid var(--button-border);
+                border-radius: 6px;
+                margin-top: 24px;
+                margin-bottom: 24px;
+                -webkit-text-stroke: 5px #000000;
+                paint-order: stroke fill;transition: filter 0.2s, border-color 0.2s;
+              ">
+                        Randomize
+                    </button>
+                </div>
+                <div>
+                    <select id="themeSelect" style="
+               padding: 8px 12px;
+                font-size: 1rem;
+                background: var(--info-body-bg);
+                border: 2px solid var(--button-border);
+                border-radius: 6px;
+                color: var(--text-color);
+                cursor: pointer;
+              ">
+                        <option value="default">VineGear Theme</option>
+                        <option value="night">Night Theme</option>
+                        <option value="dynamic">Dynamic Theme</option>
+                    </select>
+                </div>
+                <div>
+                    <button id="typeChartBtn" style="
+                padding: 8px 8px;
+                font-size: 1rem;
+                background: #6b1b50;
+                color: white;
+                border: 2px solid #843c5f;
+                border-radius: 6px;
+                -webkit-text-stroke: 5px #000000;
+                paint-order: stroke fill;transition: filter 0.2s, border-color 0.2s;
+              ">
+                        Type Chart
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-buttons2" style="display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 20px">
+            <button id="viewVinemonBtn" style="
+            padding: 8px 8px;
+            font-size: 1rem;
+            background: #144b4d;
+            color: white;
+            width: 100%;
+            border: 2px solid #1c666b;
+            border-radius: 6px;
+            -webkit-text-stroke: 5px #000000;
+            paint-order: stroke fill;transition: filter 0.2s, border-color 0.2s;
+          ">
+                Vinemon
+            </button>
+            <button id="viewAbilitiesBtn" style="background: rgb(83, 4, 0); border: 2px solid rgb(134, 0, 6)">Abilities</button>
+            <button id="viewMovesBtn" style="
+            width: 100%;
+            padding: 8px 8px;
+            font-size: 1rem;
+            background: #1b4a6b;
+            color: white;
+            border: 2px solid #406a99;
+            border-radius: 6px;
+            -webkit-text-stroke: 5px #000000;
+            paint-order: stroke fill;transition: filter 0.2s, border-color 0.2s;
+          ">
+                Moves
+            </button>
+            <button id="viewItemsBtn" style="
+            width: 100%;
+            padding: 8px 8px;
+            font-size: 1rem;
+            background: #441d70;
+            color: white;
+            border: 2px solid #724293;
+            border-radius: 6px;-webkit-text-stroke: 5px #000000;
+  paint-order: stroke fill;transition: filter 0.2s, border-color 0.2s;
+}
+          ">
+                Items
+            </button>
+        </div>
+        <div id="typeChartModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1 style="margin-top: 0px; margin-left: 15px;transition: filter 0.2s, border-color 0.2s;">Vinemon Type Chart</h1>
+                <div class="type-chart-wrapper">
+                    <table class="type-chart-table">
+                        <thead>
+                            <tr>
+                                <th>Attacks ↓ / Defenders →</th>
+                                <th>Normal</th>
+                                <th>Fire</th>
+                                <th>Water</th>
+                                <th>Electric</th>
+                                <th>Grass</th>
+                                <th>Ice</th>
+                                <th>Fighting</th>
+                                <th>Poison</th>
+                                <th>Ground</th>
+                                <th>Flying</th>
+                                <th>Psychic</th>
+                                <th>Bug</th>
+                                <th>Rock</th>
+                                <th>Ghost</th>
+                                <th>Dragon</th>
+                                <th>Dark</th>
+                                <th>Steel</th>
+                                <th>Mystery</th>
+                            </tr>
+                        </thead>
+                        <tbody id="typeChartBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="card sprite-card">
+                <div id="spriteContainer" class="image-container is-loading">
+                    <img id="originIcon" src="" alt="Origin Icon" style="position: absolute; top: 0px; right: 0px; width: 56px; height: 56px; cursor: pointer; display: none;border: 5px solid var(--info-body-bg);   border-radius: 10px;">
+                   <img id="shinyStatus" src="https://vinemon.link/vinemon/vinemon/ui/shiny.png" alt="Shiny" style="border: 5px solid var(--info-body-bg);   border-radius: 10px;padding: 5px;background: var(--info-header-bg);position: absolute; top: 0px; left: 0px; width: 36px; height: 32px; display: none; z-index: 6;">
+                    <img id="corruptionStatus" src="https://vinemon.link/vinemon/vinemon/ui/corruption.png" alt="Corruption" style="border: 5px solid var(--info-body-bg);   border-radius: 10px;padding: 5px;background: var(--info-header-bg);position: absolute; top: 0px; left: 0px; width: 36px; height: 32px;  display: none; z-index: 6;">
+                    <img id="shinyCorruptionStatus" src="https://vinemon.link/vinemon/vinemon/ui/shinycorruption.png" alt="Shiny Corruption" style="border: 5px solid var(--info-body-bg);   border-radius: 10px;padding: 5px; background: var(--info-header-bg);position: absolute; top: 0px; left: 0px; width: 36px; height: 32px; display: none; z-index: 6;">
+                    <div id="hatchContainer" style="display: none; width: 100%; height: 100%; top: 0; left: 0; position: absolute; display: flex; align-items: center; justify-content: center;">
+                        <div id="hatchSpriteScaler" class="sprite-scaler" style="position: relative;">
+                            <div id="hatchEggDiv" style="position: absolute; top: 0; left: 0;"></div>
+                            <div id="hatchCrackDiv" style="position: absolute; top: 0; left: 0;"></div>
+                        </div>
+                    </div>
+                    <div id="hatchWhiteOverlay"></div>
+                    <div id="animatedSpriteDiv"></div>
+                    <img id="spriteImg" class="sprite-scaler" src="" alt="Vinemon Sprite" />
+                </div>
+                <div class="sprite-toggles">
+                    <label><input type="checkbox" id="shinyToggle"> Shiny</label>
+                    <label><input type="checkbox" id="corruptionToggle"> Corruption</label>
+                    <label id="femaleToggleContainer"><input type="checkbox" id="genderToggle"> Female</label>
+                    <label><input type="checkbox" id="backToggle"> Back</label>
+                </div>
+                <div class="sprite-toggles" style="margin-top: 8px; justify-content: center; align-items: center;">
+                    <button id="viewEggBtn" class="extra-sprite-option-btn" style="display: none;">View Egg</button>
+                    <button id="playCryBtn">🔊 Cry</button>
+                </div>
+                <div id="extraSpriteOptions" class="sprite-options-container"></div>
+                <br />
+                <div class="info-section">
+                    <h3>Types</h3>
+                    <div class="info-body" id="typeBadges" class="fix-stroke"></div>
+                </div>
+                <div class="info-section" id="typeEffectiveness" style="margin-top: 12px; font-family: sans-serif">
+                    <h3>Type Effectiveness</h3>
+                    <div class="info-body">
+                        <div id="weaknesses" style="margin-top: 4px"></div>
+                        <div id="resistances" style="margin-top: 4px"></div>
+                        <div id="immunities" style="margin-top: 4px"></div>
+                    </div>
+                </div>
+                <div class="info-section">
+                    <h3>Abilities</h3>
+                    <div class="info-body" id="abilityList"></div>
+                    <h3>Hidden Abilities</h3>
+                    <div class="info-body" id="hiddenAbilities"></div>
+                </div>
+                <div class="info-section" id="droppedItems">
+                    <h3>Wild Items</h3>
+                    <div class="info-body">
+                        <ul>
+                            <strong><span id="itemCommon" class="wild-item-link"></span>Common</strong><br />
+                            <strong><span id="itemUncommon" class="wild-item-link"></span>Uncommon</strong><br />
+                            <strong><span id="itemRare" class="wild-item-link"></span>Rare</strong>
+                        </ul>
+                    </div>
+                </div>
+                <div id="moveDetailsModal" class="modal-details">
+                    <div class="modal-content-details">
+                        <span class="close-button-details">&times;</span>
+                        <h3 id="modalMoveName"></h3>
+                        <p><strong>Type:</strong> <span id="modalMoveType"></span></p>
+                        <p><strong>Category:</strong> <span id="modalMoveCategory"></span></p>
+                        <p><strong>Power:</strong> <span id="modalMovePower"></span></p>
+                        <p><strong>Accuracy:</strong> <span id="modalMoveAccuracy"></span></p>
+                        <p><strong>PP:</strong> <span id="modalMovePP"></span></p>
+                        <p><strong>Effect Chance:</strong> <span id="modalMoveEffectChance"></span></p>
+                        <p><strong>Description:</strong> <span id="modalMoveDescription"></span></p>
+                        <p id="modalMoveLearnedBy"></p>
+                        <p id="modalMoveSignature" class="item-details-category" style="display: none"></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="tab-buttons-wrapper">
+                    <button class="tab-button active" data-tab="informationContent">Information</button>
+                    <button class="tab-button" data-tab="locationContent">Location</button>
+                    <button class="tab-button" data-tab="documentationContent">Documentation</button>
+                </div>
+                <div class="tab-content-wrapper">
+                    <div id="informationContent" class="tab-content active-tab-content">
+                        <div class="card info-section">
+                            <h3>Stats</h3>
+                            <div class="info-body">
+                                <div id="statBars"></div>
+                                <div class="total-stat-container">
+                                    <div class="total-stat-header">
+                                        <span class="stat-name">Total</span>
+                                        <span class="stat-value" id="totalStat"></span>
+                                    </div>
+                                    <div class="bar-container total-bar">
+                                        <div class="bar" id="totalStatBar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card info-section">
+                            <h3>VineDex Entry</h3>
+                            <div class="info-body">
+                                <p id="dexEntry"></p>
+                            </div>
+                        </div>
+                        <div class="signature-grid">
+                            <div class="card info-section">
+                                <h3>Evolutions</h3>
+                                <div class="info-body">
+                                    <p><span id="evolutions"></span></p>
+                                </div>
+                            </div>
+                            <div class="card info-section">
+                                <h3>Breeding</h3>
+                                <div class="info-body">
+                                    <ul>
+                                        <strong>Group 1:</strong>
+                                        <span id="compatibility1"></span><br /><br />
+                                        <strong>Group 2:</strong>
+                                        <span id="compatibility2"></span>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card info-section">
+                                <h3>Size</h3>
+                                <div class="info-body">
+                                    <ul>
+                                        <strong>Height:</strong>
+                                        <span id="height"></span><br /><br />
+                                        <strong>Weight:</strong>
+                                        <span id="weight"></span>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card info-section">
+                                <h3>Gender Rates</h3>
+                                <div class="info-body">
+                                    <p>
+                                        <strong style="
+                          -webkit-text-stroke: 5px #000000;
+                          paint-order: stroke fill;
+                          background-color: #00000075;
+                          padding-bottom: 7px !important;
+                          border-radius: 16px;
+                          padding: 0px 10px;
+                          padding-top: 0px;
+                          padding-bottom: 0px;
+                          padding-top: 5px;
+                          width: 94.5% !important;
+                          display: block;
+                        ">Gender:</strong>
+                                    </p>
+                                    <div class="gender-bar-wrapper">
+                                        <div class="gender-female"></div>
+                                        <div class="gender-male"></div>
+                                    </div>
+                                    <div id="genderRateLabel" style="-webkit-text-stroke: 5px #000000; paint-order: stroke fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card info-section">
+                            <h3>Moves</h3>
+                            <div class="info-body">
+                                <div class="move-category-buttons">
+                                    <button class="move-category-button active" data-category="levelUpMoves">Level Up Moves</button>
+                                    <button class="move-category-button" data-category="eggMoves">Egg Moves</button>
+                                    <button class="move-category-button" data-category="TMs">TMs</button>
+                                </div>
+                                <div id="levelUpMovesList" class="move-list active"></div>
+                                <div id="eggMovesList" class="move-list" style="display: none"></div>
+                                <div id="TMsList" class="move-list" style="display: none"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="locationContent" class="tab-content">
+                        <div id="map-hover-info" class="card">
+                            <p>Hover over a location on the map...</p>
+                        </div>
+                        <div class="map-layout">
+                            <div id="map-grid-container"></div>
+                            <div id="map-info-panel" class="card">
+                                <h3>Wild Encounter Spots</h3>
+                                <div id="map-info-list" class="info-body">
+                                    <p>Select a Vinemon to see its locations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="documentationContent" class="tab-content">
+                        <p>Documentation and other relevant details will appear here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer style="            text-align: center;
+            margin-top: 32px;
+            color: #fff;
+            font-size: 0.9rem;
+            background-color: #00000075;
+  padding-bottom: 7px !important;
+  border-radius: 16px;
+  padding: 0px 10px;
+padding-top: 5px;">Based on Version - <a href="https://vinemon.link/downloads/Vinemon%20Patch%20Notes%20~1.1.9.pdf">1.1.9</a></footer>
+    </div>
+    <div id="itemsListModal" class="items-list-modal">
+        <div class="items-list-modal-content">
+            <span class="close">×</span>
+            <h2>ItemDex <small id="itemDexCount" style="color: #ccc; font-size: 0.7em"></small></h2>
+            <div class="item-controls">
+                <input type="text" id="itemSearchInput" placeholder="Search" />
+                <button id="toggleItemViewBtn">Toggle View</button>
+            </div>
+            <div class="item-controls">
+                <select id="itemCategoryFilterSelect" class="item-filter-select">
+                    <option value="">All Categories</option>
+                </select>
+                <button id="sortByIdBtn" class="active-sort" data-sort="id" data-order="asc">ID</button>
+                <button id="sortByNameBtn" data-sort="name" data-order="asc">ABC</button>
+                <button id="sortByPriceBtn" data-sort="price" data-order="asc">$$$</button>
+            </div>
+            <div id="itemsListContainer" class="items-list-container"></div>
+        </div>
+    </div>
+<div id="itemDetailsModal" class="modal-details">
+    <div class="item-modal-content-details">
+        <span class="close-button-details">&times;</span>
+        <h3 id="modalItemName"></h3>
+        <p><strong>Price:</strong> <span id="modalItemPrice"></span></p>
+        <p><strong>Description:</strong> <span id="modalItemDescription"></span></p>
+        <p id="modalItemHeldBy"></p>
+        <p id="modalItemCategory" class="item-details-category"></p>
+        
+        <div id="modalItemActions" style="text-align: center;"></div>
+    </div>
+</div>
+    <div id="movesListModal" class="moves-list-modal">
+        <div class="moves-list-modal-content">
+            <span class="close">×</span>
+            <h2>MoveDex <small id="moveDexCount" style="color: #ccc; font-size: 0.7em"></small></h2>
+            <div class="moves-controls">
+                <input type="text" id="moveSearchInput" placeholder="Search" />
+                <button id="toggleMoveViewBtn">Toggle View</button>
+            </div>
+            <div class="moves-controls">
+                <button id="sortMovesByNameBtn" class="active-sort" data-sort="name" data-order="asc">ABC</button>
+                <button id="sortMovesByTypeBtn" data-sort="type" data-order="asc">TYPE</button>
+                <button id="sortMovesByCategoryBtn" data-sort="category" data-order="asc">CAT</button>
+                <button id="sortMovesByPowerBtn" data-sort="base_power" data-order="asc">POW</button>
+                <button id="sortMovesByAccBtn" data-sort="accuracy" data-order="asc">ACC</button>
+                <button id="sortMovesByPPBtn" data-sort="Total_PP" data-order="asc">PP</button>
+                <button id="toggleUnusedMovesBtn" data-showing="used">Show Unused</button>
+                <select id="moveTypeFilterSelect" class="moves-filter-select">
+                    <option value="">Filter by Type</option>
+                </select>
+                <select id="moveFlagFilterSelect" class="moves-filter-select">
+                    <option value="">Filter by Flag</option>
+                </select>
+            </div>
+            <div id="movesListContainer" class="items-list-container"></div>
+        </div>
+    </div>
+    <div id="vinemonListModal" class="vinemon-list-modal">
+        <div class="vinemon-list-modal-content">
+            <span class="close">×</span>
+            <h2>VineDex <small id="vinemonDexCount" style="color: #ccc; font-size: 0.7em"></small></h2>
+            <div class="vinemon-controls">
+                <input type="text" id="vinemonSearchInput" placeholder="Search" />
+                <button id="toggleVinemonViewBtn">Toggle View</button>
+            </div>
+            <div class="vinemon-controls">
+                <button id="sortVinemonByIdBtn" class="active-sort" data-sort="id" data-order="asc">123</button>
+                <button id="sortVinemonByNameBtn" data-sort="name" data-order="asc">ABC</button>
+                <button id="sortVinemonByHeightBtn" data-sort="height" data-order="desc">Height</button>
+                <button id="sortVinemonByWeightBtn" data-sort="weight" data-order="desc">Weight</button>
+                <select id="vinemonType1Filter" class="vinemon-filter-select">
+                    <option value="">Type 1</option>
+                </select>
+                <select id="vinemonType2Filter" class="vinemon-filter-select">
+                    <option value="">Type 2</option>
+                </select>
+                <select id="vinemonBreedingGroupFilter" class="vinemon-filter-select">
+                    <option value="">Breeding Group</option>
+                </select>
+                <br />
+                <select id="vinemonStatSort" class="vinemon-filter-select">
+                    <option value="">Select Stat</option>
+                    <option value="HP">HP</option>
+                    <option value="ATK">ATK</option>
+                    <option value="DEF">DEF</option>
+                    <option value="SPD">Speed</option>
+                    <option value="SP.ATK">Sp. Atk</option>
+                    <option value="SP.DEF">Sp. Def</option>
+                    <option value="BST">BST</option>
+                </select>
+                <button id="vinemonApplyStatSortBtn" data-stat-sort-active="false" data-order="desc">Sort by Stat</button>
+            </div>
+            <div id="vinemonListContainer" class="items-list-container"></div>
+        </div>
+    </div>
+    <div id="creatorInfoModal" class="modal-details">
+        <div class="modal-content-details" style="border-color: #ff4a4a; max-width: 650px">
+            <span class="close-button-details">&times;</span>
+            <h3 id="creatorInfoModalTitle" style="color: #ffc8c8">Creator Information</h3>
+            <div id="creatorInfoModalBody" style="text-align: center">
+                <img id="creatorPfp" src="" alt="Creator PFP" style="
+                width: 128px;
+                height: 128px;
+                border-radius: 50%;
+                border: 4px solid #ff4a4a;
+                margin-bottom: 15px;
+                filter: drop-shadow(0px 5px 2px #000);
+              " />
+                <p id="creatorBio" style="line-height: 1.6"></p>
+                <div id="creatorSocials" style="margin-top: 20px; display: block; padding: 10px"></div>
+            </div>
+        </div>
+    </div>
+    <div id="abilitiesListModal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <h2 style="
+              text-align: center;
+              color: var(--text-color);
+              margin-top: 0;
+              -webkit-text-stroke: 10px #000000;
+              paint-order: stroke fill;
+            ">
+                AbilityDex <small id="abilityDexCount" style="color: #ccc; font-size: 0.7em"></small>
+            </h2>
+            <div class="ability-controls">
+                <input type="text" id="abilitySearchInput" placeholder="Search" />
+                <button id="sortAbilitiesByNameBtn" data-order="asc">Sort ABC (A-Z)</button>
+                <button id="toggleUnusedAbilitiesBtn" data-showing="used">Show Unused</button>
+                <button id="toggleAbilityViewBtn">Toggle View</button>
+            </div>
+            <div id="abilitiesListContainer" class="items-list-container"></div>
+        </div>
+    </div>
+    <div id="abilityDetailsModal" class="modal">
+        <div class="item-modal-content-details">
+            <span class="close-button-details">&times;</span>
+            <h3 id="modalAbilityName"></h3>
+            <p><strong>Description:</strong> <span id="modalAbilityDescription"></span></p>
+            <p id="modalAbilityLearnedBy"></p>
+            <p id="modalAbilitySignature" class="item-details-category"></p>
+        </div>
+    </div>
+    <div id="locationDetailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalLocationName">Location Details</h2>
+            <div id="modalLocationEncounters"></div>
+        </div>
+    </div>
+    
+    <div id="genericInfoModal" class="modal-details">
+        <div class="modal-content-details" style="border-color: #f0c43c; max-width: 600px">
+            <span class="close-button-details">&times;</span>
+            <h3 id="genericInfoModalTitle"></h3>
+            <p id="genericInfoModalDescription" style="padding: 15px; background: #333; border-radius: 8px; line-height: 1.6"></p>
+        </div>
+    </div>
+    <div id="locationMapModal" class="modal">
+        <div class="modal-content" style="max-width: 1000px; border-color: #55aaff">
+            <span class="close">&times;</span>
+            <h2 id="locationMapModalTitle" style="text-align: center">Evolution Location</h2>
+            <div id="locationMapModalGrid" class="map-grid-container" style="margin-top: 20px"></div>
+        </div>
+    </div>
+    <div id="trainerTipContainer">
+        <div id="trainerTipBox">
+            <span id="closeTrainerTip">×</span>
+            <div id="trainerTipTitle">
+                Trainer Tip:
+                <span style="user-select: none;">
+                    <span id="prevTip" class="tip-arrow">‹</span>
+                    <span id="nextTip" class="tip-arrow">›</span>
+                </span>
+            </div>
+            <p id="trainerTipContent"></p>
+        </div>
+        <img id="trainerTipChar" src="https://vinemon.link/vinemon/vinemon/ui/MrDink.png" alt="Professor Tip">
+    </div>
+    <div class="bottom-nav-bar">
+        <a href="https://vinemon.link/#download" target="_blank" class="nav-btn-side">Download</a>
+        <div class="nav-center-bar">
+            <a href="https://vinemon.link/" class="nav-center-link">Mainpage</a>
+             <a href="#top" class="nav-center-link">🡅</a>
+            <button id="volumeBtn" class="nav-center-btn">Settings</button>
+        </div>
+        <button id="creditsBtn" class="nav-btn-side">Credits</button>
+    </div>
+    <div id="volumeModal" class="modal" style="--modal-border-color: #4CAF50;">
+        <div class="modal-content" style="max-width: 500px; border-color: var(--modal-border-color);">
+            <span class="close">×</span>
+            <h2 style="text-align: center; color: var(--text-color); margin-top: 0; -webkit-text-stroke: 10px #000000; paint-order: stroke fill;">Volume Settings</h2>
+            <div class="volume-control-group">
+                <label for="songVolume">Song</label>
+                <input type="range" id="songVolume" min="0" max="1" step="0.01">
+                <label class="mute-checkbox"><input type="checkbox" id="songMute"> Mute</label>
+            </div>
+            <div class="volume-control-group">
+                <label for="clickVolume">Clicks</label>
+                <input type="range" id="clickVolume" min="0" max="1" step="0.01">
+                <label class="mute-checkbox"><input type="checkbox" id="clickMute"> Mute</label>
+            </div>
+            <div class="volume-control-group">
+                <label for="cryVolume">Cries</label>
+                <input type="range" id="cryVolume" min="0" max="1" step="0.01">
+                <label class="mute-checkbox"><input type="checkbox" id="cryMute"> Mute</label>
+            </div>
+            <div class="volume-control-group">
+                <label for="trainerTipToggleEnabled">Trainer Tips</label>
+                <label class="mute-checkbox">
+                    <input type="checkbox" id="trainerTipToggleEnabled"> Enabled
+                </label>
+            </div>
+        </div>
+    </div>
+    <div id="originModal" class="modal-details" style="display: none;">
+        <div class="modal-content-details">
+            <span class="close-button-details">&times;</span>
+            <h3 id="originModalTitle">Vinemon Origins</h3>
+            <p id="originModalContent"></p>
+        </div>
+    </div>
+    <div class="discord" style="
+            display: flex;
+            z-index: 999999 !important;
+            bottom: 80px;
+            left: 10px;
+            position: fixed;
+            -webkit-backface-visibility: hidden;
+          ">
+        <iframe src="https://discord.com/widget?id=476870670001635331&amp;theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" z-index="99999"></iframe>
+    </div>
+<div id="creditsModal" class="modal-details">
+    <div class="modal-content-details" id="creditsModalContent">
+        <span class="close-button-details">&times;</span>
+        <div id="creditsModalBody">
+<!-- Credits will be loaded here -->
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>

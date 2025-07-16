@@ -1,0 +1,1807 @@
+﻿#-------------------------------
+[000]
+PlayerA=POKEMONTRAINER_Red,trchar000,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,boy_spin
+PlayerB=POKEMONTRAINER_Red,trchar000,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,boy_spin
+PlayerC=POKEMONTRAINER_Red,trchar000,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,boy_spin
+TrainerVictoryME=VictoryTrainer.ogg
+WildVictoryME=VictoryWild.ogg
+TrainerBattleBGM=battle(trainer).ogg
+SurfBGM=surf_or_bike.ogg
+BicycleBGM=bike_littleHonda.ogg
+Home=296,11,8,8
+WildBattleBGM=battle(wild)_mix.ogg
+#-------------------------------
+[022]
+# Sky Vine
+MapPosition=0,12,12
+#-------------------------------
+[032]
+# Vinny's House
+MapPosition=0,10,17
+BattleBack=IndoorDark
+#-------------------------------
+[043]
+# Route 1
+Weather=Rain,50
+Bicycle=true
+MapPosition=0,10,16
+Outdoor=false
+ShowArea=true
+#-------------------------------
+[048]
+# Vinny's House
+BattleBack=IndoorDarkEyes
+MapPosition=0,10,17
+#-------------------------------
+[076]
+# Route 3
+Weather=Rain,25
+Bicycle=true
+MapPosition=0,11,14
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[077]
+# Morel Village
+BattleBack=Morel
+Weather=Rain,10
+Bicycle=true
+MapPosition=0,10,15
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[078]
+# 1UP Center
+MapPosition=0,10,15
+#-------------------------------
+[079]
+# Route 2
+Bicycle=true
+MapPosition=0,10,14
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[080]
+# Vivianite Cave
+Bicycle=true
+MapPosition=0,10,14
+#-------------------------------
+[081]
+# Vivianite Cave
+Bicycle=true
+MapPosition=0,12,13
+#-------------------------------
+[082]
+# Route 4
+#Weather=Rain,25
+Bicycle=true
+MapPosition=0,12,13
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[083]
+# Streamer Pad
+BattleBack=IndoorStreamer
+MapPosition=0,10,15
+#-------------------------------
+[084]
+# Regalis Gate
+Bicycle=true
+MapPosition=0,16,6
+#-------------------------------
+[085]
+# Psilocin Town
+BattleBack=RiverPurple
+Weather=Rain,40
+Bicycle=true
+MapPosition=0,12,14
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[086]
+# Wave Factory
+BattleBack=IndoorElecGen
+MapPosition=0,12,14
+#-------------------------------
+[087]
+# Wave Factory
+MapPosition=0,12,14
+#-------------------------------
+[088]
+# 1UP Center
+MapPosition=0,12,14
+#-------------------------------
+[089]
+# Psilocin Condo
+MapPosition=0,12,14
+#-------------------------------
+[090]
+# Psilocin Condo
+MapPosition=0,12,14
+#-------------------------------
+[091]
+# Psilocin Condo
+MapPosition=0,12,14
+#-------------------------------
+[092]
+# Psilocin Gym
+BattleBack=DireGymTrainer
+MapPosition=0,12,14
+#-------------------------------
+[093]
+# Morel Abode
+MapPosition=0,10,15
+#-------------------------------
+[094]
+# Triple Triad Shop
+MapPosition=0,12,14
+#-------------------------------
+[096]
+# Route 5
+#Weather=Rain,75
+Bicycle=true
+MapPosition=0,13,13
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[097]
+# Route 5
+#Weather=Rain,25
+Bicycle=true
+MapPosition=0,13,12
+Outdoor=true
+#-------------------------------
+[098]
+# Reishi Town
+BattleBack=ReishiTown
+Weather=Sun,10
+Bicycle=true
+MapPosition=0,13,11
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[099]
+# 1UP Center
+MapPosition=0,18,13
+#-------------------------------
+[100]
+# 1UP Center
+MapPosition=0,13,11
+#-------------------------------
+[101]
+# Reishi Cabin
+MapPosition=0,13,11
+#-------------------------------
+[102]
+# Reishi Cabin
+MapPosition=0,13,11
+#-------------------------------
+[103]
+# Day Care
+MapPosition=0,13,11
+#-------------------------------
+[105]
+# Podaxis Tunnel
+Bicycle=true
+MapPosition=0,15,14
+#-------------------------------
+[106]
+# Podaxis Tunnel
+Bicycle=true
+MapPosition=0,15,14
+#-------------------------------
+[107]
+# EV Dojo
+MapPosition=0,14,13
+#-------------------------------
+[108]
+# Safari Zone
+Bicycle=true
+MapPosition=0,14,13
+SafariMap=true
+#-------------------------------
+[109]
+# Safari Zone - Desert
+MapPosition=0,15,18
+#-------------------------------
+[110]
+# Psilocin Gate
+Bicycle=true
+MapPosition=0,12,14
+#-------------------------------
+[111]
+# Reishi Gate
+Bicycle=true
+MapPosition=0,13,12
+#-------------------------------
+[112]
+# Route 6
+Bicycle=true
+MapPosition=0,14,12
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[113]
+# Donko Village
+BattleBack=Snow
+Weather=Snow,50
+Bicycle=true
+MapPosition=0,18,13
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[114]
+# Pillow Fort
+MapPosition=0,14,12
+#-------------------------------
+[115]
+# Negantropy Lake
+BattleBack=Snow
+Weather=Blizzard,100
+Bicycle=true
+MapPosition=0,18,12
+Outdoor=true
+ShowArea=false
+#-------------------------------
+[116]
+# Route 7
+BattleBack=Snow
+Weather=Snow,25
+Bicycle=true
+MapPosition=0,18,14
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[117]
+# Ice Quarry
+BattleBack=CaveIce
+MapPosition=0,14,12
+#-------------------------------
+[118]
+# Professor Dink's Lab
+MapPosition=0,10,17
+#-------------------------------
+[119]
+# Beanstalk House
+MapPosition=0,10,17
+#-------------------------------
+[120]
+# Abandoned Factory
+BattleBack=AbandonedLab
+MapPosition=0,18,12
+ShowArea=true
+#-------------------------------
+[122]
+# Donko Dacha
+MapPosition=0,18,13
+#-------------------------------
+[123]
+# Donko Dacha
+MapPosition=0,18,13
+#-------------------------------
+[125]
+# Route 8
+BattleBack=Savannah
+Bicycle=true
+MapPosition=0,14,13
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[128]
+# Safari Zone
+Bicycle=true
+MapPosition=0,15,12
+#-------------------------------
+[129]
+# Lichen Grotto
+MapPosition=0,19,6
+ShowArea=true
+#-------------------------------
+[130]
+# Lichen Grotto
+MapPosition=0,19,6
+ShowArea=true
+#-------------------------------
+[131]
+# Sea Cottage
+MapPosition=0,15,16
+#-------------------------------
+[133]
+# Ranger Green's Room
+MapPosition=0,14,12
+#-------------------------------
+[136]
+# Mike Love's Castle
+BattleBack=IndoorCastle
+MapPosition=0,14,12
+#-------------------------------
+[138]
+# Mike Love's Castle
+BattleBack=IndoorCastle
+MapPosition=0,14,12
+#-------------------------------
+[140]
+# Podaxis Village
+Weather=Sun,100
+Bicycle=true
+MapPosition=0,15,14
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[141]
+# Triple Triad Shop
+MapPosition=0,13,11
+#-------------------------------
+[142]
+# Triple Triad Shop
+MapPosition=0,15,14
+#-------------------------------
+[143]
+# Route 9
+Bicycle=true
+MapPosition=0,16,14
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[144]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[145]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[146]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[147]
+# Elevator
+MapPosition=0,15,7
+#-------------------------------
+[148]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[149]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[150]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[151]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[152]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[153]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[154]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[155]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[156]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[157]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[158]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[159]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[160]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[161]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[162]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[163]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[164]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[165]
+# Mount Prototaxite
+BattleBack=CaveTreasure
+Bicycle=true
+MapPosition=0,16,12
+#-------------------------------
+[166]
+# Underwater
+BattleBack=Underwater
+MapPosition=0,13,7
+#-------------------------------
+[167]
+# Mount Prototaxite
+Bicycle=true
+MapPosition=0,16,12
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[168]
+# Mount Prototaxite
+Bicycle=true
+MapPosition=0,16,12
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[169]
+# Below Mount Prototaxite
+Bicycle=true
+MapPosition=0,16,12
+ShowArea=true
+#-------------------------------
+[170]
+# Route 11
+BattleBack=Desert
+Weather=Sandstorm,100
+Bicycle=true
+MapPosition=0,16,15
+MapSize=1,11
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[171]
+# Aquatica Bay
+Weather=Sun,10
+Bicycle=true
+MapPosition=0,15,16
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[172]
+# 1UP Center
+MapPosition=0,15,14
+#-------------------------------
+[173]
+# 1UP Center
+MapPosition=0,15,16
+#-------------------------------
+[174]
+# Desert Tunnel
+Bicycle=true
+MapPosition=0,16,15
+#-------------------------------
+[175]
+# Desert Tunnel
+Bicycle=true
+MapPosition=0,16,14
+#-------------------------------
+[176]
+# Aquatica Bungalow
+MapPosition=0,15,16
+#-------------------------------
+[177]
+# Aquatica Bungalow
+MapPosition=0,15,16
+#-------------------------------
+[178]
+# Route 12
+Weather=Sun,50
+Bicycle=true
+MapPosition=0,13,16
+MapSize=2,11
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[179]
+# Port D'Bello
+Weather=Sun,10
+Bicycle=true
+MapPosition=0,12,16
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[180]
+# 1UP Center
+MapPosition=0,12,16
+#-------------------------------
+[181]
+# Port D'Bungalow
+MapPosition=0,12,16
+#-------------------------------
+[182]
+# Dungeon
+BattleBack=Cave
+Bicycle=true
+Dungeon=true
+MapPosition=0,17,18
+#-------------------------------
+[183]
+# Game Corner
+MapPosition=0,12,16
+ShowArea=true
+#-------------------------------
+[185]
+# Route 14
+BattleBack=Swamp
+Weather=Rain,50
+Bicycle=true
+MapPosition=0,11,16
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[188]
+# Unilateralis Village
+BattleBack=Mountain
+Weather=Rain,25
+Bicycle=true
+MapPosition=0,18,17
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[189]
+# Jahn Domicile
+MapPosition=0,18,17
+#-------------------------------
+[190]
+# Jahn Domicile
+MapPosition=0,18,17
+#-------------------------------
+[191]
+# Port D'Bello Gate
+Bicycle=true
+MapPosition=0,12,16
+#-------------------------------
+[192]
+# ??? Cave
+BattleBack=CorruptImageCorrupted
+Bicycle=true
+MapPosition=0,18,17
+#-------------------------------
+[201]
+# Lichen Island
+BattleBack=Beach
+Bicycle=true
+MapPosition=0,19,6
+Outdoor=true
+#-------------------------------
+[203]
+# Route 15
+Bicycle=true
+MapPosition=0,16,6
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[204]
+# Beanstalk Village
+Weather=Rain,10
+Bicycle=true
+MapPosition=0,10,17
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[206]
+# Regalis City
+BattleBack=RegalisCity1
+Bicycle=true
+MapPosition=0,15,7
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[207]
+# Regalis City
+BattleBack=RegalisCity2
+Bicycle=true
+MapPosition=0,15,8
+Outdoor=true
+#-------------------------------
+[208]
+# Regalis City
+BattleBack=RegalisCity2
+Bicycle=true
+MapPosition=0,16,8
+Outdoor=true
+#-------------------------------
+[209]
+# Regalis City
+BattleBack=RegalisCity2
+Bicycle=true
+MapPosition=0,16,7
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[210]
+# Porcini Cavern
+BattleBack=CavePurple
+Bicycle=true
+MapPosition=0,12,14
+ShowArea=true
+#-------------------------------
+[211]
+# Sewers
+BattleBack=IndoorSewer
+MapPosition=0,15,8
+#-------------------------------
+[213]
+# Route 16
+Bicycle=true
+MapPosition=0,14,7
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[214]
+# Podaxis Turf House
+MapPosition=0,15,14
+#-------------------------------
+[215]
+# 1UP Center
+MapPosition=0,15,8
+#-------------------------------
+[216]
+# Route 17
+Bicycle=true
+MapPosition=0,13,7
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[217]
+# Route 18
+Bicycle=true
+MapPosition=0,13,6
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[218]
+# Flautista's Cabin
+MapPosition=0,14,7
+#-------------------------------
+[219]
+# Sewers
+BattleBack=IndoorSewer
+MapPosition=0,15,8
+#-------------------------------
+[221]
+# Vinemon League
+MapPosition=0,13,4
+#-------------------------------
+[222]
+# Ranger Pink's Room
+MapPosition=0,14,12
+#-------------------------------
+[223]
+# Lost Woods
+Bicycle=true
+MapPosition=0,17,14
+#-------------------------------
+[224]
+# Game Corner
+BattleBack=IndoorGameCorner
+MapPosition=0,12,16
+#-------------------------------
+[225]
+# Route 6
+Bicycle=true
+MapPosition=0,14,12
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[226]
+# Mike Love's Castle
+BattleBack=IndoorCastle
+MapPosition=0,14,12
+ShowArea=true
+#-------------------------------
+[228]
+# Jahn Labs
+BattleBack=IndoorLab1
+MapPosition=0,14,12
+#-------------------------------
+[229]
+# Jahn Labs
+MapPosition=0,14,12
+#-------------------------------
+[230]
+# Checkpoint
+MapPosition=0,14,12
+#-------------------------------
+[231]
+# Sewers
+BattleBack=IndoorSewer
+MapPosition=0,15,8
+ShowArea=true
+#-------------------------------
+[233]
+# Streamer Pad
+BattleBack=IndoorC
+MapPosition=0,10,15
+#-------------------------------
+[234]
+# Route 10
+BattleBack=LostWoods
+Weather=Rain,25
+Outdoor=true
+Bicycle=true
+MapPosition=0,17,14
+ShowArea=true
+#-------------------------------
+[236]
+# Lost Woods
+Bicycle=true
+MapPosition=0,17,14
+#-------------------------------
+[237]
+# Ranger Blue's Room
+MapPosition=0,14,12
+#-------------------------------
+[238]
+# Ranger Yellow's Room
+MapPosition=0,14,12
+#-------------------------------
+[239]
+# Ranger Brown's Room
+MapPosition=0,14,12
+#-------------------------------
+[240]
+# Lost Woods
+Bicycle=true
+MapPosition=0,17,14
+ShowArea=true
+#-------------------------------
+[241]
+# Safari Caves
+MapPosition=0,15,18
+#-------------------------------
+[243]
+# Lost Woods
+Bicycle=true
+MapPosition=0,17,14
+#-------------------------------
+[244]
+# Lost Woods
+Bicycle=true
+MapPosition=0,17,14
+#-------------------------------
+[245]
+# Tree House
+MapPosition=0,17,14
+#-------------------------------
+[246]
+# Tree House
+MapPosition=0,17,14
+#-------------------------------
+[247]
+# Tree House
+MapPosition=0,17,14
+#-------------------------------
+[248]
+# Community Bathroom
+MapPosition=0,17,14
+#-------------------------------
+[249]
+# Tree House
+MapPosition=0,17,14
+#-------------------------------
+[251]
+# Lost Woods
+Bicycle=true
+MapPosition=0,17,14
+#-------------------------------
+[252]
+# Tree Gate
+Bicycle=true
+MapPosition=0,17,14
+#-------------------------------
+[253]
+# Red Letter Multimedia
+MapPosition=0,15,8
+BattleBack=IndoorRLMGeneric
+ShowArea=true
+#-------------------------------
+[254]
+# Ghost House
+BattleBack=IndoorGhosts
+MapPosition=0,13,14
+#-------------------------------
+[255]
+# Crypts
+MapPosition=0,13,14
+#-------------------------------
+[256]
+# Red Letter Multimedia
+MapPosition=0,15,8
+BattleBack=IndoorRLMGeneric
+#-------------------------------
+[259]
+# Red Letter Multimedia
+MapPosition=0,15,8
+BattleBack=IndoorRLMGeneric
+#-------------------------------
+[261]
+# Red Letter Multimedia
+MapPosition=0,15,8
+BattleBack=IndoorRLMGeneric
+#-------------------------------
+[262]
+# Red Letter Multimedia
+MapPosition=0,15,8
+BattleBack=IndoorRLMGeneric
+#-------------------------------
+[263]
+# Red Letter Multimedia
+MapPosition=0,15,8
+BattleBack=IndoorRLMGeneric
+#-------------------------------
+[264]
+# Victory Road
+MapPosition=0,13,4
+#-------------------------------
+[265]
+# Route 19
+Weather=Rain,30
+Bicycle=true
+MapPosition=0,13,5
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[266]
+# Victory Road
+BattleBack=Cave
+MapPosition=0,13,4
+#-------------------------------
+[267]
+# Victory Road
+BattleBack=Cave
+MapPosition=0,13,4
+#-------------------------------
+[268]
+# Petting Zoo
+Bicycle=true
+MapPosition=0,12,18
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[270]
+# Debug Room
+Outdoor=true
+#-------------------------------
+[271]
+# Jahn Labs
+BattleBack=IndoorLab1
+MapPosition=0,14,12
+#-------------------------------
+[274]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[275]
+# Sewers
+MapPosition=0,15,8
+#-------------------------------
+[276]
+# Sewers
+MapPosition=0,15,8
+#-------------------------------
+[277]
+# Vinemon League
+MapPosition=0,13,4
+ShowArea=true
+#-------------------------------
+[278]
+# Vinemon League
+BattleBack=EliteD
+#-------------------------------
+[279]
+# Vinemon League
+BattleBack=EliteC
+MapPosition=0,13,4
+#-------------------------------
+[280]
+# Vinemon League
+BattleBack=EliteB
+MapPosition=0,13,4
+#-------------------------------
+[281]
+# Vinemon League
+BattleBack=EliteA
+MapPosition=0,13,4
+#-------------------------------
+[282]
+# Savannah Gate
+Bicycle=true
+MapPosition=0,13,13
+#-------------------------------
+[284]
+# Home
+MapPosition=0,10,17
+#-------------------------------
+[285]
+# Vivianite Cave
+BattleBack=CaveIce
+Bicycle=true
+MapPosition=0,12,13
+#-------------------------------
+[286]
+# Mike Love's Castle
+BattleBack=IndoorCastle
+MapPosition=0,14,12
+#-------------------------------
+[287]
+# Mike Love's Castle
+BattleBack=IndoorCastle
+MapPosition=0,14,12
+#-------------------------------
+[288]
+# Lost Woods
+Bicycle=true
+MapPosition=0,17,14
+#-------------------------------
+[289]
+# Lost Woods
+Bicycle=true
+MapPosition=0,17,14
+#-------------------------------
+[290]
+# Lost Woods
+Bicycle=true
+MapPosition=0,17,14
+#-------------------------------
+[291]
+# Tree House
+MapPosition=0,17,14
+#-------------------------------
+[292]
+# Kokomo Keep
+ShowArea=true
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[293]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[294]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[295]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[296]
+# Imakuni's House
+MapPosition=0,10,17
+#-------------------------------
+[298]
+# S.S. Twitchat
+MapPosition=0,13,6
+#-------------------------------
+[299]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[300]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[304]
+# Innyume Test 2
+#-------------------------------
+[305]
+# S.S. Twitchat
+BattleBack=UnderwaterShip
+MapPosition=0,13,6
+#-------------------------------
+[306]
+# Imakuni's House
+MapPosition=0,10,17
+#-------------------------------
+[307]
+# Victory Road
+BattleBack=Swamp
+MapPosition=0,13,4
+Outdoor=true
+#-------------------------------
+[308]
+# Underwater
+BattleBack=Underwater
+MapPosition=0,14,7
+#-------------------------------
+[309]
+# Mycobiota Plateau
+MapPosition=0,13,4
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[310]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[311]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[313]
+# Safari Zone
+MapPosition=0,15,12
+SafariMap=true
+#-------------------------------
+[314]
+# Safari Zone
+Bicycle=true
+MapPosition=0,15,12
+Outdoor=true
+#-------------------------------
+[315]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[316]
+# Portal Room
+BattleBack=borg1
+MapPosition=0,14,12
+#-------------------------------
+[318]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[319]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[320]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[321]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[323]
+# GBJ
+BattleBack=IndoorJail
+MapPosition=0,16,8
+#-------------------------------
+[324]
+# Victory Road
+BattleBack=Swamp
+MapPosition=0,13,4
+Outdoor=true
+#-------------------------------
+[325]
+# Victory Road
+MapPosition=0,13,4
+Outdoor=true
+#-------------------------------
+[326]
+# Victory Road
+MapPosition=0,13,4
+Outdoor=true
+#-------------------------------
+[327]
+# Victory Road
+MapPosition=0,13,4
+#-------------------------------
+[329]
+# Vinemon League
+MapPosition=0,13,4
+#-------------------------------
+[330]
+# Mike Love's Castle
+BattleBack=OutdoorCastle
+MapPosition=0,14,12
+#-------------------------------
+[331]
+# Jahn Labs
+BattleBack=IndoorLab2
+MapPosition=0,14,12
+#-------------------------------
+[332]
+# Tiliifolia River
+Bicycle=true
+MapPosition=0,11,12
+MapSize=1,11
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[333]
+# Bayside Diner
+BattleBack=IndoorKitchen
+MapPosition=0,15,16
+#-------------------------------
+[334]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[335]
+# Vinemon League
+BattleBack=Champion
+MapPosition=0,13,4
+#-------------------------------
+[336]
+# Underwater
+BattleBack=Underwater
+MapPosition=0,16,6
+#-------------------------------
+[337]
+# Vinemon League
+MapPosition=0,13,4
+#-------------------------------
+[338]
+# Vinemon League
+MapPosition=0,13,4
+#-------------------------------
+[339]
+# Vinemon League
+MapPosition=0,13,4
+#-------------------------------
+[341]
+# Regalis Apartments
+MapPosition=0,16,7
+#-------------------------------
+[342]
+# Lighthouse
+MapPosition=0,12,16
+#-------------------------------
+[343]
+# Underwater
+BattleBack=Underwater
+MapPosition=0,13,6
+#-------------------------------
+[344]
+# Mike Love's Castle
+BattleBack=IndoorCastle
+MapPosition=0,14,12
+#-------------------------------
+[345]
+# Mike Love's Castle
+BattleBack=IndoorCastle
+MapPosition=0,14,12
+#-------------------------------
+[346]
+# Mike Love's Castle
+BattleBack=IndoorCastle
+MapPosition=0,14,12
+#-------------------------------
+[347]
+# Quarry Gate
+Bicycle=true
+MapPosition=0,14,12
+#-------------------------------
+[348]
+# Hall of Fame
+MapPosition=0,13,4
+#-------------------------------
+[349]
+# Regalis Apartments
+MapPosition=0,15,7
+#-------------------------------
+[350]
+# Regalis Apartments
+MapPosition=0,16,8
+#-------------------------------
+[351]
+# Master Fung's Domain
+Bicycle=true
+MapPosition=0,11,14
+DarkMap=false
+ShowArea=true
+#-------------------------------
+[352]
+# Reishi Cabin
+MapPosition=0,13,11
+#-------------------------------
+[353]
+# Grunty's Cave
+MapPosition=0,16,14
+ShowArea=true
+#-------------------------------
+[354]
+# Mario's House
+MapPosition=0,12,16
+#-------------------------------
+[357]
+# Bathroom
+MapPosition=0,15,7
+#-------------------------------
+[358]
+# Great Fairy Fountain
+MapPosition=0,13,5
+#-------------------------------
+[359]
+# Route 4 Pad
+MapPosition=0,12,13
+#-------------------------------
+[360]
+# Buppo Corp
+MapPosition=0,15,7
+#-------------------------------
+[361]
+# Jahn Labs
+BattleBack=IndoorLab1
+MapPosition=0,14,12
+#-------------------------------
+[362]
+# Buppo Corp
+MapPosition=0,15,7
+#-------------------------------
+[363]
+# Buppo Corp
+MapPosition=0,15,7
+#-------------------------------
+[364]
+# Buppo Corp
+MapPosition=0,15,7
+#-------------------------------
+[365]
+# Cave
+MapPosition=0,18,13
+#-------------------------------
+[366]
+# Owl Cave
+MapPosition=0,14,12
+#-------------------------------
+[367]
+# Sidescroller test
+#-------------------------------
+[368]
+# Cave of Secrets
+BattleBack=CaveTreasure
+MapPosition=0,12,12
+#-------------------------------
+[369]
+# River Gate
+Bicycle=true
+MapPosition=0,11,12
+#-------------------------------
+[370]
+# River Gate
+Bicycle=true
+MapPosition=0,13,16
+#-------------------------------
+[371]
+# Malo Mart
+MapPosition=0,16,7
+ShowArea=true
+#-------------------------------
+[372]
+# Underwater
+BattleBack=Underwater
+MapPosition=0,19,6
+#-------------------------------
+[374]
+# Lake Entropy
+Bicycle=true
+MapPosition=0,12,12
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[375]
+# Cissus River
+Bicycle=true
+MapPosition=0,13,14
+MapSize=1,11
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[382]
+# Police Station
+MapPosition=0,10,15
+#-------------------------------
+[383]
+# Buppo Corp
+MapPosition=0,15,7
+#-------------------------------
+[387]
+# Chat School
+MapPosition=0,15,16
+#-------------------------------
+[391]
+# Route 13
+BattleBack=GuardiaForest
+Bicycle=true
+MapPosition=0,12,17
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[393]
+# Route 8
+BattleBack=Savannah
+Bicycle=true
+MapPosition=0,15,13
+Outdoor=true
+#-------------------------------
+[394]
+# Burt's Cottage
+Bicycle=true
+MapPosition=0,16,6
+#-------------------------------
+[395]
+# Regalis Apartment
+MapPosition=0,16,7
+#-------------------------------
+[396]
+# Kokomo Keep
+SnapEdges=true
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[397]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[398]
+# Kokomo Keep
+SnapEdges=true
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[399]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[404]
+# Regalis Police Gym
+BattleBack=JenGym
+MapPosition=0,15,8
+#-------------------------------
+[405]
+# Red Letter Multimedia
+MapPosition=0,15,8
+BattleBack=IndoorRLMGeneric
+#-------------------------------
+[406]
+# Pyramid
+BattleBack=pyramid2
+MapPosition=0,16,16
+ShowArea=true
+#-------------------------------
+[407]
+# Pyramid
+BattleBack=pyramid2
+MapPosition=0,16,16
+#-------------------------------
+[408]
+# Pyramid
+BattleBack=pyramid2
+MapPosition=0,16,16
+#-------------------------------
+[409]
+# Pyramid
+BattleBack=pyramid2
+MapPosition=0,16,16
+#-------------------------------
+[410]
+# Pyramid
+BattleBack=pyramid1
+MapPosition=0,16,16
+#-------------------------------
+[411]
+# Pyramid
+BattleBack=pyramid3
+MapPosition=0,16,16
+#-------------------------------
+[412]
+# Pyramid
+BattleBack=pyramid2
+MapPosition=0,16,16
+#-------------------------------
+[413]
+# Victory Road
+MapPosition=0,13,4
+ShowArea=true
+#-------------------------------
+[414]
+# Pyramid
+BattleBack=pyramid1
+MapPosition=0,16,16
+#-------------------------------
+[415]
+# Pyramid
+BattleBack=pyramid2
+MapPosition=0,16,16
+#-------------------------------
+[416]
+# Pyramid
+BattleBack=pyramid2
+MapPosition=0,16,16
+#-------------------------------
+[418]
+# Pyramid
+BattleBack=pyramid1
+MapPosition=0,16,16
+#-------------------------------
+[419]
+# Hoothoot Ruins
+BattleBack=ReishiTownRuins
+MapPosition=0,13,11
+#-------------------------------
+[420]
+# Hoothoot Ruins
+BattleBack=ReishiTownRuins
+MapPosition=0,13,11
+ShowArea=true
+#-------------------------------
+[421]
+# Safari Zone - Beach
+MapPosition=0,14,13
+#-------------------------------
+[423]
+# Safari Zone - Mountain
+MapPosition=0,14,13
+#-------------------------------
+[424]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[427]
+# Red Letter Multimedia
+MapPosition=0,15,8
+BattleBack=IndoorRLMGeneric
+#-------------------------------
+[428]
+# Mount Prototaxite
+Bicycle=true
+MapPosition=0,16,12
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[429]
+# Ghost House
+BattleBack=IndoorGhosts
+MapPosition=0,13,14
+#-------------------------------
+[431]
+# Ghost House
+BattleBack=IndoorGhosts
+MapPosition=0,13,14
+#-------------------------------
+[432]
+# Ghost House
+ShowArea=true
+BattleBack=IndoorGhosts
+MapPosition=0,13,14
+#-------------------------------
+[433]
+# Ghost House
+BattleBack=IndoorGhosts
+MapPosition=0,13,14
+#-------------------------------
+[435]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[436]
+# Kokomo Keep
+SnapEdges=true
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[439]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[440]
+# Kokomo Keep
+BattleBack=IndoorDungeon
+MapPosition=0,14,12
+#-------------------------------
+[441]
+# Ghost House
+BattleBack=IndoorGhosts
+MapPosition=0,13,14
+#-------------------------------
+[442]
+# Ghost House
+BattleBack=IndoorGhosts
+MapPosition=0,13,14
+#-------------------------------
+[443]
+# River Gate
+Bicycle=true
+MapPosition=0,12,13
+#-------------------------------
+[444]
+# Mike Love's Castle
+BattleBack=IndoorCastle
+MapPosition=0,14,12
+#-------------------------------
+[445]
+# Jahn Labs
+BattleBack=IndoorLab2
+MapPosition=0,14,12
+#-------------------------------
+[447]
+# Podaxis Village
+Weather=BlindingSun,100
+Bicycle=true
+MapPosition=0,15,14
+Outdoor=true
+ShowArea=true
+#-------------------------------
+[449]
+# Jahn Labs
+MapPosition=0,14,12
+#-------------------------------
+[450]
+# S.S. Twitchat
+BattleBack=WaterShip
+MapPosition=0,15,10
+ShowArea=true
+#-------------------------------
+[451]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[453]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[454]
+# S.S. Twitchat
+MapPosition=0,15,10
+#-------------------------------
+[455]
+# Podaxis Gym
+BattleBack=DarrenGym
+MapPosition=0,15,14
+#-------------------------------
+[458]
+# ???
+MapPosition=0,18,12
+#-------------------------------
+[459]
+# Regalis Gate
+Bicycle=true
+MapPosition=0,15,7
+#-------------------------------
+[462]
+# Sewers
+BattleBack=IndoorSewer
+MapPosition=0,15,8
+#-------------------------------
+[463]
+# Sewers
+BattleBack=IndoorSewer
+MapPosition=0,15,8
+#-------------------------------
+[464]
+# Sewers
+BattleBack=IndoorSewer
+MapPosition=0,15,8
+#-------------------------------
+[465]
+# Sewers
+BattleBack=IndoorSewer
+MapPosition=0,15,8
+#-------------------------------
+[466]
+# Victory Road
+MapPosition=0,13,4
+Outdoor=true
+#-------------------------------
+[467]
+# Victory Road
+MapPosition=0,13,4
+#-------------------------------
+[468]
+# Victory Road
+MapPosition=0,13,4
+#-------------------------------
+[469]
+# Victory Road
+MapPosition=0,13,4
+#-------------------------------
+[470]
+# Vinemon League
+MapPosition=0,13,4
+#-------------------------------
+[472]
+# Cave
+MapPosition=0,16,14
+#-------------------------------
+[473]
+# Mike Love's Castle
+MapPosition=0,14,12
+#-------------------------------
+[474]
+# Energy Room
+MapPosition=0,14,12
+#-------------------------------
+[475]
+# Jahn Labs
+MapPosition=0,14,12
+#-------------------------------
+[476]
+# Inside Portal
+MapPosition=0,14,12
+#-------------------------------
+[477]
+# S.S. Twitchat
+MapPosition=0,13,6
+#-------------------------------
+[478]
+# Safari Zone
+BattleBack=Cave
+MapPosition=0,14,13
+SafariMap=true
+#-------------------------------
+[479]
+# Safari Zone
+BattleBack=Cave
+MapPosition=0,14,13
+SafariMap=true
+#-------------------------------
+[480]
+# Safari Zone
+BattleBack=CavePurple
+MapPosition=0,14,13	
+SafariMap=true
+#-------------------------------
+[481]
+# Abandoned Factory Freezer
+BattleBack=AbandonedLabFreezer
+MapPosition=0,18,12
+#-------------------------------
+[482]
+# Cozy Cottage
+MapPosition=0,18,13
+#-------------------------------
+[483]
+# Ghost House
+BattleBack=IndoorGhosts
+MapPosition=0,13,14
+#-------------------------------
+[486]
+# Ghost House
+BattleBack=IndoorGhosts
+MapPosition=0,13,14
+#-------------------------------
+[491]
+# Safari Tunnel
+BattleBack=IndoorTunnel
+Bicycle=true
+#-------------------------------
+[492]
+# ???
+BattleBack=CorruptImageCorrupted
+MapPosition=0,11,16
+#-------------------------------
+[493]
+# ???
+BattleBack=CorruptImageCorrupted
+#-------------------------------
+[494]
+# ???
+BattleBack=CorruptImageCorrupted
+#-------------------------------
+[495]
+# ???
+BattleBack=CorruptImageCorrupted
+#-------------------------------
+[496]
+# Encounter Dummy Map
+MapPosition=0,17,15
+#-------------------------------
+[497]
+# Encounter Dummy Map
+MapPosition=0,17,16
+#-------------------------------
+[498]
+# Encounter Dummy Map
+MapPosition=0,18,15
+#-------------------------------
+[499]
+# Encounter Dummy Map
+MapPosition=0,18,16
+#-------------------------------
+[500]
+# ???
+BattleBack=CorruptImageCorrupted
+#-------------------------------
+[501]
+# ???
+BattleBack=CorruptImageCorrupted
+#-------------------------------
+[504]
+# ???
+BattleBack=CorruptImageCorrupted
+#-------------------------------
+[505]
+# ???
+BattleBack=CorruptImageCorrupted
+#-------------------------------
+[507]
+# EV Dojo Garden
+Bicycle=true
+MapPosition=0,14,13
+Outdoor=true
+#-------------------------------
+[258]
+# Moon Tunnels
+BattleBack=IndoorCheese
+#-------------------------------
+[260]
+# Moon Tunnels
+BattleBack=IndoorCheese
+#-------------------------------
+[520]
+# Eggsress Tunnel
+Bicycle=true
+MapPosition=0,13,11
+#-------------------------------
+[522]
+# Game Corner Passage
+MapPosition=0,12,16
+#-------------------------------
+[524]
+# Mike Love's Castle
+BattleBack=OutdoorCastle
+MapPosition=0,14,12

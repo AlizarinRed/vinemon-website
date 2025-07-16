@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vinemon: Sauce Edition</title>
+    <link rel="preload" as="image" href="./vinemon/images/logo.png">
+    <link rel='shortcut icon' href='./vinemon/images/favicon.ico' type='image/x-icon'>
+    <link rel="stylesheet" href="vinemon.css">
+    <link rel="stylesheet" href="vinedex.css">
+    <link rel="stylesheet" href="https://vinemon.link/vinemon/News+CycleOpen+Sans.css" media="print" onload="this.media='all'">
+    <meta name="description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+    <meta itemprop="name" content="Vinemon: Sauce Edition">
+    <meta itemprop="description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+    <meta itemprop="image" content="https://vinemon.link/vinemon/images/urlimage.png">
+    <meta property="og:url" content="https://vinemon.link">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vinemon: Sauce Edition">
+    <meta property="og:description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+    <meta property="og:image" content="https://vinemon.link/vguiinemon/images/urlimage.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vinemon: Sauce Edition">
+    <meta name="twitter:description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+    <meta name="twitter:image" content="https://vinemon.link/vinemon/images/urlimage.png">
+    <meta name="theme-color" content="#a6e27f">
+    <script src="https://cdn.jsdelivr.net/npm/fast-average-color@9.4.0/dist/index.min.js"></script>
+    <script src="vinedex.js" defer></script>
+</head>
+<body class="top" id="about" style="display: flex; flex-direction: column; background-color:#230101">
+
+    <div id="mainPage">
+        </div>
+
+    <div id="vinedexPage" style="display: none;">
+        </div>
+
+    <script src='./vinemon/TweenMax.min.js' defer rel="preconnect preload"></script>
+    <script src="./vinemon/gsap.min.js" defer rel="preconnect preload"></script>
+    <script src="SlideShow.js"></script>
+    <script>
+        function showMainPage() {
+            document.getElementById('mainPage').style.display = 'block';
+            document.getElementById('vinedexPage').style.display = 'none';
+        }
+
+        function showVinedex() {
+            document.getElementById('mainPage').style.display = 'none';
+            document.getElementById('vinedexPage').style.display = 'block';
+        }
+
+        // Initially show the main page
+        showMainPage();
+    </script>
+</body>
+</html>

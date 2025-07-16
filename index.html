@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preload" as="image" href="./vinemon/images/logo.png">
+  <link rel='shortcut icon' href='./vinemon/images/favicon.ico' type='image/x-icon'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=700px, initial-scale=0.5, minimum-scale=0.5">
+  <title>Vinemon: Sauce Edition - Mainpage</title>
+
+  <link rel="stylesheet" href="./vinemon/bootstrap.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="./vinemon/spectre.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="./vinemon/vinemon.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="vinedex.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://vinemon.link/vinemon/News+CycleOpen+Sans.css" media="print" onload="this.media='all'"><!-- HTML Meta Tags -->
+  <meta name="description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter."><!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Vinemon: Sauce Edition - MainPage">
+  <meta itemprop="description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+  <meta itemprop="image" content="https://vinemon.link/vinemon.png"><!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://vinemon.link">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vinemon: Sauce Edition - MainPage">
+  <meta property="og:description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+  <meta property="og:image" content="https://vinemon.link/vinemon.png"><!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vinemon: Sauce Edition - MainPage">
+  <meta name="twitter:description" content="Vinemon: Sauce Edition is a Monster Catching Fan Game made in RPG Maker XP Engine which is coined as 'A Interactive Shitpost full of soul.' The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.">
+  <meta name="twitter:image" content="https://vinemon.link/vinemon.png"><!-- Meta Tags Generated via http://heymeta.com -->
+  <!-- Discord -->
+  <meta name="theme-color" content="#a6e27f">
+  <meta name="twitter:card" content="">
+  <script src="./debounce.js" defer></script> 
+</head>
+<body class="top" id="about" style="display: flex; flex-direction: column; background-color:#230101">
+  <style>
+  :host, :root{scrollbar-color: #530400 #a80023;
+}
+  .loader {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-top: 5px solid #A90024;
+
+  border-bottom: 5px solid #140101;
+  border-left: 5px solid #140101;
+  border-radius: 100px;
+  background: url(https://vinemon.link/vinemon/vineball.png) no-repeat 0 0;
+  animation: spin 1s infinite linear;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -45px;
+  position: fixed;
+  background-size:90px 90px
+  }
+.bottom-nav-bar{z-index: 99999999!important;}
+  @keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+  }
+  </style>
+          <script>
+        function PopUp(hideOrshow) {
+        if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+        else document.getElementById('ac-wrapper').removeAttribute('style');
+        }
+        window.onload = function () {
+        setTimeout(function () {
+        PopUp('show');
+        }, 1000);
+        }
+        </script>
+        <style>
+
+
+.body1 {  animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+ @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;pointer-events:none;
+            }
+            50% {
+                opacity: 0;pointer-events:none;
+            }
+            100% {
+                opacity: 1;pointer-events: auto;
+            }
+        }
+    .loader2 {  animation: fadeOutAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeOutAnimation {
+            0% {
+                opacity: 1;pointer-events: auto;
+            }
+            50% {
+                opacity: 1;pointer-events: auto;
+            }
+            100% {
+                opacity: 0;pointer-events:none;
+            }
+        } 
+
+        .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(55, 3, 0, 0.7);
+        transition: opacity;
+        visibility: hidden;
+        opacity: 0;
+        display: inline-flex;
+ z-index:9999999;
+        }
+
+        .overlay:target {
+        visibility: visible;
+        opacity: 1;  z-index:9999999
+        }
+
+        .popup {
+        margin: 100px auto;
+        padding: 20px;
+        background: #ffe5e5;
+        border-radius: 5px;
+        width: 50%;
+        position: relative;
+        transition: all 5s ease-in-out; 
+        border: 10px solid #c18989;
+  z-index:9999999
+        }
+
+        .popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+ z-index:9999999
+        }
+
+        .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+ z-index:9999999
+        }
+
+        .popup .close:hover {
+        color: orange;  z-index:9999999
+        }
+
+        .popup .contents {
+        height: 90%;
+        overflow: auto;
+        color:#000;
+        scrollbar-gutter: stable both-edges;
+        scrollbar-color: #988b8b #ffe5e5; z-index:9999999
+        }
+        .popup iframe {margin: 0% auto;}
+        .popup .column, [class~="col-"]{padding: .25rem;}
+
+        #ac-wrapper {
+        position: absolute;
+        width:100%;z-index: 100000000;
+        }
+        #popup {
+        height: 60px;
+  background: linear-gradient(#c2d95f,#7dedac);
+  border: 5px solid #3e7262;
+-webkit-box-shadow: #1b5746 0px 0px 3px 3px;
+  position: relative;
+  z-index: 9999999;
+
+        }
+
+        </style>
+ <div class="loader2" style="background: radial-gradient(circle at center, #1841205F , #0000005F); width: 100%; height: 100%;position: absolute;position: fixed;pointer-events: none;z-index: 99999999999999!important;">
+    <div class='loader'></div>
+</div> 
+    <div id="ac-wrapper" style='display:none'>
+      <div id="popup">
+        <center>
+          <!--- <h4 style="font-size: 2rem!important;">Brand New Update: Version 1.1.9 - <a href="https://vinemon.link/downloads/Vinemon%20Patch%20Notes%20~1.1.9.pdf">Patch Notes</a></h4>-->
+          <h4 style="font-size: 1rem !important;
+  text-align: center;
+  margin-top: 12px;">Site Update: <a href="https://vinemon.link/vinedex">The VINEDEX page!</a></h4>
+        </center>
+      </div>
+    </div>
+  <div class="body1" style="flex: 1 0 auto; z-index: 99999999;padding-top: 100px;">
+
+    <div id="download" class="overlay" >
+      <div class="popup">
+        <h2>Downloads & Socials</h2><a class="close" href="#x">×</a>
+        <div class="contents">
+          <div class="container">
+            <div class="column col-4 col-sm-12" style="text-align: center;width:100%">
+              <a href="https://discord.gg/ZPpe8Fc" target="_blank" style="color: #7289DA; font-weight:bold;font-weight: bold; font-size: 24px;text-decoration: underline;">Vinemon Discord</a> - <a href="https://bsky.app/profile/swonevial.itch.io" target="_blank" style="color: #1DA1F2; font-weight:bold;font-weight: bold; font-size: 24px;text-decoration: underline;">BlueSky</a> - <a href="https://www.pokecommunity.com/showthread.php?p=10609872" style="color: #e3421a; font-weight:bold;font-weight: bold; font-size: 24px;text-decoration: underline;" target="_blank">PokéCommunity</a> - <a href="https://eeveeexpo.com/threads/6217/" target="_blank" style="color: #53abf8; font-weight:bold;font-weight: bold; font-size: 24px;text-decoration: underline;">Eevee Expo</a><br>
+            </div><br>
+            <h5>v1.1.9 Game Download Locations:</h5>
+            <div class="columns">
+            <div class="column col-4 col-sm-12" style="text-align: center;width:100%">
+              <iframe src="https://itch.io/embed/2126419?bg_color=052a29&amp;fg_color=eeeeee&amp;link_color=88fa5b&amp;border_color=245a4a" width="552" height="167" frameborder="0"><a href="https://alizarinred.itch.io/vinemon">Vinemon: Sauce Edition by Swone Vial Co</a></iframe>
+            </div><br>
+              <br>
+              <br>
+            </div><br>
+            <h5>v1.1.9 Patch</h5>- REQUIRED FOR OLDER VERSIONS [v1.1.5+ DON'T need these Patches if the updater works.]<br>
+            <a href="https://discord.gg/ZPpe8Fc" target="_blank" style="color: #d7787d;font-weight: bold;text-decoration: underline;">Join our Discord for help if the patcher doesn't work for you. [Hint make sure it's not being blocked by your Firewall/Windows]</a><br>
+            <br>
+            <!--<h5><a><b>Patch Guide:</b></a></h5><a href="https://i.imgur.com/s14tJHi.png" target="_blank" style="color: #d7787d;font-weight: bold;text-decoration: underline;">Image Link</a><br>
+            <br>-->
+            <h5><a><b>Other Helpful Vinemon Guides:</b></a></h5>
+            <div class="columns">
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent; color: #d7787d;">
+                <a href="https://vinemon.link/downloads/Guides/Vinemon_Trade_Chain.txt" target="_blank" style="color: #81b536;font-weight: bold;text-decoration: underline;">Item Trade Guide (made by Moon @moonocababa)</a>
+              </div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;">
+                <a href="https://vinemon.link/downloads/Guides/Evolution%20stone%20evolution%20table.txt" target="_blank" style="color: #5374d9;font-weight: bold;text-decoration: underline;">Evolution stone evolution table</a>
+              </div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
+                <a href="https://vinemon.link/downloads/Guides/Exp%20Share%20Locations.txt" target="_blank" style="color: #ee369e;font-weight: bold;text-decoration: underline;">Exp Share Locations</a>
+              </div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
+                <a href="https://vinemon.link/downloads/Guides/Prof%20Dink%20every%2025%20Vinemon%20seen%20Item%20List.txt" target="_blank" style="color: #a152d7;font-weight: bold;text-decoration: underline;">Dink Evaluation List (every 25 Vinemon Seen)</a>
+              </div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
+                <a href="https://vinemon.link/downloads/Guides/A%20Guide%20for%20all%2020%20Korok%20Seeds.txt" target="_blank" style="color: #ff8d39;font-weight: bold;text-decoration: underline;">All 20 Korok Seeds</a>
+              </div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
+                <a href="https://vinemon.link/downloads/Guides/Route%20Encounters%20and%20their%20Held%20Items.txt" target="_blank" style="color: #36bb70;font-weight: bold;text-decoration: underline;">Route Encounters & their Held Items (made by PokéfanJulie @PokefanJulie)</a>
+              </div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
+                <a href="https://vinemon.link/downloads/Guides/tm_locations.txt" target="_blank" style="color: #e1a127;font-weight: bold;text-decoration: underline;">TM Locations</a>
+              </div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
+                <a href="https://docs.google.com/spreadsheets/d/1JpFbnkLeBcHY_0oLDssNN3P_DHmX1M2E_R8NgDy1B6k/edit#gid=0" target="_blank" style="color: #828282;font-weight: bold;text-decoration: underline;">Trash Compacter Demystification (made by Topodic)</a>
+              </div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
+                <a href="https://vinemon.link/downloads/Guides/Fling.txt" target="_blank" style="color: #46c4d9;font-weight: bold;text-decoration: underline;">Unique Flingable Items and their bonus effects</a>
+              </div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;"></div>
+              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
+                <a href="https://vinemon.link/downloads/Offline%20Dex.txt" target="_blank" style="color: #fd4f59; font-weight: bold;text-decoration: underline;">Offline Vinedex Information</a>
+              </div>
+            </div><br>
+            <h6><a><b>Controller Support (Thanks to Trasky):</b></a></h6>Use <a href="https://github.com/AntiMicroX/antimicrox" target="_blank" style="color: #000; font-weight: bold; text-decoration: underline;">AntiMicroX</a> and Run it as Admin so that it can properly register with Vinemon.<br>
+            Than drag and drop this <a href="https://vinemon.link/downloads/Guides/VinemonConfig.gamecontroller.amgp" target="_blank" style="color: #000; font-weight: bold; text-decoration: underline;">Controller Config</a> onto it and you should be good to go!<br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-centered" style="height: 255px;min-width: 615px; min-height:255px;background-color: #00000054; background-repeat: repeat; border-bottom: 5px solid #00000054; border-top: 5px solid #33333354;"><img class="img-responsive" src="./vinemon/images/logo.png" style="height: 255px;width: 613px;min-width: 615px; min-height:255px;image-rendering: auto;" alt="Vinemon: Sauce Edition Logo - Using the Typesauce Font made by MaxiGamer" font-display="swap" fetchpriority="high"></div><br>
+    <h4 style="text-shadow:transparent 0px 0px!important;-webkit-text-stroke: 0px #0000;background: -webkit-linear-gradient(#cdd659, #23a985);background-clip: border-box;-webkit-background-clip: text;-webkit-text-fill-color: transparent;position: relative;display: block;top: 19px;font-size: 25px;background-color: #00000075;height: 50px;">An Interactive Shitpost Full Of Soul!</h4>
+    <div class="content">
+      <div class="container">
+        <div class="columns">
+          <div class="column col-4 col-sm-12 flex-centered" style="overflow: hidden">
+            <div class="slideShow">
+              <ul class="slideShow__container" style="text-align: center;">
+                <li class="slideShow__slide" style="padding:0px!important">
+                  <figure class="slideShow__image" style="background-image:url(./vinemon/gallary/1.png);min-width: 256px;max-width: 256px; min-height: 192px;" alt="Quest System - 1/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Quest System</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">1/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure class="slideShow__image" style="background-image:url(./vinemon/gallary/2.png);min-width: 256px;max-width: 256px; min-height: 192px;" alt="Multiple Save Files - 2/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Multiple Save Files</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">2/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/3.png);min-width: 256px;max-width: 256px; min-height: 192px;" alt="HM Items - 3/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">HM Items</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">3/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/4.png);" alt="Custom Pause Menu - 4/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Custom Pause Menu</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">4/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/5.png);" alt="IV &amp; EV Stat Menu - 5/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">IV & EV Stat Menu</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">5/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/6.png);" alt="VineGear PC Storage &amp; More - 6/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">VineGear PC Storage & More</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">6/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/7.png);" alt="Game Corner - 7/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Game Corner</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">7/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/8.png);" alt="Keyboard Remapping - 8/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Keyboard Remapping</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">8/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/9.png);" alt="Alt. Shinines / Corruptions - 9/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Alt. Shinies / Corruptions</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">9/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/10.png);" alt="Many Mini-Games - 10/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Many Mini-Games</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">10/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/11.png);" alt="Modified EBS - 11/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Modified EBS</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">11/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/12.png);" alt="Advanced VineDex - 12/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Advanced VineDex</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">12/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/13.png);" alt="Animated OW Cutscenes - 13/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Animated OW Cutscenes</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">13/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/14.png);" alt="Cable Club - 14/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Cable Club</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">14/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/15.png);" alt="Reborn Battle Animations - 15/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Reborn Battle Animations</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">15/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/16.png);" alt="Original Songs &amp; Covers - 16/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Original Songs & Covers</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">16/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/17.png);" alt="Unique &amp; Custom Region - 17/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Unique & Custom Region</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">17/18</a>
+                </li>
+                <li class="slideShow__slide" style="min-width: 256px;max-width: 256px; min-height: 192px;padding:0px!important">
+                  <figure loading="lazy" class="slideShow__image" style="background-image:url(./vinemon/gallary/18.png);" alt="Custom Shiny Designs - 18/18"></figure><a style="font-size: 15px;display: block;bottom: 0px;position: absolute;background: #000000c9;width: 100%;height: 30px;padding-top: 15px;text-indent: 15px;">Custom Shiny Designs</a> <a style="font-size: 15px;display: block;bottom: 0px;position: absolute;width: 100%;height: 30px;padding-top: 15px;right:-208px">18/18</a>
+                </li>
+              </ul>
+              <div>
+                <h3 href="https://imgur.com/a/kJk4OA6" style="top: -215px; position: relative; font-size: 20px;">Screenshots</h3>
+              </div>
+  <div class="slideShow__next"><i class="fa fa-caret-right" style="    -webkit-text-fill-color: white;
+  -webkit-text-stroke-color: #530400;
+  -webkit-text-stroke-width: 2px; "></i></div>
+  <div class="slideShow__prev"><i class="fa fa-caret-left" style="    -webkit-text-fill-color: white;
+  -webkit-text-stroke-color: #530400;
+  -webkit-text-stroke-width: 2px; "></i></div>
+            </div>
+          </div>
+          <script src='./vinemon/TweenMax.min.js' defer rel="preconnect preload"></script> 
+          <script src="./vinemon/gsap.min.js" defer rel="preconnect preload"></script> 
+          <script>
+
+          </script> <!--                                            partial -->
+          <div class="column col-4 col-sm-12" style="text-align: center;">
+            <h3>About the Game</h3>Vinemon: Sauce Edition is a Pokémon Fan Game made in RPG Maker XP with the Pokémon Essentials Engine.<br>
+            <br>
+            The game is set in a new Region known as 'Fanoth', which used to be a region that was once believed that no person would or should ever be able to enter.<br>
+            <br>
+            Our goal while developing this game was to create a love note for the Vinesauce Community that we've been in for years.<br>
+            <br>
+              With that in mind, however, the game itself can be enjoyed by people
+              unfamiliar with the community and the jokes/memes around such.
+              As everything fits within the world as if it was always part of it.<br>
+              <br>
+              Vinemon: Sauce Edition, while isn't a challenge hack, is balanced to
+              have every Vinemon be viable in battle with each one fitting into a niche
+              perfect for one's team. We also believed in the idea that if all of them are
+              balanced to be broken then none of them are broken.<br>
+              <br>
+              This has allowed us to create an extremely fun and interesting gameplay
+              all of which can be taken online with the Cable Club.
+          <br>
+                    <br>
+          <a class="button" href="#download" style="border-radius: 20px; background: #0aff6a , #fff;padding: 10px;/*! margin-left: -8px; */color:#fff;font-size: 60px;background: rgb(16,34,82);
+background: linear-gradient(0deg, rgb(16, 34, 82) 0%, rgb(30, 124, 125) 25%, rgb(105, 228, 157) 75%, rgb(205, 255, 201) 100%);
+border-top: 5px #9fc89c solid; border-left: 5px #307a62 solid;border-right: 5px #307a62 solid; border-bottom: 5px #040917 solid;
+text-shadow: black 5px 0px, black 0px 5px, black 5px 5px, black 5px 1px, black 1px 5px, black 1px 1px, black 5px 2px, black 2px 5px, black 2px 2px, black 5px 3px, black 3px 5px, black 3px 3px, black 5px 4px, black 4px 5px, black 4px 4px, black 4px 0px, black 0px 4px, black 3px 0px, black 0px 3px, black 2px 0px, black 0px 2px, black 1px 0px, black 0px 1px, black 1px 1px, black 0px 0px, black -1px 0px, black 0px -1px, black -1px -1px, black -2px 0px, black 0px -2px, black -2px -2px, black 5px -1px, black -1px 5px, black 5px -2px, black -2px 5px, black 4px -2px, black -2px 4px, black 3px -2px, black -2px 3px, black 2px -2px, black -2px 2px, black 1px -2px, black -2px 1px, black -2px -1px;top: 20px;
+  position: relative;
+  z-index: 999;
+">DOWNLOAD</a>
+<br>
+          </div>
+          <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;">
+            <h3 style="font-size: 20px;">Videos
+            <div loading="lazy" style="padding-top:6px;min-width: 220px; min-height: 208px">
+              <iframe width="100%" height="202" src="https://www.youtube.com/embed/videoseries?list=PLNXuJB5_t5uXIpPZpo4EaLiSH06ogVPkH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></h3>
+            </div>
+          </div>
+        </div>
+      <section>
+        <div class='air air1'></div>
+        <div class='air air2'></div>
+        <div class='air air3'></div>
+        <div class='air air4'></div>
+      </section>
+      </div>
+
+
+    <div class="container">
+      <div class="columns" >
+        <div class="column col-4 col-sm-12">
+          <div class="content2">
+            <center>
+              <h4 style="text-shadow: black 5px 0px, black 0px 5px, black 5px 5px, black 5px 1px, black 1px 5px, black 5px 2px, black 2px 5px, black 5px 3px, black 3px 5px, black 5px 4px, black 4px 5px, black 4px 0px, black 0px 4px, black 4px 4px,black 3px 0px, black 0px 3px, black 3px 3px,black 2px 0px, black 0px 2px, black 2px 2px,black 1px 0px, black 0px 1px, black 1px 1px,black -1px 0px , black 0px -1px, black -1px -1px,black -2px 0px , black 0px -2px, black -2px -2px,black 5px -2px, black -2px 5px,black 4px -2px, black -2px 4px,black 3px -2px, black -2px 3px,black 2px -2px, black -2px 2px,black 1px -2px, black -2px 1px">Features</h4>
+            </center>
+            <ul>
+              <li>Quest System</li>
+              <li>Multiple Save Files</li>
+              <li>Autosave</li>
+              <li>Custom Pause Menu</li>
+              <li>IV & EV Stat Menu</li>
+              <li>Keyboard ReMapping</li>
+              <li>VineGear PC Storage</li>
+              <li>Indepth Adv Dex Stats Page</li>
+              <li>Randomizer & Nuzlocke Modes</li>
+              <li>Modified EBS</li>
+              <li>HM Items</li>
+              <li>Lots of Mini-Games</li>
+              <li>Game Corner</li>
+              <li>Unique & Custom Shinies</li>
+              <li>Corruptions (Alt. Shiny)</li>
+              <li>Cable Club w/ Clauses & Previews</li>
+              <li>Animated OW Cutscenes</li>
+              <li>Reborn Battle Animations</li>
+              <li>Original Songs & Covers</li>
+              <li>Unique Region</li>
+              <li>Custom Egg Sprites & Anims.</li>
+              <li>Quality of Life Breeding</li>
+              <li>Egg Reward Program</li>
+              <li>Triple Triad Club Challenges</li>
+              <li>Majorly Enhanced Battle AI</li>
+              <li>Progress Improves Wild Al</li>
+              <li>Gym Leader Rematches</li>
+              <li>EXP All+ & Level Caps Options</li>
+            </ul>
+          </div>
+        </div>
+        <div class="column col-4 col-sm-12" style="text-align: center">
+          <center>
+            <h3>Overview / Story</h3>
+          </center><br>
+          You are Vinny Vinesauce a streamer from Staten Island, New York. On one Sunday night, you planned to play a mysterious game made by your community titled Vinemon: Sauce Edition.<br>
+          <br>
+          The game is loaded up but your house's power flickers on and off while the internet fully cuts out. Do not presume this was the doing of vineRizon. The power that calls you to this world is far greater than that of those internet providers.<br>
+          <br>
+          As you exit your house you find you aren't in Staten Island anymore but in a region called "Fanoth". As you look for answers to why you were brought here you discover that Imakuni was also brought to this world and is now your next-door rival. When you begin to share notes a sudden explosion happens and you both rush outside to see the cause of it. You discover the professor panicked and the only Vinemon he has left for you to use is a Water-Typed Vinemon named Scoot.<br>
+          <br>
+          After being given Scoot and a battle with your rival & friend Imakuni, You are given the VineGar to keep track of quests, manage your PC, and check the map of the region.<br>
+          <br>
+          As you overlook the map you begin to realize this world is strikingly familiar. Yet these places feel completely different from the ones you visited in the past on stream.<br>
+          <br>
+          As you travel the region you will meet many of the characters you've created and encountered while streaming. This includes iconic video game mascots, Original Characters (donut steel), Celebrities, Memes, Streamers, YouTubers, and many more!<br>
+          <br>
+          Explore, Battle, and Catch in Vinemon before it's too late. After all, you still got a Sunday Stream to put on and you can't leave chat alone unattended.
+        </div>
+        <div class="column col-4 col-sm-12">
+          <div class="content2">
+            <center>
+              <h4>Game Statistics</h4>
+            </center>
+            <ul>
+              <li>210 Vinemon</li>
+              <li>76 New Items</li>
+              <li>161 New Moves</li>
+              <li>70 New Abilities</li>
+              <li>182+ Diverse Songs</li>
+              <li>104+ Unique Trainers</li>
+              <li>Aprox. 40-60+ Hours of Gameplay</li>
+            </ul>
+          </div><br>
+          <br>
+          <div class="content2">
+            <center>
+              <h4>In-Game Cameos</h4>
+            </center>
+            <ul>
+              <li>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Dumpleng</font> by <a href="https://twitter.com/BynineB" style="color: #d7787d;">@BynineB</a><br>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">[Pocketman Teal]</font> - <a href="https://bynine.itch.io/pocketman-teal" style="color: #d7787d;">Link</a>
+              </li>
+              <li>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Feesh</font> by <a href="https://twitter.com/fxuadDev" style="color: #d7787d;">@fxuadDev</a> at <a id='golink' href="https://twitter.com/Modoka" style="color: #d7787d;">@Modoka</a><br>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">[Sonymon]</font> - <a href="https://www.moddb.com/games/sonymon-psp" style="color: #d7787d;">Link</a>
+              </li>
+              <li>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Cookie Blair</font> by <a href="https://twitter.com/Geno_CL" style="color: #d7787d;">@Geno_CL</a><br>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">[Cookie's Bustle]</font> - <a href="https://cookies-bustle.net/rentry" style="color: #d7787d;">Link</a>
+              </li>
+              <li>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Megaman</font> by <a href="https://twitter.com/splendidland" style="color: #d7787d;">@splendidland</a><br>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">[Megaman Sprite Game]</font> - <a href="https://megamanspritecomic.tumblr.com/post/65735240451/megaman-sprite-game-released-on-october-31st" style="color: #d7787d;">Link</a>
+              </li>
+              <li>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Chat Design</font> by <a href="https://twitter.com/Eminute_" style="color: #d7787d;">@Eminute_</a><br>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">[Mario Mystery Meat]</font> - <a href="https://www.smwcentral.net/?p=section&amp;a=details&amp;id=23290" style="color: #d7787d;">Link</a>
+              </li>
+              <li>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Vinetoad</font> by <a href="https://twitter.com/IzzyDeadjet" style="color: #d7787d;">@IzzyDeadjet</a><br>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">[Vine Realms/Worlds]</font> - <a href="https://varietyishope.itch.io/vinerealms" style="color: #d7787d;">Link1</a> & <a href="https://varietyishope.itch.io/vineworlds" style="color: #d7787d;">Link2</a>
+              </li>
+              <li>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Apple Dave</font> by <a href="https://twitter.com/Lamango_Kaijura" style="color: #d7787d;">@Lamango_Kaijura</a><br>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">[The Art Booru]</font> - <a href="https://booru.vineshroom.net/post/view/19493search=user_id%3D140" style="color: #d7787d;">Link</a>
+              </li>
+              <li>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Goblins</font> by <a href="https://www.samwestphalen.com/" style="color: #d7787d;">SamWestphalen.com</a><br>
+                <font style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">[The Goblin Dance]</font> - <a href="https://youtu.be/nLLHu8qtxjg" style="color: #d7787d;">Link</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content" style="z-index: -1;">
+      <div class="container" >
+        <div class="columns">
+          <div class="column col-4 col-sm-12" style="text-align: center">
+            <center>
+              <h3>Unique Balance</h3>
+            </center>Each Vinemon has their own unique signature move!<br>
+            <br>
+            Custom moves, abilities, and items allow for each Vinemon to have their own unique fighting chance against one another.<br>
+            Come up with synergies with each to dominate the competition!<br>
+            <br>
+            Damaging weather now takes typing into consideration.<br>
+            <br>
+            Sandstorm and Hail will do Rock and Ice-Type Damage, respectively.<br>
+            Like Sandstorm boosts Sp. Def with Rock-Types, so too does Hail boost Def for Ice-Types.<br>
+            <br>
+            <center>
+              <h3>Mini-Games</h3>
+            </center>As you play the game you will find many different kinds of mini-games.<br>
+            <br>
+            From unique overworld puzzles to a fully fuctional Touhou Game with Custom Stages and Bosses.
+          </div>
+          <div class="column col-4 col-sm-12" style="text-align: center;">
+            <center>
+              <h3>Cable Club</h3>
+            </center>Allows you to trade and battle players from around the world!<br>
+            <br>
+            Input the connecting players Trainer ID or Code to Establish a connection.<br>
+            <br>
+            You'll be able to access this feature directly from the VineGear itself, no matter where you are!<br>
+            <br>
+            <center>
+              <h3>Corruptions</h3>
+            </center>They are similar to shinies, but they do not replace the normal shiny, in fact it can combo with being a shiny creating a shiny corruption.<br>
+            <br>
+            The first caught corruption of a species will save the unique sprite to the "Fuzzy Pickles" Folder.<br>
+            <br>
+            Everytime you view the corruption the sprite will change to something different!
+          </div>
+          <div class="column col-4 col-sm-12" style="text-align: center">
+            <center>
+              <h3>OW Animations</h3>
+            </center>Within Vinemon we have many unique animations for the overworld. From HM Items to the Legendary Vinemon Interactions.<br>
+            <br>
+            We hope that these animations will charm you on your adventure.<br>
+            <br>
+            <br>
+            <br>
+            <center>
+              <h3>Custom Shinies</h3>
+            </center>Vinemon Shinies shine brighter within Fanoth!<br>
+            <br>
+            Shinies can vary not only from color but also design wise as well!<br>
+            <br>
+            The Squagle goes from a simple bagel neck to a Blood Bagel neck!<br>
+            Speed Luigi turns into Mr. L!<br>
+            Faesoph becomes a Villager!<br>
+            Hermine decorates their shell!
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class='air air1'></div>
+        <div class='air air2'></div>
+        <div class='air air3'></div>
+        <div class='air air4'></div>
+      </section>
+    </div>
+    <div id="changes"></div>
+    <div>
+      <div class="flex-centered" style="margin-top: 115px;height: 255px;min-width: 615px; min-height:255px; background-color: #00000054; background-repeat: repeat; border-bottom: 5px solid #00000054; border-top: 5px solid #33333354;"><img class="img-responsive" src="./vinemon/images/changes.png" style="height: 255px;width: 613px;min-width: 615px; min-height:255px;image-rendering: auto;" alt="Changes &amp; Adjustments - Using the Typesauce Font made by MaxiGamer" font-display="swap" loading="lazy"></div><br>
+      <h4 style="text-shadow:transparent 0px 0px!important;-webkit-text-stroke: 0px #0000;background: -webkit-linear-gradient(#cdd659, #23a985);background-clip: border-box;-webkit-background-clip: text;-webkit-text-fill-color: transparent;position: relative;display: block;top: 19px;font-size: 25px;background-color: #00000075;height: 50px;">Modernizations & Custom Creations</h4>
+      <div class="content" style="background-color: #144d38; background-repeat: repeat; border-bottom: 5px solid #02311f; border-top: 5px solid #1b6b49;z-index:-1!important">
+        <div class="container">
+          <div class="columns">
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>Type Changes / Additions</h3>
+              <h5>???-Types (Mystery-Type)</h5>
+              <ul>
+                <li style="text-align: justify;">Made into a unique type that has no weaknesses other than Normal Type.</li>
+                <li style="text-align: justify;">???-Type moves have no resistances, but aren’t super effective against any type, either.</li><br>
+                <br>
+                <h5>Normal-Types</h5>
+                <li style="text-align: justify;">Normal Type moves are Super Effective against ???-Type Vinemon.</li><br>
+                <br>
+                <h5>Ice-Types</h5>
+                <li style="text-align: justify;">Defense is boosted in Hail</li>
+              </ul>
+            </div>
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>Battle UI Changes / Additions</h3>
+              <h5>UI</h5>
+              <ul>
+                <li style="text-align: justify;">The Battle UI will indicate if a move used on an opposing Vinemon will be effective or not, once you’ve seen them, based on their +, -, or = icon as well as color indication. Vinemon are considered seen when caught or defeated.</li>
+                <li style="text-align: justify;">Badly Poisoned status now has a unique Icon in battle.</li>
+              </ul>
+            </div>
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>Item Changes</h3>
+              <ul>
+                <li style="text-align: justify;">Evolution Stones work in Battle.</li>
+                <li style="text-align: justify;">EV reducing berries will reduce the EV in question by 4 each use.</li>
+                <li style="text-align: justify;">EV increasing wings will increase the EV in question by 4 each use.</li>
+                <li style="text-align: justify;">Vitamins increase the EV in question by 20 each use.</li>
+                <li style="text-align: justify;">Modified berries that heal HP but cause confusion if it doesn't like the taste, to heal for the same HP constants as the modern games (was 1/8th of health, 1/4 if Ripen is active, and now heals for 1/3, or 2/3s if Ripen is active)</li>
+                <li style="text-align: justify;">VineRadar (PokeRadar) doesn’t require a charge and chains can result in evolved Vinemon showing up if you beat up/catch their pre-evolutions.</li>
+                <li style="text-align: justify;">Ability Capsule: Allows the Vinemon to cycle between all their abilities (including Hidden Abilities.)</li>
+                <li style="text-align: justify;">Escape Rope is a Key Item.</li>
+                <li style="text-align: justify;">The game will ask if you wish to use another Repel when the effects of the previous one run out, if you have any more Repels in your bag.</li>
+                <li style="text-align: justify;">Berserk Gene is able to be planted like any other berry.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <section>
+          <div class='aira air1' style="filter: drop-shadow(0px 10000000px 0 #103e2d); transform: translatey(-10000000px);"></div>
+          <div class='aira air2' style="filter: drop-shadow(0px 10000000px 0 #103e2d); transform: translatey(-10000000px);"></div>
+          <div class='aira air3' style="filter: drop-shadow(0px 10000000px 0 #103e2d); transform: translatey(-10000000px);"></div>
+          <div class='aira air4' style="filter: drop-shadow(0px 10000000px 0 #103e2d); transform: translatey(-10000000px);"></div>
+        </section>
+      </div><br>
+      <div class="content" style="background-color: #144b4d; background-repeat: repeat; border-bottom: 5px solid #03373d; border-top: 5px solid #1b676b;">
+        <div class="container">
+          <div class="columns">
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>Battle AI Changes / Additions</h3>
+              <h5>AI</h5>
+              <ul>
+                <li style="text-align: justify;">Wild Vinemon battle AI upgrades after the 2nd Gym Badge to Trainer Level AI, and if the levels of the wild Vinemon are level 20 or above.</li>
+                <li style="text-align: justify;">The game has several skill levels of AI, some smarter, some that involve taking your party/moves/stats/held items/abilities into account.</li>
+                <li style="text-align: justify;">Certain Trainers will have special programming act as unique “bosses” for battles incorporating fun and interesting mechanics that reside outside of the normal Vinemon, Items, and Ability mechanics features</li><br>
+              </ul>
+            </div>
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>Battle Mechanic Changes / Additions</h3>
+              <h5>Mechanics</h5>
+              <ul>
+                <li style="text-align: justify;">The Shiny Encounter rate is 6%, by default.</li>
+                <li style="text-align: justify;">The Corruption Encounter rate is 3% by default.</li>
+                <li style="text-align: justify;">The Vinerus (Pokerus) can be found at a 6% encounter rate.</li>
+                <li style="text-align: justify;">Wild Vinemon now can be found with both regular and hidden abilities in the wild.</li>
+                <li style="text-align: justify;">Wild Vinemon now can now be encountered holding items. When defeated those items may drop after the battle.</li>
+                <ul style="font-size: 16px;list-style: circle;">
+                  <li style="text-align: justify;">Light Ball will work on <font color="#AAA" style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Rabbuzz.</font></li>
+                  <li style="text-align: justify;">Thick Club will work on <font color="#AAA" style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Boomish</font> and <font color="#AAA" style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Droloom.</font></li>
+                  <li style="text-align: justify;">Metal Powder and Quick Powder work on <font color="#AAA" style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">a Transformed Cognitto.</font></li>
+                </ul>
+                <li style="text-align: justify;">Poison does not cause damage outside of battle.</li>
+                <li style="text-align: justify;">Evolution can happen mid-battle if their requirements are met.</li>
+                <ul style="font-size: 16px;list-style: circle;">
+                  <li style="text-align: justify;">NPCs may use Rare Candies and evolution stones to proc evolution after 1-turn if held in battle.</li>
+                  <li style="text-align: justify;">The player can use Rare Candies and evolution stones from the bag mid-battle to evolve their Vinemon.</li>
+                </ul>
+                <li style="text-align: justify;">Rare Candies can’t be knocked off.</li>
+                <li style="text-align: justify;">Items that are consumed in battle are now a one-time use item that is restored after a battle (Berries and Food items aren’t restored after a battle.)</li>
+                <li style="text-align: justify;">The Safari Zone doesn’t involve the minigame. Battles in the zone occur just as they do outside the zone. You’re given 30 Fren Balls and can use these in the zone, and you give them back after. You can find Fren Balls throughout the zone that can be used outside the zone. The zone contains several biomes which have their own encounter tables.</li>
+                <li style="text-align: justify;">Weather that does chip damage, will do damage based on their type’s resistance to the damage in question. Hail does Ice type damage. Sandstorm does Rock type damage.</li>
+                <li style="text-align: justify;">Harvest has the chance of double procing, if the user consumes their harvested item and they still fulfill the requirements of Harvest.</li>
+                <li style="text-align: justify;">If Vinemon are Asleep or Frozen, they’re 2.5x more likely to be caught. If Vinemon are affected by any other status, they’re 1.875x more likely to be caught</li>
+                <li style="text-align: justify;">Critical Capture mechanics are now dependent on how many Vinemon the player has SEEN, as opposed to Vinemon the player has caught</li>
+              </ul>
+            </div>
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>Misc. Changes</h3>
+              <ul>
+                <li style="text-align: justify;">The Vinegear will be one of the more important mechanics in the game. You’ll be able to check your Vinedex, current Quests, access PC Storage (once you have the proper Dex Card), as well as any minigames and online features.</li>
+                <ul style="font-size: 16px;list-style: circle;">
+                  <li style="text-align: justify;">Online features include:</li>
+                  <ul style="font-size: 16px;list-style: decimal;">
+                    <li style="text-align: justify;">Battling with other Trainers</li>
+                    <li style="text-align: justify;">Trading with other Trainers</li>
+                    <li style="text-align: justify;">Mystery Gift</li>
+                  </ul>
+                </ul>
+                <li style="text-align: justify;">Pokemon Centers are now called 1UP Centers, and the Deli (PokeMarts) are now located inside.</li>
+                <li style="text-align: justify;">Walking into a 1UP Center now sets your respawn point after whiting out. No longer required to heal at a 1UP Center to do so.</li>
+                <li style="text-align: justify;">The player always faces down after speaking to a nurse, to mitigate speaking to them again by accident after healing.</li>
+                <li style="text-align: justify;">Move Relearner/Deleter is now located in Vinny’s PC at 1UP Center and ScumSoft PCs.</li>
+                <li style="text-align: justify;">TM’s have infinite uses.</li>
+                <li style="text-align: justify;">Fishing doesn’t require additional input in order to hook a catch.</li>
+                <li style="text-align: justify;">The Quest Log will allow you to keep track of where you are in the story as well as any other quests you may be on.</li>
+                <li style="text-align: justify;">Implemented the new Autosave functionality. Saves after all non-event wild battles, random trainer battle on routes, on entering and leaving 1-up centers, fly, escape rope, dig, gate houses, repel, dungeons, as well as prior to important lore areas when Autosave is enabled in options.</li>
+                <li style="text-align: justify;">Can have up to 10 total save files.</li>
+                <li style="text-align: justify;">Most Routes have random chance-based weather.</li>
+                <li style="text-align: justify;">Traded Vinemon will always obey the player in battle.</li>
+                <li style="text-align: justify;">Traded Vinemon can be nicknamed.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <section>
+          <div class='aira air1'></div>
+          <div class='aira air2'></div>
+          <div class='aira air3'></div>
+          <div class='aira air4'></div>
+        </section>
+      </div>
+      <h4 style="text-shadow:transparent 0px 0px!important;-webkit-text-stroke: 0px #0000;background: -webkit-linear-gradient(#cdd659, #23a985);background-clip: border-box;-webkit-background-clip: text;-webkit-text-fill-color: transparent;position: relative;display: block;top: 19px;font-size: 25px;background-color: #00000075;height: 50px;z-index: -1;">Move Overhauls & Stat Tweaks</h4>
+      <div class="content" style="background-color: #14284d; background-repeat: repeat; border-bottom: 5px solid #03173d; border-top: 5px solid #1b3e6b;">
+        <div class="container" style="z-index: -1;">
+          <div class="columns">
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>BP Changes</h3>
+              <h5>Buffs</h5>
+              <ul>
+                <li style="text-align: justify;">Struggle Bug has 50 BP, up from 30.</li>
+                <li style="text-align: justify;">Twineedle has 40 BP, up from 25.</li>
+                <li style="text-align: justify;">Fury Cutter has 40 BP, up from 20.</li>
+                <li style="text-align: justify;">Leech Life has 75 BP, up from 20.</li>
+                <li style="text-align: justify;">Pin Missile has 25 BP, up from 14.</li>
+                <li style="text-align: justify;">Assurance has 65 BP, up from 50.</li>
+                <li style="text-align: justify;">Knock Off has 60 BP, up from 20.</li>
+                <li style="text-align: justify;">Low Sweep has 65 BP, up from 60.</li>
+                <li style="text-align: justify;">Storm Throw has 50 BP, up from 40.</li>
+                <li style="text-align: justify;">Incinerate has 60 BP, up from 30.</li>
+                <li style="text-align: justify;">Fire Pledge has 80 BP, up from 50.</li>
+                <li style="text-align: justify;">Hex has 65 BP, up from 50.</li>
+                <li style="text-align: justify;">Lick has 40 BP, up from 20.</li>
+                <li style="text-align: justify;">Energy Ball has 90 BP, up from 80.</li>
+                <li style="text-align: justify;">Grass Pledge has 80 BP, up from 50.</li>
+                <li style="text-align: justify;">Snore is 60 BP, up from 40.</li>
+                <li style="text-align: justify;">Poison Sting has 30 BP, up from 15.</li>
+                <li style="text-align: justify;">Future Sight has 120 BP, up from 100.</li>
+                <li style="text-align: justify;">Luster Purge has 20 BP, up from 5.</li>
+                <li style="text-align: justify;">Mist Ball has 20 BP, up from 5.</li>
+                <li style="text-align: justify;">Synchronoise has 120 BP, up from 70.</li>
+                <li style="text-align: justify;">Power Gem has 80 BP, up from 70.</li>
+                <li style="text-align: justify;">Water Pledge is 80 BP, up from 50.</li>
+                <li style="text-align: justify;">Bubble is 40 BP, up from 20.</li>
+                <li style="text-align: justify;">Thief has 60 BP, up from 40.</li>
+                <li style="text-align: justify;">Wake Up Slap has 70 BP, up from 60.</li>
+                <li style="text-align: justify;">Air Cutter has 65 BP, up from 55.</li>
+                <li style="text-align: justify;">Vine Whip has 45 BP, up from 35.</li>
+                <li style="text-align: justify;">Techno Blast has 120 BP, up from 85.</li>
+                <li style="text-align: justify;">Smelling Salts has 70 BP, up from 60.</li>
+                <li style="text-align: justify;">Smog has 30 BP, up from 20.</li>
+                <li style="text-align: justify;">Rock Tomb has 65 BP, up from 50.</li>
+                <li style="text-align: justify;">Crabhammer has 100 BP, up from 90.</li>
+                <li style="text-align: justify;">Hidden Power has 60 BP, up from damage based on your IVs. Also changes to a Special move if it would deal more damage.</li><br>
+                <h5>Nerfs</h5>
+                <li style="text-align: justify;">Heal Pulse has 5 BP, down from 10.</li>
+                <li style="text-align: justify;">Frost Breath has 50 BP, down from 60.</li>
+                <li style="text-align: justify;">Meteor Mash has 95 BP, down from 100.</li>
+              </ul>
+            </div>
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>PP Changes</h3>
+              <h5>Buffs</h5>
+              <ul>
+                <li style="text-align: justify;">Relic Song has 15 PP, up from 10.</li>
+                <li style="text-align: justify;">Thief has 25 PP, up from 10.</li>
+                <li style="text-align: justify;">Wake Up Slap has 15 PP, up from 10.</li>
+                <li style="text-align: justify;">Vine Whip has 25 PP, up from 15.</li>
+                <li style="text-align: justify;">Smelling Salts has 15 PP, up from 10.</li>
+                <li style="text-align: justify;">Rock Tomb has 15 PP, up from 10.</li><br>
+                <h5>Nerfs</h5>
+                <li style="text-align: justify;">Roost has 5 PP, down from 10.</li>
+                <li style="text-align: justify;">Milk Drink has 5 PP, down from 10.</li>
+                <li style="text-align: justify;">Pain Split has 10 PP, down from 20.</li>
+                <li style="text-align: justify;">Recover has 5 PP, down from 10.</li>
+                <li style="text-align: justify;">Slack Off has 5 PP, down from 10.</li>
+                <li style="text-align: justify;">Softboiled has 5 PP, down from 10.</li>
+                <li style="text-align: justify;">Substitute has 5 PP, down from 10.</li>
+                <li style="text-align: justify;">Wish has 5 PP, down from 10.</li>
+                <li style="text-align: justify;">Dream Eater has 10 PP, down from 15.</li>
+                <li style="text-align: justify;">Heal Block has 10 PP, down from 15.</li>
+                <li style="text-align: justify;">Rest has 5 PP, down from 10.</li>
+                <li style="text-align: justify;">Heal Order has 5 PP, down from 10.</li>
+              </ul>
+            </div>
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>Accuracy Changes</h3>
+              <h5>Buffs</h5>
+              <ul>
+                <li style="text-align: justify;">Will-o-Wisp has 85% accuracy, up from 75.</li>
+                <li style="text-align: justify;">Bounce has 95% accuracy, up from 85.</li>
+                <li style="text-align: justify;">Icicle Crash has 100% accuracy, up from 90.</li>
+                <li style="text-align: justify;">Fury Swipes is 95% accuracy, up from 80.</li>
+                <li style="text-align: justify;">Glare is 100% accuracy, up from 90.</li>
+                <li style="text-align: justify;">Gunk Shot has 85% accuracy, up from 70.</li>
+                <li style="text-align: justify;">Poison Gas has 90% accuracy, up from 80.</li>
+                <li style="text-align: justify;">Psycho Shift has 100% accuracy, up from 90.</li>
+                <li style="text-align: justify;">Rollout has 95% accuracy, up from 90.</li>
+                <li style="text-align: justify;">Muddy Water has 100% accuracy, up from 85.</li>
+                <li style="text-align: justify;">Smog has 90% accuracy, up from 70.</li>
+                <li style="text-align: justify;">Rock Tomb has 95% accuracy, up from 80.</li>
+                <li style="text-align: justify;">Meteor Mash has 90% accuracy, up from 85.</li>
+                <li style="text-align: justify;">Crabhammer has 95% accuracy, up from 90.</li><br>
+                <h5>Nerfs</h5>
+                <li style="text-align: justify;">Swagger has 85% Accuracy, down from 90.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <section>
+          <div class='aira air1' style="filter: drop-shadow(0px 10000000px 0 #0f2142); transform: translatey(-10000000px);"></div>
+          <div class='aira air2' style="filter: drop-shadow(0px 10000000px 0 #0f2142); transform: translatey(-10000000px);"></div>
+          <div class='aira air3' style="filter: drop-shadow(0px 10000000px 0 #0f2142); transform: translatey(-10000000px);"></div>
+          <div class='aira air4' style="filter: drop-shadow(0px 10000000px 0 #0f2142); transform: translatey(-10000000px);"></div>
+        </section>
+      </div>
+      <div class="content" style="background-color: #14154d; background-repeat: repeat; border-bottom: 5px solid #0c0d2f; border-top: 5px solid #212380;">
+        <div class="container">
+          <div class="columns">
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>Move Reclassifications</h3>
+              <h5>Wind Moves</h5>
+              <ul>
+                <li style="text-align: justify;">Gust is considered a wind move.</li>
+                <li style="text-align: justify;">Tailwind is considered a wind move.</li>
+                <li style="text-align: justify;">Ominous Wind is considered a wind move.</li>
+                <li style="text-align: justify;">Hurricane is considered a wind move.</li>
+                <li style="text-align: justify;">Ice Burn is considered a wind move.</li>
+                <li style="text-align: justify;">Blizzard is considered a wind move.</li>
+                <li style="text-align: justify;">Icy Wind is considered a wind move.</li>
+                <li style="text-align: justify;">Razor Wind is considered a wind move.</li>
+                <li style="text-align: justify;">Whirlwind is considered a wind move.</li>
+                <li style="text-align: justify;">Sandstorm is considered a wind move.</li>
+                <li style="text-align: justify;">Air Cutter is considered a wind move.</li>
+                <li style="text-align: justify;">Defog is considered a wind move.</li><br>
+                <h5>Slicing Moves</h5>
+                <li style="text-align: justify;">X-Scissor is considered a slicing move.</li>
+                <li style="text-align: justify;">Air Cutter is considered a slicing move.</li>
+                <li style="text-align: justify;">Slash is considered a slicing move.</li>
+                <li style="text-align: justify;">Leaf Blade considered a slicing move.</li>
+                <li style="text-align: justify;">Razor Leaf is considered a slicing move.</li>
+                <li style="text-align: justify;">Cross Poison is considered a slicing move.</li>
+                <li style="text-align: justify;">Psycho Cut is considered a slicing move.</li>
+                <li style="text-align: justify;">Razor Shell is considered a slicing move.</li>
+                <li style="text-align: justify;">Aerial Ace is considered a slicing move.</li>
+                <li style="text-align: justify;">Solar Blade is considered a slicing move.</li>
+                <li style="text-align: justify;">Sacred Sword is considered a slicing move</li>
+                <li style="text-align: justify;">Night Slash is considered a slicing move.</li>
+                <li style="text-align: justify;">Air Slash is considered a slicing move.</li>
+                <li style="text-align: justify;">Solar Blade is considered a slicing move.</li><br>
+                <h5>Dance Moves</h5>
+                <li style="text-align: justify;">Feather Dance is considered a dance move.</li>
+                <li style="text-align: justify;">Petal Dance is considered a dance move.</li>
+                <li style="text-align: justify;">Swords Dance is considered a dance move.</li>
+                <li style="text-align: justify;">Teeter Dance is considered a dance move.</li>
+                <li style="text-align: justify;">Lunar Dance is considered a dance move.</li><br>
+                <h5>Powder Moves</h5>
+                <li style="text-align: justify;">Powder Snow is considered a powder move.</li>
+                <li style="text-align: justify;">Powder is considered a powder move.</li><br>
+                <h5>Sound Moves</h5>
+                <li style="text-align: justify;">Heal Bell is considered a sound move.</li>
+                <li style="text-align: justify;">Howl is considered a sound move.</li>
+              </ul>
+            </div>
+            <div class="column col-4 col-sm-12" style="text-align: center;padding: 25px;">
+              <h3>Additional Move Changes</h3>
+              <ul>
+                <li style="text-align: justify;">X-Scissor has a high critical hit rate.</li>
+                <li style="text-align: justify;">Rock Crush (Previously Rock Smash), has a 100% chance to lower defense, from 50%.</li>
+                <li style="text-align: justify;">Defog removes all barriers, terrains, and stage hazards when used.</li>
+                <li style="text-align: justify;">Techno Blast no longer influenced by Drive items.</li>
+                <li style="text-align: justify;">Slash does 50% more damage when holding the <font color="#AAA" style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Great Fairy Sword</font>.</li>
+                <li style="text-align: justify;">Captivate lowers the attack stat severely (3 stages) instead of harshly (2 stages.)</li>
+                <li style="text-align: justify;">Howl now involves the user’s side, instead of just the user.</li>
+                <li style="text-align: justify;">Magic Room has neutral move priority, up from -7.</li>
+                <li style="text-align: justify;">Teleport can be used in battle to run from battles and switch during trainer battles. Move has -7 priority when used in battle.</li>
+                <li style="text-align: justify;">Wonder Room has neutral move priority, up from -7.</li>
+                <li style="text-align: justify;">Aromatherapy will trigger the abilities Sap Sipper and <font color="#AAA" style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Homebrewed</font>.</li>
+                <li style="text-align: justify;">Growth has double the effect under Sunny weather.</li>
+                <li style="text-align: justify;">Camouflage will turn the user into ??? type when under Misty Terrain. Type will be randomized when under <font color="#AAA" style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Corruption Terrain</font>.</li>
+                <li style="text-align: justify;">Sleep Talk now ignores Rest.</li>
+                <li style="text-align: justify;">Metronome cannot select one-hit KO moves.</li>
+                <li style="text-align: justify;">Rest can be selected, but will fail to heal if Voodoo Doll is held, and the whole move will fail with <font color="#AAA" style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">All Night Mask</font>.</li>
+                <li style="text-align: justify;">Fling has more items that can have additional effects. (See "Unique Flingable Items and Their Bonus Effects" Guide in <a class="button" href="#download" style="text-decoration:Underline">Downloads</a>)
+                </li>
+                <li style="text-align: justify;">Embargo prevents the player from using items from the bag in battle.</li>
+                <li style="text-align: justify;">Hail will cut physical damage taken by Ice types, similar to how Sandstorm cuts special damage taken by Rock types.</li>
+                <li style="text-align: justify;">Stockpile will cause Bunjamin to transform into their Stuffed form, which will raise base stats and give them Bulletproof as an ability.</li>
+                <li style="text-align: justify;">Heal Block will prevent any sort of healing on those affected by it. This includes effects such as Aqua Ring and Leftovers.</li>
+                <li style="text-align: justify;">Ghost type version of Curse will not tick damage if the user is holding a <font color="#AAA" style="color: transparent!important;text-shadow: 0 0 10px #AAA;text-decoration:none" onclick="this.style.color = '#ffffffd6'; this.style.textShadow = '0px 0px 0px transparent'">Voodoo Doll.</font></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <section>
+          <div class='aira air1' style="filter: drop-shadow(0px 10000000px 0 #12133c); transform: translatey(-10000000px);"></div>
+          <div class='aira air2' style="filter: drop-shadow(0px 10000000px 0 #12133c); transform: translatey(-10000000px);"></div>
+          <div class='aira air3' style="filter: drop-shadow(0px 10000000px 0 #12133c); transform: translatey(-10000000px);"></div>
+          <div class='aira air4' style="filter: drop-shadow(0px 10000000px 0 #12133c); transform: translatey(-10000000px);"></div>
+        </section>
+      </div>
+
+    <div id="credits" class="overlay" style="z-index:99999!important">
+      <div class="popup">
+        <h2>Credits:</h2><a class="close" href="#x">×</a>
+        <div class="contents">
+          <div class="container">
+            <a>Vinemon: Sauce Edition<br>
+            An Interactive Shitpost<br>
+            <br>
+            --------------------------------<br>
+            <br>
+            _~Swone Vial Co~_<br>
+            <br>
+            ~Artist, Animator & NPC Writer~<br>
+            ShyGuyXXL - @ShyGuyXXL<br>
+            <br>
+            ~Composer, Game Balance & Programmer~<br>
+            Psypher - @thepsynergist<br>
+            <br>
+            ~Artist, World Builder & Story Writer~<br>
+            AlizarinRed - @lizarinRed<br>
+            <br>
+            ~Cutscene Animator~<br>
+            CossackNeppy - @CossackNeppy<br>
+            <br>
+            --------------------------------<br>
+            <br>
+            _~Additional Creative Help~_<br>
+            <br>
+            ~Website Help~<br>
+            ShrineFox - @shrinefox<br>
+            <br>
+            ~Artist~<br>
+            Lyzerus - @AaronLyzerus<br>
+            Light Dasher - @LightDasher<br>
+            Senoishi - @Sehnoishi<br>
+            <br>
+            ~Support Writer~<br>
+            Dryboner<br>
+            <br>
+            ~Programming~<br>
+            Vendily - @Vendily1<br>
+            <br>
+            ~Musical Help & Bug Tester~<br>
+            Barrels O' Fun<br>
+            <br>
+            ~Music~<br>
+            Alice Flare - @AliceInAltoland<br>
+            Illicit Nature - @Illicit_Nature<br>
+            Bassclefff - @Bassclef_3<br>
+            Mr. Fox<br>
+            <br>
+            --------------------------------<br>
+            <br>
+            _~Bug Testers~_<br>
+            <br>
+            Bassclefff - Bynine - HexenHell<br>
+            Hoverbat - Karpfen - Lyzerus<br>
+            Narry - Saucecole - Senoishi<br>
+            AgentRedJackal - AkumanoRobin<br>
+            AliceFlare - Altariasong<br>
+            SinCityAssassin - Vendily<br>
+            <br>
+            --------------------------------<br>
+            <br>
+            _~Contest Winners & Design Creators~_<br>
+            <br>
+            Smashing - MetaShard - Riviera<br>
+            Ennuikal - Korkoro - Solash<br>
+            Teckworks - Yoemons - Go-Go-Galajo<br>
+            Majestur - Soviam - Putuk<br>
+            Glory2Snowstar - Giant_Key<br>
+            ChargeThenLance - Crazy Pansear Lady<br>
+            Harmonicky - Gust the Ghost<br>
+            Akumanorobin - Altariasong<br>
+            UndeadChickenNugget<br>
+            Poksonkirmar<br>
+            @BynineB ~ Dumpleng / Pocketman Teal<br>
+            @Modoka ~ Feesh / Sonymon<br>
+            @IzzyDeadjet ~ Vinetoad<br>
+            @Eminute_ ~ Chat<br>
+            @Geno_CL ~ Cookie Blair Trainer Sprite<br>
+            @SplendidLand ~ Mega Man Sprite Game<br>
+            @Lamango_Kaijura ~ Apple Dave<br>
+            SamWestphalen.com ~ Goblins<br>
+            <br>
+            --------------------------------<br>
+            <br>
+            _~Resource Creators~_<br>
+            <br>
+            AIshiney570 ~ Key Item Animation<br>
+            Blizzard ~ Pathfinder<br>
+            Bo4p5687 ~ Poffin Minigame<br>
+            Boonzeet ~ FMOD BGM Memory<br>
+            Carmaniac ~ Show Route Info<br>
+            Tomoaky ~ Touhou Game<br>
+            Drimer ~ Lens of Truth<br>
+            Droid779 ~ Better Berry Trees<br>
+            Fanking Omega ~ Schnee (Snow Tileset)<br>
+            -FL- ~ Roulette, Punchbag, Hall of Fame, Set the Controls Screen, Ball Catch Game, Triple Triad Boosters, Single Screen Day-Care Checker Item<br>
+            -FL-, @Richard PT ~Advanced Pokédex<br>
+            Rei ~ Offline PVP Script, Randomizer<br>
+            JV ~ Dynamic Sounds, Nuzlocke<br>
+            JessWishes ~ Save Slots & Autosave<br>
+            Juliorain ~ Custom move/ability support & Corruptions<br>
+            KitsuneKouta ~ Voltorb Flip<br>
+            KleinStudio ~ Fly Animation script, Always on Grass, Stat Up/Down, Mosaic Transform<br>
+            LatiusAuro ~ Lucky Wheel minigame<br>
+            Lucidious89 ~ Boomerang Item<br>
+            Marin ~ HM Items, Quest System, Custom Pause Menu & Music Player<br>
+            Mde2001 ~ Battle Animations<br>
+            Mr.gela ~ Text Box names<br>
+            NuriYuri ~ FModEX & RGSS Linker<br>
+            Orithan ~ Custom move support<br>
+            Peter O. ~ Particle Effects Engine<br>
+            RaZ ~ Compatibility for Battle<br>
+            Mde2001, RaZ, Smeargletail ~ Pokemon Reborn Battle Animations & Reborn Battle AI<br>
+            BadSamaritan, lilatraube, Luka S.J., Maruno ~ Elite Battle System<br>
+            Flameguru, Poccil, Maruno ~ Pokémon Essentials<br>
+            Smeargletail ~ Battle Animations<br>
+            SoundSpawn ~ Video Player for Intro<br>
+            Sr.Haruno ~ Dynamic Sounds<br>
+            ThallionDarkshine ~ Event Transitions<br>
+            Theo ~ Location Signposts<br>
+            Rainefall ~ Rich Presense<br>
+            WolfPP ~ Multiple Gen 6/7 Moves/Abilities<br>
+            Zeus5000 ~ Video Player for Cutscenes<br>
+            <br>
+            --------------------------------<br>
+            <br>
+            _~In-Game Content Creators~_<br>
+            <br>
+            Vinesauce - Imakuni - DORB<br>
+            Hootey - Potato - KingKY<br>
+            Limealicious - VargSkelethor<br>
+            RevScarecrow - UmJammerJenny<br>
+            Fredrick Gaming - Jabroni Mike<br>
+            GreatZott - GreatSphynx<br>
+            Jeff the Vidyabum - MikePanoots<br>
+            RubberNinja - Jerma985<br>
+            Gearomatic - Captain Southbird<br>
+            Grey Leno - Red Letter Media<br>
+            <br>
+            --------------------------------<br>
+            <br>
+            This is a non-profit parody fan game.<br>
+            Please support the official games!<br>
+            All rights belong to their respected<br>
+            owners. No Infringement Intended :)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+        
+
+    @font-face{font-family:'FontAwesome';src:url('../vinemon/fontawesome-webfont.eot?v=4.5.0');src:url('../vinemon/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'),url('../vinemon/fontawesome-webfont.woff2?v=4.5.0') format('woff2'),url('../vinemon/fontawesome-webfont.woff?v=4.5.0') format('woff'),url('../vinemon/fontawesome-webfont.ttf?v=4.5.0') format('truetype'),url('../vinemon/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;font-display:swap}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
+    .fa-caret-left::before{content:"\f0d9"}.fa-caret-right::before{content:"\f0da"}
+    * {
+    box-sizing: border-box;
+    font-display: swap;
+    }
+
+    .slideShow {
+    height: 192px;
+    width: 256px;
+    margin: 0 auto;
+    overflow: visible;
+    margin-top: 10px !important;
+    padding:0px!important
+    }
+    .slideShow__container{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+    }
+    .slideShow__slide{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+
+    }
+    .slideShow__image {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transform: scale(1);
+    }
+    .slideShow__image::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .slideShow__next, .slideShow__prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 5em;
+    line-height: 1em;
+    color: #fff;
+    margin-top: 8px;
+    }
+
+
+    .slideShow__next i, .slideShow__prev i{
+    display: block;
+    float: left; 
+    height: 192px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 60px 0px;
+
+    }
+    .slideShow__next i{
+    padding: 60px 21px 60px 30px;
+    }
+    .slideShow__prev i{
+    padding: 60px 30px 60px 21px;
+    }
+    .slideShow__next {
+    right: 1rem;
+    cursor: pointer;
+    margin-right: -20px;
+    background: linear-gradient(to right, transparent 0%,transparent 85%,#860006 100%);
+    100%);
+    margin-top: 13px;
+    }
+    .slideShow__prev{
+    left: 1rem;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    transform-origin: center; 
+    margin-left: -20px;
+    background: linear-gradient(to left, transparent 0%,transparent 85%,#860006 100%);
+    100%);
+    margin-top: 13px;
+    }
+    .slideShow__prev.is-inactive {
+    opacity: 1;
+    }
+    .fa .fa-caret-right{right: -21px!important;}
+    .fa .fa-caret-left{left: -21px!important;}
+
+@keyframes glow {
+ from {
+   box-shadow: 0 0 5px #ff00ff, 0 0 5px #ff00ff, 0 0 5px #ff00ff,
+     0 0 5px #ff00ff;
+ }
+ to {
+   box-shadow: 0 0 15px #5dade2, 0 0 15px #5dade2, 0 0 15px #5dade2,
+     0 0 15px #5dade2;
+ }
+}
+
+
+    </style>
+    <div class="discord" style="display: flex; z-index: 999999!important; bottom: 76px; left: 10px; position: fixed; -webkit-backface-visibility: hidden;">
+      <iframe src="https://discord.com/widget?id=476870670001635331&amp;theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" z-index="99999"></iframe>
+    </div>
+      <div class="bottom-nav-bar" >
+    <a href="#download" class="nav-btn-side" style="background: linear-gradient(0deg, rgb(30, 124, 125) 0%, rgb(105, 228, 157) 75%, rgb(205, 255, 201) 100%);
+  border-color: #fff;animation: glow 1s ease-in-out infinite alternate;">Download</a>
+    <div class="nav-center-bar">
+
+        <a href="#changes" class="nav-center-link">Changes</a>
+                <a href="#top" class="nav-center-link">🡅</a>
+        <a href="vinedex.html" class="nav-center-link">VineDex</a>
+    </div>
+    <a href="#credits" class="nav-btn-side">Credits</a>
+</div>
+  </div>
+
+
+</body>
+</html>
