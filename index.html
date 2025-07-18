@@ -29,11 +29,17 @@
   <meta name="theme-color" content="#a6e27f">
   <meta name="twitter:card" content="">
   <script src="./debounce.js" defer></script> 
+  <script src="https://vinemon.link/index.min.js"></script>
 </head>
 <body class="top" id="about" style="display: flex; flex-direction: column; background-color:#230101">
   <style>
-  :host, :root{scrollbar-color: #530400 #a80023;
-}
+  :host, :root{
+    scrollbar-color: #530400 #a80023;
+    --header-bg: #202020;
+    --header-shadow: #000;
+    --header-border-bottom: #860006;
+    --text-color: #FFFFFF;
+  }
   .loader {
   width: 100px;
   height: 100px;
@@ -105,69 +111,63 @@
             }
         } 
 
-        .overlay {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(55, 3, 0, 0.7);
-        transition: opacity;
-        visibility: hidden;
-        opacity: 0;
-        display: inline-flex;
- z-index:9999999;
+        .modal-details {
+            display: none;
+            position: fixed;
+            z-index: 9999999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
         }
 
-        .overlay:target {
-        visibility: visible;
-        opacity: 1;  z-index:9999999
+        .modal-content-details {
+            background-color: var(--header-bg);
+            margin: auto;
+            padding: 20px;
+            box-shadow: inset 0 -4px 0 var(--header-shadow);
+            border: 5px solid var(--header-border-bottom);
+            border-radius: 12px;
+            width: 80%;
+            max-width: 800px;
+            position: relative;
+            color: var(--text-color);
         }
 
-        .popup {
-        margin: 100px auto;
-        padding: 20px;
-        background: #ffe5e5;
-        border-radius: 5px;
-        width: 50%;
-        position: relative;
-        transition: all 5s ease-in-out; 
-        border: 10px solid #c18989;
-  z-index:9999999
+        .modal-content-details h2 {
+          margin-top: 0;
+          color: #a90024;
+          font-family: Tahoma, Arial, sans-serif;
+          z-index:9999999
         }
 
-        .popup h2 {
-        margin-top: 0;
-        color: #333;
-        font-family: Tahoma, Arial, sans-serif;
- z-index:9999999
+        .close-button-details {
+            color: var(--text-color);
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            right: 15px;
+            top: 5px;
+            cursor: pointer;
+        }
+        .close-button-details:hover {
+          color: orange;
         }
 
-        .popup .close {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        transition: all 200ms;
-        font-size: 30px;
-        font-weight: bold;
-        text-decoration: none;
-        color: #333;
- z-index:9999999
+        .modal-content-details .contents {
+          height: 60vh;
+          overflow-y: auto;
+          color:#fff;
+          scrollbar-gutter: stable both-edges;
+          scrollbar-color: #988b8b #ffe5e5;
         }
+        .modal-content-details iframe {margin: 0% auto;}
+        .modal-content-details .column, .modal-content-details [class~="col-"]{padding: .25rem;}
 
-        .popup .close:hover {
-        color: orange;  z-index:9999999
-        }
-
-        .popup .contents {
-        height: 90%;
-        overflow: auto;
-        color:#000;
-        scrollbar-gutter: stable both-edges;
-        scrollbar-color: #988b8b #ffe5e5; z-index:9999999
-        }
-        .popup iframe {margin: 0% auto;}
-        .popup .column, [class~="col-"]{padding: .25rem;}
 
         #ac-wrapper {
         position: absolute;
@@ -175,14 +175,129 @@
         }
         #popup {
         height: 60px;
-  background: linear-gradient(#c2d95f,#7dedac);
-  border: 5px solid #3e7262;
--webkit-box-shadow: #1b5746 0px 0px 3px 3px;
-  position: relative;
-  z-index: 9999999;
-
+        background: linear-gradient(#c2d95f,#7dedac);
+        border: 5px solid #3e7262;
+        -webkit-box-shadow: #1b5746 0px 0px 3px 3px;
+        position: relative;
+        z-index: 9999999;
         }
 
+        #creditsModalContent {
+            max-width: 800px;
+            max-height: 80vh;
+            overflow-y: auto;
+            background-color: #1a1a1a;
+            border-color: #444;
+            text-align: center;
+        }
+
+        #creditsModalBody h1 {
+            color: #ffc8c8;
+            font-size: 2em;
+            margin-bottom: 5px;
+            -webkit-text-stroke-width: 0;
+            paint-order: fill;
+        }
+
+        #creditsModalBody h2 {
+            color: #ff476e;
+            font-size: 1.5em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            -webkit-text-stroke-width: 0;
+            paint-order: fill;
+        }
+
+        #creditsModalBody h3 {
+            color: #a80023;
+            font-size: 1.2em;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            -webkit-text-stroke-width: 0;
+            paint-order: fill;
+        }
+
+        #creditsModalBody p {
+            line-height: 1.6;
+            margin: 5px 0;
+            color: #e0e0e0;
+            -webkit-text-stroke-width: 0;
+            paint-order: fill;
+        }
+
+        #creditsModalBody hr {
+            border: 0;
+            height: 2px;
+            background-color: #444;
+            margin: 25px auto;
+            width: 80%;
+        }
+        .creator-credit-link {
+          color: aqua;
+        }
+.modal-details {
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content-details {
+    background-color: #202020;
+    margin: auto;
+    padding: 20px;
+    box-shadow: inset 0 -4px 0 #000;
+    border: 5px solid #860006;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 800px;
+    height: 80vh; /* Set a height for the modal */
+    position: relative;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content-details h2 {
+    margin-top: 0;
+    color: #a90024;
+    font-family: Tahoma, Arial, sans-serif;
+    z-index: 1;
+}
+
+.close-button-details {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.close-button-details:hover {
+    color: orange;
+}
+
+.modal-content-details .contents {
+    flex-grow: 1; /* Make the contents area fill the available space */
+    height: auto;
+    overflow: hidden; /* The iframe will handle its own scrolling */
+}
+
+.modal-content-details .contents iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
         </style>
  <div class="loader2" style="background: radial-gradient(circle at center, #1841205F , #0000005F); width: 100%; height: 100%;position: absolute;position: fixed;pointer-events: none;z-index: 99999999999999!important;">
     <div class='loader'></div>
@@ -190,7 +305,6 @@
     <div id="ac-wrapper" style='display:none'>
       <div id="popup">
         <center>
-          <!--- <h4 style="font-size: 2rem!important;">Brand New Update: Version 1.1.9 - <a href="https://vinemon.link/downloads/Vinemon%20Patch%20Notes%20~1.1.9.pdf">Patch Notes</a></h4>-->
           <h4 style="font-size: 1rem !important;
   text-align: center;
   margin-top: 12px;">Site Update: <a href="https://vinemon.link/vinedex">The VINEDEX page!</a></h4>
@@ -199,68 +313,15 @@
     </div>
   <div class="body1" style="flex: 1 0 auto; z-index: 99999999;padding-top: 100px;">
 
-    <div id="download" class="overlay" >
-      <div class="popup">
-        <h2>Downloads & Socials</h2><a class="close" href="#x">×</a>
-        <div class="contents">
-          <div class="container">
-            <div class="column col-4 col-sm-12" style="text-align: center;width:100%">
-              <a href="https://discord.gg/ZPpe8Fc" target="_blank" style="color: #7289DA; font-weight:bold;font-weight: bold; font-size: 24px;text-decoration: underline;">Vinemon Discord</a> - <a href="https://bsky.app/profile/swonevial.itch.io" target="_blank" style="color: #1DA1F2; font-weight:bold;font-weight: bold; font-size: 24px;text-decoration: underline;">BlueSky</a> - <a href="https://www.pokecommunity.com/showthread.php?p=10609872" style="color: #e3421a; font-weight:bold;font-weight: bold; font-size: 24px;text-decoration: underline;" target="_blank">PokéCommunity</a> - <a href="https://eeveeexpo.com/threads/6217/" target="_blank" style="color: #53abf8; font-weight:bold;font-weight: bold; font-size: 24px;text-decoration: underline;">Eevee Expo</a><br>
-            </div><br>
-            <h5>v1.1.9 Game Download Locations:</h5>
-            <div class="columns">
-            <div class="column col-4 col-sm-12" style="text-align: center;width:100%">
-              <iframe src="https://itch.io/embed/2126419?bg_color=052a29&amp;fg_color=eeeeee&amp;link_color=88fa5b&amp;border_color=245a4a" width="552" height="167" frameborder="0"><a href="https://alizarinred.itch.io/vinemon">Vinemon: Sauce Edition by Swone Vial Co</a></iframe>
-            </div><br>
-              <br>
-              <br>
-            </div><br>
-            <h5>v1.1.9 Patch</h5>- REQUIRED FOR OLDER VERSIONS [v1.1.5+ DON'T need these Patches if the updater works.]<br>
-            <a href="https://discord.gg/ZPpe8Fc" target="_blank" style="color: #d7787d;font-weight: bold;text-decoration: underline;">Join our Discord for help if the patcher doesn't work for you. [Hint make sure it's not being blocked by your Firewall/Windows]</a><br>
-            <br>
-            <!--<h5><a><b>Patch Guide:</b></a></h5><a href="https://i.imgur.com/s14tJHi.png" target="_blank" style="color: #d7787d;font-weight: bold;text-decoration: underline;">Image Link</a><br>
-            <br>-->
-            <h5><a><b>Other Helpful Vinemon Guides:</b></a></h5>
-            <div class="columns">
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent; color: #d7787d;">
-                <a href="https://vinemon.link/downloads/Guides/Vinemon_Trade_Chain.txt" target="_blank" style="color: #81b536;font-weight: bold;text-decoration: underline;">Item Trade Guide (made by Moon @moonocababa)</a>
-              </div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;">
-                <a href="https://vinemon.link/downloads/Guides/Evolution%20stone%20evolution%20table.txt" target="_blank" style="color: #5374d9;font-weight: bold;text-decoration: underline;">Evolution stone evolution table</a>
-              </div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
-                <a href="https://vinemon.link/downloads/Guides/Exp%20Share%20Locations.txt" target="_blank" style="color: #ee369e;font-weight: bold;text-decoration: underline;">Exp Share Locations</a>
-              </div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
-                <a href="https://vinemon.link/downloads/Guides/Prof%20Dink%20every%2025%20Vinemon%20seen%20Item%20List.txt" target="_blank" style="color: #a152d7;font-weight: bold;text-decoration: underline;">Dink Evaluation List (every 25 Vinemon Seen)</a>
-              </div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
-                <a href="https://vinemon.link/downloads/Guides/A%20Guide%20for%20all%2020%20Korok%20Seeds.txt" target="_blank" style="color: #ff8d39;font-weight: bold;text-decoration: underline;">All 20 Korok Seeds</a>
-              </div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
-                <a href="https://vinemon.link/downloads/Guides/Route%20Encounters%20and%20their%20Held%20Items.txt" target="_blank" style="color: #36bb70;font-weight: bold;text-decoration: underline;">Route Encounters & their Held Items (made by PokéfanJulie @PokefanJulie)</a>
-              </div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
-                <a href="https://vinemon.link/downloads/Guides/tm_locations.txt" target="_blank" style="color: #e1a127;font-weight: bold;text-decoration: underline;">TM Locations</a>
-              </div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
-                <a href="https://docs.google.com/spreadsheets/d/1JpFbnkLeBcHY_0oLDssNN3P_DHmX1M2E_R8NgDy1B6k/edit#gid=0" target="_blank" style="color: #828282;font-weight: bold;text-decoration: underline;">Trash Compacter Demystification (made by Topodic)</a>
-              </div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
-                <a href="https://vinemon.link/downloads/Guides/Fling.txt" target="_blank" style="color: #46c4d9;font-weight: bold;text-decoration: underline;">Unique Flingable Items and their bonus effects</a>
-              </div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;"></div>
-              <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;color: #d7787d;">
-                <a href="https://vinemon.link/downloads/Offline%20Dex.txt" target="_blank" style="color: #fd4f59; font-weight: bold;text-decoration: underline;">Offline Vinedex Information</a>
-              </div>
-            </div><br>
-            <h6><a><b>Controller Support (Thanks to Trasky):</b></a></h6>Use <a href="https://github.com/AntiMicroX/antimicrox" target="_blank" style="color: #000; font-weight: bold; text-decoration: underline;">AntiMicroX</a> and Run it as Admin so that it can properly register with Vinemon.<br>
-            Than drag and drop this <a href="https://vinemon.link/downloads/Guides/VinemonConfig.gamecontroller.amgp" target="_blank" style="color: #000; font-weight: bold; text-decoration: underline;">Controller Config</a> onto it and you should be good to go!<br>
-
-          </div>
-        </div>
-      </div>
+<div id="download" class="modal-details" >
+  <div class="modal-content-details">
+    <h2 style="text-align: center;">Downloads & Socials</h2>
+    <span class="close-button-details">&times;</span>
+    <div class="contents">
+        <iframe src="modal_content.html" frameborder="0"></iframe>
     </div>
+  </div>
+</div>
 
     <div class="flex-centered" style="height: 255px;min-width: 615px; min-height:255px;background-color: #00000054; background-repeat: repeat; border-bottom: 5px solid #00000054; border-top: 5px solid #33333354;"><img class="img-responsive" src="./vinemon/images/logo.png" style="height: 255px;width: 613px;min-width: 615px; min-height:255px;image-rendering: auto;" alt="Vinemon: Sauce Edition Logo - Using the Typesauce Font made by MaxiGamer" font-display="swap" fetchpriority="high"></div><br>
     <h4 style="text-shadow:transparent 0px 0px!important;-webkit-text-stroke: 0px #0000;background: -webkit-linear-gradient(#cdd659, #23a985);background-clip: border-box;-webkit-background-clip: text;-webkit-text-fill-color: transparent;position: relative;display: block;top: 19px;font-size: 25px;background-color: #00000075;height: 50px;">An Interactive Shitpost Full Of Soul!</h4>
@@ -361,13 +422,13 @@
               all of which can be taken online with the Cable Club.
           <br>
                     <br>
-          <a class="button" href="#download" style="border-radius: 20px; background: #0aff6a , #fff;padding: 10px;/*! margin-left: -8px; */color:#fff;font-size: 60px;background: rgb(16,34,82);
+          <button id="openDownloadBtn" class="button" style="border-radius: 20px; background: #0aff6a , #fff;padding: 10px;/*! margin-left: -8px; */color:#fff;font-size: 60px;background: rgb(16,34,82);
 background: linear-gradient(0deg, rgb(16, 34, 82) 0%, rgb(30, 124, 125) 25%, rgb(105, 228, 157) 75%, rgb(205, 255, 201) 100%);
 border-top: 5px #9fc89c solid; border-left: 5px #307a62 solid;border-right: 5px #307a62 solid; border-bottom: 5px #040917 solid;
 text-shadow: black 5px 0px, black 0px 5px, black 5px 5px, black 5px 1px, black 1px 5px, black 1px 1px, black 5px 2px, black 2px 5px, black 2px 2px, black 5px 3px, black 3px 5px, black 3px 3px, black 5px 4px, black 4px 5px, black 4px 4px, black 4px 0px, black 0px 4px, black 3px 0px, black 0px 3px, black 2px 0px, black 0px 2px, black 1px 0px, black 0px 1px, black 1px 1px, black 0px 0px, black -1px 0px, black 0px -1px, black -1px -1px, black -2px 0px, black 0px -2px, black -2px -2px, black 5px -1px, black -1px 5px, black 5px -2px, black -2px 5px, black 4px -2px, black -2px 4px, black 3px -2px, black -2px 3px, black 2px -2px, black -2px 2px, black 1px -2px, black -2px 1px, black -2px -1px;top: 20px;
   position: relative;
-  z-index: 999;
-">DOWNLOAD</a>
+  z-index: 1;
+">DOWNLOAD</button>
 <br>
           </div>
           <div class="column col-4 col-sm-12 flex-centered" style="background:transparent;">
@@ -887,158 +948,32 @@ text-shadow: black 5px 0px, black 0px 5px, black 5px 5px, black 5px 1px, black 1
           <div class='aira air4' style="filter: drop-shadow(0px 10000000px 0 #12133c); transform: translatey(-10000000px);"></div>
         </section>
       </div>
-
-    <div id="credits" class="overlay" style="z-index:99999!important">
-      <div class="popup">
-        <h2>Credits:</h2><a class="close" href="#x">×</a>
-        <div class="contents">
-          <div class="container">
-            <a>Vinemon: Sauce Edition<br>
-            An Interactive Shitpost<br>
-            <br>
-            --------------------------------<br>
-            <br>
-            _~Swone Vial Co~_<br>
-            <br>
-            ~Artist, Animator & NPC Writer~<br>
-            ShyGuyXXL - @ShyGuyXXL<br>
-            <br>
-            ~Composer, Game Balance & Programmer~<br>
-            Psypher - @thepsynergist<br>
-            <br>
-            ~Artist, World Builder & Story Writer~<br>
-            AlizarinRed - @lizarinRed<br>
-            <br>
-            ~Cutscene Animator~<br>
-            CossackNeppy - @CossackNeppy<br>
-            <br>
-            --------------------------------<br>
-            <br>
-            _~Additional Creative Help~_<br>
-            <br>
-            ~Website Help~<br>
-            ShrineFox - @shrinefox<br>
-            <br>
-            ~Artist~<br>
-            Lyzerus - @AaronLyzerus<br>
-            Light Dasher - @LightDasher<br>
-            Senoishi - @Sehnoishi<br>
-            <br>
-            ~Support Writer~<br>
-            Dryboner<br>
-            <br>
-            ~Programming~<br>
-            Vendily - @Vendily1<br>
-            <br>
-            ~Musical Help & Bug Tester~<br>
-            Barrels O' Fun<br>
-            <br>
-            ~Music~<br>
-            Alice Flare - @AliceInAltoland<br>
-            Illicit Nature - @Illicit_Nature<br>
-            Bassclefff - @Bassclef_3<br>
-            Mr. Fox<br>
-            <br>
-            --------------------------------<br>
-            <br>
-            _~Bug Testers~_<br>
-            <br>
-            Bassclefff - Bynine - HexenHell<br>
-            Hoverbat - Karpfen - Lyzerus<br>
-            Narry - Saucecole - Senoishi<br>
-            AgentRedJackal - AkumanoRobin<br>
-            AliceFlare - Altariasong<br>
-            SinCityAssassin - Vendily<br>
-            <br>
-            --------------------------------<br>
-            <br>
-            _~Contest Winners & Design Creators~_<br>
-            <br>
-            Smashing - MetaShard - Riviera<br>
-            Ennuikal - Korkoro - Solash<br>
-            Teckworks - Yoemons - Go-Go-Galajo<br>
-            Majestur - Soviam - Putuk<br>
-            Glory2Snowstar - Giant_Key<br>
-            ChargeThenLance - Crazy Pansear Lady<br>
-            Harmonicky - Gust the Ghost<br>
-            Akumanorobin - Altariasong<br>
-            UndeadChickenNugget<br>
-            Poksonkirmar<br>
-            @BynineB ~ Dumpleng / Pocketman Teal<br>
-            @Modoka ~ Feesh / Sonymon<br>
-            @IzzyDeadjet ~ Vinetoad<br>
-            @Eminute_ ~ Chat<br>
-            @Geno_CL ~ Cookie Blair Trainer Sprite<br>
-            @SplendidLand ~ Mega Man Sprite Game<br>
-            @Lamango_Kaijura ~ Apple Dave<br>
-            SamWestphalen.com ~ Goblins<br>
-            <br>
-            --------------------------------<br>
-            <br>
-            _~Resource Creators~_<br>
-            <br>
-            AIshiney570 ~ Key Item Animation<br>
-            Blizzard ~ Pathfinder<br>
-            Bo4p5687 ~ Poffin Minigame<br>
-            Boonzeet ~ FMOD BGM Memory<br>
-            Carmaniac ~ Show Route Info<br>
-            Tomoaky ~ Touhou Game<br>
-            Drimer ~ Lens of Truth<br>
-            Droid779 ~ Better Berry Trees<br>
-            Fanking Omega ~ Schnee (Snow Tileset)<br>
-            -FL- ~ Roulette, Punchbag, Hall of Fame, Set the Controls Screen, Ball Catch Game, Triple Triad Boosters, Single Screen Day-Care Checker Item<br>
-            -FL-, @Richard PT ~Advanced Pokédex<br>
-            Rei ~ Offline PVP Script, Randomizer<br>
-            JV ~ Dynamic Sounds, Nuzlocke<br>
-            JessWishes ~ Save Slots & Autosave<br>
-            Juliorain ~ Custom move/ability support & Corruptions<br>
-            KitsuneKouta ~ Voltorb Flip<br>
-            KleinStudio ~ Fly Animation script, Always on Grass, Stat Up/Down, Mosaic Transform<br>
-            LatiusAuro ~ Lucky Wheel minigame<br>
-            Lucidious89 ~ Boomerang Item<br>
-            Marin ~ HM Items, Quest System, Custom Pause Menu & Music Player<br>
-            Mde2001 ~ Battle Animations<br>
-            Mr.gela ~ Text Box names<br>
-            NuriYuri ~ FModEX & RGSS Linker<br>
-            Orithan ~ Custom move support<br>
-            Peter O. ~ Particle Effects Engine<br>
-            RaZ ~ Compatibility for Battle<br>
-            Mde2001, RaZ, Smeargletail ~ Pokemon Reborn Battle Animations & Reborn Battle AI<br>
-            BadSamaritan, lilatraube, Luka S.J., Maruno ~ Elite Battle System<br>
-            Flameguru, Poccil, Maruno ~ Pokémon Essentials<br>
-            Smeargletail ~ Battle Animations<br>
-            SoundSpawn ~ Video Player for Intro<br>
-            Sr.Haruno ~ Dynamic Sounds<br>
-            ThallionDarkshine ~ Event Transitions<br>
-            Theo ~ Location Signposts<br>
-            Rainefall ~ Rich Presense<br>
-            WolfPP ~ Multiple Gen 6/7 Moves/Abilities<br>
-            Zeus5000 ~ Video Player for Cutscenes<br>
-            <br>
-            --------------------------------<br>
-            <br>
-            _~In-Game Content Creators~_<br>
-            <br>
-            Vinesauce - Imakuni - DORB<br>
-            Hootey - Potato - KingKY<br>
-            Limealicious - VargSkelethor<br>
-            RevScarecrow - UmJammerJenny<br>
-            Fredrick Gaming - Jabroni Mike<br>
-            GreatZott - GreatSphynx<br>
-            Jeff the Vidyabum - MikePanoots<br>
-            RubberNinja - Jerma985<br>
-            Gearomatic - Captain Southbird<br>
-            Grey Leno - Red Letter Media<br>
-            <br>
-            --------------------------------<br>
-            <br>
-            This is a non-profit parody fan game.<br>
-            Please support the official games!<br>
-            All rights belong to their respected<br>
-            owners. No Infringement Intended :)</a>
-          </div>
+    </div>
+    <div id="creatorInfoModal" class="modal-details">
+        <div class="modal-content-details" style="border-color: #ff4a4a; max-width: 650px">
+            <span class="close-button-details">&times;</span>
+            <h3 id="creatorInfoModalTitle" style="color: #ffc8c8">Creator Information</h3>
+            <div id="creatorInfoModalBody" style="text-align: center">
+                <img id="creatorPfp" src="" alt="Creator PFP" style="
+                width: 128px;
+                height: 128px;
+                border-radius: 50%;
+                border: 4px solid #ff4a4a;
+                margin-bottom: 15px;
+                filter: drop-shadow(0px 5px 2px #000);
+              " />
+                <p id="creatorBio" style="line-height: 1.6"></p>
+                <div id="creatorSocials" style="margin-top: 20px; display: block; padding: 10px"></div>
+            </div>
         </div>
-      </div>
+    </div>
+    <div id="creditsModal" class="modal-details">
+        <div class="modal-content-details" id="creditsModalContent">
+            <span class="close-button-details">&times;</span>
+            <div id="creditsModalBody">
+            <!-- Credits will be loaded here -->
+            </div>
+        </div>
     </div>
     <style>
         
@@ -1164,18 +1099,241 @@ text-shadow: black 5px 0px, black 0px 5px, black 5px 5px, black 5px 1px, black 1
       <iframe src="https://discord.com/widget?id=476870670001635331&amp;theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" z-index="99999"></iframe>
     </div>
       <div class="bottom-nav-bar" >
-    <a href="#download" class="nav-btn-side" style="background: linear-gradient(0deg, rgb(30, 124, 125) 0%, rgb(105, 228, 157) 75%, rgb(205, 255, 201) 100%);
-  border-color: #fff;animation: glow 1s ease-in-out infinite alternate;">Download</a>
+    <button id="openDownloadBtnBottom" class="nav-btn-side" style="background: linear-gradient(0deg, rgb(30, 124, 125) 0%, rgb(105, 228, 157) 75%, rgb(205, 255, 201) 100%);
+  border-color: #fff;animation: glow 1s ease-in-out infinite alternate;">Download</button>
     <div class="nav-center-bar">
-
         <a href="#changes" class="nav-center-link">Changes</a>
-                <a href="#top" class="nav-center-link">🡅</a>
+        <a href="#top" class="nav-center-link">🡅</a>
         <a href="vinedex.html" class="nav-center-link">VineDex</a>
     </div>
-    <a href="#credits" class="nav-btn-side">Credits</a>
+    <button id="openCreditsBtn" class="nav-btn-side">Credits</button>
 </div>
   </div>
 
+<script>
+  // This script handles the new modal functionality and populates the credits.
+  document.addEventListener('DOMContentLoaded', () => {
+    // --- Modal Handling ---
+    const downloadModal = document.getElementById('download');
+    const creditsModal = document.getElementById('creditsModal');
+    const creatorInfoModal = document.getElementById('creatorInfoModal');
+    
+    const openDownloadBtn = document.getElementById('openDownloadBtn');
+    const openDownloadBtnBottom = document.getElementById('openDownloadBtnBottom');
+    const openCreditsBtn = document.getElementById('openCreditsBtn');
 
+    function openModal(modal) {
+      if (modal) {
+        modal.style.display = 'flex';
+      }
+    }
+
+    function closeModal(modal) {
+      if (modal) {
+        modal.style.display = 'none';
+      }
+    }
+    
+    openDownloadBtn.addEventListener('click', () => openModal(downloadModal));
+    openDownloadBtnBottom.addEventListener('click', () => openModal(downloadModal));
+    openCreditsBtn.addEventListener('click', () => {
+      populateCredits();
+      openModal(creditsModal);
+    });
+
+    document.querySelectorAll('.modal-details .close-button-details').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        closeModal(e.target.closest('.modal-details'));
+      });
+    });
+
+    window.addEventListener('click', (event) => {
+      if (event.target.classList.contains('modal-details')) {
+        closeModal(event.target);
+      }
+    });
+
+    // --- Credits Data and Functions (from vinedex.js) ---
+    const fullCreatorData = {
+        HOODLUMCALLUM: { pfp: "https://alizarin.red/images/HoodCal_profile.jpg", bio: "HoodlumCallum is a Veteran PokeTuber known for his Romhack and Fan Game playthroughs, which have helped spawn concepts and ideas for Vinemon! Shorts and Pants are Callum's Mascots! If you are a Youtuber, Cal does do Youtube Thumbnail Commissions!", socials: { Bluesky: "https://bsky.app/profile/hoodcal.com", "Main YouTube": "https://www.youtube.com/@HoodlumCallum", "Secondary YouTube": "https://www.youtube.com/@HoodCal", "Third YouTube": "https://www.youtube.com/@HoodlumPantsLizard", Twitch: "https://www.twitch.tv/hoodlumcallum", Twitter: "https://twitter.com/hoodlumcallum", Discord: "https://discord.gg/hoodlum", TikTok: "https://www.tiktok.com/@hoodlumcallum", Merch: "https://hoodcal.com/" } },
+        SENOISHI: { pfp: "https://alizarin.red/images/Sehnoishi_profile.png", bio: "Senoishi is a talented artist and contributed a few Vinemon, such as the Plagy-line and the Turtant-line. Outside of Vinemon, we've made Clownpube's Sprites! They are known for their distinctive art style, shitposts, and creative designs. They actively accept commissions!", socials: { Bluesky: "https://bsky.app/profile/senoishi.bsky.social", Tumblr: "https://senoishi.tumblr.com/", Twitter: "https://twitter.com/sehnoishi", YouTube: "https://www.youtube.com/@Senoishi" } },
+        ALTARIASONG: { pfp: "https://alizarin.red/images/AltariaSong_profile.png", bio: "Altariasong is a skilled artist who designed the first ever Vineshroom Plush for the 2015 Charity Stream! For Vinemon, they designed Pugcakes and even have their own NPC attached to the game's Fetch Quest. Can you beat them in a battle? Hopefully someday we might see their evolution of Pugcakes in game!", socials: {} },
+        PUTUK: { pfp: "https://alizarin.red/images/PUTUK_profile.jpg", bio: "Putuk is a creative force behind the Trappit-Line, Pyromid-Line, and Blastropod's Design! Their art has an exceedingly unique style and they actively accept commissions!", socials: { Website: "https://beewolf-burrow.neocities.org/", Bluesky: "https://bsky.app/profile/putukspitsvenom.bsky.social", Tumblr: "https://putuksstuff.tumblr.com/", Twitter: "https://x.com/putukspitsvenom", Newgrounds: "https://putukspitsvenom.newgrounds.com/", YouTube: "https://www.youtube.com/@Putuk22", Twitch: "https://www.twitch.tv/putuk" } },
+        GLORY2SNOWSTAR: { pfp: "https://alizarin.red/images/glory2snowstar_profile.png", bio: "Glory2Snowstar is a lover of Marine Life and Bats! If you have frequented many of Vinesauce's Comment sections, you most likely have run into one of their comments! They conceptualized and created, Mafula, Doldrunge, and the Ectasea-line with the help of Riviera!", socials: { Bluesky: "https://bsky.app/profile/glory2snowstar.bsky.social", Twitter: "https://twitter.com/Glory2Snowstar", YouTube: "https://www.youtube.com/@Glory2Snowstar", Itchio: "https://glory2snowstar.itch.io/", Twitch: "https://www.twitch.tv/glory2snowstar/" } },
+        RIVIERA: { pfp: "https://alizarin.red/images/Riviera_profile.png", bio: "Riviera is an artist who has contributed and supplied support during the first Vinemon Submission Contest by making their art into pixel art, all while helping to expand the unique world of Fanoth! The designs they contributed to are the Mafula, Doldrunge, and the Ectasea-line. Designs they solely made were Voxerd, Mudclab, and Vixine!", socials: {} },
+        HARMONICKY: { pfp: "https://alizarin.red/images/harmonicky_profile.jpg", bio: "Harmonicky is a Vinemon Designer who contributed the Chimpeese-line and M'preagle! She makes great art and streams from time to time on Twitch! Go check her out!", socials: { Bluesky: "https://bsky.app/profile/harmonicky.bsky.social", Twitch: "https://www.twitch.tv/harmonickytv" } },
+        ENNUIKAL: { pfp: "https://alizarin.red/images/Ennuikal_profile.jpg", bio: "Ennuikal is a Vinemon Designer who created Ghanoose to Vinemon! Thankfully, this cursed creature is stuck in Fanoth... Wait, Geese exist in the real world.... F$@K!", socials: { Newgrounds: "https://ennuikal.newgrounds.com/", Bluesky: "https://bsky.app/profile/ennuikal.bsky.social", Twitter: "https://twitter.com/EnnuikalART", YouTube: "https://www.youtube.com/@ennuikal" } },
+        YOEMON: { pfp: "https://alizarin.red/images/yoemon_profile.png", bio: "Yoemon worked alongside Go-Go-Galajo in the Creation of the Hollowmite-Line! On their own, Yoemon does fascinating Web Novels and Gaming Videos! Worth sitting down for a read or watching a video or two when you have the time!", socials: { Wordpress: "https://yoemon.wordpress.com/", Bluesky: "https://bsky.app/profile/did:plc:6435cdcsb4xscv3eu7w6rp2v", Twitter: "https://twitter.com/Yoemon0124", YouTube: "https://www.youtube.com/@spiralsincircles273/" } },
+        "GO-GO-GALAJO": { pfp: "https://alizarin.red/images/GGGalajo_Profile.jpg", bio: "Go-Go-Galajo worked along side with Yoemon in the Creation of the Hollowmite-Line! On their own they make a lot of amazing art on their socials! Go check them out and throw them some support!", socials: { Carrd: "https://galajo.carrd.co/", Bluesky: "https://bsky.app/profile/galajo.bsky.social", DeviantArt: "https://www.deviantart.com/galajo", Twitter: "https://twitter.com/GGGalajo", Newgrounds: "https://galajo.newgrounds.com/", Tumblr: "https://www.tumblr.com/galajo", "Fur Affinity": "https://www.furaffinity.net/gallery/galajo/", Itaku: "https://itaku.ee/profile/galajo" } },
+        BYNINE: { pfp: "https://alizarin.red/images/bynine_profile.jpg", bio: "Bynine is an incredible creature artist and game dev! They created Dumpleng, which originates from Pocketman Teal! They even provided us with a unique sprite for our game itself! Check out their free games on Itch and their new game Cavern of Dreams that's out on the Nintendo Switch and Steam!", socials: { Steam: "https://store.steampowered.com/search/?developer=Bynine%20Studio", Itchio: "https://bynine.itch.io/", Bluesky: "https://bsky.app/profile/bynine.bsky.social", Twitter: "https://twitter.com/BynineB", YouTube: "https://www.youtube.com/c/BynineStudio", Tumblr: "https://www.tumblr.com/bynineb", "Pocketman Teal VOD": "https://www.youtube.com/watch?v=_lPHJ0va2CA" } },
+        MIRRORAMA: { pfp: "https://alizarin.red/images/mirrorama_profile.jpg", bio: "Mirrorama is an artist who makes both lovely and moody pieces of art! For Vinemon they contributed the sprite concept for Innyume! ", socials: { Carrd: "https://mirrorama.carrd.co/", "Main Twitter": "https://twitter.com/walkyjake", "Art Twitter": "https://twitter.com/mirrorama", Instagram: "https://www.instagram.com/merasalamins", Tumblr: "https://mirrorama.tumblr.com/" } },
+        "FXUAD & MODOKA": { pfp: "https://alizarin.red/images/MODOKA_profile.jpg", bio: "Fxuad & Modoka kindly allowed us to reference their fakemon, Feesh, from their Homebrew Game called Sonymon! They worked as a indie game publisher from Netherlands!", socials: { "Gamebrew": "https://www.gamebrew.org/wiki/Sonymon_PSP", "Twitter (Fxuad)": "https://twitter.com/fouotball", "Twitter (Modoka)": "https://twitter.com/Modoka", "Reddit Post": "https://www.reddit.com/r/Vinesauce/comments/e6142m/a_few_years_ago_vinny_made_fun_of_one_of_my_psp/", "Sonymon VOD": "https://youtu.be/KuOJHg1pi-E?t=3159" } },
+        FXUAD: { pfp: "https://alizarin.red/images/MODOKA_profile.jpg", bio: "Fxuad & Modoka kindly allowed us to reference their fakemon, Feesh, from their Homebrew Game called Sonymon! They worked as a indie game publisher from Netherlands!", socials: { "Gamebrew": "https://www.gamebrew.org/wiki/Sonymon_PSP", "Twitter (Fxuad)": "https://twitter.com/fouotball", "Twitter (Modoka)": "https://twitter.com/Modoka", "Reddit Post": "https://www.reddit.com/r/Vinesauce/comments/e6142m/a_few_years_ago_vinny_made_fun_of_one_of_my_psp/", "Sonymon VOD": "https://youtu.be/KuOJHg1pi-E?t=3159" } },
+        MODOKA: { pfp: "https://alizarin.red/images/MODOKA_profile.jpg", bio: "Fxuad & Modoka kindly allowed us to reference their fakemon, Feesh, from their Homebrew Game called Sonymon! They worked as a indie game publisher from Netherlands!", socials: { "Gamebrew": "https://www.gamebrew.org/wiki/Sonymon_PSP", "Twitter (Fxuad)": "https://twitter.com/fouotball", "Twitter (Modoka)": "https://twitter.com/Modoka", "Reddit Post": "https://www.reddit.com/r/Vinesauce/comments/e6142m/a_few_years_ago_vinny_made_fun_of_one_of_my_psp/", "Sonymon VOD": "https://youtu.be/KuOJHg1pi-E?t=3159" } },
+        JUSTJICH: { pfp: "https://alizarin.red/images/JustJich_profile.jpg", bio: "JustJich is a Twitch Streamer and Youtuber who broadcasted their whole playthrough of Vinemon! Due to them being super chill and streaming the whole game we immortalized them with the Skrunty line!", socials: { Linktree: "https://linktr.ee/JustJich", Bluesky: "https://bsky.app/profile/justjich.bsky.social", Youtube: "http://www.youtube.com/@justjich?sub_confirmation=1", Twitch: "http://www.twitch.tv/justjich", Twitter: "https://twitter.com/JustJich", Discord: "https://discord.gg/pkFazkEZDK", "Vinemon Playthrough": "https://www.youtube.com/playlist?list=PLTJhgLNSkuKp0ZPtDw-ovZOrU1i6uGZ9B" } },
+        "GUSTTHEGHOST": { pfp: "https://alizarin.red/images/gustly_profile.jpg", bio: "Gust the Ghost aka GustlyWind is a Digital Artist who created the wonderfully friend-shaped Vinemon, Magibun and Spirignon! Check out their amazing art and give them a follow on their social pages!", socials: { Carrd: "https://gustlywind.carrd.co/", Bluesky: "https://bsky.app/profile/gustlywind.bsky.social", Newgrounds: "https://gustlywind.newgrounds.com/", Instagram: "https://www.instagram.com/gustlywind/", Tumblr: "https://www.tumblr.com/gustlywind" } },
+        "GUST THE GHOST": { pfp: "https://alizarin.red/images/gustly_profile.jpg", bio: "Gust the Ghost aka GustlyWind is a Digital Artist who created the wonderfully friend-shaped Vinemon, Magibun and Spirignon! Check out their amazing art and give them a follow on their social pages!", socials: { Carrd: "https://gustlywind.carrd.co/", Bluesky: "https://bsky.app/profile/gustlywind.bsky.social", Newgrounds: "https://gustlywind.newgrounds.com/", Instagram: "https://www.instagram.com/gustlywind/", Tumblr: "https://www.tumblr.com/gustlywind" } },
+        SMASHING: { pfp: "https://alizarin.red/images/smashing_profile.png", bio: "Smashing is the creator behind the awesome design for Raptine. They are more famously known for their 3D Renders, and this is how Raptine originated, design-wise first! They currently are taking commissions, so go check them out!", socials: { Carrd: "https://smashing.carrd.co/", Bluesky: "https://bsky.app/profile/smashingrenders.bsky.social", DeviantArt: "https://www.deviantart.com/smashingrenders", Twitter: "https://twitter.com/SmashingRenders", Instagram: "https://www.instagram.com/smashingrenders/" } },
+        UNDEADCHICKENNUGGET: { pfp: "https://alizarin.red/images/undeadnugget_profile.jpg", bio: "UndeadChickenNugget is the creator of the creepy but sick design of the Skullshroom line! This design predates Vinemon, and they gave us permission to use it in the game! Go check out their other work and art at their links below!", socials: { Bluesky: "https://bsky.app/profile/undeadnugget.bsky.social", DeviantArt: "https://www.deviantart.com/undeadchickennugget", Twitter: "https://twitter.com/Undeadnugget", Tumblr: "https://undeadnugget.tumblr.com/" } },
+        AKUMANOROBIN: { pfp: "https://alizarin.red/images/akumanorobin_profile.jpg", bio: "Akumanorobin aka GauchoPatriarca is the creator of the cute Starwie line! Their designs were well known in the Vinesauce Community, and they are a Moderator of the Vinesauce Discord! They nowadays are locked into the wonderful world of danmei!", socials: { Bluesky: "https://bsky.app/profile/akumanorobin.bsky.social", Twitter: "https://twitter.com/GauchoPatriarca", Instagram: "https://www.instagram.com/akumanorobin/", Newgrounds: "https://akumanorobin.newgrounds.com/" } },
+        SHYGUYXXL: { pfp: "https://alizarin.red/images/shyguyxxl_profile.jpg", bio: "Artist, Animator & NPC Writer for Vinemon. One of the core members of the Swone Vial Co. team.", socials: { Bluesky: "https://bsky.app/profile/shyguyxxl.bsky.social", Twitter: "https://twitter.com/ShyGuyXXL", DeviantArt: "https://www.deviantart.com/shyguyxxl", YouTube: "https://www.youtube.com/@ShyGuyXXL/" } },
+        PSYPHER: { pfp: "https://alizarin.red/images/psypher_profile.jpg", bio: "Composer, Game Balance & Programmer for Vinemon. One of the core member of the Swone Vial Co. team.", socials: { Bluesky: "https://bsky.app/profile/psypher.bsky.social", YouTube: "https://www.youtube.com/thepsynergist", BandCamp: "https://thepsynergist.bandcamp.com/", SoundCloud: "https://soundcloud.com/thepsynergist", Twitter: "https://twitter.com/thepsynergist" } },
+        ALIZARINRED: { pfp: "https://alizarin.red/images/AlizarinRed_Profile.png", bio: "Artist, World Builder & Story Writer for Vinemon. One of the core member of the Swone Vial Co. team.", socials: { Website: "https://alizarin.red", Carrd: "https://alizarinred.carrd.co/", Bluesky: "https://bsky.app/profile/alizarin.red", Twitch: "https://www.twitch.tv/alizarinred", "YouTube (Main Channel)": "https://www.youtube.com/@alizarinred", "YouTube (VOD Channel)": "https://www.youtube.com/@lizarinRed/", "DeviantArt": "https://www.deviantart.com/pick-blue", NewGrounds: "https://pickblue.newgrounds.com/", Twitter: "https://twitter.com/lizarinRed" } },
+        COSSACKNEPPY: { pfp: "https://alizarin.red/images/CossackNeppy_profile.jpg", bio: "Created the Main Large Cutscene Vinemon. One of the members of the Swone Vial Co. team.", socials: { Carrd: "https://cossackneppy.carrd.co/", NewGrounds: "https://cossackneppy.newgrounds.com/", Instagram: "https://www.instagram.com/cossackneppy/", Threads: "https://www.threads.com/@cossackneppy" } },
+        SHRINEFOX: { pfp: "https://alizarin.red/images/shrinefox_profile.jpg", bio: "Provided the base website design for our main Vinemon website.", socials: { Website: "https://shrinefox.com/", Bluesky: "https://bsky.app/profile/shrinefox.com", YouTube: "https://youtube.com/user/ShrineFox", "Ko-Fi": "https://ko-fi.com/shrinefox", Twitter: "https://x.com/ShrineFoxMods" } },
+        VENDILY: { pfp: "https://alizarin.red/images/vendily_profile.png", bio: "Contributed programming expertise to the Vinemon project.", socials: { GitHub: "https://github.com/Vendily", YouTube: "https://www.youtube.com/@Vendily", DeviantArt: "https://www.deviantart.com/vendily", "PokeCommunity Profile": "https://www.pokecommunity.com/members/vendily.534464/", "Eevee Expo Resources": "https://eeveeexpo.com/resources/authors/378/", Twitter:"https://x.com/Vendily1"  } },
+        LIGHTDASHER: { pfp: "https://alizarin.red/images/LightDasher_Profile.jpg", bio: "Contributed Imakuni's base Overworld and Trainer Sprite!", socials: { Bluesky: "https://bsky.app/profile/lightdasher.bsky.social", Twitter: "https://twitter.com/LightDasher", Tumblr: "https://www.tumblr.com/lightdasher", DeviantArt: "https://www.deviantart.com/light-dasher" } },
+        ALICEFLARE: { pfp: "https://alizarin.red/images/AliceFlare_Profile.jpg", bio: "Contributed their amazing vocals to the song Vs. The Jahn Rangers, Final.", socials: { Carrd: "https://aliceflare.carrd.co/", Twitch: "https://twitch.tv/AliceFlare", Bluesky: "https://bsky.app/profile/aliceflare.bsky.social", "YouTube (Main Channel)": "https://www.youtube.com/AliceFlare", "Youtube (VOD Channel)": "https://www.youtube.com/@AliceFlareVODS", Instagram: "https://instagram.com/alice.flare", "Ko-Fi": "https://ko-fi.com/AliceFlare", Twitter: "https://twitter.com/AliceInAltoland" } },
+        LYZERUS: { pfp: "https://alizarin.red/images/lyzerus_profile.jpg", bio: "Contributed multiple art assets to the game, including, The Default Trees, Swamp Trees, Guardia Trees, Harkinian Lighthouse, Log Cabins, EV Dojo, Purple Roofed Houses, Mini S.S. Twitchat, and all the Vineball Icon Sprites.", socials: {Bluesky: "https://bsky.app/profile/lyzerus.bsky.social", NewGrounds: "https://lyzerus.newgrounds.com/", Twitter: "https://twitter.com/aaronlyzerus" } },
+        ILLICITNATURE: { pfp: "https://alizarin.red/images/Illicitnature_profile.jpg", bio: "Illicit Nature is most known for their musical contributions to Skatebird; however, they are also big Vinesauce Fans! They provided our Credits song, which features multiple people in our credits on vocals, including AlizarinRed, HexenHell, and Saucecole!", socials: { Linktree: "https://linktr.ee/illicitnature", Bandcamp: "https://illicitnature.bandcamp.com/", Twitter:"https://twitter.com/Illicit_Nature" } },
+        BASSCLEFFF: { pfp: "https://alizarin.red/images/bassclefff_profile.jpg", bio: "Bassclefff is an incredibly talented musician who has worked on multiple soundtracks for games and mods! They also have plenty of Albums you can listen to and purchase! For Vinemon they provided us the Mystery Gift song that plays when you are claiming one!", socials: { Bandcamp: "https://bassclefff.bandcamp.com/", Bluesky: "https://bsky.app/profile/bassclefff.bsky.social", Spotify: "https://open.spotify.com/artist/7wzwTflQknkaz4OJJM7qMg", Soundcloud: "https://soundcloud.com/bassclefff", NewGrounds: "https://bassclefff.newgrounds.com/", YouTube: "https://www.youtube.com/@Bassclefff", Twitter:"https://twitter.com/bassclef_3" } },
+        HEXENHELL: { pfp: "https://alizarin.red/images/hexenhell_profile.png", bio: "Hexenhell was one of our Beta Testers for the game and provided us with valuable information during such, they also provided vocals to the end credits song of the game! They are a Video Editor for SimpleFlips and a Mod for BoundaryBreak! They also stream from time to time!", socials: { Bluesky: "https://bsky.app/profile/hexenhell.bsky.social", Twitch: "https://www.twitch.tv/hexenhell", Instagram: "https://www.instagram.com/hexen_hell/", YouTube: "https://www.youtube.com/@hexenhell", Twitter:"https://twitter.com/hellhexen" } },
+        HOVERBAT: { pfp: "https://alizarin.red/images/hoverbat_profile.jpg", bio: "HoverBat was one of our Beta Testers for the game and provided us with valuable information during such, they also allowed us to put a billboard up to promote their game! It's unironically the best way to play Zelda 2! It has so many quality of life and community features. Not to mention it's FREE!", socials: { Patreon: "https://www.patreon.com/HoverBat", Twitch: "https://www.twitch.tv/hoverbat", YouTube: "https://www.youtube.com/c/HoverBat", "HoverBat's GitHub Profile":"https://github.com/HoverBat1",  "ZIIAOL aka ZALiA(Zelda Again: Link is Adventuresome) Itchio": "https://hoverbat.itch.io/ziiaol", "ZALiA Source Code Github": "https://github.com/ZA-LiA/ZALiA" } },
+        KARPFEN: { pfp: "https://alizarin.red/images/karpfen_profile.webp", bio: "Karpfen was one of our Beta Testers for the game and provided us with valuable information during such!", socials: {} },
+        NARRY: { pfp: "https://alizarin.red/images/narry_profile.gif", bio: "Karpfen was one of our Beta Testers for the game and provided us with valuable information during such! They have supported the Vinesauce Community by moderating Twitch chat and more!", socials: {Bluesky: "https://bsky.app/profile/narry.online", YouTube: "https://www.youtube.com/@narryg", Twitter: "https://twitter.com/NarryOnTheNet"} },
+        SAUCECOIE: { pfp: "https://alizarin.red/images/saucecoie_profile.jpg", bio: "Saucecoie was one of our Beta Testers for the game and provided us with valuable information during such! You might find a missable easter egg in the game's sewers featuring them! They also have a few other games they have had a hand in which you can find each games thread linked below!", socials: {Bluesky: "https://bsky.app/profile/saucecoie.bsky.social", Soundcloud: "https://soundcloud.com/saucecoie", YouTube: "https://www.youtube.com/@saucecoie", Twitter: "https://twitter.com/saucecoie", "Secrets of the Ages": "https://eeveeexpo.com/threads/8652/", ULTRALITE: "https://eeveeexpo.com/ultralite/", "Pokémon: Chasing Glory": "https://eeveeexpo.com/threads/2446/", "Pokemon Universe -Across Time and Space-":"https://eeveeexpo.com/threads/607/", "Pokémon Defiance (Cancelled)": "https://eeveeexpo.com/threads/97/" } },
+        AGENTREDJACKAL: { pfp: "https://alizarin.red/images/agentredjackal_profile.jpg", bio: "AgentRedJackal was one of our Beta Testers for the game and provided us with valuable information during such! They do a lot of creative work, including but not limited to: Game Modding, Art, Music, Video Editing, Streaming, Charity Work, Model Rigging, Podcasting, and more! Read more about such on their website, it's a nostalgic treat!", socials: {BioLink: "https://bio.link/arjackal", Website: "https://agentredjackal.blogspot.com/", Bluesky: "https://bsky.app/profile/agentredjackal.bsky.social", Twitch: "https://www.twitch.tv/agentredjackal", Itchio: "https://agentredjackal.itch.io/", YouTube: "https://www.youtube.com/@agentredjackalfullstreams", Twitter: "https://twitter.com/agentredjackal" } },
+        SINCITYASSASSIN: { pfp: "https://alizarin.red/images/sincityassassin_profile.jpg", bio: "SinCityAssassin was one of our Beta Testers for the game and provided us with valuable information during such! You most likely know them from the Vinesauce Discord as they are a active moderator there and also a long-time contributor to the Vinesauce community as a whole!", socials: {Bluesky: "https://bsky.app/profile/sincityassassin.bsky.social", YouTube: "https://www.youtube.com/user/AnimeViewer34", Twitter: "https://twitter.com/sincityassassin" } },
+        SOLASH: { pfp: "https://alizarin.red/images/solash_profile.jpg", bio: "Vinion was based on Solash's depiction of a living Vineshroom as a Pokemon!", socials: {Deviantart: "https://www.deviantart.com/solash1/", "Solash's OG Vinion-Line Design": "https://booru.vineshroom.net/post/view/42061" } },
+        TECKWORKS: { pfp: "https://alizarin.red/images/teckworks_profile.jpg", bio: "Teckworks is a very well-known artist! Our Female Mimikyu is based on Teckworks' depiction of such!", socials: {Bluesky: "https://bsky.app/profile/teckworks.bsky.social", Newgrounds: "https://teckworks.newgrounds.com/", Patreon: "https://www.patreon.com/teckworks", YouTube: "https://www.youtube.com/c/teckworks", "Teckwork's OG Female Mimikyu-Line Design": "https://booru.vineshroom.net/post/view/41818", Twitter: "https://twitter.com/teckworks" } },
+        MAJESTUR: { pfp: "https://alizarin.red/images/majestur_profile.jpg", bio: "Majestur designed a special lizard wizard that became a door, you might learn more in the future but for now we implore you to just ignore it for now. ;)", socials: {Bluesky: "https://bsky.app/profile/majestur.bsky.social", "Ko-Fi": "https://ko-fi.com/majestur", Twitter: "https://twitter.com/Majestur_" } },
+        METASHARD: { pfp: "https://alizarin.red/images/metashard_profile.jpg", bio: "While we had the design first, Metashard during the art contest submitted their own Ernest, because of this we decided to avoid potential complaints to equally give them credit as shared inspiration of the idea.", socials: {YouTube: "https://www.youtube.com/@metashard3952", Twitch: "https://www.twitch.tv/metashard", "Metashard's OG Ernest Design": "https://imgur.com/a/DKUw2" } },
+        VINNYVINESAUCE: { pfp: "https://alizarin.red/images/vinesauce_profile.png", bio: "I'm Vinny and I focus on variety streaming. I don't have a strict schedule and stream a few times a week, but you can expect full playthroughs, classic games, randomizers, corruptions, trash, bizarre media, and weird/forgotten games. More prerecorded videos are on my youtube.", socials: {"Vinesauce Website": "https://vinesauce.com/", "Red Vox Website": "redvoxband.com", Linktree: "https://linktr.ee/vinnyvinesauce", Bluesky: "https://bsky.app/profile/vinny.vinesauce.com", Twitch: "https://www.twitch.tv/vinesauce", "Youtube (Highlight)":"https://www.youtube.com/@vinesauce", "YouTube (VOD)": "https://www.youtube.com/user/vinesaucefullsauce", "YouTube (Twitch Clips)": "https://www.youtube.com/@VinesauceTwitchClips", "YouTube (Cut Content)": "https://www.youtube.com/@VinesauceTheExtraSauce", "Instagram (Vinesauce)": "https://instagram.com/vinny.vinesauce", "Twitter (Vinesauce)": "https://x.com/vinnyvinesauce", BandCamp: "https://vine.bandcamp.com/", Spotify: "https://open.spotify.com/artist/3Zy9Sz7WPIetWqQbYq4UoK", "YouTube (Red Vox)": "https://www.youtube.com/@RedVox", "Instagram (Red Vox)": "http://instagram.com/redvoxband", "Twitter (Red Vox)": "https://twitter.com/redvoxband"} },
+        IMAKUNI: { pfp: "https://alizarin.red/images/imakuni_profile.jpg", bio: "My name is Marisa (or you could call me Risa!) I'm a Retro/Variety streamer since 2009 and a Vtuber as of April 2023 (my model's name is Kuni!) Once was a streamer for the streaming group, Vinesauce. Now, doing my own thing! ", socials: {Merch: "https://uwumarket.us/collections/imakuni?filter.v.price.gte=&filter.v.price.lte=&sort_by=created-descending", Bluesky: "https://bsky.app/profile/imakuni.bsky.social", Twitch: "https://www.twitch.tv/imakuni/", "YouTube": "https://www.youtube.com/c/imakunifullstreams", "Twitter": "https://x.com/ImakuniVT" } },
+        ALTAKARI: { pfp: "https://alizarin.red/images/altakari_profile.jpg", bio: 'I am Altair "ALT" Akari (formerly known as DORB). I am a video game playing person and an online anime man. I love playing weird old games, even stranger indie passion projects, and maybe even partake in a visual novel now and then. :^)', socials: {Bluesky: "https://bsky.app/profile/altakari.bsky.social", Twitch: "https://www.twitch.tv/altakari/", "YouTube (Main)": "https://www.youtube.com/@ALTAKARI", "YouTube (VOD)": "https://www.youtube.com/c/DorbDump", Twitter: "https://x.com/altairakari" } },
+        HOOTEY: { pfp: "https://alizarin.red/images/hootey_profile.webp", bio: "Retro dad, who plays games bad, helping you laugh to forget all the sad.", socials: {Bluesky: "https://bsky.app/profile/hootey.bsky.social", Twitch: "https://www.twitch.tv/hootey/", YouTube: "https://www.youtube.com/@hootonium" } },
+        POTATO: { pfp: "https://alizarin.red/images/potato_profile.jpg", bio: "Man that disappoints his peers over at tater.stream \\(´•ω•｀)/", socials: {Bluesky: "https://bsky.app/profile/tater.stream", Twitch: "https://www.twitch.tv/potato/", Twitter: "https://x.com/VinePotato" } },
+        LIMEALICIOUS: { pfp: "https://alizarin.red/images/laimu_profile.jpg", bio: "I'm Limes/Laimu! I stream all sorts of video games, from childhood classics to the latest releases. Console and PC alike.", socials: {Bluesky: "https://bsky.app/profile/limealicious.bsky.social", Twitch: "https://www.twitch.tv/limealicious", Instagram: "https://www.instagram.com/laimulicious/", Patreon: "https://patreon.com/limealicious", "YouTube(Main)": "https://www.youtube.com/c/Limealicious", "YouTube (VOD)": "https://www.youtube.com/@LimeArchives", TikTok: "https://www.tiktok.com/@laimulicious", Twitter: "https://twitter.com/Laimulicious" } },
+        VARGSKELETHORJOEL:{ pfp: "https://alizarin.red/images/joel_profile.jpg", bio: "My name is Joel. I'm from Sweden and I hate video games. I eat nails for breakfast and tame Siberian tigers in my spare free time. I like metal and I know how to kill skeletons.", socials: {Twitch: "https://www.twitch.tv/vargskelethor", "YouTube (Main)": "https://www.youtube.com/c/vinesaucejoel", "YouTube (VOD)": "https://www.youtube.com/c/VargskelethorUncutFullJoelStreams", Twitter: "https://twitter.com/joel_vinesauce" } },
+        REVSCARECROW:{ pfp: "https://alizarin.red/images/revscarecrow_profile.png", bio: "My name is Joel. I'm from Sweden and I hate video games. I eat nails for breakfast and tame Siberian tigers in my spare free time. I like metal and I know how to kill skeletons.", socials: {Website: "https://www.colinmullin.com/", Bluesky: "https://bsky.app/profile/revscarecrow.bsky.social", Twitch: "https://www.twitch.tv/revscarecrow/", Patreon: "https://www.patreon.com/revscarecrow", "YouTube (Main)": "https://www.youtube.com/revscarecrow", "YouTube (VOD)": "https://www.youtube.com/channel/UCSNF0FG_I8NboKf0H7Xn1CQ", "YouTube (Art)": "https://www.youtube.com/revscarecrowartcade", Tumblr: "https://revscarecrow.tumblr.com/", Twitter: "https://twitter.com/Rev_Scarecrow" } },
+        FRED:{ pfp: "https://alizarin.red/images/fred_profile.png", bio: "Generally Video Game related things, like glitches/mishaps in streams or just me generally finding comedic or interesting moments in some of the games I play. Avid Shiny Hunter.", socials: {Twitch: "https://www.twitch.tv/fred/", YouTube: "https://www.youtube.com/@freddyt09/", Instagram: "https://www.instagram.com/fredrick_gaming/" } },
+        JABRONIMIKE:{ pfp: "https://alizarin.red/images/jabronimike_profile.jpg", bio: "Streamer, YouTuber, Professional internet asshole.", socials: {Bluesky: "https://bsky.app/profile/jabronimike.bsky.social", Twitch: "https://www.twitch.tv/jabroni_mike/", Patreon: "https://www.patreon.com/jabroni_mike", "Ko-Fi": "https://ko-fi.com/jabroni_mike", "YouTube (Main)": "https://www.youtube.com/@Jabroni_Mike", "YouTube (VOD)": "https://www.youtube.com/@JabroniMikeFullStreams", "YouTube (Clips)": "https://www.youtube.com/@jabronimikeclips", TikTok: "https://www.tiktok.com/@jabroni_mike", Twitter: "https://x.com/jabroni_mike" } },
+        GREATZOTT:{ pfp: "https://alizarin.red/images/greatzott_profile.jpg", bio: "Student, small time streamer, sentient soap dish, salad shredder, sorta sailor, sickly son, sour patch adult.", socials: {Bluesky: "https://bsky.app/profile/greatzott.bsky.social", Twitch: "https://www.twitch.tv/greatzott/", YouTube: "https://www.youtube.com/@Greatzott", "Twitter": "https://x.com/GreatZott" } },
+        GREATSPHYNX:{ pfp: "https://alizarin.red/images/greatsphynx_profile.jpg", bio: "I'm Jon, you can also call me Sphynx, and I play all sorts of things. I originally went to school for Computer Science, but ended up working as a chef for almost 10 years. I went back to school to get a degree in Food Science, and now I work as a restaurant and health and safety consultant from home. Gongo mostly rules the stream now. But occasionally I will play games, make music, do cool video art, or other stuff.", socials: {Spotify: "https://open.spotify.com/artist/2WuJGAO4DXehVk6SZV1f9G", Bluesky: "https://bsky.app/profile/greatsphynx.bsky.social", Twitch: "https://www.twitch.tv/greatsphynx/", YouTube: "https://www.youtube.com/channel/UChPVW7zdC1f_fcIy7HJ_LKg", Twitter: "https://twitter.com/Great_Sphynx" } },
+        JEFFTHEVIDYABUM:{ pfp: "https://alizarin.red/images/vidyabum_profile.jpeg", bio: "We don't know much about them but Vidyabum sleeps in an oxygen tent which he believes gives him “sexual powers”.", socials: { Linktree: "https://linktr.ee/vidyabum", Merch: "https://vidyabum-shop.fourthwall.com/", Bluesky: "https://bsky.app/profile/vidyabum.bsky.social", Twitch: "https://https://www.twitch.tv/vidyabum", "YouTube (Main)": "https://www.youtube.com/@vidyabum", "YouTube (VOD)": "https://www.youtube.com/c/VidyaBumFullstreams", TikTok: "https://www.tiktok.com/@jeff.the.vidyabum", Twitter: "https://x.com/vidyabum" } },
+        MIKEPANOOTS:{ pfp: "https://alizarin.red/images/Panoots_profile.jpg", bio: "Misc. content creator. Student. I like Godzilla, Jojo, Rareware, Doom, Yakuza, and Half-Life.", socials: { "YouTube(Main)": "https://www.youtube.com/c/panoots", "YouTube(Archive)": "https://www.youtube.com/@PanootsGaming", Twitter: "https://x.com/mikepanoots" } },
+        RUBBERROSS:{ pfp: "https://alizarin.red/images/rubberross_profile.jpg", bio: "My name's Ross! I want to make drawing and animation fun!", socials: {Patreon:"https://www.patreon.com/RubberNinja", Bluesky: "https://bsky.app/profile/rubberross.bsky.social", Twitch: "https://www.twitch.tv/rubberross",  "YouTube(Main)": "https://www.youtube.com/RubberRoss", "YouTube(VOD)": "https://www.youtube.com/@rubberrossvods", "YouTube(OLD)": "https://www.youtube.com/@RubberNinja/", Instagram: "https://instagram.com/RubberNinja", TikTok: "https://instagram.com/RubberNinja", Twitter: "https://x.com/rubberninja" } },
+        JERMA985:{ pfp: "https://alizarin.red/images/jerma_profile.jpg", bio: "Just hanging out, you?", socials: {Twitch: "https://www.twitch.tv/jerma985",  "YouTube(Main)": "https://www.youtube.com/jerma985", "YouTube(Highlights)": "https://www.youtube.com/@2ndJerma/", "YouTube(VOD)": "https://www.youtube.com/@JermaStreamArchive/", Twitter: "https://x.com/jerma985" } },
+        GEAROMATIC:{ pfp: "https://alizarin.red/images/gearomatic_profile.jpg", bio: "I'm a 30 year old Audio Engineer! I just play games for fun.", socials: {Biolink: "https://gearomatic.bio.link/", Merch: "https://gearomatic-shop.fourthwall.com/", Bluesky: "https://bsky.app/profile/gearomatic.bsky.social", Twitch: "https://www.twitch.tv/gearomatic",  "Dual Redundancy Podcast": "https://linktr.ee/dualredundancy", "YouTube(VOD)": "https://www.youtube.com/c/gearomaticgames", Twitter: "https://x.com/gearomatic?lang=en" } },
+        CAPTAINSOUTHBIRD:{ pfp: "https://alizarin.red/images/captainsouthbird_profile.png", bio: "Hi! I'm a guy who's been around the Internet for too long and done some bizarre things (but generally had fun doing them). At various times we may have crossed paths depending on where your interests lie. ", socials: {Website: "https://captainsouthbird.me/", Bluesky: "https://bsky.app/profile/cptsouthbird.bsky.social", Twitch: "https://www.twitch.tv/captainsouthbird", "YouTube(Main)":"https://www.youtube.com/c/CaptainSouthbird", "YouTube(Highlights)": "https://www.youtube.com/@southbirdhighlights", "YouTube(VOD)": "https://www.youtube.com/@southbirdvods", "YouTube(Vinesauce Days)": "https://www.youtube.com/@southbirdsvinesaucedays3429" } },
+        GREYLENO:{ pfp: "https://alizarin.red/images/greyleno_profile.png", bio: "Hey, folks, how's it going?", socials: {Website: "https://vinesauce.com/greyroom.yot", "Campaign Website": "https://vinesauce.com/greymatters.yot"} },
+        REDLETTERMEDIA:{ pfp: "https://alizarin.red/images/RedLetterMedia_profile.jpg", bio: "Milwaukee, WI based humor related and entertainment adjacent content creators. The world's only unfluencers.", socials: {Website: "https://www.redlettermedia.com/", Bluesky: "https://bsky.app/profile/redlettermedia.com", Merch: "https://redlettermediamerch.com/", Bandcamp: "https://redlettermedia.bandcamp.com/", Patreon:"https://www.patreon.com/redlettermedia", YouTube: "https://www.youtube.com/user/RedLetterMedia", Twitter:"https://x.com/redlettermedia",} },
+        HATSUNEMIKU:{ pfp: "https://alizarin.red/images/hatsunemiku_profile.jpg", bio: "Hatsune Miku is a music software developed by Crypton Future Media, INC., which enables anyone to make their computer sing by entering lyrics and melodies. As a massive number of users created music using the software and posted their works on the Internet, Hatsune Miku quickly evolved into a cultural phenomenon. Since then, Hatsune Miku has gained much attention as a character, involved in many fields such as merchandising and live performance as a virtual singer. Now her popularity has spread across the globe.", socials: {Website: "https://piapro.net/intl/en.html", Spotify: "https://open.spotify.com/artist/6pNgnvzBa6Bthsv8SrZJYl", YouTube: "https://www.youtube.com/@HatsuneMiku", Instagram:"https://www.instagram.com/cfm_miku_official", Twitter:"https://x.com/cfm_miku_en",} },
+        QBCUBED:{ pfp: "https://vinemon.link/images/QBcubed_profile.jpg", bio: "QBCubed is a Streamer and Artist who contributed the creepy Faesoph to Vinemon! If their art interests you, they often have their Commissions open!", socials: {Twitch: "https://www.twitch.tv/qbcubed/", Bluesky: "https://bsky.app/profile/qbcubed.bsky.social", Discord: "https://discord.gg/aBAr7qcF2X", Twitter:"https://twitter.com/qbcubed",} },
+    };
+    const creditsPageLayout = [
+        { type: 'main_header', content: 'Vinemon: Sauce Edition' },
+        { type: 'sub_header', content: 'An Interactive Shitpost' },
+        { type: 'separator' },
+        { type: 'section_header', content: 'Swone Vial Co' },
+        { type: 'credit_group', title: 'Artist, Animator & NPC Writer', members: [{ name: 'ShyGuyXXL'}] },
+        { type: 'credit_group', title: 'Composer, Game Balance & Programmer', members: [{ name: 'Psypher'}] },
+        { type: 'credit_group', title: 'Artist, World Builder & Story Writer', members: [{ name: 'AlizarinRed'}] },
+        { type: 'credit_group', title: 'Cutscene Animator', members: [{ name: 'CossackNeppy'}] },
+        { type: 'separator' },
+        { type: 'section_header', content: 'Additional Creative Help' },
+        { type: 'credit_group', title: 'Website Help', members: [{ name: 'ShrineFox' }] },
+        { type: 'credit_group', title: 'Artist', members: [{ name: 'Lyzerus'}, { name: 'Light Dasher'}, { name: 'Senoishi'}] },
+        { type: 'credit_group', title: 'Support Writer', members: [{ name: 'Dryboner' }] },
+        { type: 'credit_group', title: 'Programming', members: [{ name: 'Vendily'}] },
+        { type: 'credit_group', title: 'Musical Help & Bug Tester', members: [{ name: 'Barrels O\' Fun' }] },
+        { type: 'credit_group', title: 'Music', members: [{ name: 'Alice Flare' }, { name: 'Illicit Nature' }, { name: 'Bassclefff' }, { name: 'Mr. Fox' }] },
+        { type: 'separator' },
+        { type: 'section_header', content: 'Bug Testers' },
+        { type: 'credit_group', members: ['Bassclefff', 'Bynine', 'HexenHell', 'Hoverbat', 'Karpfen', 'Lyzerus', 'Narry', 'Saucecoie', 'Senoishi', 'AgentRedJackal', 'AkumanoRobin', 'AliceFlare', 'Altariasong', 'SinCityAssassin', 'Vendily'] },
+        { type: 'separator' },
+        { type: 'section_header', content: 'Contest Winners & Design Creators' },
+        { type: 'credit_group', members: ['Smashing', 'Metashard', 'Riviera', 'Ennuikal', 'QBcubed', 'Solash', 'Teckworks', 'Yoemon', 'Go-Go-Galajo', 'Majestur', 'Mirrorama', 'Putuk', 'Glory2Snowstar', 'Giant_Key', 'ChargeThenLance', 'Crazy Pansage Lady', 'Harmonicky', 'Gust The Ghost', 'Akumanorobin', 'Altariasong', 'UndeadChickenNugget', 'Bynine', "Fxuad", "Modoka"] },
+        { type: 'separator' },
+        { type: 'section_header', content: 'In-Game Content Creators' },
+        { type: 'credit_group', members: ['Vinny Vinesauce', 'Imakuni', 'ALTAKARI', 'Hootey', 'Potato', 'Limealicious', 'VargSkelethor Joel', 'RevScarecrow', 'UmJammerJenny', 'Fred', 'Jabroni Mike', 'GreatZott', 'GreatSphynx', 'Jeff the Vidyabum', 'MikePanoots', 'RubberRoss', 'Jerma985', 'Gearomatic', 'Captain Southbird', 'Grey Leno', 'Red Letter Media', "Hatsune Miku"] },
+        { type: 'separator' },
+        { type: 'final_note', content: 'This is a non-profit parody fan game. Please support the official games! All rights belong to their respected owners. No Infringement Intended :)' }
+    ];
+
+    function populateCredits() {
+      const creditsModalBody = document.getElementById('creditsModalBody');
+      if (creditsModalBody.innerHTML.trim() !== "<!-- Credits will be loaded here -->" && creditsModalBody.innerHTML.trim() !== "") {
+        return; // Already populated
+      }
+      
+      let htmlContent = '';
+      creditsPageLayout.forEach(item => {
+        switch (item.type) {
+          case 'main_header': htmlContent += `<h1>${item.content}</h1>`; break;
+          case 'sub_header': htmlContent += `<h1>${item.content}</h1>`; break;
+          case 'separator': htmlContent += '<hr>'; break;
+          case 'section_header': htmlContent += `<h2>${item.content}</h2>`; break;
+          case 'credit_group':
+            if (item.title) htmlContent += `<h3>${item.title}</h3>`;
+            const membersHtml = item.members.map(member => {
+              const memberName = typeof member === 'object' ? member.name : member;
+              const creatorKey = memberName.toUpperCase().replace(/ /g, '');
+              return fullCreatorData[creatorKey] ? `<a href="#" class="creator-credit-link" onclick="event.preventDefault(); window.showCreatorInfo('${memberName}')">${memberName}</a>` : memberName;
+            }).join(' - ');
+            htmlContent += `<p>${membersHtml}</p>`;
+            break;
+          case 'final_note': htmlContent += `<p><em>${item.content.replace(/\n/g, '<br>')}</em></p>`; break;
+        }
+      });
+      creditsModalBody.innerHTML = htmlContent;
+    }
+
+    // --- Color and Creator Info Functions ---
+    // These functions are needed for the creator info modal to work correctly.
+    function hexToHsl(H) { let r = 0, g = 0, b = 0; if (H.length == 4) { r = "0x" + H[1] + H[1]; g = "0x" + H[2] + H[2]; b = "0x" + H[3] + H[3]; } else if (H.length == 7) { r = "0x" + H[1] + H[2]; g = "0x" + H[3] + H[4]; b = "0x" + H[5] + H[6]; } r /= 255; g /= 255; b /= 255; let cmin = Math.min(r, g, b), cmax = Math.max(r, g, b), delta = cmax - cmin, h = 0, s = 0, l = 0; if (delta == 0) h = 0; else if (cmax == r) h = ((g - b) / delta) % 6; else if (cmax == g) h = (b - r) / delta + 2; else h = (r - g) / delta + 4; h = Math.round(h * 60); if (h < 0) h += 360; l = (cmax + cmin) / 2; s = delta == 0 ? 0 : delta / (1 - Math.abs(2 * l - 1)); s = +(s * 100).toFixed(1); l = +(l * 100).toFixed(1); return [h, s, l]; }
+    function hslToHex(h, s, l) { s /= 100; l /= 100; let c = (1 - Math.abs(2 * l - 1)) * s, x = c * (1 - Math.abs((h / 60) % 2 - 1)), m = l - c / 2, r = 0, g = 0, b = 0; if (0 <= h && h < 60) { r = c; g = x; b = 0; } else if (60 <= h && h < 120) { r = x; g = c; b = 0; } else if (120 <= h && h < 180) { r = 0; g = c; b = x; } else if (180 <= h && h < 240) { r = 0; g = x; b = c; } else if (240 <= h && h < 300) { r = x; g = 0; b = c; } else if (300 <= h && h < 360) { r = c; g = 0; b = x; } r = Math.round((r + m) * 255).toString(16).padStart(2, '0'); g = Math.round((g + m) * 255).toString(16).padStart(2, '0'); b = Math.round((b + m) * 255).toString(16).padStart(2, '0'); return `#${r}${g}${b}`; }
+    function lightenDarkenColor(hex, percent) { const [h, s, l] = hexToHsl(hex); const newLightness = Math.max(0, Math.min(100, l + percent)); return hslToHex(h, s, newLightness); }
+    function getAverageColor(imgElement, callback) { const fac = new FastAverageColor(); if (!imgElement.complete) { imgElement.addEventListener('load', function() { fac.getColorAsync(imgElement).then(color => callback(color.hex)).catch(() => callback('#A90024')); }); } else { fac.getColorAsync(imgElement).then(color => callback(color.hex)).catch(() => callback('#A90024')); } }
+
+    window.showCreatorInfo = function(creatorNameKey) {
+      const creator = fullCreatorData[creatorNameKey.toUpperCase().replace(/ /g, '')];
+      if (!creator) return;
+      
+      const modal = document.getElementById("creatorInfoModal");
+      const modalContent = modal.querySelector(".modal-content-details");
+      const modalTitle = document.getElementById("creatorInfoModalTitle");
+      const creatorPfp = document.getElementById("creatorPfp");
+
+      modalTitle.textContent = creatorNameKey;
+      creatorPfp.crossOrigin = "Anonymous";
+      creatorPfp.src = creator.pfp;
+      document.getElementById("creatorBio").textContent = creator.bio;
+
+      creatorPfp.onload = function() {
+        getAverageColor(creatorPfp, function(avgColor) {
+          modalContent.style.borderColor = avgColor;
+          creatorPfp.style.borderColor = avgColor;
+          const [h, s, l] = hexToHsl(avgColor);
+          const newBgColor = hslToHex(h, Math.max(0, s - 25), Math.max(0, l - 45));
+          modalContent.style.backgroundColor = newBgColor;
+          const newTitleColor = hslToHex(h, Math.min(100, s + 10), Math.min(100, l + 30));
+          modalTitle.style.color = newTitleColor;
+          const darkerButtonColor = lightenDarkenColor(avgColor, -30);
+          const socialLinks = document.getElementById("creatorSocials").querySelectorAll('.creator-social-link');
+          socialLinks.forEach(link => {
+            link.style.borderColor = avgColor;
+            link.style.backgroundColor = darkerButtonColor;
+            link.addEventListener('mouseover', () => { link.style.backgroundColor = avgColor; link.style.color = 'black'; });
+            link.addEventListener('mouseout', () => { link.style.backgroundColor = darkerButtonColor; link.style.color = 'white'; });
+          });
+        });
+      };
+
+      const socialsContainer = document.getElementById("creatorSocials");
+      socialsContainer.innerHTML = "";
+      for (const [name, url] of Object.entries(creator.socials)) {
+        const link = document.createElement("a");
+        link.href = url;
+        link.textContent = name;
+        link.className = "creator-social-link";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        socialsContainer.appendChild(link);
+      }
+      openModal(modal);
+    }
+  });
+</script>
 </body>
 </html>
