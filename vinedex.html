@@ -6,7 +6,8 @@
   <link rel='shortcut icon' href='./vinemon/images/favicon.ico' type='image/x-icon'>
   <meta charset="utf-8">
   <title>Vinemon: Sauce Edition - VineDex</title>
-
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="vinedex.css"> 
     <script src="vinedex.js" defer></script>
     <meta charset="UTF-8" />
@@ -106,6 +107,140 @@ border-top: 5px solid #A90024;
   position: fixed;
   background-size: 90px 90px;
   border-right: 5px solid #140101;
+}
+ #download .contents {
+    height: 60vh;
+
+    color: #fff;
+    scrollbar-gutter: stable both-edges;
+    scrollbar-color: #988b8b #530400;
+}
+
+#creditsModalContent {
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #1a1a1a;
+    border-color: #444;
+    text-align: center;
+}
+
+#creditsModalBody h1 {
+    color: #ffc8c8;
+    font-size: 2em;
+    margin-bottom: 5px;
+    -webkit-text-stroke-width: 0;
+    paint-order: fill;
+}
+
+#creditsModalBody h2 {
+    color: #ff476e;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    -webkit-text-stroke-width: 0;
+    paint-order: fill;
+}
+
+#creditsModalBody h3 {
+     color: #a80023;
+     font-size: 1.2em;
+     margin-top: 15px;
+     margin-bottom: 5px;
+    -webkit-text-stroke-width: 0;
+    paint-order: fill;
+}
+
+#creditsModalBody p {
+    line-height: 1.6;
+    margin: 5px 0;
+    color: #e0e0e0;
+    -webkit-text-stroke-width: 0;
+    paint-order: fill;
+}
+
+#creditsModalBody hr {
+    border: 0;
+    height: 2px;
+    background-color: #444;
+    margin: 25px auto;
+    width: 80%;
+}
+.creator-credit-link {
+  color: aqua;
+}
+.modal-details {
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content-details {
+    background-color: #202020;
+    margin: auto;
+    padding: 20px;
+    box-shadow: inset 0 -4px 0 #000;
+
+    border-radius: 12px;
+    width: 80%;
+    max-width: 800px;
+
+    position: relative;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content-details h2 {
+    margin-top: 0;
+    color: #a90024;
+    font-family: Tahoma, Arial, sans-serif;
+    z-index: 1;
+}
+
+.close-button-details {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.close-button-details:hover {
+    color: orange;
+}
+
+.modal-content-details .contents {
+    flex-grow: 1; /* Make the contents area fill the available space */
+    height: auto;
+    overflow: hidden; /* The iframe will handle its own scrolling */
+}
+
+.modal-content-details .contents iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+@keyframes glow {
+ from {
+   box-shadow: 0 0 5px #ff00ff, 0 0 5px #ff00ff, 0 0 5px #ff00ff,
+     0 0 5px #ff00ff;
+ }
+ to {
+   box-shadow: 0 0 15px #5dade2, 0 0 15px #5dade2, 0 0 15px #5dade2,
+     0 0 15px #5dade2;
+ }
 }
 </style>
 <body class="top">
@@ -468,6 +603,15 @@ border-top: 5px solid #A90024;
   padding: 0px 10px;
 padding-top: 5px;">Based on Version - <a href="https://vinemon.link/downloads/Vinemon%20Patch%20Notes%20~1.1.9.pdf">1.1.9</a></footer>
     </div>
+<div id="download" class="modal-details" >
+  <div class="modal-content-details" style="    height: 80vh">
+    <h2 style="text-align: center;">Downloads & Socials</h2>
+    <span class="close-button-details">&times;</span>
+    <div class="contents">
+        <iframe src="modal_content.html" frameborder="0"></iframe>
+    </div>
+  </div>
+</div>
     <div id="itemsListModal" class="items-list-modal">
         <div class="items-list-modal-content">
             <span class="close">×</span>
@@ -648,7 +792,9 @@ padding-top: 5px;">Based on Version - <a href="https://vinemon.link/downloads/Vi
         <img id="trainerTipChar" src="https://vinemon.link/vinemon/vinemon/ui/MrDink.png" alt="Professor Tip">
     </div>
     <div class="bottom-nav-bar">
-        <a href="https://vinemon.link/#download" target="_blank" class="nav-btn-side">Download</a>
+        <button id="openDownloadBtn" class="nav-btn-side" style="background: linear-gradient(0deg, rgb(30, 124, 125) 0%, rgb(105, 228, 157) 75%, rgb(205, 255, 201) 100%);
+  border-color: #fff;
+  animation: glow 1s ease-in-out infinite alternate;">Download</button>
         <div class="nav-center-bar">
             <a href="https://vinemon.link/" class="nav-center-link">Mainpage</a>
              <a href="#top" class="nav-center-link">🡅</a>
@@ -710,5 +856,26 @@ padding-top: 5px;">Based on Version - <a href="https://vinemon.link/downloads/Vi
 </div>
 </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const downloadModal = document.getElementById('download');
+    const openDownloadBtn = document.getElementById('openDownloadBtn');
+    
+    if (openDownloadBtn && downloadModal) {
+      openDownloadBtn.addEventListener('click', () => {
+        downloadModal.style.display = 'flex';
+      });
+    }
+
+    if (downloadModal) {
+        const closeBtn = downloadModal.querySelector('.close-button-details');
+        if(closeBtn) {
+            closeBtn.addEventListener('click', () => {
+                downloadModal.style.display = 'none';
+            });
+        }
+    }
+  });
+</script>
 </body>
 </html>
